@@ -1,0 +1,17 @@
+{
+  "layout": {
+    "sections": [
+      {
+        "slug": "header-1",
+        "template": {
+          "slug": "header-1"
+        }
+      },{
+        "slug": "footer-1",
+        "template": {
+          "slug": "footer-1"
+        }
+      }
+    ]
+  }
+}

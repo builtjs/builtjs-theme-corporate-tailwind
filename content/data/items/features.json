@@ -1,0 +1,37 @@
+{
+  "items": [
+    {
+      "slug": "feature-1",
+      "title": "Feature 1",
+      "content": "Viverra nibh cras pulvinar mattis nunc sed blandit libero volutpat. Ante metus dictum at tempor commodo ullamcorper.",
+      "excerpt": "Congue mauris rhoncus aenean amit Sapien et ligula ullamcorper malesuada proin libero nunc.",
+      "image": {
+        "url": "/images/main-landing.jpg",
+        "width": 1080,
+        "height": 720
+      }
+    },
+    {
+      "slug": "feature-2",
+      "title": "Feature 2",
+      "content": "Leo in vitae turpis massa sed elementum tempus. Blandit volutpat maecenas volutpat blandit aliquam etiam erat.",
+      "excerpt": "Congue mauris rhoncus aenean amit Sapien et ligula ullamcorper malesuada proin libero nunc.",
+      "image": {
+        "url": "/images/main-landing.jpg",
+        "width": 1080,
+        "height": 720
+      }
+    },
+    {
+      "slug": "feature-3",
+      "title": "Feature 3",
+      "content": "Tristique senectus et netus et malesuada fames ac turpis. Aliquam nulla facilisi cras fermentum odio uno.",
+      "excerpt": "Congue mauris rhoncus aenean amit Sapien et ligula ullamcorper malesuada proin libero nunc.",
+      "image": {
+        "url": "/images/main-landing.jpg",
+        "width": 1080,
+        "height": 720
+      }
+    }
+  ]
+}

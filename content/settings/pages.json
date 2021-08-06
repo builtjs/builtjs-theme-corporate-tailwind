@@ -1,0 +1,23 @@
+{
+  "pages": [
+    {
+      "slug": "home"
+    },
+    {
+      "slug": "about"
+    },
+    {
+      "slug": "contact"
+    },
+    {
+      "slug": "services"
+    },
+    {
+      "slug": "blog",
+      "item": {
+        "slug": "blog-item",
+        "contentType": "blog-item"
+      }
+    }
+  ]
+}

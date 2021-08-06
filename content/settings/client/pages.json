@@ -1,0 +1,126 @@
+{
+  "pages": {
+    "home": {
+      "slug": "home",
+      "sections": {
+        "home-seo": {
+          "collections": null
+        },
+        "main-landing": {
+          "collections": null
+        },
+        "features-list": {
+          "collections": {
+            "features": {
+              "slug": "features"
+            }
+          }
+        },
+        "contact-teaser": {
+          "collections": null
+        },
+        "home-about-teaser": {
+          "collections": null
+        },
+        "benefits-list": {
+          "collections": {
+            "benefits": {
+              "slug": "benefits",
+              "list": {
+                "direction": "alternating"
+              }
+            }
+          }
+        }
+      }
+    },
+    "about": {
+      "slug": "about",
+      "sections": {
+        "about-seo": {
+          "collections": null
+        },
+        "about-landing": {
+          "collections": null
+        },
+        "about-text": {
+          "collections": null
+        },
+        "contact-teaser": {
+          "collections": null
+        }
+      }
+    },
+    "contact": {
+      "slug": "contact",
+      "sections": {
+        "contact-seo": {
+          "collections": null
+        },
+        "contact-landing": {
+          "collections": {
+            "blog-items": {
+              "slug": "blog-items"
+            }
+          }
+        }
+      }
+    },
+    "services": {
+      "slug": "services",
+      "sections": {
+        "services-seo": {
+          "collections": null
+        },
+        "services-landing": {
+          "collections": null
+        },
+        "services-block": {
+          "collections": null
+        },
+        "contact-teaser": {
+          "collections": null
+        }
+      }
+    },
+    "blog": {
+      "slug": "blog",
+      "sections": {
+        "blog-seo": {
+          "collections": null
+        },
+        "blog-landing": {
+          "collections": {
+            "blog-items": {
+              "slug": "blog-items"
+            }
+          }
+        },
+        "blog-item-list": {
+          "collections": {
+            "blog-items": {
+              "slug": "blog-items"
+            }
+          }
+        }
+      }
+    },
+    "blog-item": {
+      "slug": "blog-item",
+      "sections": {
+        "blog-item": {
+          "item": {
+            "slug": "blog-items"
+          }
+        },
+        "blog-related-articles": {
+          "collections": {
+            "blog-items": {
+              "slug": "blog-items"
+            }
+          }
+        }
+      }
+    }
+  }
+}

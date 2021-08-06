@@ -1,0 +1,38 @@
+{
+  "items": [
+    {
+      "slug": "lorem-ipsum-dolor-sit-amet",
+      "title": "Lorem ipsum dolor sit amet",
+      "description": "Consectetur adipiscing elit. Integer placerat scelerisque leo, ac tincidunt ex feugiat vel. Nunc volutpat ex libero, vel imperdiet urna facilisis a. Nullam ac magna quis nunc tempor maximus eget at ligula.",
+      "content": "<h2 class=\"mb-8 text-4xl font-bold leading-none md:text-5xl\">\n            Congue mauris rhoncus aenean amit\n          </h2>\n          <p class=\"mb-6 leading-loose\">\n            Sapien et ligula ullamcorper malesuada proin libero nunc. Sed\n            elementum tempus egestas sed sed risus. Tempor commodo ullamcorper a\n            lacus vestibulum sed arcu non odio. Ut pharetra sit amet aliquam id\n            diam maecenas. Convallis convallis tellus id interdum velit laoreet\n            id donec. Ut eu sem integer vitae justo.\n          </p>\n          <p class=\"mb-6 leading-loose\">\n            Faucibus a pellentesque sit amet porttitor eget. Rhoncus mattis\n            rhoncus urna neque viverra justo nec. Vitae suscipit tellus mauris a\n            diam. Id eu nisl nunc mi ipsum faucibus. Nulla facilisi nullam\n            vehicula ipsum a arcu cursus. Mi quis hendrerit dolor magna eget est\n            lorem ipsum.\n          </p>\n          <ul class=\"mb-6 ml-5 leading-loose list-disc\">\n            <li>Accumsan sit amet nulla facilisi morbi tempus iaculis</li>\n            <li>Curabitur vitae nunc sed velit dignissim sodales ut</li>\n            <li>In egestas erat imperdiet sed euismod nisi</li>\n          </ul>\n          <p class=\"mb-12 leading-loose\">\n            Diam ut venenatis tellus in metus vulputate eu scelerisque. Et\n            malesuada fames ac turpis egestas integer.\n          </p>\n          <h2 class=\"mb-5 text-xl font-bold leading-none\">\n            Pharetra sit amet aliquam\n          </h2>\n          <p class=\"mb-12 leading-loose\">\n            Elementum sagittis vitae et leo duis ut. Netus et malesuada fames ac\n            turpis egestas. Potenti nullam ac tortor vitae purus faucibus.\n            Tellus mauris a diam maecenas sed. Enim sed faucibus turpis in. At\n            varius vel pharetra vel turpis nunc eget.\n          </p>\n          <h2 class=\"mb-5 text-xl font-bold leading-none\">\n            Rhoncus mattis enim\n          </h2>\n          <p class=\"mb-6 leading-loose\">\n            Rhoncus urna neque viverra justo nec ultrices. Id diam maecenas\n            ultricies mi eget mauris pharetra et. Mauris rhoncus aenean vel\n            elit. Lorem ipsum dolor sit amet consectetur.\n          </p>\n          <p class=\"mb-6 leading-loose\">\n            Accumsan sit amet nulla facilisi morbi tempus iaculis. Curabitur\n            vitae nunc sed velit dignissim sodales ut. In egestas erat imperdiet\n            sed euismod nisi. Eleifend mi in nulla posuere sollicitudin.\n          </p>\n          <p class=\"mb-6 leading-loose\">\n            Convallis convallis tellus id interdum velit\n            <a\n              href=\"#\"\n              class=\"text-blue-500 hover:underline hover:text-blue-600\"\n            >\n              laoreet id donec.\n            </a>\n          </p>",
+      "excerpt": "Consectetur adipiscing elit. Integer placerat scelerisque leo, ac tincidunt ex feugiat vel. Nunc volutpat ex libero, vel imperdiet urna facilisis a. Nullam ac magna quis nunc tempor maximus eget at ligula.",
+      "category": "Scelerisque",
+      "image": {
+        "url": "/images/main-landing.jpg",
+        "width": 1080,
+        "height": 720
+      },
+      "author": {
+        "__id": 1
+      },
+      "status": "published"
+    },
+    {
+      "slug": "lorem-ipsum-dolor-sit-ameti",
+      "title": "Lorem ipsum dolor sit ameti",
+      "description": "Consectetur adipiscing elit. Integer placerat scelerisque leo, ac tincidunt ex feugiat vel. Nunc volutpat ex libero, vel imperdiet urna facilisis a. Nullam ac magna quis nunc tempor maximus eget at ligula.",
+      "content": "<h2 class=\"mb-8 text-4xl font-bold leading-none md:text-5xl\">\n            Congue mauris rhoncus aenean amit\n          </h2>\n          <p class=\"mb-6 leading-loose\">\n            Sapien et ligula ullamcorper malesuada proin libero nunc. Sed\n            elementum tempus egestas sed sed risus. Tempor commodo ullamcorper a\n            lacus vestibulum sed arcu non odio. Ut pharetra sit amet aliquam id\n            diam maecenas. Convallis convallis tellus id interdum velit laoreet\n            id donec. Ut eu sem integer vitae justo.\n          </p>\n          <p class=\"mb-6 leading-loose\">\n            Faucibus a pellentesque sit amet porttitor eget. Rhoncus mattis\n            rhoncus urna neque viverra justo nec. Vitae suscipit tellus mauris a\n            diam. Id eu nisl nunc mi ipsum faucibus. Nulla facilisi nullam\n            vehicula ipsum a arcu cursus. Mi quis hendrerit dolor magna eget est\n            lorem ipsum.\n          </p>\n          <ul class=\"mb-6 ml-5 leading-loose list-disc\">\n            <li>Accumsan sit amet nulla facilisi morbi tempus iaculis</li>\n            <li>Curabitur vitae nunc sed velit dignissim sodales ut</li>\n            <li>In egestas erat imperdiet sed euismod nisi</li>\n          </ul>\n          <p class=\"mb-12 leading-loose\">\n            Diam ut venenatis tellus in metus vulputate eu scelerisque. Et\n            malesuada fames ac turpis egestas integer.\n          </p>\n          <h2 class=\"mb-5 text-xl font-bold leading-none\">\n            Pharetra sit amet aliquam\n          </h2>\n          <p class=\"mb-12 leading-loose\">\n            Elementum sagittis vitae et leo duis ut. Netus et malesuada fames ac\n            turpis egestas. Potenti nullam ac tortor vitae purus faucibus.\n            Tellus mauris a diam maecenas sed. Enim sed faucibus turpis in. At\n            varius vel pharetra vel turpis nunc eget.\n          </p>\n          <h2 class=\"mb-5 text-xl font-bold leading-none\">\n            Rhoncus mattis enim\n          </h2>\n          <p class=\"mb-6 leading-loose\">\n            Rhoncus urna neque viverra justo nec ultrices. Id diam maecenas\n            ultricies mi eget mauris pharetra et. Mauris rhoncus aenean vel\n            elit. Lorem ipsum dolor sit amet consectetur.\n          </p>\n          <p class=\"mb-6 leading-loose\">\n            Accumsan sit amet nulla facilisi morbi tempus iaculis. Curabitur\n            vitae nunc sed velit dignissim sodales ut. In egestas erat imperdiet\n            sed euismod nisi. Eleifend mi in nulla posuere sollicitudin.\n          </p>\n          <p class=\"mb-6 leading-loose\">\n            Convallis convallis tellus id interdum velit\n            <a\n              href=\"#\"\n              class=\"text-blue-500 hover:underline hover:text-blue-600\"\n            >\n              laoreet id donec.\n            </a>\n          </p>",
+      "excerpt": "Consectetur adipiscing elit. Integer placerat scelerisque leo, ac tincidunt ex feugiat vel. Nunc volutpat ex libero, vel imperdiet urna facilisis a. Nullam ac magna quis nunc tempor maximus eget at ligula.",
+      "category": "Scelerisque",
+      "image": {
+        "url": "/images/main-landing.jpg",
+        "width": 1080,
+        "height": 720
+      },
+      "author": {
+        "__id": 1
+      },
+      "status": "published"
+    }
+  ]
+}

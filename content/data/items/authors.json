@@ -1,0 +1,17 @@
+{
+  "items": [
+    {
+      "__id": 1,
+      "slug": "bob-brown",
+      "fullName": "Bob Brown",
+      "bio": "Consectetur adipiscing elit. Integer placerat scelerisque leo, ac tincidunt ex feugiat vel. Nunc volutpat ex libero, vel imperdiet urna facilisis a. Nullam ac magna quis nunc tempor maximus eget at ligula.",
+      "position": "Writer",
+      "profileImage": {
+        "url": "/images/main-landing.jpg",
+        "width": 1080,
+        "height": 720
+      },
+      "status": "published"
+    }
+  ]
+}

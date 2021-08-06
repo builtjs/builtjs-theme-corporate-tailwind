@@ -1,0 +1,10 @@
+{
+  "layout": {
+    "headerSection": {
+      "slug": "header-1"
+    },
+    "footerSection": {
+      "slug": "footer-1"
+    }
+  }
+}
