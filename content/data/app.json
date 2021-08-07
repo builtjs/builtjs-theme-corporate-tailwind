@@ -3,6 +3,7 @@
       "displayName": "Corporate Tailwind",
       "description": "Small business theme with basic Tailwind styling.",
       "imageUrl": "",
+      "repoUrl": "https://github.com/builtjs/builtjs-theme-corporate-tailwind",
       "modules": [
         {
           "slug": "main"
