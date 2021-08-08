@@ -2,7 +2,7 @@
     "app": {
       "displayName": "Corporate Tailwind",
       "description": "Small business theme with basic Tailwind styling.",
-      "imageUrl": "",
+      "imageUrl": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/main/images/main-landing-md.jpg",
       "repoUrl": "https://github.com/builtjs/builtjs-theme-corporate-tailwind",
       "modules": [
         {
