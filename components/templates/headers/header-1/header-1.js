@@ -1,7 +1,7 @@
 import Link from "next/link";
 import getConfig from "next/config";
 import { useRouter } from "next/router";
-import { ButtonLink } from "../../elements";
+import { ButtonLink } from "../../../elements";
 
 export default function Header1({ content, app }) {
   let { attributes, collections } = { ...content };

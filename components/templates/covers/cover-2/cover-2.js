@@ -1,7 +1,7 @@
 
 import {
   ButtonLink
-} from './../../elements';
+} from '../../../elements';
 
 export default function Cover2({ content }) {
   let { attributes } = content;

@@ -1,6 +1,6 @@
 import Link from "next/link";
 import getConfig from 'next/config';
-import { Preheading } from "../../elements";
+import { Preheading } from "../../../elements";
 
 export default function List1({ content }) {
   let { collections } = content;

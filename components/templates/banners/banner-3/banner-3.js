@@ -1,20 +1,17 @@
-import { ButtonLink } from "./../../elements";
+import { ButtonLink } from "../../../elements";
 
-export default function Banner2({ content }) {
+export default function Banner3({ content }) {
   let { attributes, variants } = content;
   const backgroundColor =
     variants && variants.backgroundColor
       ? `bg-${variants.backgroundColor}`
       : "";
   return (
-    <section id="banner-2" className={`template ${backgroundColor}`}>
-      <div className="relative px-10 py-24">
-        <div className="relative z-10 max-w-5xl mx-auto text-center">
-          <h1 className="mb-8 text-5xl font-bold leading-snug text-lightest">
+    <section id="banner-3" className={`template ${backgroundColor}`}>
+      <div className="max-w-6xl px-10 py-16 mx-auto">
+        <div className="max-w-6xl mx-auto md:flex md:items-center md:justify-between md:flex-row">
+          <p className="mb-6 mr-8 text-xl font-bold text-center md:text-left md:mb-0">
             {attributes.heading}
-          </h1>
-          <p className="max-w-2xl mx-auto mb-12 font-light leading-loose text-gray-300">
-            {attributes.blurb}
           </p>
           <div className="flex justify-center">
             {attributes.buttonLinks &&

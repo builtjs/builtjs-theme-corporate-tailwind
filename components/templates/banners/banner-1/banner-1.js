@@ -1,4 +1,4 @@
-import { ButtonLink } from "./../../elements";
+import { ButtonLink } from "../../../elements";
 
 export default function Banner1({ content }) {
   let { attributes, variants } = content;

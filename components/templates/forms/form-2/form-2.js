@@ -4,7 +4,7 @@ import {
   Field,
   ContextualLink,
   Button,
-} from "../../elements";
+} from "../../../elements";
 
 export default function Form1({content }) {
   let { attributes } = content;

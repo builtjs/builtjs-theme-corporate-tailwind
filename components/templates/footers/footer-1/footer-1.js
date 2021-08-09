@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-import { SocialLink } from "../../elements";
+import { SocialLink } from "../../../elements";
 
 export default function Footer1({ content, app }) {
   let { collections } = {...content};
