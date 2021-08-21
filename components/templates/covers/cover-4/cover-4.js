@@ -1,5 +1,5 @@
 import Link from "next/link";
-import {ButtonLink, Preheading} from '../../../elements';
+import {ButtonLink, Preheading} from '@/elements';
 
 export default function Cover4({ content }) {
   let { attributes } = content;

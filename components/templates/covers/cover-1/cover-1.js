@@ -3,7 +3,7 @@ import getConfig from 'next/config';
 import {
   ButtonLink,
   Preheading
-} from './../../../elements';
+} from '@/elements';
 
 export default function Cover1({ content }) {
   let { attributes } = content;

@@ -1,4 +1,4 @@
-import { ButtonLink } from "../../../elements";
+import { ButtonLink } from "@/elements";
 
 export default function Block2({ content }) {
   let { attributes } = content;

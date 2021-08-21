@@ -1,11 +1,3 @@
-import {
-  Preheading,
-  SocialLink,
-  Field,
-  ContextualLink,
-  Button,
-} from "../../../elements";
-
 export default function Form1({content }) {
   let { attributes } = content;
   return (
