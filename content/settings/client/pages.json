@@ -59,8 +59,8 @@
         },
         "contact-landing": {
           "collections": {
-            "blog-items": {
-              "slug": "blog-items"
+            "social-links": {
+              "slug": "social-links"
             }
           }
         }
