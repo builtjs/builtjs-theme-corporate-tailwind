@@ -1,8 +1,8 @@
 {
   "global": {
-    "name": "Test app",
+    "name": "Corporate Tailwind",
     "logo": {
-      "url": "/images/main-landing.jpg",
+      "url": "/images/logo.svg",
       "width": 40,
       "height": 40
     }
