@@ -1,29 +1,25 @@
 {
   "modules": [
     {
-      "slug": "services",
-      "displayName": "Services",
-      "useCaseName": "Understand offering",
-      "description": "Provides information about main services",
-      "isMainCTA": false,
-      "mainCTASection": {
-        "slug": "main-landing"
-      },
+      "slug": "about",
+      "displayName": "About",
+      "description": "Provides information related to the organisation",
       "pageSections": [
         {
-          "slug": "services1"
+          "slug": "about1"
         },
         {
-          "slug": "services2"
+          "slug": "home4"
         }
-      ]
+      ],
+      "mainCTASection": {
+        "slug": "about-landing"
+      }
     },
     {
       "slug": "blog",
       "displayName": "Blog",
-      "useCaseName": "View blog",
       "description": "Displays informal diary-style entries",
-      "isMainCTA": false,
       "mainCTASection": {
         "slug": "main-landing"
       },
@@ -37,11 +33,25 @@
       ]
     },
     {
+      "slug": "services",
+      "displayName": "Services",
+      "description": "Provides information about main services",
+      "pageSections": [
+        {
+          "slug": "services1"
+        },
+        {
+          "slug": "services2"
+        }
+      ],
+      "mainCTASection": {
+        "slug": "main-landing"
+      }
+    },
+    {
       "slug": "features",
       "displayName": "Features",
-      "useCaseName": "View features",
       "description": "Provides information about main features of offering",
-      "isMainCTA": false,
       "mainCTASection": {
         "slug": "main-landing"
       },
@@ -54,9 +64,7 @@
     {
       "slug": "benefits",
       "displayName": "Benefits",
-      "useCaseName": "Understand offering",
       "description": "Displays main benefits of using offering",
-      "isMainCTA": false,
       "mainCTASection": {
         "slug": "main-landing"
       },
@@ -67,27 +75,8 @@
       ]
     },
     {
-      "slug": "about",
-      "displayName": "About",
-      "useCaseName": "Learn about",
-      "description": "Provides information related to the organisation",
-      "isMainCTA": false,
-      "mainCTASection": {
-        "slug": "main-landing"
-      },
-      "pageSections": [
-        {
-          "slug": "about1"
-        },
-        {
-          "slug": "home4"
-        }
-      ]
-    },
-    {
       "slug": "contact",
       "displayName": "Contact",
-      "useCaseName": "Make contact",
       "description": "Encourages and facilitates making contact",
       "isMainCTA": true,
       "mainCTASection": {
