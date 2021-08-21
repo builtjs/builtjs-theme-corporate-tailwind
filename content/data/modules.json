@@ -1,6 +1,23 @@
 {
   "modules": [
     {
+      "slug": "contact",
+      "displayName": "Contact",
+      "description": "Encourages and facilitates making contact",
+      "isMainCTA": true,
+      "pageSections": [
+        {
+          "slug": "contact1"
+        },
+        {
+          "slug": "home4"
+        }
+      ],
+      "mainCTASection": {
+        "slug": "main-landing"
+      }
+    },
+    {
       "slug": "about",
       "displayName": "About",
       "description": "Provides information related to the organisation",
@@ -71,23 +88,6 @@
       "pageSections": [
         {
           "slug": "home3"
-        }
-      ]
-    },
-    {
-      "slug": "contact",
-      "displayName": "Contact",
-      "description": "Encourages and facilitates making contact",
-      "isMainCTA": true,
-      "mainCTASection": {
-        "slug": "main-landing"
-      },
-      "pageSections": [
-        {
-          "slug": "contact1"
-        },
-        {
-          "slug": "home4"
         }
       ]
     }
