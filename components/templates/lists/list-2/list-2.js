@@ -13,7 +13,7 @@ export default function List2({ content }) {
   }
   return (
     <section id="list-2" className="template">
-      <div className="max-w-screen-xl px-4 py-32 mx-auto">
+      <div className="px-4 py-32 mx-auto max-w-screen-xl">
         {attributes && attributes.heading && (
           <h1 className="max-w-2xl mx-auto mb-12 text-4xl font-bold leading-none text-center text-gray-900 lg:mb-28">{attributes.heading}</h1>
         )}

@@ -7,7 +7,7 @@ export default function Block5() {
         <h1 className="mb-8 font-bold leading-none text-center text-gray-900 text-7xl lg:text-8xl">
           Lorem ipsum dolor
         </h1>
-        <div className="max-w-2xl mx-auto text-center px-8 sm:px-16">
+        <div className="max-w-2xl px-8 mx-auto text-center sm:px-16">
           <p className="mb-16 text-center">
             Faucibus a pellentesque sit amet porttitor eget. Rhoncus mattis
             rhoncus urna neque viverra justo nec. Vitae suscipit tellus mauris a
@@ -16,7 +16,7 @@ export default function Block5() {
             lorem ipsum.
           </p>
           <Link href="/">
-            <a className="flex items-center justify-center w-full px-6 py-3 text-lightest transition duration-200 ease-in-out bg-secondary border border-secondary rounded-md lg:inline-flex sm:w-auto hover:bg-secondary-darker hover:border-secondary-darker">
+            <a className="flex items-center justify-center w-full px-6 py-3 border text-lightest transition duration-200 ease-in-out bg-secondary border-secondary rounded-md lg:inline-flex sm:w-auto hover:bg-secondary-darker hover:border-secondary-darker">
               Button
             </a>
           </Link>

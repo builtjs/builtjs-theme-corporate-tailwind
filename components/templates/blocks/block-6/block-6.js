@@ -5,12 +5,12 @@ export default function Block1({ content }) {
       id="block-6"
       className="template"
     >
-      <div className="max-w-screen-xl px-4 py-20 mx-auto">
+      <div className="px-4 py-20 mx-auto max-w-screen-xl">
         <h1 className="max-w-3xl mx-auto mb-12 text-5xl font-bold leading-none text-gray-900 md:text-center lg:mb-16">
           {attributes.heading}
         </h1>
         <div className="flex flex-col md:flex-row">
-          <div className="flex-1 md:px-4 mb-6 md:mb-0">
+          <div className="flex-1 mb-6 md:px-4 md:mb-0">
             <p>{attributes.text1}</p>
           </div>
           <div className="flex-1 md:px-4">

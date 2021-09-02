@@ -19,13 +19,13 @@ export default function List3({ content }) {
 
   return (
     <article id="list-3" className="template">
-      <div className="max-w-screen-xl px-4 mx-auto">
+      <div className="px-4 mx-auto max-w-screen-xl">
         {heroPost && (
           <div className="flex flex-col pb-24 pt-28 xl:pt-32 lg:flex-row-reverse">
             <div className="flex-1 lg:w-2/3">
               <Link href={url}>
                 <a>
-                  <div className="relative w-full mb-8 transition-shadow duration-200 rounded-lg h-96 lg:h-full lg:py-56 hover:shadow-xl">
+                  <div className="relative w-full mb-8 rounded-lg transition-shadow duration-200 h-96 lg:h-full lg:py-56 hover:shadow-xl">
                     <Image
                       layout="fill"
                       className="object-cover bg-gray-100 rounded-lg"

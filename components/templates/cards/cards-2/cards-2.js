@@ -15,7 +15,7 @@ export default function Cards2({ content }) {
   }
   return (
     <section id="cards-2" className="template">
-      <div className="max-w-screen-xl px-4 py-16 mx-auto md:py-24 xl:py-32">
+      <div className="px-4 py-16 mx-auto max-w-screen-xl md:py-24 xl:py-32">
         {attributes && attributes.heading && (
           <h1 className="max-w-2xl mx-auto mb-12 text-4xl font-bold leading-none text-center text-gray-900 lg:mb-28">
             {attributes.heading}
@@ -24,7 +24,7 @@ export default function Cards2({ content }) {
         <div className="flex flex-col lg:flex-row">
           {items &&
             items.map((item, i) => (
-              <div key={i} className="flex flex-col flex-1 shadow-xl p-8">
+              <div key={i} className="flex flex-col flex-1 p-8 shadow-xl">
                 <h2 className="mb-4 text-2xl font-bold leading-none text-gray-900">
                   {item.title}
                 </h2>

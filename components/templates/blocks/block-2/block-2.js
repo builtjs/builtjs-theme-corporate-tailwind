@@ -4,7 +4,7 @@ export default function Block2({ content }) {
   let { attributes } = content;
   return (
     <section id="block-2" className="template">
-      <div className="max-w-screen-xl px-4 py-20 mx-auto flex flex-col md:flex-row">
+      <div className="flex flex-col px-4 py-20 mx-auto max-w-screen-xl md:flex-row">
         <div className="flex-1 md:px-4">
           {attributes.preheading && (
             <p className="preheading-secondary">{attributes.preheading.text}</p>

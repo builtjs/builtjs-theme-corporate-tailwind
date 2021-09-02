@@ -10,19 +10,19 @@ export default function Form1({ content }) {
           <p className="mb-12 text-lg text-center lg:mb-20">{attributes.blurb}</p>
           <form action="#" method="POST">
             <div className="mb-6">
-              <label className="block text-sm leading-5 text-gray-700 dark:text-gray-400">Your Full Name</label>
+              <label className="block text-sm text-gray-700 leading-5 dark:text-gray-400">Your Full Name</label>
               <input className="w-full px-5 py-3 mt-2 border rounded-md" />
             </div>
             <div className="mb-6">
-              <label className="block text-sm leading-5 text-gray-700 dark:text-gray-400">Your Phone Number</label>
+              <label className="block text-sm text-gray-700 leading-5 dark:text-gray-400">Your Phone Number</label>
               <input className="w-full px-5 py-3 mt-2 border rounded-md" />
             </div>
             <div className="mb-6">
-              <label className="block text-sm leading-5 text-gray-700 dark:text-gray-400">Your Email Address</label>
+              <label className="block text-sm text-gray-700 leading-5 dark:text-gray-400">Your Email Address</label>
               <input className="w-full px-5 py-3 mt-2 border rounded-md" />
             </div>
             <div className="mb-8">
-              <label className="block text-sm leading-5 text-gray-700 dark:text-gray-400">Your Message</label>
+              <label className="block text-sm text-gray-700 leading-5 dark:text-gray-400">Your Message</label>
               <textarea rows="5" className="w-full p-5 mt-2 border rounded-md"></textarea>
             </div>
             <div className="text-center form-button">

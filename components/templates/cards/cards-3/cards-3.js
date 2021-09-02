@@ -15,7 +15,7 @@ export default function Cards3({ content }) {
   }
   return (
     <section id="cards-3" className="template">
-      <div className="max-w-screen-xl px-4 py-16 mx-auto md:py-24 xl:py-32">
+      <div className="px-4 py-16 mx-auto max-w-screen-xl md:py-24 xl:py-32">
       {attributes && attributes.heading && (
           <h1 className="max-w-2xl mx-auto mb-12 text-4xl font-bold leading-none text-center text-gray-900 lg:mb-28">
             {attributes.heading}
@@ -24,9 +24,9 @@ export default function Cards3({ content }) {
         <div className="flex flex-col lg:flex-row">
         {items &&
           items.map((item, i) => (
-            <div key={i} className="flex flex-col flex-1 p-8 bg-gray-100 my-6 lg:mx-5 lg:my-0 hover:shadow-xl transition duration-200 ease-in-out">
+            <div key={i} className="flex flex-col flex-1 p-8 my-6 bg-gray-100 lg:mx-5 lg:my-0 hover:shadow-xl transition duration-200 ease-in-out">
             <svg
-              className="w-12 p-3 mb-6 text-lightest bg-secondary-light rounded-lg"
+              className="w-12 p-3 mb-6 rounded-lg text-lightest bg-secondary-light"
               xmlns="http://www.w3.org/2000/svg"
               fill="currentColor"
               height="100%"
