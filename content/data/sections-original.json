@@ -322,8 +322,8 @@
         "content": "### Nunc faucibus a pellentesque sit amet porttitor eget dolor morbi. Cursus vitae congue mauris rhoncus. Orci sagittis eu volutpat.",
         "image": {
           "url": "/images/main-landing.jpg",
-          "width": 1000,
-          "height": 1000
+          "width": 1080,
+          "height": 720
         },
         "buttonLink": {
           "url": "/contact",

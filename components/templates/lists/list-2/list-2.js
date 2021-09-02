@@ -1,9 +1,9 @@
+import Image from "next/image";
+
 export default function List2({ content }) {
   let { attributes, collections } = content;
   if (!collections) {
-    throw new Error(
-      `No collections attribute provided in sections.json for template`
-    );
+    throw new Error(`No collections attribute provided in sections.json for template`);
   }
   let collectionName = Object.keys(collections)[0];
   let collection = collections[collectionName];
@@ -15,16 +15,13 @@ export default function List2({ content }) {
     <section id="list-2" className="template">
       <div className="max-w-screen-xl px-4 py-32 mx-auto">
         {attributes && attributes.heading && (
-          <h1 className="max-w-2xl mx-auto mb-12 text-4xl font-bold leading-none text-center text-gray-900 lg:mb-28">
-            {attributes.heading}
-          </h1>
+          <h1 className="max-w-2xl mx-auto mb-12 text-4xl font-bold leading-none text-center text-gray-900 lg:mb-28">{attributes.heading}</h1>
         )}
         <div className="flex flex-col lg:flex-row">
           <div className="flex-1 lg:order-1">
-            <img
-              className="object-cover object-top w-full h-full mb-20 bg-gray-200"
-              src="https://dummyimage.com/1000x500/e5e7eb/e5e7eb.jpg&text=+"
-            />
+            <div className="relative w-full mb-20 h-96 lg:h-full">
+              <Image layout="fill" className="object-cover bg-gray-100 rounded-lg" src="https://source.unsplash.com/vbxyFxlgpjM" alt="" />
+            </div>
           </div>
           <div className="flex-1 lg:mr-12">
             <div className="flex flex-col lg:py-20">
@@ -34,7 +31,7 @@ export default function List2({ content }) {
                     <div className="flex items-start">
                       <div className="mr-5 text-lightest">
                         <svg
-                          className="w-12 p-3 bg-secondary-light rounded-lg"
+                          className="w-12 p-3 rounded-lg bg-secondary-light"
                           xmlns="http://www.w3.org/2000/svg"
                           fill="currentColor"
                           height="100%"
@@ -48,9 +45,7 @@ export default function List2({ content }) {
                         </svg>
                       </div>
                       <div>
-                        <h2 className="my-4 text-xl font-bold leading-none text-gray-900">
-                          {item.title}
-                        </h2>
+                        <h2 className="my-4 text-xl font-bold leading-none text-gray-900">{item.title}</h2>
                         <p>{item.excerpt}</p>
                       </div>
                     </div>

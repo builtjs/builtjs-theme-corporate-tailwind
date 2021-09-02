@@ -1,17 +1,10 @@
-import {
-  Preheading,
-  SocialLink,
-  Field,
-  ContextualLink,
-  Button,
-} from "@/elements";
+import React from "react";
+import { Preheading, SocialLink, Field, ContextualLink, Button } from "@/elements";
 
 export default function Form1({ content }) {
   let { attributes, collections } = content;
   if (!collections) {
-    throw new Error(
-      `No collections attribute provided in sections.json for template`
-    );
+    throw new Error(`No collections attribute provided in sections.json for template`);
   }
   let socialLinks = [];
   if (collections["social-link"]) {
@@ -23,27 +16,16 @@ export default function Form1({ content }) {
         <div className="flex flex-col items-start lg:flex-row">
           <div className="flex-1 lg:pr-10 xl:px-20">
             <Preheading attribute={attributes.preheading}></Preheading>
-            <h2 className="text-4xl md:text-5xl text-gray-900 leading-none font-bold mb-6">
-              {attributes.heading}
-            </h2>
-            <p className="max-w-xl text-lg mb-16 lg:mb-10">{attributes.blurb}</p>
+            <h2 className="mb-6 text-4xl font-bold leading-none text-gray-900 md:text-5xl">{attributes.heading}</h2>
+            <p className="max-w-xl mb-16 text-lg lg:mb-10">{attributes.blurb}</p>
             <div className="flex flex-col">
               {attributes.contextualLinks.map((contextualLink, i) => {
-                return (
-                  <ContextualLink
-                    key={i}
-                    attribute={contextualLink}
-                  ></ContextualLink>
-                );
+                return <ContextualLink key={i} attribute={contextualLink}></ContextualLink>;
               })}
               <div className="flex items-center mx-10 mb-16">
-                {socialLinks.map(
-                    (socialLink, i) => {
-                      return (
-                        <SocialLink key={i} attribute={socialLink}></SocialLink>
-                      );
-                    }
-                  )}
+                {socialLinks.map((socialLink, i) => {
+                  return <SocialLink key={i} attribute={socialLink}></SocialLink>;
+                })}
               </div>
             </div>
           </div>
