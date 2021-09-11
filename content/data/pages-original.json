@@ -170,6 +170,44 @@
     ],
     "templates": [
       {
+        "slug": "covers",
+        "displayName": "Covers",
+        "status": "published",
+        "sections": [
+          {
+            "slug": "main-landing",
+            "template": {
+              "slug": "cover-1"
+            }
+          },
+          {
+            "slug": "main-landing",
+            "template": {
+              "slug": "cover-2"
+            }
+          },
+          {
+            "slug": "main-landing",
+            "template": {
+              "slug": "cover-3"
+            }
+          },
+          {
+            "slug": "services-landing",
+            "template": {
+              "slug": "cover-5"
+            }
+          }
+        ],
+        "seo": {
+          "title": "Covers",
+          "description": "",
+          "shareImage": null,
+          "twitterCardType": "summary",
+          "twitterUsername": ""
+        }
+      },
+      {
         "slug": "banners",
         "displayName": "Banners",
         "status": "published",
@@ -279,80 +317,16 @@
             "template": {
               "slug": "cards-4"
             }
+          },
+          {
+            "slug": "main-landing",
+            "template": {
+              "slug": "cards-5"
+            }
           }
         ],
         "seo": {
           "title": "Cards",
-          "description": "",
-          "shareImage": null,
-          "twitterCardType": "summary",
-          "twitterUsername": ""
-        }
-      },
-      {
-        "slug": "covers",
-        "displayName": "Covers",
-        "status": "published",
-        "sections": [
-          {
-            "slug": "main-landing",
-            "template": {
-              "slug": "cover-1"
-            }
-          },
-          {
-            "slug": "main-landing",
-            "template": {
-              "slug": "cover-2"
-            }
-          },
-          {
-            "slug": "main-landing",
-            "template": {
-              "slug": "cover-3"
-            }
-          },
-          {
-            "slug": "about-landing",
-            "template": {
-              "slug": "cover-4"
-            }
-          },
-          {
-            "slug": "services-landing",
-            "template": {
-              "slug": "cover-5"
-            }
-          }
-        ],
-        "seo": {
-          "title": "Covers",
-          "description": "",
-          "shareImage": null,
-          "twitterCardType": "summary",
-          "twitterUsername": ""
-        }
-      },
-      {
-        "slug": "forms",
-        "displayName": "Forms",
-        "status": "published",
-        "sections": [
-          {
-            "slug": "contact-landing",
-            "template": {
-              "slug": "form-1"
-            }
-          },
-          {
-            "slug": "contact-landing",
-            "template": {
-              "slug": "form-2"
-            }
-          }
-        ],
-        "seo": {
-          "title": "Forms",
           "description": "",
           "shareImage": null,
           "twitterCardType": "summary",
@@ -391,6 +365,32 @@
         ],
         "seo": {
           "title": "Lists",
+          "description": "",
+          "shareImage": null,
+          "twitterCardType": "summary",
+          "twitterUsername": ""
+        }
+      },
+      {
+        "slug": "forms",
+        "displayName": "Forms",
+        "status": "published",
+        "sections": [
+          {
+            "slug": "contact-landing",
+            "template": {
+              "slug": "form-1"
+            }
+          },
+          {
+            "slug": "contact-landing",
+            "template": {
+              "slug": "form-2"
+            }
+          }
+        ],
+        "seo": {
+          "title": "Forms",
           "description": "",
           "shareImage": null,
           "twitterCardType": "summary",
