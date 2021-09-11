@@ -12,11 +12,11 @@ export default function Cover1({ content }) {
       <div className="relative flex flex-col lg:flex-row lg:py-36 ">
         <div className="relative z-20 flex-1 mb-12 lg:order-1 lg:mb-0 lg:mr-20">
           <Image
-            layout="fill"
+            className="bg-gray-100 lg:rounded-lg"
+            src={`${publicRuntimeConfig.API_URL || ""}${attributes.image.url}`}
             width={attributes.image.width}
             height={attributes.image.height}
-            className="relative z-10 object-cover object-top w-full h-full bg-light lg:shadow-2xl lg:rounded-lg"
-            src={`${publicRuntimeConfig.API_URL || ""}${attributes.image.url}`}
+            layout="responsive"
             alt=""
           />
           <div className="absolute bottom-0 right-0 z-10 text-gray-300 dark:text-gray-300 pattern-dots"></div>

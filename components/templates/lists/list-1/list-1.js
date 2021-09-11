@@ -37,8 +37,15 @@ export default function List1({ content }) {
                 }`}
               >
                 <div className="relative flex-1">
-                  <div className="relative w-full mb-12 h-96">
-                    <Image layout="fill" className="object-cover bg-gray-100 rounded-lg" src={`${publicRuntimeConfig.API_URL || ""}${item.image.url}`} alt="" />
+                  <div className="relative mb-12 lg:mb-0">
+                    <Image
+                      className="bg-gray-100 rounded-lg"
+                      src={`${publicRuntimeConfig.API_URL || ""}${item.image.url}`}
+                      width={item.image.width}
+                      height={item.image.height}
+                      layout="responsive"
+                      alt=""
+                    />
                   </div>
                   <div className="absolute w-1/2 h-full text-gray-300 dark:text-gray-300 pattern-dots one"></div>
                 </div>

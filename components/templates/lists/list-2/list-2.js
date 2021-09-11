@@ -1,7 +1,9 @@
 import Image from "next/image";
+import getConfig from "next/config";
 
 export default function List2({ content }) {
   let { attributes, collections } = content;
+  const { publicRuntimeConfig } = getConfig();
   if (!collections) {
     throw new Error(`No collections attribute provided in sections.json for template`);
   }
@@ -13,14 +15,27 @@ export default function List2({ content }) {
   }
   return (
     <section id="list-2" className="template">
-      <div className="px-4 py-32 mx-auto max-w-screen-xl">
+      <div className="max-w-screen-xl px-4 py-32 mx-auto">
         {attributes && attributes.heading && (
           <h1 className="max-w-2xl mx-auto mb-12 text-4xl font-bold leading-none text-center text-gray-900 lg:mb-28">{attributes.heading}</h1>
         )}
         <div className="flex flex-col lg:flex-row">
           <div className="flex-1 lg:order-1">
             <div className="relative w-full mb-20 h-96 lg:h-full">
-              <Image layout="fill" className="object-cover bg-gray-100 rounded-lg" src="https://source.unsplash.com/vbxyFxlgpjM" alt="" />
+              {items &&
+                items.map((item, i) => (
+                  <div key={i}>
+                    {/* TODO: Update component to loop through all images instead of one */}
+                    <Image
+                      className="object-cover bg-gray-100 rounded-lg"
+                      src={`${publicRuntimeConfig.API_URL || ""}${item.image.url}`}
+                      width={item.image.width}
+                      height={item.image.height}
+                      layout="fill"
+                      alt=""
+                    />
+                  </div>
+                ))}
             </div>
           </div>
           <div className="flex-1 lg:mr-12">

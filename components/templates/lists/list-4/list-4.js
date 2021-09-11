@@ -29,10 +29,10 @@ export default function List4({ content, router }) {
                       <div className="relative h-48 w-72">
                         <Image
                           className="object-cover bg-gray-100 rounded-lg"
-                          layout="fill"
-                          width={600}
-                          height={400}
                           src={`${publicRuntimeConfig.API_URL || ""}${item.image.url}`}
+                          width={item.image.width}
+                          height={item.image.height}
+                          layout="fill"
                           alt=""
                         />
                       </div>
@@ -48,6 +48,7 @@ export default function List4({ content, router }) {
                   </Link>
                   <p className="mb-1 text-sm text-gray-600">
                     date goes here
+                    {/* TODO: Get article publish date */}
                     {/* {format(new Date(item.createdAt), "d LLLL yyyy")} */}
                   </p>
                   {item.tags &&

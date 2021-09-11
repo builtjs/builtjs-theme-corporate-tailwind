@@ -1,8 +1,10 @@
 import Image from "next/image";
 import { ButtonLink } from "@/elements";
+import getConfig from "next/config";
 
 export default function Block1({ content }) {
   let { attributes } = content;
+  const { publicRuntimeConfig } = getConfig();
   return (
     <section id="block-1" className="template">
       <div className="px-4 py-24 overflow-hidden lg:px-0 lg:py-32">
@@ -10,17 +12,17 @@ export default function Block1({ content }) {
           <div className="flex-1 mb-12 lg:order-1 lg:mb-0">
             <div className="relative h-96 lg:h-3/4">
               <Image
-                className="object-cover bg-gray-100 rounded-lg lg:rounded-l-lg"
-                src="https://source.unsplash.com/vbxyFxlgpjM"
-                alt=""
+                className="object-cover bg-gray-100 rounded-lg lg:rounded-l-lg lg:rounded-r-none"
+                src={`${publicRuntimeConfig.API_URL || ""}${attributes.image.url}`}
+                width={attributes.image.width}
+                height={attributes.image.height}
                 layout="fill"
-                width={1000}
-                height={800}
+                alt=""
               />
             </div>
           </div>
           <div className="flex-1">
-            <div className="lg:px-10 xl:px-24 lg:mt-10">
+            <div className="lg:px-10 xl:px-24">
               <h2 className="mb-8 text-4xl font-bold leading-none text-gray-900 md:text-5xl">{attributes.heading}</h2>
               <p className="mb-6 font-light leading-loose text-gray-700">
                 Sapien et ligula ullamcorper malesuada proin libero nunc. Sed elementum tempus egestas sed sed risus. Tempor commodo ullamcorper a lacus

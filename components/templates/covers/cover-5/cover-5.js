@@ -16,7 +16,7 @@ export default function Cover5({ content }) {
       </div>
       <style jsx>{`
         .services-bg-image {
-          background: #f7fafc url("https://source.unsplash.com/vbxyFxlgpjM") no-repeat top center/cover;
+          background: #f7fafc url("/images/main-landing.jpg") no-repeat top center/cover;
         }
 
         .services-bg-image::after {

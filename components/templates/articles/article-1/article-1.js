@@ -21,6 +21,7 @@ export default function Article1({ content }) {
             <div className="flex mb-4">
               <span>
                 date goes here
+                {/* TODO: Get article publish date */}
                 {/* {format(new Date(item.createdAt), "d LLLL yyyy")} */}
               </span>
               <span className="mx-3">|</span>
@@ -30,6 +31,7 @@ export default function Article1({ content }) {
             </div>
             <h1 className="mb-10 text-6xl font-bold leading-none">{item.title}</h1>
             <div className="flex items-center">
+              {/* TODO: Get user profile image */}
               {/* <img
               src={
                 item.author.profileImageUrl ||
@@ -43,14 +45,14 @@ export default function Article1({ content }) {
               </div>
             </div>
           </header>
-          <div className="relative py-64 mt-12 mb-16 shadow-2xl h-96">
+          <div className="relative mt-12 mb-20">
             <Image
-              className="object-cover bg-gray-100 rounded-lg"
+              className="bg-gray-100 rounded-lg"
               src={`${publicRuntimeConfig.API_URL || ""}${item.image.url}`}
+              width={item.image.width}
+              height={item.image.height}
+              layout="responsive"
               alt=""
-              layout="fill"
-              width={1024}
-              height={500}
             />
           </div>
           <div className="max-w-2xl mx-auto" dangerouslySetInnerHTML={getHTML(item.content)}></div>

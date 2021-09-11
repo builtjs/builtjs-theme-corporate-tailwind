@@ -1,20 +1,23 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
+import getConfig from "next/config";
 import { ButtonLink, Preheading } from "@/elements";
 
 export default function Cover4({ content }) {
   let { attributes } = content;
+  const { publicRuntimeConfig } = getConfig();
   return (
     <section id="cover-4" className="template">
       <div className="px-4 py-16 lg:py-24">
         <div className="flex flex-col items-start lg:flex-row">
-          <div className="relative flex-1 mb-12 lg:p-10 lg:order-1 lg:mb-0 sm:w-3/4 sm:mx-auto lg:w-full">
+          <div className="relative flex-1 w-full mb-12 lg:order-1 lg:mb-0 md:w-3/4 md:mx-auto lg:w-full">
             <Image
+              className="object-cover bg-gray-200 rounded-full"
+              src={`${publicRuntimeConfig.API_URL || ""}${attributes.image.url}`}
               width={attributes.image.width}
               height={attributes.image.height}
-              className="relative z-10 object-cover bg-gray-100 rounded-full"
-              src={attributes.image.url}
+              layout="responsive"
               alt=""
             />
           </div>
