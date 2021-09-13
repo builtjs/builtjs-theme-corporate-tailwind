@@ -1,10 +1,10 @@
-import React, { useEffect } from "react";
+import { useEffect } from "react";
 import { useRouter } from "next/router";
 import "../styles/index.css";
-import Head from "next/head";
-import { setupCrumbs } from './../lib'
+import { setupCrumbs } from './../lib';
+import SiteApp from './_site-app';
 
-function MyApp({ Component, pageProps }) {
+function ThemeApp({ Component, pageProps }) {
   const router = useRouter();
 
   useEffect(() => {
@@ -12,19 +12,7 @@ function MyApp({ Component, pageProps }) {
     setupCrumbs(router);
   }, []);
 
-  return (
-    <>
-      <Head>
-        <link
-          rel="icon"
-          type="image/png"
-          sizes="32x32"
-          href="/favicon-32x32.png"
-        />
-      </Head>
-      <Component {...pageProps} />
-    </>
-  );
+  return SiteApp({ Component, pageProps });
 }
 
-export default MyApp;
+export default ThemeApp;
