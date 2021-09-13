@@ -25,9 +25,7 @@ export default function Header1({ content }) {
               <a>
                 <img
                   className="mr-3"
-                  src={`${publicRuntimeConfig.API_URL || ""}${
-                    global?.logo?.url
-                  }`}
+                  src={global?.logo?.url}
                   width={global?.logo?.width}
                   height={global?.logo?.height}
                   alt="Logo"
