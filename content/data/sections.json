@@ -95,9 +95,6 @@
       "displayName": "Features",
       "description": "Etiam imperdiet tincidunt magna sit amet vehicula. In vulputate neque non pretium faucibus. Cras gravida consectetur lorem, in dapibus sapien cursus sed. Cras consequat in leo id volutpat.",
       "templates": ["cards-1"],
-      "attributes": {
-        "heading": "Lorem ipsum dolor sit amet"
-      },
       "collections": {
         "features": {}
       },
@@ -110,15 +107,12 @@
       "description": "Etiam imperdiet tincidunt magna sit amet vehicula. In vulputate neque non pretium faucibus. Cras gravida consectetur lorem, in dapibus sapien cursus sed. Cras consequat in leo id volutpat.",
       "templates": ["banner-1"],
       "attributes": {
-        "preheading": {
-          "text": "Maecenas accumsan",
-          "type": "plain"
-        },
-        "heading": "Lorem ipsum dolor sit amet nunc faucibus a pellentesque",
+        "heading": "Lorem ipsum dolor sit amet nunc",
+        "blurb": "Nunc faucibus a pellentesque sit amet porttitor eget dolor morbi. Cursus vitae congue mauris rhoncus. Orci sagittis eu volutpat.",
         "buttonLinks": [
           {
             "url": "/contact",
-            "label": "Get a quote",
+            "label": "Button",
             "type": "primary"
           }
         ]
@@ -140,12 +134,12 @@
           "type": "line"
         },
         "heading": "Turpis in eu mi biben dum neque egestas",
-        "text1": "Sapien et ligula ullamcorper malesuada proin libero nunc. Sed elementum tempus egestas sed sed risus. Tempor commodo ullamcorper a lacus vestibulum sed arcu non odio. Ut pharetra sit amet aliquam id diam maecenas. Convallis convallis tellus id interdum velit laoreet id donec. Ut eu sem integer vitae justo. Faucibus a pellentesque sit amet porttitor eget. Rhoncus mattis rhoncus urna neque viverra justo nec.",
-        "text2": "Sapien et ligula ullamcorper malesuada proin libero nunc. Sed elementum tempus egestas sed sed risus. Tempor commodo ullamcorper a lacus vestibulum sed arcu non odio. Ut pharetra sit amet aliquam id diam maecenas. Convallis convallis tellus id interdum velit laoreet id donec. Ut eu sem integer vitae justo. Faucibus a pellentesque sit amet porttitor eget. Rhoncus mattis rhoncus urna neque viverra justo nec.",
+        "blurb": "Sapien et ligula ullamcorper malesuada proin libero nunc. Sed elementum tempus egestas sed sed risus. Tempor commodo ullamcorper a lacus vestibulum sed arcu non odio. Ut pharetra sit amet aliquam id diam maecenas. Convallis convallis tellus id interdum velit laoreet id donec. Ut eu sem integer vitae justo. Faucibus a pellentesque sit amet porttitor eget. Rhoncus mattis rhoncus urna neque viverra justo nec.",
+        "blurb2": "Duo sapien et ligula ullamcorper malesuada proin libero nunc. Sed elementum tempus egestas sed sed risus. Tempor commodo ullamcorper a lacus vestibulum sed arcu non odio. Ut pharetra sit amet aliquam id diam.",
         "buttonLinks": [
           {
             "url": "/about",
-            "label": "Learn More",
+            "label": "Button",
             "type": "primary"
           }
         ],
@@ -201,7 +195,19 @@
           "url": "/images/main-landing.jpg",
           "width": 1080,
           "height": 720
-        }
+        },
+        "buttonLinks": [
+          {
+            "url": "/contact",
+            "label": "Get a quote",
+            "type": "primary"
+          },
+          {
+            "url": "/services",
+            "label": "Our services",
+            "type": "secondary"
+          }
+        ]
       },
       "order": 2
     },
@@ -212,13 +218,24 @@
       "description": "Etiam imperdiet tincidunt magna sit amet vehicula. In vulputate neque non pretium faucibus. Cras gravida consectetur lorem, in dapibus sapien cursus sed. Cras consequat in leo id volutpat.",
       "templates": ["block-1"],
       "attributes": {
+        "preheading": {
+          "text": "Maecenas Accumsan",
+          "type": "line"
+        },
         "heading": "Congue mauris rhoncus aenean amit",
-        "content": "### Nunc faucibus a pellentesque sit amet porttitor eget dolor morbi. Cursus vitae congue mauris rhoncus. Orci sagittis eu volutpat.",
+        "blurb": "Sapien et ligula ullamcorper malesuada proin libero nunc. Sed elementum tempus egestas sed sed risus. Tempor commodo ullamcorper a lacus vestibulum sed arcu non odio. Ut pharetra sit amet aliquam id diam maecenas. Convallis convallis tellus id interdum velit laoreet id donec. Ut eu sem integer vitae justo.",
         "image": {
           "url": "/images/main-landing.jpg",
           "width": 1080,
           "height": 720
-        }
+        },
+        "buttonLinks": [
+          {
+            "url": "/about",
+            "label": "Learn More",
+            "type": "primary"
+          }
+        ]
       },
       "order": 3
     },
@@ -229,10 +246,6 @@
       "description": "Etiam imperdiet tincidunt magna sit amet vehicula. In vulputate neque non pretium faucibus. Cras gravida consectetur lorem, in dapibus sapien cursus sed. Cras consequat in leo id volutpat.",
       "templates": ["banner-1"],
       "attributes": {
-        "preheading": {
-          "text": "Maecenas accumsan",
-          "type": "plain"
-        },
         "heading": "Lorem ipsum dolor sit amet nunc faucibus a pellentesque",
         "buttonLinks": [
           {
@@ -319,17 +332,24 @@
           "type": "line"
         },
         "heading": "Turpis in eu mi bibendum neque egestas congue",
-        "content": "### Nunc faucibus a pellentesque sit amet porttitor eget dolor morbi. Cursus vitae congue mauris rhoncus. Orci sagittis eu volutpat.",
+        "blurb": "Nunc faucibus a pellentesque sit amet porttitor eget dolor morbi. Cursus vitae congue mauris rhoncus. Orci sagittis eu volutpat.",
         "image": {
           "url": "/images/main-landing.jpg",
           "width": 1000,
           "height": 1000
         },
-        "buttonLink": {
-          "url": "/contact",
-          "label": "Contact Us",
-          "type": "primary"
-        }
+        "buttonLinks": [
+          {
+            "url": "/contact",
+            "label": "Contact Us",
+            "type": "primary"
+          },
+          {
+            "url": "/services",
+            "label": "Our services",
+            "type": "secondary"
+          }
+        ]
       },
       "order": 2
     },
@@ -340,9 +360,20 @@
       "description": "Etiam imperdiet tincidunt magna sit amet vehicula. In vulputate neque non pretium faucibus. Cras gravida consectetur lorem, in dapibus sapien cursus sed. Cras consequat in leo id volutpat.",
       "templates": ["block-1", "block-2", "block-3", "block-4", "block-5"],
       "attributes": {
+                "preheading": {
+          "text": "Maecenas Accumsan",
+          "type": "line"
+        },
         "heading": "Turpis in eu mi biben dum neque egestas",
-        "text1": "Sapien et ligula ullamcorper malesuada proin libero nunc. Sed elementum tempus egestas sed sed risus. Tempor commodo ullamcorper a lacus vestibulum sed arcu non odio. Ut pharetra sit amet aliquam id diam maecenas. Convallis convallis tellus id interdum velit laoreet id donec. Ut eu sem integer vitae justo. Faucibus a pellentesque sit amet porttitor eget. Rhoncus mattis rhoncus urna neque viverra justo nec.",
-        "text2": "Sapien et ligula ullamcorper malesuada proin libero nunc. Sed elementum tempus egestas sed sed risus. Tempor commodo ullamcorper a lacus vestibulum sed arcu non odio. Ut pharetra sit amet aliquam id diam maecenas. Convallis convallis tellus id interdum velit laoreet id donec. Ut eu sem integer vitae justo. Faucibus a pellentesque sit amet porttitor eget. Rhoncus mattis rhoncus urna neque viverra justo nec."
+        "blurb": "Sapien et ligula ullamcorper malesuada proin libero nunc. Sed elementum tempus egestas sed sed risus. Tempor commodo ullamcorper a lacus vestibulum sed arcu non odio. Ut pharetra sit amet aliquam id diam maecenas. Convallis convallis tellus id interdum velit laoreet id donec. Ut eu sem integer vitae justo. Faucibus a pellentesque sit amet porttitor eget. Rhoncus mattis rhoncus urna neque viverra justo nec.",
+        "blurb2": "Duo sapien et ligula ullamcorper malesuada proin libero nunc. Sed elementum tempus egestas sed sed risus. Tempor commodo ullamcorper a lacus vestibulum sed arcu non odio. Ut pharetra sit amet aliquam id diam.",
+        "buttonLinks": [
+          {
+            "url": "/about",
+            "label": "Button",
+            "type": "primary"
+          }
+        ]
       },
       "order": 3
     },

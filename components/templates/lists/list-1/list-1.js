@@ -2,7 +2,7 @@ import React from "react";
 import Link from "next/link";
 import Image from "next/image";
 import getConfig from "next/config";
-import { Preheading } from "@/elements";
+import { ButtonLink, Preheading } from "@/elements";
 
 export default function List1({ content }) {
   let { collections } = content;
@@ -25,7 +25,7 @@ export default function List1({ content }) {
             items.map((item, i) => (
               <div
                 key={i}
-                className={`flex flex-col mb-24 lg:mb-40 
+                className={`flex flex-col lg:items-center mb-24 lg:mb-40 
                 ${
                   collection.list.direction && collection.list.direction === "alternating"
                     ? i % 2 === 0
@@ -51,7 +51,6 @@ export default function List1({ content }) {
                 </div>
                 <div
                   className={`relative z-10 flex-1 xl:py-20 
- 
                   ${
                     collection.list.direction && collection.list.direction === "alternating"
                       ? i % 2 === 0
@@ -65,14 +64,14 @@ export default function List1({ content }) {
                   `}
                 >
                   <Preheading attribute={item.preheading}></Preheading>
-                  <h2 className="mb-8 text-4xl font-bold leading-none text-gray-900 md:text-5xl">{item.title}</h2>
-                  <p className="mb-12">{item.excerpt}</p>
-                  {item.link && (
-                    <Link href={item.link.url}>
-                      <a className="flex items-center justify-center px-6 py-3 tracking-wide transition duration-200 ease-in-out rounded-md text-lightest bg-secondary-light sm:inline-flex hover:bg-secondary">
-                        Learn More
-                      </a>
-                    </Link>
+                  <h2 className="mb-8 text-4xl font-bold leading-none text-gray-900 md:text-5xl">{item.heading}</h2>
+                  <p className="mb-12">{item.blurb}</p>
+                  {item.buttonLinks && (
+                    <div className="flex flex-col items-center sm:flex-row">
+                      {item.buttonLinks.map((button) => {
+                        return <ButtonLink key={button.label} attribute={button}></ButtonLink>;
+                      })}
+                    </div>
                   )}
                 </div>
               </div>

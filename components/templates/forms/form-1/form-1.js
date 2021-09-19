@@ -34,8 +34,8 @@ export default function Form1({ content }) {
               {attributes.fields.map((field, i) => {
                 return <Field key={i} attribute={field}></Field>;
               })}
-              {/* FIXME */}
-              {/* <Button attribute={attributes.button}></Button> */}
+              {/* TODO: Form button needs wiring up */}
+              <Button attribute={attributes.button}></Button>
             </form>
             <style jsx>{`
               -webkit-appearance: none;

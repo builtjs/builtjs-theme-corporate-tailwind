@@ -8,7 +8,7 @@ export default function Cover1({ content }) {
   console.log("att", attributes);
   const { publicRuntimeConfig } = getConfig();
   return (
-    <section id="cover-1" className="overflow-hidden template bg-light">
+    <section id="cover-1" className="min-h-screen overflow-hidden template bg-light">
       <div className="relative flex flex-col lg:flex-row lg:py-36 ">
         <div className="relative z-20 flex-1 mb-12 lg:order-1 lg:mb-0 lg:mr-20">
           <Image
@@ -23,11 +23,13 @@ export default function Cover1({ content }) {
         </div>
         <div className="relative z-20 flex-1 px-4 mb-20 lg:py-10 xl:32 lg:my-auto">
           <div className="mx-auto text-center sm:w-4/5 lg:text-left">
-            <Preheading attribute={attributes.preheading}></Preheading>
+            <div className="flex justify-center lg:justify-start">
+              <Preheading attribute={attributes.preheading}></Preheading>
+            </div>
             <h1>{attributes.heading}</h1>
             <p className="mb-10 text-lg xl:pr-20 lg:mb-16">{attributes.blurb}</p>
             {attributes.buttonLinks && (
-              <div className="flex flex-col items-center sm:flex-row">
+              <div className="flex flex-col items-center justify-center lg:justify-start sm:flex-row">
                 {attributes.buttonLinks.map((button) => {
                   return <ButtonLink key={button.label} attribute={button}></ButtonLink>;
                 })}

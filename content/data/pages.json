@@ -35,11 +35,17 @@
             "template": {
               "slug": "list-1"
             }
-          }
-          ,{
+          },
+          {
             "slug": "home-about-teaser",
             "template": {
               "slug": "block-2"
+            }
+          },
+          {
+            "slug": "blog-item-list",
+            "template": {
+              "slug": "list-4"
             }
           }
         ]
@@ -70,7 +76,38 @@
           {
             "slug": "contact-teaser",
             "template": {
-              "slug": "banner-1"
+              "slug": "banner-3"
+            }
+          }
+        ]
+      },
+      {
+        "slug": "about",
+        "displayName": "About",
+        "status": "published",
+        "sections": [
+          {
+            "slug": "about-seo",
+            "template": {
+              "slug": "seo"
+            }
+          },
+          {
+            "slug": "about-landing",
+            "template": {
+              "slug": "cover-4"
+            }
+          },
+          {
+            "slug": "about-text",
+            "template": {
+              "slug": "block-2"
+            }
+          },
+          {
+            "slug": "contact-teaser",
+            "template": {
+              "slug": "banner-2"
             }
           }
         ]
@@ -133,36 +170,11 @@
             "template": {
               "slug": "form-1"
             }
-          }
-        ]
-      },
-      {
-        "slug": "about",
-        "displayName": "About",
-        "status": "published",
-        "sections": [
-          {
-            "slug": "about-seo",
-            "template": {
-              "slug": "seo"
-            }
-          },
-          {
-            "slug": "about-landing",
-            "template": {
-              "slug": "cover-4"
-            }
           },
           {
             "slug": "contact-teaser",
             "template": {
-              "slug": "banner-3"
-            }
-          },
-          {
-            "slug": "about-text",
-            "template": {
-              "slug": "block-2"
+              "slug": "banner-1"
             }
           }
         ]
@@ -175,7 +187,7 @@
         "status": "published",
         "sections": [
           {
-            "slug": "main-landing",
+            "slug": "contact-teaser",
             "template": {
               "slug": "banner-1"
             }
@@ -187,7 +199,7 @@
             }
           },
           {
-            "slug": "home-about-teaser",
+            "slug": "contact-teaser",
             "template": {
               "slug": "banner-3"
             }
@@ -207,7 +219,7 @@
         "status": "published",
         "sections": [
           {
-            "slug": "services-block",
+            "slug": "home-about-teaser",
             "template": {
               "slug": "block-1"
             }
@@ -263,7 +275,7 @@
             }
           },
           {
-            "slug": "features-list",
+            "slug": "benefits-list",
             "template": {
               "slug": "cards-2"
             }

@@ -1,25 +1,24 @@
-import Link from "next/link";
+import { ButtonLink, Preheading } from "@/elements";
 
-export default function Block5() {
+export default function Block5({ content }) {
+  let { attributes } = content;
   return (
     <section id="block-5" className="template">
       <div className="max-w-5xl px-4 py-20 mx-auto">
-        <h1 className="mb-8 font-bold leading-none text-center text-gray-900 text-7xl lg:text-8xl">
-          Lorem ipsum dolor
-        </h1>
-        <div className="max-w-2xl px-8 mx-auto text-center sm:px-16">
-          <p className="mb-16 text-center">
-            Faucibus a pellentesque sit amet porttitor eget. Rhoncus mattis
-            rhoncus urna neque viverra justo nec. Vitae suscipit tellus mauris a
-            diam. Id eu nisl nunc mi ipsum faucibus. Nulla facilisi nullam
-            vehicula ipsum a arcu cursus. Mi quis hendrerit dolor magna eget est
-            lorem ipsum.
-          </p>
-          <Link href="/">
-            <a className="flex items-center justify-center w-full px-6 py-3 border text-lightest transition duration-200 ease-in-out bg-secondary border-secondary rounded-md lg:inline-flex sm:w-auto hover:bg-secondary-darker hover:border-secondary-darker">
-              Button
-            </a>
-          </Link>
+        <div className="flex justify-center">
+          <Preheading attribute={attributes.preheading}></Preheading>
+        </div>
+        <h2 className="mb-8 font-bold leading-none text-center text-gray-900 text-7xl lg:text-8xl">{attributes.heading}</h2>
+        <div className="max-w-3xl px-8 mx-auto text-center sm:px-16">
+          <p className="mb-6 text-center">{attributes.blurb}</p>
+          <p className="mb-16 text-center">{attributes.blurb2}</p>
+          {attributes.buttonLinks && (
+            <div className="flex flex-col items-center justify-center sm:flex-row">
+              {attributes.buttonLinks.map((button) => {
+                return <ButtonLink key={button.label} attribute={button}></ButtonLink>;
+              })}
+            </div>
+          )}
         </div>
       </div>
     </section>
