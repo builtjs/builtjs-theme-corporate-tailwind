@@ -25,7 +25,15 @@ export default function Header1({ content }) {
           <div className="flex items-center cursor-pointer xl:mr-12">
             <Link href="/">
               <a>
-                <img className="mr-3" src={global?.logo?.url} width={global?.logo?.width} height={global?.logo?.height} alt="Logo" />
+                {/* <img className="mr-3" src={global?.logo?.url} width={global?.logo?.width} height={global?.logo?.height} alt="Logo" /> */}
+                <div className="relative">
+                  <Image
+                    src={`${publicRuntimeConfig.API_URL || ""}${global?.logo?.url}`}
+                    width={global?.logo?.width}
+                    height={global?.logo?.height}
+                    alt="Logo"
+                  />
+                </div>
               </a>
             </Link>
             <Link href="/">
