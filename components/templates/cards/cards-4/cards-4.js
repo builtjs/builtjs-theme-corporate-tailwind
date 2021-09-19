@@ -23,9 +23,6 @@ export default function Cards4({ content }) {
     <section id="cards-4" className="template">
       {attributes && (
         <div className="max-w-screen-xl px-4 py-16 mx-auto md:py-24 xl:py-32">
-          {attributes && attributes.heading && (
-            <h1 className="max-w-2xl mx-auto mb-12 text-4xl font-bold leading-none text-center text-gray-900 lg:mb-28">{attributes.heading}</h1>
-          )}
           <div className={`grid md:grid-cols-${cols} gap-6`}>
             {items &&
               items.slice(0, limit).map((item, i) => (
