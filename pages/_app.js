@@ -1,10 +1,15 @@
-import React, { useEffect } from "react";
+import { useEffect } from "react";
 import { useRouter } from "next/router";
 import "../styles/index.css";
+<<<<<<< HEAD
 import Head from "next/head";
 import { setupCrumbs } from "./../lib";
+=======
+import { setupCrumbs } from './../lib';
+import SiteApp from './_site-app';
+>>>>>>> main
 
-function MyApp({ Component, pageProps }) {
+function ThemeApp({ Component, pageProps }) {
   const router = useRouter();
 
   useEffect(() => {
@@ -12,6 +17,7 @@ function MyApp({ Component, pageProps }) {
     setupCrumbs(router);
   }, [router]);
 
+<<<<<<< HEAD
   return (
     <>
       <Head>
@@ -20,6 +26,9 @@ function MyApp({ Component, pageProps }) {
       <Component {...pageProps} />
     </>
   );
+=======
+  return SiteApp({ Component, pageProps });
+>>>>>>> main
 }
 
-export default MyApp;
+export default ThemeApp;

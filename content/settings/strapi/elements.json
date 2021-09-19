@@ -85,7 +85,7 @@
           "icon": "heading"
         },
         "attributes": {
-          "svgPath": {
+          "svgPaths": {
             "type": "string"
           },
           "pathTransform": {
