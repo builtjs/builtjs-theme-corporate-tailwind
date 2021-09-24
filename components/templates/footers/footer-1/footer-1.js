@@ -13,7 +13,7 @@ export default function Footer1({ content, app }) {
     socialLinks = collections["social-links"].items;
   }
   return (
-    <footer id="footer-1" className="template bg-darkest px-5 pt-12 pb-8">
+    <footer id="footer-1" className="px-5 pt-12 pb-8 template bg-darkest">
       <ul className="flex flex-wrap items-center justify-center mb-10">
         {primaryMenuItems.map(({ label, url }, i) => (
           <li key={i}>
@@ -68,7 +68,7 @@ export default function Footer1({ content, app }) {
 //     socialLinks = collections["social-links"].items;
 //   }
 //   return (
-//     <footer id="footer-1" className="template bg-darkest px-5 pt-12 pb-8">
+//     <footer id="footer-1" className="px-5 pt-12 pb-8 template bg-darkest">
 //       <ul className="flex flex-wrap items-center justify-center mb-10">
 //         {primaryMenuItems.map(({ label, url }, i) => (
 //           <li key={i}>

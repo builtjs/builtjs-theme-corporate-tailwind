@@ -5,7 +5,7 @@ export default function SocialLink({ attribute }) {
     <Link key={attribute.url} href={attribute.url}>
       <a>
         <svg
-          className="text-gray-600 dark:text-gray-400 w-6 mr-6"
+          className="w-6 mr-6 text-gray-600 dark:text-gray-400"
           xmlns="http://www.w3.org/2000/svg"
           width="100%"
           height="100%"

@@ -9,24 +9,14 @@ export default function TemplateMenuBtn({ router }) {
 
   return (
     <div className="template-menu">
-      <div className="tabs" className={"tabs " + (!on ? "closed" : "")}>
+      <div className={"tabs " + (!on ? "closed" : "")}>
         {pages &&
           pages.templates &&
           pages.templates.map((template, i) => {
             return (
               <React.Fragment key={i}>
-                <input
-                  type="radio"
-                  id={`radio-${i}`}
-                  name="tabs"
-                  checked={slug === template.slug}
-                  readOnly
-                />
-                <label
-                  className="tab dark:text-lightest"
-                  htmlFor={`radio-${i}`}
-                  onClick={() => router.push(`/templates/${template.slug}`)}
-                >
+                <input type="radio" id={`radio-${i}`} name="tabs" checked={slug === template.slug} readOnly />
+                <label className="tab dark:text-lightest" htmlFor={`radio-${i}`} onClick={() => router.push(`/templates/${template.slug}`)}>
                   {template.displayName}
                 </label>
               </React.Fragment>
@@ -37,10 +27,7 @@ export default function TemplateMenuBtn({ router }) {
       </div>
       <div className="mask bg-secondary"></div>
       <button className="bg-secondary">
-        <div
-          className={"menu-toggle " + (on ? "is-active" : "")}
-          onClick={toggle}
-        ></div>
+        <div className={"menu-toggle " + (on ? "is-active" : "")} onClick={toggle}></div>
       </button>
       <style jsx>
         {`
@@ -53,7 +40,7 @@ export default function TemplateMenuBtn({ router }) {
           }
           .template-menu {
             position: relative;
-            top:10px;
+            top: 10px;
             right: 0;
             z-index: 100;
           }

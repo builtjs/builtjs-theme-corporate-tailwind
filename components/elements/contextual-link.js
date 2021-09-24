@@ -4,7 +4,7 @@ export default function ContextualLink({ attribute }) {
   return (
     <div key={attribute.url} className="flex items-start mb-10 mr-20">
       <svg
-        className="text-gray-600 w-5 mt-1 mr-5"
+        className="w-5 mt-1 mr-5 text-gray-600"
         xmlns="http://www.w3.org/2000/svg"
         width="100%"
         height="100%"

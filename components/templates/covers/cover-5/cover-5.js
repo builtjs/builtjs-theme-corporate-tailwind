@@ -1,50 +1,29 @@
+import React from "react";
+import { ButtonLink, Preheading } from "@/elements";
+
 export default function Cover5({ content }) {
   let { attributes } = content;
   return (
-    <section id="cover-5" className="template">
-      <div className="relative px-4 py-32 bg-gray-100 services-bg-image">
-        <div className="relative z-10 max-w-3xl mx-auto text-center">
-          <h4 className="preheading-primary">
-            { attributes.preheading.text }
-          </h4>
-          <h1 className="mb-10 text-4xl font-bold leading-none md:text-5xl dark:text-darkest">
-            {attributes.heading}
-          </h1>
-          <p className="max-w-xl mx-auto mb-12 font-light leading-loose dark:text-darkest">
-            {attributes.blurb}
-          </p>
-          <svg 
-            className="w-12 mx-auto text-darkest dark:text-darkest"
-            xmlns="http://www.w3.org/2000/svg"
-            width="26"
-            height="14"
-            fill="none"
-          >
-            <path
-              xmlns="http://www.w3.org/2000/svg"
-              d="M1 1l20 12L41 1"
-              stroke="currentColor"
-              strokeWidth="2"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-            />
-          </svg>
+    <section id="cover-5" className="min-h-screen template">
+      <div className="relative min-h-screen px-4 py-32 bg-gray-100 services-bg-image">
+        <div className="max-w-screen-xl mx-auto">
+          <div className="relative z-10 max-w-3xl p-8 ml-auto bg-white rounded-lg lg:p-14 bg-opacity-90">
+            <Preheading attribute={attributes.preheading}></Preheading>
+            <h1 className="mb-6 text-4xl font-bold leading-none md:text-5xl dark:text-darkest">{attributes.heading}</h1>
+            <p className="max-w-xl mb-16 font-light leading-loose dark:text-darkest">{attributes.blurb}</p>
+            {attributes.buttonLinks && (
+              <div className="flex flex-col items-center sm:flex-row">
+                {attributes.buttonLinks.map((button) => {
+                  return <ButtonLink key={button.label} attribute={button}></ButtonLink>;
+                })}
+              </div>
+            )}
+          </div>
         </div>
       </div>
       <style jsx>{`
         .services-bg-image {
-          background: #f7fafc url("https://source.unsplash.com/vbxyFxlgpjM")
-            no-repeat top center/cover;
-        }
-
-        .services-bg-image::after {
-          content: "";
-          width: 100%;
-          height: 100%;
-          position: absolute;
-          top: 0;
-          left: 0;
-          background-color: rgba(247, 250, 252, 0.9);
+          background: #f7fafc url("/images/main-landing.jpg") no-repeat top center/cover;
         }
       `}</style>
     </section>

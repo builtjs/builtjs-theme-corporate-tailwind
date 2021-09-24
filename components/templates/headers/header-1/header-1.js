@@ -1,3 +1,5 @@
+import React from "react";
+import Image from "next/image";
 import Link from "next/link";
 import getConfig from "next/config";
 import { useRouter } from "next/router";
@@ -23,19 +25,19 @@ export default function Header1({ content }) {
           <div className="flex items-center cursor-pointer xl:mr-12">
             <Link href="/">
               <a>
-                <img
-                  className="mr-3"
-                  src={global?.logo?.url}
-                  width={global?.logo?.width}
-                  height={global?.logo?.height}
-                  alt="Logo"
-                />
+                {/* <img className="mr-3" src={global?.logo?.url} width={global?.logo?.width} height={global?.logo?.height} alt="Logo" /> */}
+                <div className="relative">
+                  <Image
+                    src={`${publicRuntimeConfig.API_URL || ""}${global?.logo?.url}`}
+                    width={global?.logo?.width}
+                    height={global?.logo?.height}
+                    alt="Logo"
+                  />
+                </div>
               </a>
             </Link>
             <Link href="/">
-              <a className="text-xl font-bold text-darkest dark:text-lightest uppercase">
-                {global.name}
-              </a>
+              <a className="ml-3 text-xl font-bold uppercase text-darkest dark:text-lightest">{global.name}</a>
             </Link>
           </div>
           <ul
@@ -47,12 +49,9 @@ export default function Header1({ content }) {
             {menuItems &&
               menuItems.map((menuItem) => {
                 return (
-                  <li
-                    key={menuItem.label}
-                    className={router.pathname == menuItem.url ? "active" : ""}
-                  >
+                  <li key={menuItem.label} className={router.pathname == menuItem.url ? "active" : ""}>
                     <Link href={menuItem.url}>
-                      <a className="flex justify-center w-full p-3 text-gray-600 dark:text-lightest hover:text-gray-900 hover:bg-gray-100 dark:hover:text-gray-900 transition duration-200 ease-in-out rounded-md md:w-auto">
+                      <a className="flex justify-center w-full p-3 text-gray-600 transition duration-200 ease-in-out rounded-md dark:text-lightest hover:text-gray-900 hover:bg-gray-100 dark:hover:text-gray-900 md:w-auto">
                         {menuItem.label}
                       </a>
                     </Link>
@@ -61,16 +60,10 @@ export default function Header1({ content }) {
               })}
           </ul>
 
-          <button
-            className="button md:hidden hover:cursor-pointer"
-            onClick={() => setNavbarOpen(!navbarOpen)}
-          >
-            <div className="relative w-12 h-12 transition-colors duration-200 ease-in-out bg-secondary-light rounded-md hover:bg-secondary">
+          <button className="button md:hidden hover:cursor-pointer" onClick={() => setNavbarOpen(!navbarOpen)}>
+            <div className="relative w-12 h-12 transition-colors duration-200 ease-in-out rounded-md bg-secondary-light hover:bg-secondary">
               <svg
-                className={
-                  "p-3 w-12 absolute top-0 left-0 transition-opacity duration-200 ease-in-out" +
-                  (navbarOpen ? " opacity-0" : " opacity-100")
-                }
+                className={"p-3 w-12 absolute top-0 left-0 transition-opacity duration-200 ease-in-out" + (navbarOpen ? " opacity-0" : " opacity-100")}
                 xmlns="http://www.w3.org/2000/svg"
                 fill="currentColor"
                 height="100%"
@@ -85,8 +78,7 @@ export default function Header1({ content }) {
               </svg>
               <svg
                 className={
-                  "py-3 pl-4 pr-2 w-12 absolute top-0 left-0 transition-opacity duration-200 ease-in-out" +
-                  (navbarOpen ? " opacity-100" : " opacity-0")
+                  "py-3 pl-4 pr-2 w-12 absolute top-0 left-0 transition-opacity duration-200 ease-in-out" + (navbarOpen ? " opacity-100" : " opacity-0")
                 }
                 xmlns="http://www.w3.org/2000/svg"
                 fill="currentColor"
@@ -94,13 +86,7 @@ export default function Header1({ content }) {
                 width="100%"
                 viewBox="0 0 24 16"
               >
-                <path
-                  d="M14.34 1L1 14.34m13.34 0L1 1l13.34 13.34z"
-                  stroke="#fff"
-                  strokeWidth="2"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                />
+                <path d="M14.34 1L1 14.34m13.34 0L1 1l13.34 13.34z" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
               </svg>
             </div>
           </button>

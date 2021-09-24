@@ -1,8 +1,8 @@
 import { useEffect } from "react";
 import { useRouter } from "next/router";
 import "../styles/index.css";
-import { setupCrumbs } from './../lib';
-import SiteApp from './_site-app';
+import { setupCrumbs } from "./../lib";
+import SiteApp from "../components/templates/head/_site-app";
 
 function ThemeApp({ Component, pageProps }) {
   const router = useRouter();
@@ -10,7 +10,7 @@ function ThemeApp({ Component, pageProps }) {
   useEffect(() => {
     // Display crumb (label with template name) when template is hovered over
     setupCrumbs(router);
-  }, []);
+  }, [router]);
 
   return SiteApp({ Component, pageProps });
 }
