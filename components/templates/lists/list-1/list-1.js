@@ -8,7 +8,9 @@ export default function List1({ content }) {
   let { collections } = content;
   const { publicRuntimeConfig } = getConfig();
   if (!collections) {
-    throw new Error(`No collections attribute provided in sections.json for template`);
+    throw new Error(
+      `No collections attribute provided in sections.json for template`
+    );
   }
   let collectionName = Object.keys(collections)[0];
   let collection = collections[collectionName];
@@ -26,21 +28,15 @@ export default function List1({ content }) {
               <div
                 key={i}
                 className={`flex flex-col lg:items-center mb-24 lg:mb-40 
-                ${
-                  collection.list.direction && collection.list.direction === "alternating"
-                    ? i % 2 === 0
-                      ? "lg:flex-row"
-                      : "lg:flex-row-reverse"
-                    : collection.list.direction === "row-reverse"
-                    ? "lg:flex-row-reverse"
-                    : "lg:flex-row"
-                }`}
+                ${i % 2 === 0 ? "lg:flex-row" : "lg:flex-row-reverse"}`}
               >
                 <div className="relative flex-1">
                   <div className="relative mb-12 lg:mb-0">
                     <Image
                       className="bg-gray-100 rounded-lg"
-                      src={`${publicRuntimeConfig.API_URL || ""}${item.image.url}`}
+                      src={`${publicRuntimeConfig.API_URL || ""}${
+                        item.image.url
+                      }`}
                       width={item.image.width}
                       height={item.image.height}
                       layout="responsive"
@@ -51,25 +47,23 @@ export default function List1({ content }) {
                 </div>
                 <div
                   className={`relative z-10 flex-1 xl:py-20 
-                  ${
-                    collection.list.direction && collection.list.direction === "alternating"
-                      ? i % 2 === 0
-                        ? "lg:pl-20"
-                        : "lg:pr-20"
-                      : collection.list.direction === "row-reverse"
-                      ? "lg:pr-20"
-                      : "lg:pl-20"
-                  }
-                  
+                  ${i % 2 === 0 ? "lg:pl-20" : "lg:pr-20"}
                   `}
                 >
                   <Preheading attribute={item.preheading}></Preheading>
-                  <h2 className="mb-8 text-4xl font-bold leading-none text-gray-900 md:text-5xl">{item.heading}</h2>
+                  <h2 className="mb-8 text-4xl font-bold leading-none text-gray-900 md:text-5xl">
+                    {item.heading}
+                  </h2>
                   <p className="mb-12">{item.blurb}</p>
                   {item.buttonLinks && (
                     <div className="flex flex-col items-center sm:flex-row">
                       {item.buttonLinks.map((button) => {
-                        return <ButtonLink key={button.label} attribute={button}></ButtonLink>;
+                        return (
+                          <ButtonLink
+                            key={button.label}
+                            attribute={button}
+                          ></ButtonLink>
+                        );
                       })}
                     </div>
                   )}
