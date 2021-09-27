@@ -159,11 +159,7 @@
       "description": "Etiam imperdiet tincidunt magna sit amet vehicula. In vulputate neque non pretium faucibus. Cras gravida consectetur lorem, in dapibus sapien cursus sed. Cras consequat in leo id volutpat.",
       "templates": ["list-1"],
       "collections": {
-        "benefits": {
-          "list": {
-            "direction": "alternating"
-          }
-        }
+        "benefits": {}
       },
       "order": 5
     },
