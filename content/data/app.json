@@ -4,6 +4,8 @@
       "description": "Small business theme with basic Tailwind styling.",
       "url": "https://builtjs-site-ta.vercel.app",
       "imageUrl": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/main/images/main-landing-md.jpg",
+      "repoName": "https://github.com/builtjs/builtjs-theme-corporate-tailwind",
+      "gitProvider": "github",
       "repoUrl": "https://github.com/builtjs/builtjs-theme-corporate-tailwind",
       "modules": [
         {
