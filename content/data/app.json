@@ -1,5 +1,6 @@
 {
     "app": {
+      "version": 1.0,
       "displayName": "Corporate Tailwind",
       "description": "Small business theme with basic Tailwind styling.",
       "url": "https://builtjs-site-ta.vercel.app",
