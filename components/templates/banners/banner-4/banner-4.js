@@ -1,14 +1,14 @@
 import { ButtonLink } from "@/elements";
 
-export default function Banner2({ content }) {
+export default function Banner4({ content }) {
   let { attributes, variants } = content;
   const backgroundColor = variants && variants.backgroundColor ? `bg-${variants.backgroundColor}` : "";
   return (
-    <section id="banner-2" className={`template p-0 ${backgroundColor}`}>
-      <div className="px-4 py-20 bg-gray-100 dark:bg-gray-700">
-        <div className="mx-auto max-w-screen-lg">
+    <section id="banner-4" className={`template ${backgroundColor}`}>
+      <div className="mx-auto max-w-screen-lg">
+        <div className="px-4 py-20 text-center bg-gray-100 rounded-lg dark:bg-gray-700">
           <h2>{attributes.heading}</h2>
-          <p className="max-w-xl mb-12 text-lg">{attributes.blurb}</p>
+          <p className="max-w-xl mx-auto mb-12 text-lg">{attributes.blurb}</p>
           {attributes.buttonLinks &&
             attributes.buttonLinks.map((button) => {
               return <ButtonLink key={button.type} attribute={button}></ButtonLink>;

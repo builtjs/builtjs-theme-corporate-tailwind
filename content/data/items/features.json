@@ -3,15 +3,15 @@
     {
       "slug": "feature-1",
       "preheading": {
-        "text": "Feature 1",
-        "type": "dot"
+        "text": "Preheading",
+        "type": ""
       },
       "heading": "Lorem ipsum dolor sit amet",
-      "blurb": "Viverra nibh cras pulvinar mattis nunc sed blandit libero volutpat. Ante metus dictum at tempor commodo ullamcorper.",
+      "blurb": "Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       "image": {
-        "url": "/images/main-landing.jpg",
-        "width": 1080,
-        "height": 720
+        "url": "/images/image.png",
+        "width": 1280,
+        "height": 768
       },
       "buttonLinks": [
         {
@@ -24,15 +24,15 @@
     {
       "slug": "feature-2",
       "preheading": {
-        "text": "Feature 2",
-        "type": "dot"
+        "text": "Preheading",
+        "type": ""
       },
       "heading": "Lorem ipsum dolor sit amet",
-      "blurb": "Leo in vitae turpis massa sed elementum tempus. Blandit volutpat maecenas volutpat blandit aliquam etiam erat.",
+      "blurb": "Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       "image": {
-        "url": "/images/main-landing.jpg",
-        "width": 1080,
-        "height": 720
+        "url": "/images/image.png",
+        "width": 1280,
+        "height": 768
       },
       "buttonLinks": [
         {
@@ -45,15 +45,15 @@
     {
       "slug": "feature-3",
       "preheading": {
-        "text": "Feature 3",
-        "type": "dot"
+        "text": "Preheading",
+        "type": ""
       },
       "heading": "Lorem ipsum dolor sit amet",
-      "blurb": "Tristique senectus et netus et malesuada fames ac turpis. Aliquam nulla facilisi cras fermentum odio uno.",
+      "blurb": "Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       "image": {
-        "url": "/images/main-landing.jpg",
-        "width": 1080,
-        "height": 720
+        "url": "/images/image.png",
+        "width": 1280,
+        "height": 768
       },
       "buttonLinks": [
         {

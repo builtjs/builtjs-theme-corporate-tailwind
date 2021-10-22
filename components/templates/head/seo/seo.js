@@ -2,7 +2,8 @@ import Head from "next/head";
 
 export default function Seo({ content }) {
   let { attributes } = content;
-  return (<Head>
+  return (
+    <Head>
       {attributes.title && (
         <>
           <title>{attributes.title}</title>
@@ -26,6 +27,6 @@ export default function Seo({ content }) {
       )}
       {attributes.article && <meta property="og:type" content="article" />}
       <meta name="twitter:card" content="summary_large_image" />
-      </Head>
+    </Head>
   );
 }

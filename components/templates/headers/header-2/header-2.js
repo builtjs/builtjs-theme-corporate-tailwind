@@ -6,7 +6,7 @@ import { useRouter } from "next/router";
 import { ButtonLink } from "@/elements";
 import ModeToggleBtn from "../../../elements/mode-toggle-btn";
 
-export default function Header1({ content }) {
+export default function Header2({ content }) {
   let { attributes, collections, global } = { ...content };
   const { publicRuntimeConfig } = getConfig();
   const collectionNames = {
@@ -20,12 +20,12 @@ export default function Header1({ content }) {
   const [navbarOpen, setNavbarOpen] = React.useState(false);
 
   return (
-    <header id="header-1" className="template">
+    <header id="header-2" className="template">
       <section className="p-4 border-b border-gray-200 dark:border-gray-700">
         <div className="mx-auto max-w-screen-xl">
           <nav className="flex flex-wrap items-center">
             <Link href="/">
-              <a className="flex items-center pr-10 mr-auto">
+              <a className="flex items-center pr-10 mr-4">
                 <span className="relative w-10">
                   <Image
                     className="text-gray-400 bg-white fill-current dark:bg-gray-800"
@@ -59,7 +59,9 @@ export default function Header1({ content }) {
                 })}
             </ul>
 
-            <ModeToggleBtn />
+            <div className="ml-auto">
+              <ModeToggleBtn />
+            </div>
 
             <button className="ml-4 button md:hidden hover:cursor-pointer" onClick={() => setNavbarOpen(!navbarOpen)}>
               <div className="relative w-12 h-12 bg-black transition-colors duration-200 ease-in-out rounded-md hover:bg-gray-800">

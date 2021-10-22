@@ -1,6 +1,11 @@
 {
   "items": [
     {
+      "slug": "productss",
+      "label": "Products",
+      "url": "/products"
+    },
+    {
       "slug": "services",
       "label": "Services",
       "url": "/services"

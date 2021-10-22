@@ -2,28 +2,19 @@ import Link from "next/link";
 
 export default function ContextualLink({ attribute }) {
   return (
-    <div key={attribute.url} className="flex items-start mb-10 mr-20">
+    <div key={attribute.url} className="flex items-start">
       <svg
-        className="w-5 mt-1 mr-5 text-gray-600"
+        className="w-5 mt-1 mr-5 text-black dark:text-white"
         xmlns="http://www.w3.org/2000/svg"
-        width="100%"
-        height="100%"
-        viewBox={
-          "0 0 " + attribute.icon.viewboxWidth + " " + attribute.icon.viewboxHeight
-        }
+        viewBox={"0 0 " + attribute.icon.viewboxWidth + " " + attribute.icon.viewboxHeight}
         fill="currentColor"
       >
         <path d={attribute.icon.svgPath} transform={attribute.icon.pathTransform}></path>
       </svg>
       <div>
         <p>{attribute.text}</p>
-        <Link href="#">
-          <a
-            className="font-light text-secondary hover:text-secondary-dark hover:underline"
-            href={attribute.url}
-          >
-            {attribute.label}
-          </a>
+        <Link href={attribute.url}>
+          <a>{attribute.label}</a>
         </Link>
       </div>
     </div>

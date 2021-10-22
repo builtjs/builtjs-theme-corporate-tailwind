@@ -1,46 +1,62 @@
-import React from "react";
+import Image from "next/image";
+import getConfig from "next/config";
 import { ButtonLink, Preheading } from "@/elements";
 
 export default function Cover2({ content }) {
   let { attributes } = content;
+  const { publicRuntimeConfig } = getConfig();
+
   return (
-    <article id="cover-2" className="relative flex items-center min-h-screen px-4 py-20 template lg:py-32 xl:py-48 bg-image">
-      <div className="max-w-4xl mx-auto text-center">
-        <div className="flex justify-center">
-          <Preheading attribute={attributes.preheading}></Preheading>
-        </div>
-        <h1 className="mb-8 text-6xl font-bold leading-none dark:text-gray-900 lg:text-8xl">{attributes.heading}</h1>
-        <p className="max-w-xl mx-auto mb-16 text-lg font-light leading-8 text-gray-700">{attributes.blurb}</p>
-        <div className="flex flex-col items-center justify-center max-w-xl mx-auto sm:flex-row">
-          {attributes.buttonLinks && (
-            <div className="flex flex-col items-center sm:flex-row">
-              {attributes.buttonLinks.map((button) => {
-                return <ButtonLink key={button.label} attribute={button}></ButtonLink>;
+    <section id="cover-2" className="p-0 template">
+      <div className="mx-auto lg:flex lg:items-center lg:min-h-screen max-w-screen-2xl">
+        <div className="items-center grid grid-cols-1 gap-x-28 lg:grid-cols-2">
+          <div className="p-4 lg:order-last">
+            <Image
+              className="rounded-full"
+              src={`${publicRuntimeConfig.API_URL || ""}${attributes.image.url}`}
+              width={attributes.image.width}
+              height={attributes.image.height}
+              layout="responsive"
+              objectFit="cover"
+              alt=""
+            />
+          </div>
+          <div className="px-4 pt-10 pb-20 lg:py-40">
+            <Preheading attribute={attributes.preheading}></Preheading>
+            <h1>{attributes.heading}</h1>
+            <p className="mb-12 text-lg">{attributes.blurb}</p>
+            {attributes.buttonLinks &&
+              attributes.buttonLinks.map((button) => {
+                return <ButtonLink key={button.type} attribute={button}></ButtonLink>;
               })}
-            </div>
-          )}
+          </div>
         </div>
       </div>
-      <style jsx>{`
-        .bg-image {
-          background: #f7fafc url("/images/main-landing.jpg") no-repeat top center/cover;
-        }
 
-        .bg-image::after {
-          content: "";
-          width: 100%;
-          height: 100%;
-          position: absolute;
-          top: 0;
-          left: 0;
-          background-color: rgba(247, 250, 252, 0.9);
-        }
-
-        .bg-image > * {
-          position: relative;
-          z-index: 1;
-        }
-      `}</style>
-    </article>
+      {/* <div className="flex items-center min-h-screen mx-auto max-w-screen-2xl">
+        <div className="items-center grid grid-cols-1 gap-x-28 gap-y-12 lg:grid-cols-2">
+          <div className="relative w-full lg:order-last">
+            <Image
+              className="rounded-full"
+              src={`${publicRuntimeConfig.API_URL || ""}${attributes.image.url}`}
+              width={attributes.image.width}
+              height={attributes.image.height}
+              layout="responsive"
+              objectFit="cover"
+              alt=""
+            />
+          </div>
+          <div>
+            <Preheading attribute={attributes.preheading}></Preheading>
+            <h1>{attributes.heading}</h1>
+            <p className="mb-12 text-lg">{attributes.blurb}</p>
+            {attributes.buttonLinks &&
+              attributes.buttonLinks.map((button) => {
+                return <ButtonLink key={button.type} attribute={button}></ButtonLink>;
+              })}
+          </div>
+        </div>
+      </div> */}
+    </section>
   );
 }
