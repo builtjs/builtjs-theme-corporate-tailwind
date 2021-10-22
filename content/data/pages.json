@@ -5,6 +5,9 @@
         "slug": "home",
         "displayName": "Home",
         "status": "published",
+        "head": {
+          "slug": "home-seo"
+        },
         "sections": [
           {
             "slug": "home-seo",
@@ -54,6 +57,9 @@
         "slug": "services",
         "displayName": "Services",
         "status": "published",
+        "head": {
+          "slug": "services-seo"
+        },
         "sections": [
           {
             "slug": "services-seo",
@@ -85,6 +91,9 @@
         "slug": "about",
         "displayName": "About",
         "status": "published",
+        "head": {
+          "slug": "about-seo"
+        },
         "sections": [
           {
             "slug": "about-seo",
@@ -115,6 +124,9 @@
       {
         "slug": "blog",
         "displayName": "Blog",
+        "head": {
+          "slug": "blog-seo"
+        },
         "sections": [
           {
             "slug": "blog-seo",
@@ -158,6 +170,9 @@
         "slug": "contact",
         "displayName": "Contact",
         "status": "published",
+        "head": {
+          "slug": "contact-seo"
+        },
         "sections": [
           {
             "slug": "contact-seo",

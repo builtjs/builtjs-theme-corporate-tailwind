@@ -26,9 +26,6 @@
     },
     {
       "slug": "blog",
-      "head": {
-        "slug": "blog-seo"
-      },
       "item": {
         "slug": "blog-item",
         "contentType": "blog-item"
