@@ -3,15 +3,15 @@
     {
       "slug": "benefits-1",
       "preheading": {
-        "text": "Benefit 1",
+        "text": "Preheading",
         "type": "dot"
       },
       "heading": "Lorem ipsum dolor sit amet",
-      "blurb": "Consectetur adipiscing elit. Integer placerat scelerisque leo, ac tincidunt ex feugiat vel. Nunc volutpat ex libero, vel imperdiet urna facilisis a. Nullam ac magna quis nunc tempor maximus eget at ligula.",
+      "blurb": "Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       "image": {
-        "url": "/images/main-landing.jpg",
-        "width": 1080,
-        "height": 720
+        "url": "/images/image.png",
+        "width": 1280,
+        "height": 768
       },
       "buttonLinks": [
         {
@@ -24,15 +24,36 @@
     {
       "slug": "benefits-2",
       "preheading": {
-        "text": "Benefit 2",
+        "text": "Preheading",
         "type": "dot"
       },
       "heading": "Lorem ipsum dolor sit amet",
-      "blurb": "Consectetur adipiscing elit. Integer placerat scelerisque leo, ac tincidunt ex feugiat vel. Nunc volutpat ex libero, vel imperdiet urna facilisis a. Nullam ac magna quis nunc tempor maximus eget at ligula.",
+      "blurb": "Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       "image": {
-        "url": "/images/main-landing.jpg",
-        "width": 1080,
-        "height": 720
+        "url": "/images/image.png",
+        "width": 1280,
+        "height": 768
+      },
+      "buttonLinks": [
+        {
+          "url": "/about",
+          "label": "Button",
+          "type": "primary"
+        }
+      ]
+    },
+    {
+      "slug": "benefits-3",
+      "preheading": {
+        "text": "Preheading",
+        "type": "dot"
+      },
+      "heading": "Lorem ipsum dolor sit amet",
+      "blurb": "Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "image": {
+        "url": "/images/image.png",
+        "width": 1280,
+        "height": 768
       },
       "buttonLinks": [
         {

@@ -223,7 +223,7 @@
       "slug": "contact-landing",
       "category": "forms",
       "settings": {
-        "collectionName": "components_sections_ontact-landing",
+        "collectionName": "components_sections_contact-landing",
         "info": { "name": "Contact landing", "icon": "heading" },
         "attributes": {
           "preheading": {

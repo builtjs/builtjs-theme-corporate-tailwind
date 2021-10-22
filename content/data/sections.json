@@ -15,8 +15,8 @@
         },
         "buttonLinks": [
           {
-            "url": "/contact",
-            "label": "Get started",
+            "url": "",
+            "label": "Button",
             "type": "secondary"
           }
         ]
@@ -47,9 +47,9 @@
         "title": "Home | Windy Built.JS Theme",
         "description": "Home page for a site built with the Buit.JS Windy theme.",
         "shareImage": {
-          "url": "/images/main-landing.jpg",
-          "width": 1080,
-          "height": 720
+          "url": "/images/image.png",
+          "width": 1280,
+          "height": 768
         },
         "twitterCardType": "summary",
         "twitterUsername": ""
@@ -64,25 +64,25 @@
       "templates": ["cover-1"],
       "attributes": {
         "preheading": {
-          "text": "Welcome to",
+          "text": "Preheading",
           "type": "line"
         },
-        "heading": "Sem nulla pharetra diam sit amet",
-        "blurb": "Nunc faucibus a pellentesque sit amet porttitor eget dolor morbi. Cursus vitae congue mauris rhoncus. Orci sagittis eu volutpat.",
+        "heading": "Lorem ipsum dolor sit amet",
+        "blurb": "Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
         "image": {
-          "url": "/images/main-landing.jpg",
-          "width": 1080,
-          "height": 720
+          "url": "/images/image.png",
+          "width": 1280,
+          "height": 768
         },
         "buttonLinks": [
           {
-            "url": "/contact",
-            "label": "Get a quote",
+            "url": "",
+            "label": "Button",
             "type": "primary"
           },
           {
-            "url": "/services",
-            "label": "Our services",
+            "url": "",
+            "label": "Button",
             "type": "secondary"
           }
         ]
@@ -107,11 +107,11 @@
       "description": "Etiam imperdiet tincidunt magna sit amet vehicula. In vulputate neque non pretium faucibus. Cras gravida consectetur lorem, in dapibus sapien cursus sed. Cras consequat in leo id volutpat.",
       "templates": ["banner-1"],
       "attributes": {
-        "heading": "Lorem ipsum dolor sit amet nunc",
-        "blurb": "Nunc faucibus a pellentesque sit amet porttitor eget dolor morbi. Cursus vitae congue mauris rhoncus. Orci sagittis eu volutpat.",
+        "heading": "Lorem ipsum dolor sit amet",
+        "blurb": "Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
         "buttonLinks": [
           {
-            "url": "/contact",
+            "url": "",
             "label": "Button",
             "type": "primary"
           }
@@ -130,15 +130,15 @@
       "templates": ["block-1", "block-2", "block-3", "block-4", "block-5"],
       "attributes": {
         "preheading": {
-          "text": "Maecenas Accumsan",
-          "type": "line"
+          "text": "Preheading",
+          "type": ""
         },
-        "heading": "Turpis in eu mi biben dum neque egestas",
-        "blurb": "Sapien et ligula ullamcorper malesuada proin libero nunc. Sed elementum tempus egestas sed sed risus. Tempor commodo ullamcorper a lacus vestibulum sed arcu non odio. Ut pharetra sit amet aliquam id diam maecenas. Convallis convallis tellus id interdum velit laoreet id donec. Ut eu sem integer vitae justo. Faucibus a pellentesque sit amet porttitor eget. Rhoncus mattis rhoncus urna neque viverra justo nec.",
-        "blurb2": "Duo sapien et ligula ullamcorper malesuada proin libero nunc. Sed elementum tempus egestas sed sed risus. Tempor commodo ullamcorper a lacus vestibulum sed arcu non odio. Ut pharetra sit amet aliquam id diam.",
+        "heading": "Lorem ipsum dolor sit amet",
+        "blurb": "Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur excepteur sint occaecat cupidatat non proident.",
+        "blurb2": "Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur excepteur sint occaecat cupidatat non proident.",
         "buttonLinks": [
           {
-            "url": "/about",
+            "url": "",
             "label": "Button",
             "type": "primary"
           }
@@ -153,13 +153,59 @@
       "description": "Etiam imperdiet tincidunt magna sit amet vehicula. In vulputate neque non pretium faucibus. Cras gravida consectetur lorem, in dapibus sapien cursus sed. Cras consequat in leo id volutpat.",
       "templates": ["list-1"],
       "collections": {
-        "benefits": {
-          "list": {
-            "direction": "alternating"
-          }
-        }
+        "benefits": {}
       },
       "order": 5
+    },
+    {
+      "slug": "products-seo",
+      "displayName": "Products SEO",
+      "category": "seo",
+      "attributes": {
+        "title": "Products | Windy Built.JS Theme",
+        "description": "Productss page for a site built with the Buit.JS Windy theme.",
+        "shareImage": {
+          "url": "/images/image.png",
+          "width": 1280,
+          "height": 768
+        },
+        "twitterCardType": "summary",
+        "twitterUsername": ""
+      },
+      "order": 0
+    },
+    {
+      "slug": "products-landing",
+      "category": "sections",
+      "displayName": "products Landing",
+      "description": "Etiam imperdiet tincidunt magna sit amet vehicula. In vulputate neque non pretium faucibus. Cras gravida consectetur lorem, in dapibus sapien cursus sed. Cras consequat in leo id volutpat.",
+      "templates": ["cover-5"],
+      "attributes": {
+        "preheading": {
+          "text": "Preheading",
+          "type": ""
+        },
+        "heading": "Lorem ipsum dolor sit amet",
+        "blurb": "Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "image": {
+          "url": "/images/image.png",
+          "width": 1280,
+          "height": 768
+        },
+        "buttonLinks": [
+          {
+            "url": "",
+            "label": "Button",
+            "type": "primary"
+          },
+          {
+            "url": "",
+            "label": "Button",
+            "type": "secondary"
+          }
+        ]
+      },
+      "order": 2
     },
     {
       "slug": "services-seo",
@@ -169,9 +215,9 @@
         "title": "Services | Windy Built.JS Theme",
         "description": "Services page for a site built with the Buit.JS Windy theme.",
         "shareImage": {
-          "url": "/images/main-landing.jpg",
-          "width": 1080,
-          "height": 720
+          "url": "/images/image.png",
+          "width": 1280,
+          "height": 768
         },
         "twitterCardType": "summary",
         "twitterUsername": ""
@@ -186,25 +232,25 @@
       "templates": ["cover-5"],
       "attributes": {
         "preheading": {
-          "text": "Our Services",
-          "type": "plain"
+          "text": "Preheading",
+          "type": "line"
         },
-        "heading": "Aliquam nulla facilisi cras fermentum odio",
-        "blurb": "Scelerisque felis imperdiet proin fermentum leo vel orci porta non. Massa tincidunt dui ut ornare. Nibh condimentum id venenatis anire un yunicd condimentum vitae sapien. Id porta nibh venenatis.",
+        "heading": "Lorem ipsum dolor sit amet",
+        "blurb": "Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
         "image": {
-          "url": "/images/main-landing.jpg",
-          "width": 1080,
-          "height": 720
+          "url": "/images/image.png",
+          "width": 1280,
+          "height": 768
         },
         "buttonLinks": [
           {
-            "url": "/contact",
-            "label": "Get a quote",
+            "url": "",
+            "label": "Button",
             "type": "primary"
           },
           {
-            "url": "/services",
-            "label": "Our services",
+            "url": "",
+            "label": "Button",
             "type": "secondary"
           }
         ]
@@ -219,20 +265,21 @@
       "templates": ["block-1"],
       "attributes": {
         "preheading": {
-          "text": "Maecenas Accumsan",
-          "type": "line"
+          "text": "Preheading",
+          "type": ""
         },
-        "heading": "Congue mauris rhoncus aenean amit",
-        "blurb": "Sapien et ligula ullamcorper malesuada proin libero nunc. Sed elementum tempus egestas sed sed risus. Tempor commodo ullamcorper a lacus vestibulum sed arcu non odio. Ut pharetra sit amet aliquam id diam maecenas. Convallis convallis tellus id interdum velit laoreet id donec. Ut eu sem integer vitae justo.",
+        "heading": "Lorem ipsum dolor sit amet",
+        "blurb": "Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur excepteur sint occaecat cupidatat non proident.",
+        "blurb2": "Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur excepteur sint occaecat cupidatat non proident.",
         "image": {
-          "url": "/images/main-landing.jpg",
-          "width": 1080,
-          "height": 720
+          "url": "/images/image.png",
+          "width": 1280,
+          "height": 768
         },
         "buttonLinks": [
           {
-            "url": "/about",
-            "label": "Learn More",
+            "url": "",
+            "label": "Button",
             "type": "primary"
           }
         ]
@@ -246,11 +293,11 @@
       "description": "Etiam imperdiet tincidunt magna sit amet vehicula. In vulputate neque non pretium faucibus. Cras gravida consectetur lorem, in dapibus sapien cursus sed. Cras consequat in leo id volutpat.",
       "templates": ["banner-1"],
       "attributes": {
-        "heading": "Lorem ipsum dolor sit amet nunc faucibus a pellentesque",
+        "heading": "Lorem ipsum dolor sit amet",
         "buttonLinks": [
           {
-            "url": "/contact",
-            "label": "Get a quote",
+            "url": "",
+            "label": "Button",
             "type": "primary"
           }
         ]
@@ -265,9 +312,9 @@
         "title": "Blog | Windy Built.JS Theme",
         "description": "Blog page for a site built with the Buit.JS Windy theme.",
         "shareImage": {
-          "url": "/images/main-landing.jpg",
-          "width": 1080,
-          "height": 720
+          "url": "/images/image.png",
+          "width": 1280,
+          "height": 768
         },
         "twitterCardType": "summary",
         "twitterUsername": ""
@@ -288,7 +335,6 @@
       },
       "order": 2
     },
-
     {
       "slug": "blog-item-list",
       "category": "sections",
@@ -311,9 +357,9 @@
         "title": "About | Windy Built.JS Theme",
         "description": "About page for a site built with the Buit.JS Windy theme.",
         "shareImage": {
-          "url": "/images/main-landing.jpg",
-          "width": 1080,
-          "height": 720
+          "url": "/images/image.png",
+          "width": 1280,
+          "height": 768
         },
         "twitterCardType": "summary",
         "twitterUsername": ""
@@ -325,28 +371,28 @@
       "category": "sections",
       "displayName": "About Landing",
       "description": "Etiam imperdiet tincidunt magna sit amet vehicula. In vulputate neque non pretium faucibus. Cras gravida consectetur lorem, in dapibus sapien cursus sed. Cras consequat in leo id volutpat.",
-      "templates": ["cover-4"],
+      "templates": ["cover-2"],
       "attributes": {
         "preheading": {
-          "text": "About Us",
+          "text": "Preheading",
           "type": "line"
         },
-        "heading": "Turpis in eu mi bibendum neque egestas congue",
-        "blurb": "Nunc faucibus a pellentesque sit amet porttitor eget dolor morbi. Cursus vitae congue mauris rhoncus. Orci sagittis eu volutpat.",
+        "heading": "Lorem ipsum dolor sit amet",
+        "blurb": "Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
         "image": {
-          "url": "/images/main-landing.jpg",
+          "url": "/images/image.png",
           "width": 1000,
           "height": 1000
         },
         "buttonLinks": [
           {
-            "url": "/contact",
-            "label": "Contact Us",
+            "url": "",
+            "label": "Button",
             "type": "primary"
           },
           {
-            "url": "/services",
-            "label": "Our services",
+            "url": "",
+            "label": "Button",
             "type": "secondary"
           }
         ]
@@ -360,16 +406,16 @@
       "description": "Etiam imperdiet tincidunt magna sit amet vehicula. In vulputate neque non pretium faucibus. Cras gravida consectetur lorem, in dapibus sapien cursus sed. Cras consequat in leo id volutpat.",
       "templates": ["block-1", "block-2", "block-3", "block-4", "block-5"],
       "attributes": {
-                "preheading": {
-          "text": "Maecenas Accumsan",
-          "type": "line"
+        "preheading": {
+          "text": "Preheading",
+          "type": ""
         },
-        "heading": "Turpis in eu mi biben dum neque egestas",
-        "blurb": "Sapien et ligula ullamcorper malesuada proin libero nunc. Sed elementum tempus egestas sed sed risus. Tempor commodo ullamcorper a lacus vestibulum sed arcu non odio. Ut pharetra sit amet aliquam id diam maecenas. Convallis convallis tellus id interdum velit laoreet id donec. Ut eu sem integer vitae justo. Faucibus a pellentesque sit amet porttitor eget. Rhoncus mattis rhoncus urna neque viverra justo nec.",
-        "blurb2": "Duo sapien et ligula ullamcorper malesuada proin libero nunc. Sed elementum tempus egestas sed sed risus. Tempor commodo ullamcorper a lacus vestibulum sed arcu non odio. Ut pharetra sit amet aliquam id diam.",
+        "heading": "Lorem ipsum dolor sit amet",
+        "blurb": "Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur excepteur sint occaecat cupidatat non proident.",
+        "blurb2": "Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur excepteur sint occaecat cupidatat non proident.",
         "buttonLinks": [
           {
-            "url": "/about",
+            "url": "",
             "label": "Button",
             "type": "primary"
           }
@@ -395,13 +441,13 @@
       "category": "sections",
       "displayName": "Blog Related Articles",
       "description": "Etiam imperdiet tincidunt magna sit amet vehicula. In vulputate neque non pretium faucibus. Cras gravida consectetur lorem, in dapibus sapien cursus sed. Cras consequat in leo id volutpat.",
-      "templates": ["cards-4"],
+      "templates": ["cards-5"],
       "attributes": {
-        "columns": 2
+        "columns": 3
       },
       "collections": {
         "blog-items": {
-          "limit": 2,
+          "limit": 3,
           "populate": ["author"]
         }
       },
@@ -415,9 +461,9 @@
         "title": "Contact | Windy Built.JS Theme",
         "description": "Contact page for a site built with the Buit.JS Windy theme.",
         "shareImage": {
-          "url": "/images/main-landing.jpg",
-          "width": 1080,
-          "height": 720
+          "url": "/images/image.png",
+          "width": 1280,
+          "height": 768
         },
         "twitterCardType": "summary",
         "twitterUsername": ""
@@ -432,13 +478,15 @@
       "templates": ["form-1", "form-2"],
       "attributes": {
         "preheading": {
-          "text": "Sem nulla pharetra diam",
-          "type": "line"
+          "text": "Preheading",
+          "type": ""
         },
-        "heading": "Sem nulla pharetra diam sit amet",
-        "blurb": "Nunc faucibus a pellentesque sit amet porttitor eget dolor morbi. Cursus vitae congue mauris rhoncus. Orci sagittis eu volutpat.",
+        "heading": "Lorem ipsum dolor sit amet",
+        "blurb": "Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
         "button": {
-          "text":"Send"
+          "url": "",
+          "label": "Send",
+          "type": "primary"
         },
         "contextualLinks": [
           {
@@ -452,7 +500,7 @@
             },
             "text": "Monday - Friday 9am - 5pm",
             "label": "0800 123 4567",
-            "url": "tel:0800 123 4567"
+            "url": "tel:08001234567"
           },
           {
             "icon": {

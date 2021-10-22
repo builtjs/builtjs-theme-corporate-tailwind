@@ -1,19 +1,34 @@
 {
   "pages": [
     {
-      "slug": "home"
+      "slug": "home",
+      "head": {
+        "slug": "home-seo"
+      }
     },
     {
-      "slug": "about"
+      "slug": "about",
+      "head": {
+        "slug": "about-seo"
+      }
     },
     {
-      "slug": "contact"
+      "slug": "contact",
+      "head": {
+        "slug": "contact-seo"
+      }
     },
     {
-      "slug": "services"
+      "slug": "services",
+      "head": {
+        "slug": "services-seo"
+      }
     },
     {
       "slug": "blog",
+      "head": {
+        "slug": "blog-seo"
+      },
       "item": {
         "slug": "blog-item",
         "contentType": "blog-item"

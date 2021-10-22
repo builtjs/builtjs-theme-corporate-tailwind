@@ -1,72 +1,103 @@
-:root{
-  --clr-primary: rgba(250, 250, 250, 1);
-  --clr-secondary: hsl(207, 71%, 53%);
-  --clr-secondary-light: hsl(207, 76%, 67%);
-  --clr-secondary-dark: hsl(207, 66%, 45%);
-  --clr-secondary-lightest: hsl(206, 100%, 97%);
-  --clr-light: rgba(250, 250, 250, 1);
-  --clr-lightest: #fff;
-  --clr-darkest: rgba(39, 39, 42);
-}
-
-.bg-darkest h1, h2, h3, p {
-  color: var(--lightest);
-}
-
-html, body {
-  overflow-x: hidden;
-}
-
-@media only screen and (max-width: 1100px) {
-  .template-menu {
-    display: none;
-  }
-}
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 /* Custom base styles */
 @layer base {
-  h1 {
-    @apply text-5xl xl:text-6xl mb-14 leading-snug;
-  }
-  h2 {
-    @apply text-4xl xl:text-5xl mb-12;
-  }
+  h1,
+  h2,
   h3 {
-    @apply text-3xl xl:text-4xl mb-10;
+    @apply mb-6 font-bold text-black dark:text-white;
   }
-  h1, h2, h3 {
-    @apply text-darkest dark:text-lightest font-bold;
+
+  h1 {
+    @apply text-7xl;
   }
+
+  h2 {
+    @apply text-5xl;
+  }
+
+  h3 {
+    @apply text-2xl;
+  }
+
   p {
-    @apply text-lg mb-6 font-light leading-loose;
+    @apply mb-4 leading-relaxed text-gray-600 dark:text-gray-300;
   }
-  p, li {
-    @apply text-gray-700 dark:text-gray-400;
+
+  a:not([class]) {
+    @apply text-gray-400 underline hover:text-gray-600 dark:hover:text-gray-200;
   }
+
+  img {
+    @apply bg-gray-100 rounded-lg dark:bg-gray-700;
+  }
+
   header,
-  section,
   article,
-  footer,
-  aside {
-    @apply dark:bg-darkest dark:text-lightest;
+  section,
+  aside,
+  footer {
+    @apply dark:bg-gray-800;
   }
 
-  /* Custom components */
-  @layer components {
-    .preheading-primary {
-      @apply mb-3 text-sm tracking-widest text-secondary-light dark:text-secondary-light uppercase !important;
-    }
-  
-    .preheading-secondary {
-      @apply mb-3 text-sm tracking-widest text-gray-400 dark:text-gray-200 uppercase;
-    }
+  main > section,
+  main > article {
+    @apply px-4 py-20;
+  }
+}
+
+/* Custom components */
+@layer components {
+  .btn {
+    @apply inline-block px-5 py-3 text-center transition-all duration-200 ease-in-out border-2 rounded-lg;
   }
 
-  /* Custom utilities */
-  @layer utilities {
+  .btn-primary {
+    @apply text-white bg-black border-black btn hover:bg-gray-700 hover:border-gray-700 dark:bg-white dark:text-black dark:border-white dark:hover:bg-gray-200 dark:hover:border-gray-200;
   }
+
+  .btn-secondary {
+    @apply text-gray-400 border-gray-400 btn hover:bg-gray-700 hover:text-white hover:border-gray-700;
+  }
+
+  .btn:first-of-type + .btn {
+    @apply ml-3;
+  }
+
+  .preheading {
+    /* max-width: max-content; */
+    @apply relative block mb-4 text-sm font-light tracking-widest text-gray-400 uppercase dark:text-gray-400;
+  }
+
+  .preheading.line {
+    @apply pl-10;
+  }
+
+  .preheading.dot {
+    @apply pl-5;
+  }
+
+  .preheading.line::before,
+  .preheading.dot::before {
+    content: "";
+    @apply absolute left-0 -translate-y-1/2 transform-gpu top-1/2;
+  }
+
+  .preheading.line::before {
+    @apply border-t border-gray-400 w-7;
+  }
+
+  .preheading.dot::before {
+    @apply w-1.5 h-1.5 bg-gray-400 rounded-full;
+  }
+
+  .tag {
+    @apply px-2 py-1 text-xs text-center text-white no-underline transition-colors bg-gray-700 dark:bg-gray-200 rounded-3xl dark:hover:bg-gray-300 hover:bg-gray-600 dark:text-black;
+  }
+}
+
+/* Custom utilities */
+@layer utilities {
 }

@@ -8,173 +8,98 @@ export default function TemplateMenuBtn({ router }) {
   const toggle = () => setOnState((on) => !on);
 
   return (
-    <div className="template-menu">
-      <div className={"tabs " + (!on ? "closed" : "")}>
+    <div id="template-menu" className="fixed z-50 bottom-4 right-4">
+      <div
+        id="templates"
+        className={
+          "shadow-lg bg-white w-40 rounded-lg absolute right-16 bottom-8 flex flex-col transition-all duration-300 " +
+          (!on ? "is-closed opacity-0 -bottom-12 invisible" : "")
+        }
+      >
         {pages &&
           pages.templates &&
           pages.templates.map((template, i) => {
             return (
               <React.Fragment key={i}>
-                <input type="radio" id={`radio-${i}`} name="tabs" checked={slug === template.slug} readOnly />
-                <label className="tab dark:text-lightest" htmlFor={`radio-${i}`} onClick={() => router.push(`/templates/${template.slug}`)}>
+                <input className="hidden" type="radio" id={`radio-${i}`} name="tabs" checked={slug === template.slug} readOnly />
+                <label
+                  className="px-4 py-2 cursor-pointer tab hover:text-gray-500"
+                  htmlFor={`radio-${i}`}
+                  onClick={() => router.push(`/templates/${template.slug}`)}
+                >
                   {template.displayName}
                 </label>
               </React.Fragment>
             );
           })}
-
-        <span className="glider bg-secondary"></span>
+        <span id="glider" className="absolute left-0 top-0 w-0.5 h-8 bg-black rounded-full my-1 transition-transform duration-300"></span>
       </div>
-      <div className="mask bg-secondary"></div>
-      <button className="bg-secondary">
-        <div className={"menu-toggle " + (on ? "is-active" : "")} onClick={toggle}></div>
-      </button>
+
+      <div
+        id="template-menu-btn"
+        className={
+          "p-4 bg-black text-white rounded-full cursor-pointer hover:bg-gray-800 transition duration-200 transform-gpu hover:rotate-45 dark:bg-white dark:hover:bg-gray-200 " +
+          (on ? "is-active" : "")
+        }
+        onClick={toggle}
+      >
+        <svg
+          className="text-white stroke-current transition duration-200 dark:text-black"
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          height="20"
+          viewBox="0 0 26 26"
+          width="20"
+        >
+          <g strokeLinecap="round" strokeLinejoin="round" strokeWidth="2">
+            <path d="M10.3328 1H1V10.3328H10.3328V1Z" />
+            <path d="M25.0008 1H15.668V10.3328H25.0008V1Z" />
+            <path d="M25.0008 15.6658H15.668V24.9986H25.0008V15.6658Z" />
+            <path d="M10.3328 15.6658H1V24.9986H10.3328V15.6658Z" />
+          </g>
+        </svg>
+      </div>
+
       <style jsx>
         {`
-          .mask {
-            position: absolute;
-            z-index: 10;
-            right: 0px;
-            height: 34px;
-            width: 40px;
-          }
-          .template-menu {
-            position: relative;
-            top: 10px;
-            right: 0;
-            z-index: 100;
-          }
-          .tabs {
-            display: flex;
-            right: 120px;
-            position: absolute;
-            z-index: 5;
-            transition: right 0.5s ease-in;
+          input[type="radio"]:checked + label {
+            color: #71717a;
           }
 
-          .closed {
-            right: -1000px;
-          }
-
-          .tabs * {
-            z-index: 2;
-          }
-
-          input[type="radio"] {
+          #glider {
             display: none;
           }
 
-          .tab {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            height: 34px;
-            width: 160px;
-            font-size: 1rem;
-            border-radius: 99px;
-            cursor: pointer;
-            transition: color 0.15s ease-in;
-          }
-
-          input[type="radio"]:checked + label {
-            color: #fff;
-            z-index: 3;
-          }
-
-          input[id="radio-0"]:checked ~ .glider {
-            transform: translateX(0);
-          }
-
-          input[id="radio-1"]:checked ~ .glider {
-            transform: translateX(100%);
-          }
-
-          input[id="radio-2"]:checked ~ .glider {
-            transform: translateX(200%);
-          }
-
-          input[id="radio-3"]:checked ~ .glider {
-            transform: translateX(300%);
-          }
-
-          input[id="radio-4"]:checked ~ .glider {
-            transform: translateX(400%);
-          }
-
-          input[id="radio-5"]:checked ~ .glider {
-            transform: translateX(500%);
-          }
-
-          input:checked ~ .glider {
-            display: block !important;
-          }
-
-          .glider {
-            display: none !important;
-            position: absolute;
-            display: flex;
-            height: 34px;
-            width: 160px;
-            // background-color: var(--clr-secondary);
-            z-index: 1;
-            border-radius: 99px;
-            transition: 0.25s ease-out;
-          }
-
-          // menu icon
-
-          .menu-toggle {
-            position: relative;
+          input[type="radio"]:checked ~ #glider {
             display: block;
-            width: 14px;
-            height: 12px;
-            background: var(--clr-secondary);
-            border-top: 2px solid;
-            border-bottom: 2px solid;
-            color: #fff;
-            font-size: 0;
-            transition: all 0.25s ease-in-out;
-          }
-          .menu-toggle:before,
-          .menu-toggle:after {
-            content: "";
-            display: block;
-            width: 100%;
-            height: 2px;
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            background: currentColor;
-            transform: translate(-50%, -50%);
-            transition: transform 0.25s ease-in-out;
           }
 
-          button:hover {
-            color: var;
+          input[id="radio-1"]:checked ~ #glider {
+            transform: translateY(calc(100% + 0.5rem));
           }
 
-          button .is-active {
-            border-color: transparent;
-          }
-          button .is-active:before {
-            transform: translate(-50%, -50%) rotate(45deg);
-          }
-          button .is-active:after {
-            transform: translate(-50%, -50%) rotate(-45deg);
+          input[id="radio-2"]:checked ~ #glider {
+            transform: translateY(calc(200% + 1rem));
           }
 
-          button {
-            position: absolute;
-            right: 20px;
-            z-index: 10;
-            border: none;
-            cursor: pointer;
-            outline: none;
-            // background: var(--clr-secondary);
-            color: var(--lightest);
-            padding: 11px;
-            border-radius: 50%;
-            margin-left: 20px;
+          input[id="radio-3"]:checked ~ #glider {
+            transform: translateY(calc(300% + 1.5rem));
+          }
+
+          input[id="radio-4"]:checked ~ #glider {
+            transform: translateY(calc(400% + 2rem));
+          }
+
+          input[id="radio-5"]:checked ~ #glider {
+            transform: translateY(calc(500% + 2.5rem));
+          }
+
+          input[id="radio-6"]:checked ~ #glider {
+            transform: translateY(calc(600% + 3rem));
+          }
+
+          input[id="radio-7"]:checked ~ #glider {
+            transform: translateY(calc(700% + 3.5rem));
           }
         `}
       </style>

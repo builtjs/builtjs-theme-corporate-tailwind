@@ -25,10 +25,7 @@
         "benefits-list": {
           "collections": {
             "benefits": {
-              "slug": "benefits",
-              "list": {
-                "direction": "alternating"
-              }
+              "slug": "benefits"
             }
           }
         }
