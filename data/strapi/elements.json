@@ -1,0 +1,135 @@
+{
+  "elements": [
+    {
+      "slug": "button-link",
+      "category": "elements",
+      "displayName": "Button Link",
+      "settings": {
+        "collectionName": "components_elements_button-link",
+        "info": {
+          "name": "Button Link",
+          "icon": "heading"
+        },
+        "attributes": {
+          "label": {
+            "type": "string"
+          },
+          "url": {
+            "type": "string"
+          },
+          "type": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    {
+      "slug": "contextual-link",
+      "category": "elements",
+      "displayName": "Contextual Link",
+      "settings": {
+        "collectionName": "components_elements_contextual-link",
+        "info": {
+          "name": "Contextual Link",
+          "icon": "heading"
+        },
+        "attributes": {
+          "icon": {
+            "type": "component",
+            "repeatable": false,
+            "component": "elements.icon"
+          },
+          "text": {
+            "type": "string"
+          },
+          "label": {
+            "type": "string"
+          },
+          "url": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    {
+      "slug": "field",
+      "category": "elements",
+      "displayName": "Field",
+      "settings": {
+        "collectionName": "components_elements_field",
+        "info": {
+          "name": "Field",
+          "icon": "heading"
+        },
+        "attributes": {
+          "label": {
+            "type": "string"
+          },
+          "name": {
+            "type": "string"
+          },
+          "type": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    {
+      "slug": "icon",
+      "category": "elements",
+      "displayName": "Icon",
+      "settings": {
+        "collectionName": "components_elements_icon",
+        "info": {
+          "name": "Icon",
+          "icon": "heading"
+        },
+        "attributes": {
+          "svgPaths": {
+            "type": "string"
+          },
+          "pathTransform": {
+            "type": "string"
+          },
+          "width": {
+            "type": "string"
+          },
+          "height": {
+            "type": "string"
+          },
+          "viewboxWidth": {
+            "type": "string"
+          },
+          "viewboxHeight": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    {
+      "slug": "preheading",
+      "category": "elements",
+      "displayName": "Preheading",
+      "settings": {
+        "collectionName": "components_elements_preheading",
+        "info": {
+          "name": "Preheading",
+          "icon": "heading"
+        },
+        "attributes": {
+          "text": {
+            "type": "string"
+          },
+          "type": {
+            "type": "enumeration",
+            "enum": [
+              "line",
+              "dot",
+              "plain"
+            ]
+          }
+        }
+      }
+    }
+  ]
+}
