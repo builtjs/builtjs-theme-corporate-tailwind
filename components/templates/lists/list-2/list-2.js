@@ -2,8 +2,8 @@ import Image from "next/image";
 import getConfig from "next/config";
 import { ButtonLink, Preheading } from "@/elements";
 
-export default function List2({ content }) {
-  let { attributes, collections } = content;
+export default function List1({ content }) {
+  let { collections } = content;
   const { publicRuntimeConfig } = getConfig();
   if (!collections) {
     throw new Error(`No collections attribute provided in sections.json for template`);
@@ -14,20 +14,17 @@ export default function List2({ content }) {
   if (collection) {
     items = collection.items;
   }
+
   return (
     <section id="list-2" className="template">
-      <div className="max-w-screen-xl px-4 py-32 mx-auto">
-        {attributes && attributes.heading && (
-          <h1 className="max-w-4xl mx-auto mb-20 font-bold leading-none text-center text-gray-900 lg:mb-28 text-7xl">{attributes.heading}</h1>
-        )}
-        <div className="flex flex-col">
+      <div className="mx-auto max-w-screen-xl">
+        <div className="grid grid-cols-1 gap-y-24">
           {items &&
             items.map((item, i) => (
-              <div key={i} className="flex flex-col mb-20 lg:items-center lg:flex-row">
-                <div className="flex-1 lg:mr-8">
-                  <div className="relative mb-8 lg:mb-0">
+              <div key={i} className="items-center grid grid-cols-1 gap-10 lg:grid-cols-2">
+                <div className={`${i % 2 !== 0 ? "" : "lg:order-last"}`}>
+                  <div className="relative">
                     <Image
-                      className="object-cover bg-gray-100 rounded-lg"
                       src={`${publicRuntimeConfig.API_URL || ""}${item.image.url}`}
                       width={item.image.width}
                       height={item.image.height}
@@ -36,17 +33,15 @@ export default function List2({ content }) {
                     />
                   </div>
                 </div>
-                <div className="flex-1">
+
+                <div>
                   <Preheading attribute={item.preheading}></Preheading>
-                  <h2 className="mb-8 text-2xl font-bold leading-none text-gray-900 md:text-5xl">{item.heading}</h2>
+                  <h2>{item.heading}</h2>
                   <p className="mb-12">{item.blurb}</p>
-                  {item.buttonLinks && (
-                    <div className="flex flex-col items-center sm:flex-row">
-                      {item.buttonLinks.map((button) => {
-                        return <ButtonLink key={button.label} attribute={button}></ButtonLink>;
-                      })}
-                    </div>
-                  )}
+                  {item.buttonLinks &&
+                    item.buttonLinks.map((button) => {
+                      return <ButtonLink key={button.type} attribute={button}></ButtonLink>;
+                    })}
                 </div>
               </div>
             ))}

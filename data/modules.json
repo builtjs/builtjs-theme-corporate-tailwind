@@ -1,0 +1,95 @@
+{
+  "modules": [
+    {
+      "slug": "contact",
+      "displayName": "Contact",
+      "description": "Encourages and facilitates making contact",
+      "isMainCTA": true,
+      "pageSections": [
+        {
+          "slug": "contact1"
+        },
+        {
+          "slug": "home4"
+        }
+      ],
+      "mainCTASection": {
+        "slug": "main-landing"
+      }
+    },
+    {
+      "slug": "about",
+      "displayName": "About",
+      "description": "Provides information related to the organisation",
+      "pageSections": [
+        {
+          "slug": "about1"
+        },
+        {
+          "slug": "home4"
+        }
+      ],
+      "mainCTASection": {
+        "slug": "about-landing"
+      }
+    },
+    {
+      "slug": "blog",
+      "displayName": "Blog",
+      "description": "Displays informal diary-style entries",
+      "mainCTASection": {
+        "slug": "main-landing"
+      },
+      "pageSections": [
+        {
+          "slug": "blog1"
+        },
+        {
+          "slug": "blog-archive1"
+        }
+      ]
+    },
+    {
+      "slug": "services",
+      "displayName": "Services",
+      "description": "Provides information about main services",
+      "pageSections": [
+        {
+          "slug": "services1"
+        },
+        {
+          "slug": "services2"
+        }
+      ],
+      "mainCTASection": {
+        "slug": "main-landing"
+      }
+    },
+    {
+      "slug": "features",
+      "displayName": "Features",
+      "description": "Provides information about main features of offering",
+      "mainCTASection": {
+        "slug": "main-landing"
+      },
+      "pageSections": [
+        {
+          "slug": "home2"
+        }
+      ]
+    },
+    {
+      "slug": "benefits",
+      "displayName": "Benefits",
+      "description": "Displays main benefits of using offering",
+      "mainCTASection": {
+        "slug": "main-landing"
+      },
+      "pageSections": [
+        {
+          "slug": "home3"
+        }
+      ]
+    }
+  ]
+}

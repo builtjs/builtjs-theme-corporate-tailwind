@@ -35,11 +35,60 @@
             "template": {
               "slug": "list-1"
             }
-          }
-          ,{
+          },
+          {
             "slug": "home-about-teaser",
             "template": {
-              "slug": "block-2"
+              "slug": "block-1"
+            }
+          },
+          {
+            "slug": "blog-item-list",
+            "template": {
+              "slug": "list-5"
+            }
+          }
+        ]
+      },
+      {
+        "slug": "products",
+        "displayName": "Products",
+        "status": "published",
+        "sections": [
+          {
+            "slug": "products-seo",
+            "template": {
+              "slug": "seo"
+            }
+          },
+          {
+            "slug": "products-landing",
+            "template": {
+              "slug": "cover-4"
+            }
+          },
+          {
+            "slug": "features-list",
+            "template": {
+              "slug": "cards-3"
+            }
+          },
+          {
+            "slug": "services-block",
+            "template": {
+              "slug": "block-4"
+            }
+          },
+          {
+            "slug": "benefits-list",
+            "template": {
+              "slug": "list-3"
+            }
+          },
+          {
+            "slug": "contact-teaser",
+            "template": {
+              "slug": "banner-4"
             }
           }
         ]
@@ -58,19 +107,68 @@
           {
             "slug": "services-landing",
             "template": {
-              "slug": "cover-5"
+              "slug": "cover-3"
             }
           },
           {
             "slug": "services-block",
             "template": {
-              "slug": "block-1"
+              "slug": "block-3"
+            }
+          },
+          {
+            "slug": "benefits-list",
+            "template": {
+              "slug": "list-2"
+            }
+          },
+          {
+            "slug": "features-list",
+            "template": {
+              "slug": "cards-3"
             }
           },
           {
             "slug": "contact-teaser",
             "template": {
-              "slug": "banner-1"
+              "slug": "banner-3"
+            }
+          }
+        ]
+      },
+      {
+        "slug": "about",
+        "displayName": "About",
+        "status": "published",
+        "sections": [
+          {
+            "slug": "about-seo",
+            "template": {
+              "slug": "seo"
+            }
+          },
+          {
+            "slug": "about-landing",
+            "template": {
+              "slug": "cover-2"
+            }
+          },
+          {
+            "slug": "about-text",
+            "template": {
+              "slug": "block-2"
+            }
+          },
+          {
+            "slug": "benefits-list",
+            "template": {
+              "slug": "list-2"
+            }
+          },
+          {
+            "slug": "contact-teaser",
+            "template": {
+              "slug": "banner-2"
             }
           }
         ]
@@ -88,13 +186,13 @@
           {
             "slug": "blog-landing",
             "template": {
-              "slug": "list-3"
+              "slug": "list-4"
             }
           },
           {
             "slug": "blog-item-list",
             "template": {
-              "slug": "list-4"
+              "slug": "list-5"
             }
           }
         ]
@@ -112,7 +210,7 @@
           {
             "slug": "blog-related-articles",
             "template": {
-              "slug": "cards-4"
+              "slug": "list-5"
             }
           }
         ]
@@ -133,36 +231,11 @@
             "template": {
               "slug": "form-1"
             }
-          }
-        ]
-      },
-      {
-        "slug": "about",
-        "displayName": "About",
-        "status": "published",
-        "sections": [
-          {
-            "slug": "about-seo",
-            "template": {
-              "slug": "seo"
-            }
-          },
-          {
-            "slug": "about-landing",
-            "template": {
-              "slug": "cover-4"
-            }
           },
           {
             "slug": "contact-teaser",
             "template": {
-              "slug": "banner-3"
-            }
-          },
-          {
-            "slug": "about-text",
-            "template": {
-              "slug": "block-2"
+              "slug": "banner-4"
             }
           }
         ]
@@ -170,50 +243,12 @@
     ],
     "templates": [
       {
-        "slug": "covers",
-        "displayName": "Covers",
-        "status": "published",
-        "sections": [
-          {
-            "slug": "main-landing",
-            "template": {
-              "slug": "cover-1"
-            }
-          },
-          {
-            "slug": "main-landing",
-            "template": {
-              "slug": "cover-2"
-            }
-          },
-          {
-            "slug": "main-landing",
-            "template": {
-              "slug": "cover-3"
-            }
-          },
-          {
-            "slug": "services-landing",
-            "template": {
-              "slug": "cover-5"
-            }
-          }
-        ],
-        "seo": {
-          "title": "Covers",
-          "description": "",
-          "shareImage": null,
-          "twitterCardType": "summary",
-          "twitterUsername": ""
-        }
-      },
-      {
         "slug": "banners",
         "displayName": "Banners",
         "status": "published",
         "sections": [
           {
-            "slug": "main-landing",
+            "slug": "contact-teaser",
             "template": {
               "slug": "banner-1"
             }
@@ -225,9 +260,21 @@
             }
           },
           {
-            "slug": "home-about-teaser",
+            "slug": "contact-teaser",
             "template": {
               "slug": "banner-3"
+            }
+          },
+          {
+            "slug": "contact-teaser",
+            "template": {
+              "slug": "banner-4"
+            }
+          },
+          {
+            "slug": "contact-teaser",
+            "template": {
+              "slug": "banner-5"
             }
           }
         ],
@@ -245,7 +292,7 @@
         "status": "published",
         "sections": [
           {
-            "slug": "services-block",
+            "slug": "home-about-teaser",
             "template": {
               "slug": "block-1"
             }
@@ -272,12 +319,6 @@
             "slug": "home-about-teaser",
             "template": {
               "slug": "block-5"
-            }
-          },
-          {
-            "slug": "home-about-teaser",
-            "template": {
-              "slug": "block-6"
             }
           }
         ],
@@ -313,13 +354,13 @@
             }
           },
           {
-            "slug": "blog-related-articles",
+            "slug": "features-list",
             "template": {
               "slug": "cards-4"
             }
           },
           {
-            "slug": "main-landing",
+            "slug": "blog-related-articles",
             "template": {
               "slug": "cards-5"
             }
@@ -334,42 +375,67 @@
         }
       },
       {
-        "slug": "lists",
-        "displayName": "Lists",
+        "slug": "covers",
+        "displayName": "Covers",
         "status": "published",
         "sections": [
           {
-            "slug": "benefits-list",
+            "slug": "main-landing",
             "template": {
-              "slug": "list-1"
+              "slug": "cover-1"
             }
           },
           {
-            "slug": "features-list",
+            "slug": "about-landing",
             "template": {
-              "slug": "list-2"
+              "slug": "cover-2"
             }
           },
           {
-            "slug": "blog-item-list",
+            "slug": "services-landing",
             "template": {
-              "slug": "list-3"
+              "slug": "cover-3"
             }
           },
           {
-            "slug": "blog-item-list",
+            "slug": "products-landing",
             "template": {
-              "slug": "list-4"
+              "slug": "cover-4"
+            }
+          },
+          {
+            "slug": "products-landing",
+            "template": {
+              "slug": "cover-5"
             }
           }
         ],
         "seo": {
-          "title": "Lists",
+          "title": "Covers",
           "description": "",
           "shareImage": null,
           "twitterCardType": "summary",
           "twitterUsername": ""
         }
+      },
+      {
+        "slug": "footers",
+        "displayName": "Footers",
+        "status": "published",
+        "sections": [
+          {
+            "slug": "footer-1",
+            "template": {
+              "slug": "footer-1"
+            }
+          },
+          {
+            "slug": "footer-1",
+            "template": {
+              "slug": "footer-2"
+            }
+          }
+        ]
       },
       {
         "slug": "forms",
@@ -391,6 +457,69 @@
         ],
         "seo": {
           "title": "Forms",
+          "description": "",
+          "shareImage": null,
+          "twitterCardType": "summary",
+          "twitterUsername": ""
+        }
+      },
+      {
+        "slug": "headers",
+        "displayName": "Headers",
+        "status": "published",
+        "sections": [
+          {
+            "slug": "header-1",
+            "template": {
+              "slug": "header-1"
+            }
+          },
+          {
+            "slug": "header-1",
+            "template": {
+              "slug": "header-2"
+            }
+          }
+        ]
+      },
+      {
+        "slug": "lists",
+        "displayName": "Lists",
+        "status": "published",
+        "sections": [
+          {
+            "slug": "benefits-list",
+            "template": {
+              "slug": "list-1"
+            }
+          },
+          {
+            "slug": "benefits-list",
+            "template": {
+              "slug": "list-2"
+            }
+          },
+          {
+            "slug": "benefits-list",
+            "template": {
+              "slug": "list-3"
+            }
+          },
+          {
+            "slug": "blog-item-list",
+            "template": {
+              "slug": "list-4"
+            }
+          },
+          {
+            "slug": "blog-item-list",
+            "template": {
+              "slug": "list-5"
+            }
+          }
+        ],
+        "seo": {
+          "title": "Lists",
           "description": "",
           "shareImage": null,
           "twitterCardType": "summary",

@@ -4,26 +4,21 @@ export default function Block3({ content }) {
   let { attributes } = content;
   return (
     <section id="block-3" className="template">
-      <div className="max-w-screen-xl px-4 py-20 mx-auto">
-        <div className="flex flex-col lg:flex-row">
-          <div className="flex-1 lg:px-4">
-            <Preheading attribute={attributes.preheading}></Preheading>
-            <h2 className="mb-12 text-5xl font-bold leading-none text-gray-900 lg:mb-0">{attributes.heading}</h2>
+      <div className="mx-auto max-w-screen-xl">
+        <Preheading attribute={attributes.preheading}></Preheading>
+        <h2 className="max-w-5xl">{attributes.heading}</h2>
+        <div className="mb-4 grid grid-cols-1 gap-x-6 md:grid-cols-2">
+          <div>
+            <p>{attributes.blurb}</p>
           </div>
-          <div className="flex-1 lg:px-4">
-            <p className="mb-6 font-light leading-loose text-gray-700">{attributes.blurb}</p>
-          </div>
-          <div className="flex-1 lg:px-4">
-            <p className="mb-12 font-light leading-loose text-gray-700">{attributes.blurb2}</p>
-            {attributes.buttonLinks && (
-              <div className="flex flex-col items-center sm:flex-row">
-                {attributes.buttonLinks.map((button) => {
-                  return <ButtonLink key={button.label} attribute={button}></ButtonLink>;
-                })}
-              </div>
-            )}
+          <div>
+            <p>{attributes.blurb2}</p>
           </div>
         </div>
+        {attributes.buttonLinks &&
+          attributes.buttonLinks.map((button) => {
+            return <ButtonLink key={button.type} attribute={button}></ButtonLink>;
+          })}
       </div>
     </section>
   );
