@@ -2,13 +2,13 @@ import { withRouter } from "next/router";
 import { fetchPage } from "../../lib/fetch";
 import Page from "../../page";
 import { pageTypes } from "../../constants";
-import { pages } from "../../content/data/pages.json";
+import { templatePages } from "../../content/data/templates.json";
 
 export default withRouter(Page);
 
 export async function getStaticPaths() {
     return {
-      paths: pages.templates.map(({ slug }) => `/templates/${slug}`) ?? [],
+      paths: templatePages.map(({ slug }) => `/templates/${slug}`) ?? [],
       fallback: true,
     };
   }

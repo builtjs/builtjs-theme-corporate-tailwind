@@ -1,6 +1,6 @@
 {
   "pages": {
-    "site": [
+    "main": [
       {
         "slug": "home",
         "displayName": "Home",
@@ -256,7 +256,14 @@
         ]
       }
     ],
-    "templates": [
+    "articles": [{
+      "slug": "blog-item",
+      "contentType": "blog-item",
+      "listPage": {
+        "slug": "blog"
+      }
+    }],
+    "demo": [
       {
         "slug": "banners",
         "displayName": "Banners",
