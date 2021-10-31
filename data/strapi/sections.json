@@ -32,7 +32,7 @@
     },
     "home-seo": {
       "slug": "home-seo",
-      "category": "seo",
+      "category": "head",
       "settings": {
         "collectionName": "components_seo_home-seo",
         "info": {
@@ -64,7 +64,7 @@
     },
     "contact-seo": {
       "slug": "contact-seo",
-      "category": "seo",
+      "category": "head",
       "settings": {
         "collectionName": "components_seo_contact-seo",
         "info": {
@@ -96,7 +96,7 @@
     },
     "about-seo": {
       "slug": "about-seo",
-      "category": "seo",
+      "category": "head",
       "settings": {
         "collectionName": "components_seo_about-seo",
         "info": {
@@ -128,7 +128,7 @@
     },
     "services-seo": {
       "slug": "services-seo",
-      "category": "seo",
+      "category": "head",
       "settings": {
         "collectionName": "components_seo_services-seo",
         "info": {
@@ -160,7 +160,7 @@
     },
     "blog-seo": {
       "slug": "blog-seo",
-      "category": "seo",
+      "category": "head",
       "settings": {
         "collectionName": "components_seo_blog-seo",
         "info": {
