@@ -1,17 +1,6 @@
 {
   "pageSections": [
     {
-      "slug": "home0",
-      "page": {
-        "slug": "home"
-      },
-      "sections": [
-        {
-          "slug": "home-seo"
-        }
-      ]
-    },
-    {
       "slug": "contact1",
       "page": {
         "slug": "contact"
