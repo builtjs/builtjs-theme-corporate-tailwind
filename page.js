@@ -16,6 +16,7 @@ const Page = ({ page }) => {
   }, []);
 
   async function init() {
+    console.log('page...', page);
     const newFullPage = await transformPage(page);
     setFullPage(newFullPage);
   }

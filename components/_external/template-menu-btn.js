@@ -1,5 +1,5 @@
 import React from "react";
-import { templatePages } from "../../data/pages/templates.json";
+import { templates } from "../../data/pages/templates.json";
 import { useState } from "react";
 
 export default function TemplateMenuBtn({ router }) {
@@ -16,8 +16,8 @@ export default function TemplateMenuBtn({ router }) {
           (!on ? "is-closed opacity-0 -bottom-12 invisible" : "")
         }
       >
-        {templatePages &&
-          templatePages.map((template, i) => {
+        {templates &&
+          templates.map((template, i) => {
             return (
               <React.Fragment key={i}>
                 <input className="hidden" type="radio" id={`radio-${i}`} name="tabs" checked={slug === template.slug} readOnly />
