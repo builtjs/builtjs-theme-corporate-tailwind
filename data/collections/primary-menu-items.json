@@ -1,29 +1,32 @@
 {
   "items": [
     {
-      "slug": "productss",
-      "label": "Products",
-      "url": "/products"
-    },
-    {
+      "__id": 1,
       "slug": "services",
       "label": "Services",
-      "url": "/services"
+      "url": "/services",
+      "sections": [{ "__id": 1 }, { "__id": 2 }]
     },
     {
+      "__id": 2,
       "slug": "about",
       "label": "About",
-      "url": "/about"
+      "url": "/about",
+      "sections": [{ "__id": 1 }, { "__id": 2 }]
     },
     {
+      "__id": 3,
       "slug": "blog",
       "label": "Blog",
-      "url": "/blog"
+      "url": "/blog",
+      "sections": [{ "__id": 1 }, { "__id": 2 }]
     },
     {
+      "__id": 4,
       "slug": "contact",
       "label": "Contact",
-      "url": "/contact"
+      "url": "/contact",
+      "sections": [{ "__id": 1 }, { "__id": 2 }]
     }
   ]
 }

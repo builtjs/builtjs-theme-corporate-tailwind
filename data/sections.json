@@ -1,6 +1,7 @@
 {
   "sections": [
     {
+      "__id": 1,
       "slug": "header-1",
       "category": "layout",
       "displayName": "Header 1",
@@ -27,6 +28,7 @@
       "order": 1
     },
     {
+      "__id": 2,
       "slug": "footer-1",
       "category": "layout",
       "displayName": "Footer 1",
@@ -58,6 +60,7 @@
       "order": 0
     },
     {
+      "__id": 4,
       "slug": "main-landing",
       "category": "sections",
       "displayName": "Main Landing",
@@ -91,6 +94,7 @@
       "order": 2
     },
     {
+      "__id": 5,
       "slug": "features-list",
       "category": "sections",
       "displayName": "Features",
@@ -102,6 +106,7 @@
       "order": 3
     },
     {
+      "__id": 14,
       "slug": "contact-teaser",
       "category": "sections",
       "displayName": "Contact Teaser",
@@ -124,6 +129,7 @@
       "order": 4
     },
     {
+      "__id": 7,
       "slug": "home-about-teaser",
       "category": "sections",
       "displayName": "Home About Teaser",
@@ -148,6 +154,7 @@
       }
     },
     {
+      "__id": 6,
       "slug": "benefits-list",
       "category": "sections",
       "displayName": "Benefits List",
@@ -228,6 +235,7 @@
       "order": 0
     },
     {
+      "__id": 12,
       "slug": "services-landing",
       "category": "sections",
       "displayName": "Services Landing",
@@ -261,6 +269,7 @@
       "order": 2
     },
     {
+      "__id": 13,
       "slug": "services-block",
       "category": "sections",
       "displayName": "Services Block",
@@ -290,6 +299,7 @@
       "order": 3
     },
     {
+      "__id": 14,
       "slug": "contact-teaser",
       "category": "sections",
       "displayName": "Services Contact Teaser",
@@ -326,6 +336,7 @@
       "order": 0
     },
     {
+      "__id": 9,
       "slug": "blog-landing",
       "category": "sections",
       "displayName": "Blog Landing",
@@ -372,6 +383,7 @@
       "order": 0
     },
     {
+      "__id": 8,
       "slug": "about-landing",
       "category": "sections",
       "displayName": "About Landing",
@@ -429,6 +441,7 @@
       "order": 3
     },
     {
+      "__id": 11,
       "slug": "blog-item",
       "category": "sections",
       "displayName": "Blog Item",
@@ -442,6 +455,7 @@
       "order": 2
     },
     {
+      "__id": 10,
       "slug": "blog-related-articles",
       "category": "sections",
       "displayName": "Blog Related Articles",
@@ -477,6 +491,7 @@
       "order": 0
     },
     {
+      "__id": 3,
       "slug": "contact-landing",
       "category": "sections",
       "displayName": "Contact Landing",

@@ -2,13 +2,17 @@
   "layout": {
     "sections": [
       {
+        "__id": 1,
         "slug": "header-1",
+        "collections": ["primary-menu-items"],
         "template": {
           "slug": "header-1"
         }
       },
       {
+        "__id": 2,
         "slug": "footer-1",
+        "collections": ["primary-menu-items"],
         "template": {
           "slug": "footer-1"
         }

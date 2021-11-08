@@ -13,30 +13,35 @@
             }
           },
           {
+            "__id": 4,
             "slug": "main-landing",
             "template": {
               "slug": "cover-1"
             }
           },
           {
+            "__id": 5,
             "slug": "features-list",
             "template": {
               "slug": "cards-1"
             }
           },
           {
+            "__id": 14,
             "slug": "contact-teaser",
             "template": {
               "slug": "banner-1"
             }
           },
           {
+            "__id": 6,
             "slug": "benefits-list",
             "template": {
               "slug": "list-1"
             }
           },
           {
+            "__id": 7,
             "slug": "home-about-teaser",
             "template": {
               "slug": "block-1"
@@ -208,6 +213,7 @@
             }
           },
           {
+            "__id": 10,
             "slug": "blog-related-articles",
             "template": {
               "slug": "list-5"
@@ -227,12 +233,14 @@
             }
           },
           {
+            "__id": 3,
             "slug": "contact-landing",
             "template": {
               "slug": "form-1"
             }
           },
           {
+            "__id": 14,
             "slug": "contact-teaser",
             "template": {
               "slug": "banner-4"
@@ -248,30 +256,35 @@
         "status": "published",
         "sections": [
           {
+            "__id": 14,
             "slug": "contact-teaser",
             "template": {
               "slug": "banner-1"
             }
           },
           {
+            "__id": 14,
             "slug": "contact-teaser",
             "template": {
               "slug": "banner-2"
             }
           },
           {
+            "__id": 14,
             "slug": "contact-teaser",
             "template": {
               "slug": "banner-3"
             }
           },
           {
+            "__id": 14,
             "slug": "contact-teaser",
             "template": {
               "slug": "banner-4"
             }
           },
           {
+            "__id": 14,
             "slug": "contact-teaser",
             "template": {
               "slug": "banner-5"
