@@ -5,7 +5,7 @@
       "collectionName": "global",
       "info": { "name": "Global", "description": "Global data for app." },
       "options": { "increments": true, "timestamps": true },
-      "attributes": {
+      "data": {
         "name": {
           "default": "New Site",
           "type": "string"

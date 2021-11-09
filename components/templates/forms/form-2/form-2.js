@@ -1,7 +1,7 @@
 import { Preheading, SocialLink, Field, ContextualLink, Button } from "@/elements";
 
 export default function Form1({ content }) {
-  let { attributes, collections } = content;
+  let { data, collections } = content;
   if (!collections) {
     throw new Error(`No collections attribute provided in sections.json for template`);
   }
@@ -14,14 +14,14 @@ export default function Form1({ content }) {
     <section id="form-2" className="template">
       <div className="mx-auto max-w-screen-xl">
         <div className="mb-20 text-center">
-          <Preheading attribute={attributes.preheading}></Preheading>
-          <h1>{attributes.heading}</h1>
-          <p className="max-w-xl mx-auto text-lg">{attributes.blurb}</p>
+          <Preheading attribute={data.preheading}></Preheading>
+          <h1>{data.heading}</h1>
+          <p className="max-w-xl mx-auto text-lg">{data.blurb}</p>
         </div>
         <div className="grid grid-cols-1 gap-x-12 gap-y-16 lg:grid-cols-2">
           <div>
             <div className="mb-16 grid grid-cols-1 gap-y-12">
-              {attributes.contextualLinks.map((contextualLink, i) => {
+              {data.contextualLinks.map((contextualLink, i) => {
                 return <ContextualLink key={i} attribute={contextualLink}></ContextualLink>;
               })}
             </div>
@@ -33,11 +33,11 @@ export default function Form1({ content }) {
           </div>
           <div>
             <form action="#" method="POST">
-              {attributes.fields.map((field, i) => {
+              {data.fields.map((field, i) => {
                 return <Field key={i} attribute={field}></Field>;
               })}
               {/* TODO: Form button needs wiring up */}
-              <Button attribute={attributes.button}></Button>
+              <Button attribute={data.button}></Button>
             </form>
           </div>
         </div>

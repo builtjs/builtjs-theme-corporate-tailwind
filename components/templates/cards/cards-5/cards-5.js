@@ -5,10 +5,10 @@ import getConfig from "next/config";
 // TODO: Exclude current blog from related list
 export default function Cards4({ content }) {
   let { collections } = { ...content };
-  let attributes = null;
+  let data = null;
   const { publicRuntimeConfig } = getConfig();
   const DEFAULT_COLS = 3;
-  const cols = (attributes && attributes.columns) || DEFAULT_COLS;
+  const cols = (data && data.columns) || DEFAULT_COLS;
   if (!collections) {
     throw new Error("No template collections");
   }
@@ -64,11 +64,11 @@ export default function Cards4({ content }) {
 // import getConfig from 'next/config';
 
 // export default function Cards4({ content }) {
-//   let { attributes, collections } = content;
-//   console.log({attributes});
+//   let { data, collections } = content;
+//   console.log({data});
 //   const { publicRuntimeConfig } = getConfig();
 //   const DEFAULT_COLS = 2;
-//   const cols = attributes && attributes.columns || DEFAULT_COLS;
+//   const cols = data && data.columns || DEFAULT_COLS;
 //   if (!collections) {
 //     throw new Error(
 //       `No collections attribute provided in sections.json for template`
@@ -84,9 +84,9 @@ export default function Cards4({ content }) {
 //   return (
 //     <section id="cards-4" className="template">
 //       <div className="max-w-screen-xl px-4 py-16 mx-auto md:py-24 xl:py-32">
-//       {attributes && attributes.heading && (
+//       {data && data.heading && (
 //           <h1 className="max-w-2xl mx-auto mb-12 text-4xl font-bold leading-none text-center text-gray-900 lg:mb-28">
-//             {attributes.heading}
+//             {data.heading}
 //           </h1>
 //         )}
 //         <div className={`grid md:grid-cols-${cols} gap-6`}>
