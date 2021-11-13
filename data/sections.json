@@ -22,9 +22,7 @@
           }
         ]
       },
-      "collections": {
-        "primary-menu-items": {}
-      },
+      "collections": [{ "slug": "primary-menu-items" }],
       "order": 1
     },
     {
@@ -35,10 +33,10 @@
       "description": "Etiam imperdiet tincidunt magna sit amet vehicula. In vulputate neque non pretium faucibus. Cras gravida consectetur lorem, in dapibus sapien cursus sed. Cras consequat in leo id volutpat.",
       "templates": ["footer-1"],
       "position": "end",
-      "collections": {
-        "primary-menu-items": {},
-        "social-links": {}
-      },
+      "collections": [
+        { "slug": "primary-menu-items" },
+        { "slug": "social-links" }
+      ],
       "order": 10
     },
     {
@@ -100,9 +98,7 @@
       "displayName": "Features",
       "description": "Etiam imperdiet tincidunt magna sit amet vehicula. In vulputate neque non pretium faucibus. Cras gravida consectetur lorem, in dapibus sapien cursus sed. Cras consequat in leo id volutpat.",
       "templates": ["cards-1"],
-      "collections": {
-        "features": {}
-      },
+      "collections": [{ "slug": "features" }],
       "order": 3
     },
     {
@@ -160,9 +156,7 @@
       "displayName": "Benefits List",
       "description": "Etiam imperdiet tincidunt magna sit amet vehicula. In vulputate neque non pretium faucibus. Cras gravida consectetur lorem, in dapibus sapien cursus sed. Cras consequat in leo id volutpat.",
       "templates": ["list-1"],
-      "collections": {
-        "benefits": {}
-      },
+      "collections": [{ "slug": "benefits" }],
       "order": 5
     },
     {
@@ -342,12 +336,13 @@
       "displayName": "Blog Landing",
       "description": "Etiam imperdiet tincidunt magna sit amet vehicula. In vulputate neque non pretium faucibus. Cras gravida consectetur lorem, in dapibus sapien cursus sed. Cras consequat in leo id volutpat.",
       "templates": ["list-3"],
-      "collections": {
-        "blog-items": {
+      "collections": [
+        {
+          "slug": "blog-items",
           "limit": 1,
           "populate": ["author"]
         }
-      },
+      ],
       "order": 2
     },
     {
@@ -356,12 +351,13 @@
       "displayName": "Blog Item List",
       "description": "Etiam imperdiet tincidunt magna sit amet vehicula. In vulputate neque non pretium faucibus. Cras gravida consectetur lorem, in dapibus sapien cursus sed. Cras consequat in leo id volutpat.",
       "templates": ["list-4"],
-      "collections": {
-        "blog-items": {
+      "collections": [
+        {
+          "slug": "blog-items",
           "offset": 1,
           "populate": ["author"]
         }
-      },
+      ],
       "order": 3
     },
     {
@@ -464,12 +460,13 @@
       "data": {
         "columns": 3
       },
-      "collections": {
-        "blog-items": {
+      "collections": [
+        {
+          "slug": "blog-items",
           "limit": 3,
           "populate": ["author"]
         }
-      },
+      ],
       "order": 3
     },
     {
@@ -573,9 +570,9 @@
           }
         ]
       },
-      "collections": {
-        "social-links": {}
-      },
+      "collections": [
+        {"slug": "social-links"}
+      ],
       "order": 2
     }
   ]
