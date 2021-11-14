@@ -6,8 +6,7 @@
           "order": 2,
           "collections": {
             "primary-menu-items": {
-              "slug": "primary-menu-items",
-              "_limit": 4
+              "slug": "primary-menu-items"
             }
           }
         },
@@ -16,8 +15,7 @@
           "order": 10,
           "collections": {
             "primary-menu-items": {
-              "slug": "primary-menu-items",
-              "_limit": 4
+              "slug": "primary-menu-items"
             },
             "social-links": {
               "slug": "social-links"

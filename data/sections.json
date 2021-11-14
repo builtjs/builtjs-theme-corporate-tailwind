@@ -98,7 +98,7 @@
       "displayName": "Features",
       "description": "Etiam imperdiet tincidunt magna sit amet vehicula. In vulputate neque non pretium faucibus. Cras gravida consectetur lorem, in dapibus sapien cursus sed. Cras consequat in leo id volutpat.",
       "templates": ["cards-1"],
-      "collections": [{ "slug": "features" }],
+      "collections": [{ "slug": "features","query": null }],
       "order": 3
     },
     {
@@ -156,7 +156,7 @@
       "displayName": "Benefits List",
       "description": "Etiam imperdiet tincidunt magna sit amet vehicula. In vulputate neque non pretium faucibus. Cras gravida consectetur lorem, in dapibus sapien cursus sed. Cras consequat in leo id volutpat.",
       "templates": ["list-1"],
-      "collections": [{ "slug": "benefits" }],
+      "collections": [{ "slug": "benefits","query": null }],
       "order": 5
     },
     {
@@ -354,6 +354,7 @@
       "collections": [
         {
           "slug": "blog-items",
+          "query": null,
           "offset": 1,
           "populate": ["author"]
         }
@@ -445,6 +446,7 @@
       "templates": ["article-1"],
       "item": {
         "blog-item": {
+          "query": null,
           "populate": ["author"]
         }
       },
@@ -463,6 +465,7 @@
       "collections": [
         {
           "slug": "blog-items",
+          "query": null,
           "limit": 3,
           "populate": ["author"]
         }
@@ -571,7 +574,7 @@
         ]
       },
       "collections": [
-        {"slug": "social-links"}
+        {"slug": "social-links","query": null}
       ],
       "order": 2
     }
