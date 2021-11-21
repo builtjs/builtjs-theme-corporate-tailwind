@@ -9,7 +9,7 @@ export default function Block4({ content }) {
         <h2 className="max-w-5xl mx-auto">{attributes.heading}</h2>
         <div className="mb-4 grid grid-cols-1 gap-x-6 md:grid-cols-2">
           <div>
-            <p className="md:text-left">{attributes.blurb}</p>
+            <p className="md:text-left">{attributes.blurb1}</p>
           </div>
           <div>
             <p className="md:text-left">{attributes.blurb2}</p>

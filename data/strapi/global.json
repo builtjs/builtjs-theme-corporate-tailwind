@@ -7,7 +7,7 @@
       "options": { "increments": true, "timestamps": true },
       "attributes": {
         "name": {
-          "default": "New Site",
+          "default": "Corporate Tailwind",
           "type": "string"
         },
         "logo": {

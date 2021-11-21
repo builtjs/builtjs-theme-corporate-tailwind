@@ -11,7 +11,7 @@ export default function Block5({ content }) {
             <h2>{attributes.heading}</h2>
           </div>
           <div>
-            <p>{attributes.blurb}</p>
+            <p>{attributes.blurb1}</p>
             <p className="mb-8">{attributes.blurb2}</p>
             {attributes.buttonLinks &&
               attributes.buttonLinks.map((button) => {

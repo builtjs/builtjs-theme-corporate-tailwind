@@ -9,7 +9,7 @@ export default function Block3({ content }) {
         <h2 className="max-w-5xl">{attributes.heading}</h2>
         <div className="mb-4 grid grid-cols-1 gap-x-6 md:grid-cols-2">
           <div>
-            <p>{attributes.blurb}</p>
+            <p>{attributes.blurb1}</p>
           </div>
           <div>
             <p>{attributes.blurb2}</p>

@@ -299,7 +299,7 @@
             "component": "elements.preheading"
           },
           "heading": { "type": "string" },
-          "text1": { "type": "text" },
+          "blurb1": { "type": "text" },
           "text2": { "type": "text" },
           "buttonLinks": {
             "type": "component",
@@ -437,10 +437,10 @@
         },
         "attributes": {
           "heading": { "type": "string" },
-          "text1": {
+          "blurb1": {
             "type": "text"
           },
-          "text2": {
+          "blurb2": {
             "type": "text"
           }
         }
