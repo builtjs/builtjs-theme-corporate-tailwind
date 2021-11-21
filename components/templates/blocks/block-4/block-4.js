@@ -4,20 +4,21 @@ export default function Block4({ content }) {
   let { attributes } = content;
   return (
     <section id="block-4" className="template">
-      <div className="max-w-2xl px-4 py-20 mx-auto">
+      <div className="mx-auto text-center max-w-screen-xl">
         <Preheading attribute={attributes.preheading}></Preheading>
-        <h2 className="mb-12 font-bold leading-none text-gray-900 text-7xl lg:text-8xl">{attributes.heading}</h2>
-        <div className="px-8 sm:px-16">
-          <p className="mb-6">{attributes.blurb}</p>
-          <p className="mb-16">{attributes.blurb2}</p>
-          {attributes.buttonLinks && (
-            <div className="flex flex-col items-center sm:flex-row">
-              {attributes.buttonLinks.map((button) => {
-                return <ButtonLink key={button.label} attribute={button}></ButtonLink>;
-              })}
-            </div>
-          )}
+        <h2 className="max-w-5xl mx-auto">{attributes.heading}</h2>
+        <div className="mb-4 grid grid-cols-1 gap-x-6 md:grid-cols-2">
+          <div>
+            <p className="md:text-left">{attributes.blurb1}</p>
+          </div>
+          <div>
+            <p className="md:text-left">{attributes.blurb2}</p>
+          </div>
         </div>
+        {attributes.buttonLinks &&
+          attributes.buttonLinks.map((button) => {
+            return <ButtonLink key={button.type} attribute={button}></ButtonLink>;
+          })}
       </div>
     </section>
   );

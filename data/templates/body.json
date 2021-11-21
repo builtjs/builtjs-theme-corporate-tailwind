@@ -1,14 +1,15 @@
 {
   "templates": [
     {
-      "slug": "seo",
-      "displayName": "SEO",
-      "category": "head",
-      "description": "Etiam imperdiet tincidunt magna sit amet vehicula. In vulputate neque non pretium faucibus. Cras gravida consectetur lorem, in dapibus sapien cursus sed. Cras consequat in leo id volutpat."
-    },
-    {
       "slug": "header-1",
       "displayName": "Header 1",
+      "category": "headers",
+      "description": "Etiam imperdiet tincidunt magna sit amet vehicula. In vulputate neque non pretium faucibus. Cras gravida consectetur lorem, in dapibus sapien cursus sed. Cras consequat in leo id volutpat.",
+      "imageUrl": ""
+    },
+    {
+      "slug": "header-2",
+      "displayName": "Header 2",
       "category": "headers",
       "description": "Etiam imperdiet tincidunt magna sit amet vehicula. In vulputate neque non pretium faucibus. Cras gravida consectetur lorem, in dapibus sapien cursus sed. Cras consequat in leo id volutpat.",
       "imageUrl": ""
@@ -21,39 +22,17 @@
       "imageUrl": ""
     },
     {
-      "slug": "cover-1",
-      "displayName": "Cover 1",
-      "category": "covers",
-      "description": "Etiam imperdiet tincidunt magna sit amet vehicula. In vulputate neque non pretium faucibus. Cras gravida consectetur lorem, in dapibus sapien cursus sed. Cras consequat in leo id volutpat.",
-      "imageUrl": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/main/components/templates/covers/cover-1/cover-1-700.png"
-    },
-    {
-      "slug": "cover-2",
-      "displayName": "Cover 2",
-      "category": "covers",
+      "slug": "footer-2",
+      "displayName": "Footer 2",
+      "category": "footers",
       "description": "Etiam imperdiet tincidunt magna sit amet vehicula. In vulputate neque non pretium faucibus. Cras gravida consectetur lorem, in dapibus sapien cursus sed. Cras consequat in leo id volutpat.",
       "imageUrl": ""
     },
     {
-      "slug": "cover-3",
-      "displayName": "Cover 3",
-      "category": "covers",
-      "description": "Etiam imperdiet tincidunt magna sit amet vehicula. In vulputate neque non pretium faucibus. Cras gravida consectetur lorem, in dapibus sapien cursus sed. Cras consequat in leo id volutpat.",
-      "imageUrl": ""
-    },
-    {
-      "slug": "cover-4",
-      "displayName": "Cover 4",
-      "category": "covers",
-      "description": "Etiam imperdiet tincidunt magna sit amet vehicula. In vulputate neque non pretium faucibus. Cras gravida consectetur lorem, in dapibus sapien cursus sed. Cras consequat in leo id volutpat.",
-      "imageUrl": ""
-    },
-    {
-      "slug": "cover-5",
-      "displayName": "Cover 5",
-      "category": "covers",
-      "description": "Etiam imperdiet tincidunt magna sit amet vehicula. In vulputate neque non pretium faucibus. Cras gravida consectetur lorem, in dapibus sapien cursus sed. Cras consequat in leo id volutpat.",
-      "imageUrl": ""
+      "slug": "seo",
+      "displayName": "SEO",
+      "category": "head",
+      "description": "Etiam imperdiet tincidunt magna sit amet vehicula. In vulputate neque non pretium faucibus. Cras gravida consectetur lorem, in dapibus sapien cursus sed. Cras consequat in leo id volutpat."
     },
     {
       "slug": "banner-1",
@@ -79,6 +58,13 @@
     {
       "slug": "banner-4",
       "displayName": "Banner 4",
+      "category": "banners",
+      "description": "Etiam imperdiet tincidunt magna sit amet vehicula. In vulputate neque non pretium faucibus. Cras gravida consectetur lorem, in dapibus sapien cursus sed. Cras consequat in leo id volutpat.",
+      "imageUrl": ""
+    },
+    {
+      "slug": "banner-5",
+      "displayName": "Banner 5",
       "category": "banners",
       "description": "Etiam imperdiet tincidunt magna sit amet vehicula. In vulputate neque non pretium faucibus. Cras gravida consectetur lorem, in dapibus sapien cursus sed. Cras consequat in leo id volutpat.",
       "imageUrl": ""
@@ -119,41 +105,6 @@
       "imageUrl": ""
     },
     {
-      "slug": "block-6",
-      "displayName": "Block 6",
-      "category": "blocks",
-      "description": "Etiam imperdiet tincidunt magna sit amet vehicula. In vulputate neque non pretium faucibus. Cras gravida consectetur lorem, in dapibus sapien cursus sed. Cras consequat in leo id volutpat.",
-      "imageUrl": ""
-    },
-    {
-      "slug": "list-1",
-      "displayName": "List 1",
-      "category": "lists",
-      "description": "Etiam imperdiet tincidunt magna sit amet vehicula. In vulputate neque non pretium faucibus. Cras gravida consectetur lorem, in dapibus sapien cursus sed. Cras consequat in leo id volutpat.",
-      "imageUrl": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/main/components/templates/lists/list-1/list-1-800.png"
-    },
-    {
-      "slug": "list-2",
-      "displayName": "List 2",
-      "category": "lists",
-      "description": "Etiam imperdiet tincidunt magna sit amet vehicula. In vulputate neque non pretium faucibus. Cras gravida consectetur lorem, in dapibus sapien cursus sed. Cras consequat in leo id volutpat.",
-      "imageUrl": ""
-    },
-    {
-      "slug": "list-3",
-      "displayName": "List 3",
-      "category": "lists",
-      "description": "Etiam imperdiet tincidunt magna sit amet vehicula. In vulputate neque non pretium faucibus. Cras gravida consectetur lorem, in dapibus sapien cursus sed. Cras consequat in leo id volutpat.",
-      "imageUrl": ""
-    },
-    {
-      "slug": "list-4",
-      "displayName": "List 4",
-      "category": "lists",
-      "description": "Etiam imperdiet tincidunt magna sit amet vehicula. In vulputate neque non pretium faucibus. Cras gravida consectetur lorem, in dapibus sapien cursus sed. Cras consequat in leo id volutpat.",
-      "imageUrl": ""
-    },
-    {
       "slug": "cards-1",
       "displayName": "Cards 1",
       "category": "cards",
@@ -189,6 +140,76 @@
       "imageUrl": ""
     },
     {
+      "slug": "cover-1",
+      "displayName": "Cover 1",
+      "category": "covers",
+      "description": "Etiam imperdiet tincidunt magna sit amet vehicula. In vulputate neque non pretium faucibus. Cras gravida consectetur lorem, in dapibus sapien cursus sed. Cras consequat in leo id volutpat.",
+      "imageUrl": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/main/components/templates/covers/cover-1/cover-1-700.png"
+    },
+    {
+      "slug": "cover-2",
+      "displayName": "Cover 2",
+      "category": "covers",
+      "description": "Etiam imperdiet tincidunt magna sit amet vehicula. In vulputate neque non pretium faucibus. Cras gravida consectetur lorem, in dapibus sapien cursus sed. Cras consequat in leo id volutpat.",
+      "imageUrl": ""
+    },
+    {
+      "slug": "cover-3",
+      "displayName": "Cover 3",
+      "category": "covers",
+      "description": "Etiam imperdiet tincidunt magna sit amet vehicula. In vulputate neque non pretium faucibus. Cras gravida consectetur lorem, in dapibus sapien cursus sed. Cras consequat in leo id volutpat.",
+      "imageUrl": ""
+    },
+    {
+      "slug": "cover-4",
+      "displayName": "Cover 4",
+      "category": "covers",
+      "description": "Etiam imperdiet tincidunt magna sit amet vehicula. In vulputate neque non pretium faucibus. Cras gravida consectetur lorem, in dapibus sapien cursus sed. Cras consequat in leo id volutpat.",
+      "imageUrl": ""
+    },
+    {
+      "slug": "cover-5",
+      "displayName": "Cover 5",
+      "category": "covers",
+      "description": "Etiam imperdiet tincidunt magna sit amet vehicula. In vulputate neque non pretium faucibus. Cras gravida consectetur lorem, in dapibus sapien cursus sed. Cras consequat in leo id volutpat.",
+      "imageUrl": ""
+    },
+    {
+      "slug": "list-1",
+      "displayName": "List 1",
+      "category": "lists",
+      "description": "Etiam imperdiet tincidunt magna sit amet vehicula. In vulputate neque non pretium faucibus. Cras gravida consectetur lorem, in dapibus sapien cursus sed. Cras consequat in leo id volutpat.",
+      "imageUrl": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/main/components/templates/lists/list-1/list-1-800.png"
+    },
+    {
+      "slug": "list-2",
+      "displayName": "List 2",
+      "category": "lists",
+      "description": "Etiam imperdiet tincidunt magna sit amet vehicula. In vulputate neque non pretium faucibus. Cras gravida consectetur lorem, in dapibus sapien cursus sed. Cras consequat in leo id volutpat.",
+      "imageUrl": ""
+    },
+    {
+      "slug": "list-3",
+      "displayName": "List 3",
+      "category": "lists",
+      "description": "Etiam imperdiet tincidunt magna sit amet vehicula. In vulputate neque non pretium faucibus. Cras gravida consectetur lorem, in dapibus sapien cursus sed. Cras consequat in leo id volutpat.",
+      "imageUrl": ""
+    },
+    {
+      "slug": "list-4",
+      "displayName": "List 4",
+      "category": "lists",
+      "description": "Etiam imperdiet tincidunt magna sit amet vehicula. In vulputate neque non pretium faucibus. Cras gravida consectetur lorem, in dapibus sapien cursus sed. Cras consequat in leo id volutpat.",
+      "imageUrl": ""
+    },
+    {
+      "slug": "list-5",
+      "displayName": "List 5",
+      "category": "lists",
+      "description": "Etiam imperdiet tincidunt magna sit amet vehicula. In vulputate neque non pretium faucibus. Cras gravida consectetur lorem, in dapibus sapien cursus sed. Cras consequat in leo id volutpat.",
+      "imageUrl": ""
+    },
+    {
       "slug": "form-1",
       "displayName": "Form 1",
       "category": "forms",
@@ -199,20 +220,6 @@
       "slug": "form-2",
       "displayName": "Form 2",
       "category": "forms",
-      "description": "Etiam imperdiet tincidunt magna sit amet vehicula. In vulputate neque non pretium faucibus. Cras gravida consectetur lorem, in dapibus sapien cursus sed. Cras consequat in leo id volutpat.",
-      "imageUrl": ""
-    },
-    {
-      "slug": "list-1",
-      "displayName": "List 1",
-      "category": "lists",
-      "description": "Etiam imperdiet tincidunt magna sit amet vehicula. In vulputate neque non pretium faucibus. Cras gravida consectetur lorem, in dapibus sapien cursus sed. Cras consequat in leo id volutpat.",
-      "imageUrl": ""
-    },
-    {
-      "slug": "list-2",
-      "displayName": "List 2",
-      "category": "lists",
       "description": "Etiam imperdiet tincidunt magna sit amet vehicula. In vulputate neque non pretium faucibus. Cras gravida consectetur lorem, in dapibus sapien cursus sed. Cras consequat in leo id volutpat.",
       "imageUrl": ""
     },
