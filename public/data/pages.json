@@ -1,0 +1,552 @@
+{
+  "pages": {
+    "site": [
+      {
+        "slug": "home",
+        "displayName": "Home",
+        "status": "published",
+        "sections": [
+          {
+            "slug": "home-seo",
+            "template": {
+              "slug": "seo",
+              "type": "head"
+            }
+          },
+          {
+            "slug": "main-landing",
+            "template": {
+              "slug": "cover-1",
+              "type": "body"
+            }
+          },
+          {
+            "slug": "features-list",
+            "template": {
+              "slug": "cards-1",
+              "type": "body"
+            }
+          },
+          {
+            "slug": "contact-teaser",
+            "template": {
+              "slug": "banner-1",
+              "type": "body"
+            }
+          },
+          {
+            "slug": "benefits-list",
+            "template": {
+              "slug": "list-1",
+              "type": "body"
+            }
+          },
+          {
+            "slug": "home-about-teaser",
+            "template": {
+              "slug": "block-1",
+              "type": "body"
+            }
+          },
+          {
+            "slug": "blog-item-list",
+            "template": {
+              "slug": "list-5",
+              "type": "body"
+            }
+          }
+        ]
+      },
+      {
+        "slug": "products",
+        "displayName": "Products",
+        "status": "published",
+        "sections": [
+          {
+            "slug": "products-seo",
+            "template": {
+              "slug": "seo",
+              "type": "head"
+            }
+          },
+          {
+            "slug": "products-landing",
+            "template": {
+              "slug": "cover-4",
+              "type": "body"
+            }
+          },
+          {
+            "slug": "features-list",
+            "template": {
+              "slug": "cards-3",
+              "type": "body"
+            }
+          },
+          {
+            "slug": "services-block",
+            "template": {
+              "slug": "block-4",
+              "type": "body"
+            }
+          },
+          {
+            "slug": "benefits-list",
+            "template": {
+              "slug": "list-3",
+              "type": "body"
+            }
+          },
+          {
+            "slug": "contact-teaser",
+            "template": {
+              "slug": "banner-4",
+              "type": "body"
+            }
+          }
+        ]
+      },
+      {
+        "slug": "services",
+        "displayName": "Services",
+        "status": "published",
+        "sections": [
+          {
+            "slug": "services-seo",
+            "template": {
+              "slug": "seo",
+              "type": "head"
+            }
+          },
+          {
+            "slug": "services-landing",
+            "template": {
+              "slug": "cover-3",
+              "type": "body"
+            }
+          },
+          {
+            "slug": "services-block",
+            "template": {
+              "slug": "block-3",
+              "type": "body"
+            }
+          },
+          {
+            "slug": "benefits-list",
+            "template": {
+              "slug": "list-2",
+              "type": "body"
+            }
+          },
+          {
+            "slug": "features-list",
+            "template": {
+              "slug": "cards-3",
+              "type": "body"
+            }
+          },
+          {
+            "slug": "contact-teaser",
+            "template": {
+              "slug": "banner-3",
+              "type": "body"
+            }
+          }
+        ]
+      },
+      {
+        "slug": "about",
+        "displayName": "About",
+        "status": "published",
+        "sections": [
+          {
+            "slug": "about-seo",
+            "template": {
+              "slug": "seo",
+              "type": "head"
+            }
+          },
+          {
+            "slug": "about-landing",
+            "template": {
+              "slug": "cover-2",
+              "type": "body"
+            }
+          },
+          {
+            "slug": "about-text",
+            "template": {
+              "slug": "block-2",
+              "type": "body"
+            }
+          },
+          {
+            "slug": "benefits-list",
+            "template": {
+              "slug": "list-2",
+              "type": "body"
+            }
+          },
+          {
+            "slug": "contact-teaser",
+            "template": {
+              "slug": "banner-2",
+              "type": "body"
+            }
+          }
+        ]
+      },
+      {
+        "slug": "blog",
+        "displayName": "Blog",
+        "sections": [
+          {
+            "slug": "blog-seo",
+            "template": {
+              "slug": "seo",
+              "type": "head"
+            }
+          },
+          {
+            "slug": "blog-landing",
+            "template": {
+              "slug": "list-4",
+              "type": "body"
+            }
+          },
+          {
+            "slug": "blog-item-list",
+            "template": {
+              "slug": "list-5",
+              "type": "body"
+            }
+          }
+        ]
+      },
+      {
+        "slug": "blog-item",
+        "displayName": "Blog item",
+        "sections": [
+          {
+            "slug": "blog-item",
+            "template": {
+              "slug": "article-1",
+              "type": "body"
+            }
+          },
+          {
+            "slug": "blog-related-articles",
+            "template": {
+              "slug": "list-5",
+              "type": "body"
+            }
+          }
+        ]
+      },
+      {
+        "slug": "contact",
+        "displayName": "Contact",
+        "status": "published",
+        "sections": [
+          {
+            "slug": "contact-seo",
+            "template": {
+              "slug": "seo",
+              "type": "head"
+            }
+          },
+          {
+            "slug": "contact-landing",
+            "template": {
+              "slug": "form-1",
+              "type": "body"
+            }
+          },
+          {
+            "slug": "contact-teaser",
+            "template": {
+              "slug": "banner-4",
+              "type": "body"
+            }
+          }
+        ]
+      }
+    ],
+    "templates": [
+      {
+        "slug": "banners",
+        "displayName": "Banners",
+        "status": "published",
+        "sections": [
+          {
+            "slug": "contact-teaser",
+            "template": {
+              "slug": "banner-1",
+              "type": "body"
+            }
+          },
+          {
+            "slug": "contact-teaser",
+            "template": {
+              "slug": "banner-2",
+              "type": "body"
+            }
+          },
+          {
+            "slug": "contact-teaser",
+            "template": {
+              "slug": "banner-3",
+              "type": "body"
+            }
+          },
+          {
+            "slug": "contact-teaser",
+            "template": {
+              "slug": "banner-4",
+              "type": "body"
+            }
+          },
+          {
+            "slug": "contact-teaser",
+            "template": {
+              "slug": "banner-5",
+              "type": "body"
+            }
+          }
+        ]
+      },
+      {
+        "slug": "blocks",
+        "displayName": "Blocks",
+        "status": "published",
+        "sections": [
+          {
+            "slug": "home-about-teaser",
+            "template": {
+              "slug": "block-1",
+              "type": "body"
+            }
+          },
+          {
+            "slug": "home-about-teaser",
+            "template": {
+              "slug": "block-2",
+              "type": "body"
+            }
+          },
+          {
+            "slug": "home-about-teaser",
+            "template": {
+              "slug": "block-3",
+              "type": "body"
+            }
+          },
+          {
+            "slug": "home-about-teaser",
+            "template": {
+              "slug": "block-4",
+              "type": "body"
+            }
+          },
+          {
+            "slug": "home-about-teaser",
+            "template": {
+              "slug": "block-5",
+              "type": "body"
+            }
+          }
+        ]
+      },
+      {
+        "slug": "cards",
+        "displayName": "Cards",
+        "status": "published",
+        "sections": [
+          {
+            "slug": "features-list",
+            "template": {
+              "slug": "cards-1",
+              "type": "body"
+            }
+          },
+          {
+            "slug": "features-list",
+            "template": {
+              "slug": "cards-2",
+              "type": "body"
+            }
+          },
+          {
+            "slug": "features-list",
+            "template": {
+              "slug": "cards-3",
+              "type": "body"
+            }
+          },
+          {
+            "slug": "features-list",
+            "template": {
+              "slug": "cards-4",
+              "type": "body"
+            }
+          },
+          {
+            "slug": "blog-related-articles",
+            "template": {
+              "slug": "cards-5",
+              "type": "body"
+            }
+          }
+        ]
+      },
+      {
+        "slug": "covers",
+        "displayName": "Covers",
+        "status": "published",
+        "sections": [
+          {
+            "slug": "main-landing",
+            "template": {
+              "slug": "cover-1",
+              "type": "body"
+            }
+          },
+          {
+            "slug": "about-landing",
+            "template": {
+              "slug": "cover-2",
+              "type": "body"
+            }
+          },
+          {
+            "slug": "services-landing",
+            "template": {
+              "slug": "cover-3",
+              "type": "body"
+            }
+          },
+          {
+            "slug": "products-landing",
+            "template": {
+              "slug": "cover-4",
+              "type": "body"
+            }
+          },
+          {
+            "slug": "products-landing",
+            "template": {
+              "slug": "cover-5",
+              "type": "body"
+            }
+          }
+        ]
+      },
+      {
+        "slug": "footers",
+        "displayName": "Footers",
+        "status": "published",
+        "sections": [
+          {
+            "slug": "footer-1",
+            "template": {
+              "slug": "footer-1",
+              "type": "body"
+            }
+          },
+          {
+            "slug": "footer-1",
+            "template": {
+              "slug": "footer-2",
+              "type": "body"
+            }
+          }
+        ]
+      },
+      {
+        "slug": "forms",
+        "displayName": "Forms",
+        "status": "published",
+        "sections": [
+          {
+            "slug": "contact-landing",
+            "template": {
+              "slug": "form-1",
+              "type": "body"
+            }
+          },
+          {
+            "slug": "contact-landing",
+            "template": {
+              "slug": "form-2",
+              "type": "body"
+            }
+          }
+        ]
+      },
+      {
+        "slug": "headers",
+        "displayName": "Headers",
+        "status": "published",
+        "sections": [
+          {
+            "slug": "header-1",
+            "template": {
+              "slug": "header-1",
+              "type": "body"
+            }
+          },
+          {
+            "slug": "header-1",
+            "template": {
+              "slug": "header-2",
+              "type": "body"
+            }
+          }
+        ]
+      },
+      {
+        "slug": "lists",
+        "displayName": "Lists",
+        "status": "published",
+        "sections": [
+          {
+            "slug": "benefits-list",
+            "template": {
+              "slug": "list-1",
+              "type": "body"
+            }
+          },
+          {
+            "slug": "benefits-list",
+            "template": {
+              "slug": "list-2",
+              "type": "body"
+            }
+          },
+          {
+            "slug": "benefits-list",
+            "template": {
+              "slug": "list-3",
+              "type": "body"
+            }
+          },
+          {
+            "slug": "blog-item-list",
+            "template": {
+              "slug": "list-4",
+              "type": "body"
+            }
+          },
+          {
+            "slug": "blog-item-list",
+            "template": {
+              "slug": "list-5",
+              "type": "body"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

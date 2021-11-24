@@ -2,13 +2,16 @@
   "templates": [
     {
       "slug": "header-1",
+      "type": "body",
       "displayName": "Header 1",
       "category": "headers",
       "description": "Etiam imperdiet tincidunt magna sit amet vehicula. In vulputate neque non pretium faucibus. Cras gravida consectetur lorem, in dapibus sapien cursus sed. Cras consequat in leo id volutpat.",
       "imageUrl": ""
+      
     },
     {
       "slug": "header-2",
+      "type": "body",
       "displayName": "Header 2",
       "category": "headers",
       "description": "Etiam imperdiet tincidunt magna sit amet vehicula. In vulputate neque non pretium faucibus. Cras gravida consectetur lorem, in dapibus sapien cursus sed. Cras consequat in leo id volutpat.",
@@ -16,6 +19,7 @@
     },
     {
       "slug": "footer-1",
+      "type": "body",
       "displayName": "Footer 1",
       "category": "footers",
       "description": "Etiam imperdiet tincidunt magna sit amet vehicula. In vulputate neque non pretium faucibus. Cras gravida consectetur lorem, in dapibus sapien cursus sed. Cras consequat in leo id volutpat.",
@@ -23,6 +27,7 @@
     },
     {
       "slug": "footer-2",
+      "type": "body",
       "displayName": "Footer 2",
       "category": "footers",
       "description": "Etiam imperdiet tincidunt magna sit amet vehicula. In vulputate neque non pretium faucibus. Cras gravida consectetur lorem, in dapibus sapien cursus sed. Cras consequat in leo id volutpat.",
@@ -30,12 +35,14 @@
     },
     {
       "slug": "seo",
+      "type": "head",
       "displayName": "SEO",
       "category": "head",
       "description": "Etiam imperdiet tincidunt magna sit amet vehicula. In vulputate neque non pretium faucibus. Cras gravida consectetur lorem, in dapibus sapien cursus sed. Cras consequat in leo id volutpat."
     },
     {
       "slug": "banner-1",
+      "type": "body",
       "displayName": "Banner 1",
       "category": "banners",
       "description": "Etiam imperdiet tincidunt magna sit amet vehicula. In vulputate neque non pretium faucibus. Cras gravida consectetur lorem, in dapibus sapien cursus sed. Cras consequat in leo id volutpat.",
@@ -43,6 +50,7 @@
     },
     {
       "slug": "banner-2",
+      "type": "body",
       "displayName": "Banner 2",
       "category": "banners",
       "description": "Etiam imperdiet tincidunt magna sit amet vehicula. In vulputate neque non pretium faucibus. Cras gravida consectetur lorem, in dapibus sapien cursus sed. Cras consequat in leo id volutpat.",
@@ -50,6 +58,7 @@
     },
     {
       "slug": "banner-3",
+      "type": "body",
       "displayName": "Banner 3",
       "category": "banners",
       "description": "Etiam imperdiet tincidunt magna sit amet vehicula. In vulputate neque non pretium faucibus. Cras gravida consectetur lorem, in dapibus sapien cursus sed. Cras consequat in leo id volutpat.",
@@ -57,6 +66,7 @@
     },
     {
       "slug": "banner-4",
+      "type": "body",
       "displayName": "Banner 4",
       "category": "banners",
       "description": "Etiam imperdiet tincidunt magna sit amet vehicula. In vulputate neque non pretium faucibus. Cras gravida consectetur lorem, in dapibus sapien cursus sed. Cras consequat in leo id volutpat.",
@@ -64,6 +74,7 @@
     },
     {
       "slug": "banner-5",
+      "type": "body",
       "displayName": "Banner 5",
       "category": "banners",
       "description": "Etiam imperdiet tincidunt magna sit amet vehicula. In vulputate neque non pretium faucibus. Cras gravida consectetur lorem, in dapibus sapien cursus sed. Cras consequat in leo id volutpat.",
@@ -71,6 +82,7 @@
     },
     {
       "slug": "block-1",
+      "type": "body",
       "displayName": "Block 1",
       "category": "blocks",
       "description": "Etiam imperdiet tincidunt magna sit amet vehicula. In vulputate neque non pretium faucibus. Cras gravida consectetur lorem, in dapibus sapien cursus sed. Cras consequat in leo id volutpat.",
@@ -78,6 +90,7 @@
     },
     {
       "slug": "block-2",
+      "type": "body",
       "displayName": "Block 2",
       "category": "blocks",
       "description": "Etiam imperdiet tincidunt magna sit amet vehicula. In vulputate neque non pretium faucibus. Cras gravida consectetur lorem, in dapibus sapien cursus sed. Cras consequat in leo id volutpat.",
@@ -85,6 +98,7 @@
     },
     {
       "slug": "block-3",
+      "type": "body",
       "displayName": "Block 3",
       "category": "blocks",
       "description": "Etiam imperdiet tincidunt magna sit amet vehicula. In vulputate neque non pretium faucibus. Cras gravida consectetur lorem, in dapibus sapien cursus sed. Cras consequat in leo id volutpat.",
@@ -92,6 +106,7 @@
     },
     {
       "slug": "block-4",
+      "type": "body",
       "displayName": "Block 4",
       "category": "blocks",
       "description": "Etiam imperdiet tincidunt magna sit amet vehicula. In vulputate neque non pretium faucibus. Cras gravida consectetur lorem, in dapibus sapien cursus sed. Cras consequat in leo id volutpat.",
@@ -99,6 +114,7 @@
     },
     {
       "slug": "block-5",
+      "type": "body",
       "displayName": "Block 5",
       "category": "blocks",
       "description": "Etiam imperdiet tincidunt magna sit amet vehicula. In vulputate neque non pretium faucibus. Cras gravida consectetur lorem, in dapibus sapien cursus sed. Cras consequat in leo id volutpat.",
@@ -106,6 +122,7 @@
     },
     {
       "slug": "cards-1",
+      "type": "body",
       "displayName": "Cards 1",
       "category": "cards",
       "description": "Etiam imperdiet tincidunt magna sit amet vehicula. In vulputate neque non pretium faucibus. Cras gravida consectetur lorem, in dapibus sapien cursus sed. Cras consequat in leo id volutpat.",
@@ -113,6 +130,7 @@
     },
     {
       "slug": "cards-2",
+      "type": "body",
       "displayName": "Cards 2",
       "category": "cards",
       "description": "Etiam imperdiet tincidunt magna sit amet vehicula. In vulputate neque non pretium faucibus. Cras gravida consectetur lorem, in dapibus sapien cursus sed. Cras consequat in leo id volutpat.",
@@ -120,6 +138,7 @@
     },
     {
       "slug": "cards-3",
+      "type": "body",
       "displayName": "Cards 3",
       "category": "cards",
       "description": "Etiam imperdiet tincidunt magna sit amet vehicula. In vulputate neque non pretium faucibus. Cras gravida consectetur lorem, in dapibus sapien cursus sed. Cras consequat in leo id volutpat.",
@@ -127,6 +146,7 @@
     },
     {
       "slug": "cards-4",
+      "type": "body",
       "displayName": "Cards 4",
       "category": "cards",
       "description": "Etiam imperdiet tincidunt magna sit amet vehicula. In vulputate neque non pretium faucibus. Cras gravida consectetur lorem, in dapibus sapien cursus sed. Cras consequat in leo id volutpat.",
@@ -134,6 +154,7 @@
     },
     {
       "slug": "cards-5",
+      "type": "body",
       "displayName": "Cards 5",
       "category": "cards",
       "description": "Etiam imperdiet tincidunt magna sit amet vehicula. In vulputate neque non pretium faucibus. Cras gravida consectetur lorem, in dapibus sapien cursus sed. Cras consequat in leo id volutpat.",
@@ -141,6 +162,7 @@
     },
     {
       "slug": "cover-1",
+      "type": "body",
       "displayName": "Cover 1",
       "category": "covers",
       "description": "Etiam imperdiet tincidunt magna sit amet vehicula. In vulputate neque non pretium faucibus. Cras gravida consectetur lorem, in dapibus sapien cursus sed. Cras consequat in leo id volutpat.",
@@ -148,6 +170,7 @@
     },
     {
       "slug": "cover-2",
+      "type": "body",
       "displayName": "Cover 2",
       "category": "covers",
       "description": "Etiam imperdiet tincidunt magna sit amet vehicula. In vulputate neque non pretium faucibus. Cras gravida consectetur lorem, in dapibus sapien cursus sed. Cras consequat in leo id volutpat.",
@@ -155,6 +178,7 @@
     },
     {
       "slug": "cover-3",
+      "type": "body",
       "displayName": "Cover 3",
       "category": "covers",
       "description": "Etiam imperdiet tincidunt magna sit amet vehicula. In vulputate neque non pretium faucibus. Cras gravida consectetur lorem, in dapibus sapien cursus sed. Cras consequat in leo id volutpat.",
@@ -162,6 +186,7 @@
     },
     {
       "slug": "cover-4",
+      "type": "body",
       "displayName": "Cover 4",
       "category": "covers",
       "description": "Etiam imperdiet tincidunt magna sit amet vehicula. In vulputate neque non pretium faucibus. Cras gravida consectetur lorem, in dapibus sapien cursus sed. Cras consequat in leo id volutpat.",
@@ -169,6 +194,7 @@
     },
     {
       "slug": "cover-5",
+      "type": "body",
       "displayName": "Cover 5",
       "category": "covers",
       "description": "Etiam imperdiet tincidunt magna sit amet vehicula. In vulputate neque non pretium faucibus. Cras gravida consectetur lorem, in dapibus sapien cursus sed. Cras consequat in leo id volutpat.",
@@ -176,6 +202,7 @@
     },
     {
       "slug": "list-1",
+      "type": "body",
       "displayName": "List 1",
       "category": "lists",
       "description": "Etiam imperdiet tincidunt magna sit amet vehicula. In vulputate neque non pretium faucibus. Cras gravida consectetur lorem, in dapibus sapien cursus sed. Cras consequat in leo id volutpat.",
@@ -183,6 +210,7 @@
     },
     {
       "slug": "list-2",
+      "type": "body",
       "displayName": "List 2",
       "category": "lists",
       "description": "Etiam imperdiet tincidunt magna sit amet vehicula. In vulputate neque non pretium faucibus. Cras gravida consectetur lorem, in dapibus sapien cursus sed. Cras consequat in leo id volutpat.",
@@ -190,6 +218,7 @@
     },
     {
       "slug": "list-3",
+      "type": "body",
       "displayName": "List 3",
       "category": "lists",
       "description": "Etiam imperdiet tincidunt magna sit amet vehicula. In vulputate neque non pretium faucibus. Cras gravida consectetur lorem, in dapibus sapien cursus sed. Cras consequat in leo id volutpat.",
@@ -197,6 +226,7 @@
     },
     {
       "slug": "list-4",
+      "type": "body",
       "displayName": "List 4",
       "category": "lists",
       "description": "Etiam imperdiet tincidunt magna sit amet vehicula. In vulputate neque non pretium faucibus. Cras gravida consectetur lorem, in dapibus sapien cursus sed. Cras consequat in leo id volutpat.",
@@ -204,6 +234,7 @@
     },
     {
       "slug": "list-5",
+      "type": "body",
       "displayName": "List 5",
       "category": "lists",
       "description": "Etiam imperdiet tincidunt magna sit amet vehicula. In vulputate neque non pretium faucibus. Cras gravida consectetur lorem, in dapibus sapien cursus sed. Cras consequat in leo id volutpat.",
@@ -211,6 +242,7 @@
     },
     {
       "slug": "form-1",
+      "type": "body",
       "displayName": "Form 1",
       "category": "forms",
       "description": "Etiam imperdiet tincidunt magna sit amet vehicula. In vulputate neque non pretium faucibus. Cras gravida consectetur lorem, in dapibus sapien cursus sed. Cras consequat in leo id volutpat.",
@@ -218,6 +250,7 @@
     },
     {
       "slug": "form-2",
+      "type": "body",
       "displayName": "Form 2",
       "category": "forms",
       "description": "Etiam imperdiet tincidunt magna sit amet vehicula. In vulputate neque non pretium faucibus. Cras gravida consectetur lorem, in dapibus sapien cursus sed. Cras consequat in leo id volutpat.",
@@ -225,6 +258,7 @@
     },
     {
       "slug": "article-1",
+      "type": "body",
       "displayName": "Article 1",
       "category": "articles",
       "description": "Etiam imperdiet tincidunt magna sit amet vehicula. In vulputate neque non pretium faucibus. Cras gravida consectetur lorem, in dapibus sapien cursus sed. Cras consequat in leo id volutpat.",

@@ -33,8 +33,6 @@ export default function List4({ content, router }) {
                           <Image
                             className="bg-gray-100 rounded-lg"
                             src={`${publicRuntimeConfig.API_URL || ""}${item.image.url}`}
-                            width={item.image.width}
-                            height={item.image.height}
                             layout="fill"
                             objectFit="cover"
                             alt=""
