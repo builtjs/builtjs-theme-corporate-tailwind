@@ -1,6 +1,6 @@
 import { SocialLink } from "@/elements";
 
-export default function Footer1({ content, app }) {
+export default function Footer1({ content }) {
   let { collections } = { ...content };
   let primaryMenuItems = [];
   if (collections && collections["primary-menu-items"]) {

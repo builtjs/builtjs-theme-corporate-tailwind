@@ -455,7 +455,7 @@
             }
           },
           {
-            "slug": "footer-1",
+            "slug": "footer-2",
             "template": {
               "slug": "footer-2",
               "type": "body"
@@ -497,7 +497,7 @@
             }
           },
           {
-            "slug": "header-1",
+            "slug": "header-2",
             "template": {
               "slug": "header-2",
               "type": "body"
