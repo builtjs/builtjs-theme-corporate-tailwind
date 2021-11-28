@@ -30,8 +30,6 @@ export default function List3({ content }) {
                     <Image
                       className="bg-gray-100 rounded-lg"
                       src={`${publicRuntimeConfig.API_URL || ""}${heroPost.image.url}`}
-                      width={heroPost.image.width}
-                      height={heroPost.image.height}
                       layout="fill"
                       objectFit="cover"
                       alt=""

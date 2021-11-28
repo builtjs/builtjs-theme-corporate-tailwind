@@ -9,7 +9,7 @@
           "name": "Header",
           "icon": "heading"
         },
-        "data": {
+        "attributes": {
           "buttonLinks": {
             "type": "component",
             "repeatable": true,
@@ -27,7 +27,7 @@
           "name": "Footer",
           "icon": "heading"
         },
-        "data": {}
+        "attributes": {}
       }
     },
     "home-seo": {
@@ -39,7 +39,7 @@
           "name": "Home Page SEO",
           "icon": "robot"
         },
-        "data": {
+        "attributes": {
           "title": {
             "type": "string"
           },
@@ -71,7 +71,7 @@
           "name": "Contact Page SEO",
           "icon": "robot"
         },
-        "data": {
+        "attributes": {
           "title": {
             "type": "string"
           },
@@ -103,7 +103,7 @@
           "name": "About Page SEO",
           "icon": "robot"
         },
-        "data": {
+        "attributes": {
           "title": {
             "type": "string"
           },
@@ -135,7 +135,7 @@
           "name": "Services Page SEO",
           "icon": "robot"
         },
-        "data": {
+        "attributes": {
           "title": {
             "type": "string"
           },
@@ -167,7 +167,7 @@
           "name": "Blog Page SEO",
           "icon": "robot"
         },
-        "data": {
+        "attributes": {
           "title": {
             "type": "string"
           },
@@ -196,7 +196,7 @@
       "settings": {
         "collectionName": "components_sections_main-landing",
         "info": { "name": "Main landing", "icon": "heading" },
-        "data": {
+        "attributes": {
           "preheading": {
             "type": "component",
             "repeatable": false,
@@ -225,7 +225,7 @@
       "settings": {
         "collectionName": "components_sections_contact-landing",
         "info": { "name": "Contact landing", "icon": "heading" },
-        "data": {
+        "attributes": {
           "preheading": {
             "type": "component",
             "repeatable": false,
@@ -257,7 +257,7 @@
       "settings": {
         "collectionName": "components_sections_features-list",
         "info": { "name": "Features", "icon": "heading" },
-        "data": {
+        "attributes": {
           "heading": { "type": "string" }
         }
       }
@@ -268,7 +268,7 @@
       "settings": {
         "collectionName": "components_sections_contact-teaser",
         "info": { "name": "Contact Teaser", "icon": "heading" },
-        "data": {
+        "attributes": {
           "preheading": {
             "type": "component",
             "repeatable": false,
@@ -292,7 +292,7 @@
       "settings": {
         "collectionName": "components_sections_home-about-teaser",
         "info": { "name": "About Teaser", "icon": "heading" },
-        "data": {
+        "attributes": {
           "preheading": {
             "type": "component",
             "repeatable": false,
@@ -300,7 +300,7 @@
           },
           "heading": { "type": "string" },
           "blurb1": { "type": "text" },
-          "blurb2": { "type": "text" },
+          "text2": { "type": "text" },
           "buttonLinks": {
             "type": "component",
             "repeatable": true,
@@ -315,7 +315,7 @@
       "settings": {
         "collectionName": "components_sections_benefits-list",
         "info": { "name": "Benefits", "icon": "heading" },
-        "data": {}
+        "attributes": {}
       }
     },
     "services-landing": {
@@ -324,7 +324,7 @@
       "settings": {
         "collectionName": "components_sections_services-landing",
         "info": { "name": "Services Landing", "icon": "heading" },
-        "data": {
+        "attributes": {
           "preheading": {
             "type": "component",
             "repeatable": false,
@@ -351,7 +351,7 @@
           "name": "Services Block",
           "icon": "robot"
         },
-        "data": {
+        "attributes": {
           "heading": {
             "type": "string"
           },
@@ -377,7 +377,7 @@
           "name": "Blog Landing",
           "icon": "robot"
         },
-        "data": {}
+        "attributes": {}
       }
     },
     "blog-item-list": {
@@ -389,7 +389,7 @@
           "name": "Blog Item List",
           "icon": "robot"
         },
-        "data": {}
+        "attributes": {}
       }
     },
     "about-landing": {
@@ -401,7 +401,7 @@
           "name": "About Landing",
           "icon": "robot"
         },
-        "data": {
+        "attributes": {
           "preheading": {
             "type": "component",
             "repeatable": false,
@@ -435,7 +435,7 @@
           "name": "About Text",
           "icon": "robot"
         },
-        "data": {
+        "attributes": {
           "heading": { "type": "string" },
           "blurb1": {
             "type": "text"
@@ -455,7 +455,7 @@
           "name": "Blog List",
           "icon": "robot"
         },
-        "data": {}
+        "attributes": {}
       }
     },
     "blog-item": {
@@ -467,7 +467,7 @@
           "name": "Blog Item",
           "icon": "robot"
         },
-        "data": {}
+        "attributes": {}
       }
     },
     "blog-related-articles": {
@@ -479,7 +479,7 @@
           "name": "Blog Related Articles",
           "icon": "robot"
         },
-        "data": {}
+        "attributes": {}
       }
     }
   }

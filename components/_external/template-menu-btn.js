@@ -1,12 +1,27 @@
 import React from "react";
-import { templates } from "../../data/pages/templates.json";
-import { useState } from "react";
+import { getData } from "../../lib/fetch";
+import { useState, useEffect } from "react";
 
 export default function TemplateMenuBtn({ router }) {
   const { slug } = router.query;
   const [on, setOnState] = useState(router.route.startsWith("/templates"));
   const toggle = () => setOnState((on) => !on);
+  const [pageData, setPageData] = useState(null);
 
+  async function fetchData(path) {
+    const url = process.env.url || 'http://localhost:3000';
+    return new Promise(async(resolve) => {
+      let res = await fetch(`${url}${path}`);
+      let data = res.json();
+      resolve(data);
+    });
+  }
+  
+  useEffect(async() => {
+    let pageData = await fetchData('/data/pages.json');
+    setPageData(pageData);
+   }, [])
+  
   return (
     <div id="template-menu" className="fixed z-50 bottom-4 right-4">
       <div
@@ -16,8 +31,9 @@ export default function TemplateMenuBtn({ router }) {
           (!on ? "is-closed opacity-0 -bottom-12 invisible" : "")
         }
       >
-        {templates &&
-          templates.map((template, i) => {
+        {pageData && pageData.pages &&
+          pageData.pages.templates &&
+          pageData.pages.templates.map((template, i) => {
             return (
               <React.Fragment key={i}>
                 <input className="hidden" type="radio" id={`radio-${i}`} name="tabs" checked={slug === template.slug} readOnly />

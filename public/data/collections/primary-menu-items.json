@@ -1,0 +1,29 @@
+{
+  "items": [
+    {
+      "slug": "productss",
+      "label": "Products",
+      "url": "/products"
+    },
+    {
+      "slug": "services",
+      "label": "Services",
+      "url": "/services"
+    },
+    {
+      "slug": "about",
+      "label": "About",
+      "url": "/about"
+    },
+    {
+      "slug": "blog",
+      "label": "Blog",
+      "url": "/blog"
+    },
+    {
+      "slug": "contact",
+      "label": "Contact",
+      "url": "/contact"
+    }
+  ]
+}

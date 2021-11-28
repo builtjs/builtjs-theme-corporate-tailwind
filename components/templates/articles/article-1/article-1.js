@@ -13,7 +13,6 @@ const getHTML = (content) => {
 export default function Article1({ content }) {
   let { item } = { ...content };
   const { publicRuntimeConfig } = getConfig();
-
   return (
     <article id="article-1" className="template">
       {item && (
@@ -39,8 +38,6 @@ export default function Article1({ content }) {
                 <Image
                   className="rounded-full"
                   src={`${publicRuntimeConfig.API_URL || ""}${item.author.profileImage.url}`}
-                  width={item.author.profileImage.width}
-                  height={item.author.profileImage.height}
                   layout="fill"
                   objectFit="cover"
                   alt=""
