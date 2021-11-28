@@ -1,0 +1,146 @@
+{
+  "pageSections": [
+    {
+      "slug": "contact1",
+      "page": {
+        "slug": "contact"
+      },
+      "sections": [
+        {
+          "slug": "contact-landing"
+        }
+      ]
+    },
+    {
+      "slug": "services1",
+      "page": {
+        "slug": "services"
+      },
+      "sections": [
+        {
+          "slug": "contact-teaser"
+        }
+      ]
+    },
+    {
+      "slug": "home1",
+      "page": {
+        "slug": "home"
+      },
+      "sections": [
+        {
+          "slug": "main-landing"
+        }
+      ]
+    },
+    {
+      "slug": "services2",
+      "page": {
+        "slug": "services"
+      },
+      "sections": [
+        {
+          "slug": "services-landing"
+        },
+        {
+          "slug": "services-block"
+        },
+        {
+          "slug": "contact-teaser"
+        }
+      ]
+    },
+    {
+      "slug": "blog1",
+      "page": {
+        "slug": "blog"
+      },
+      "sections": [
+        {
+          "slug": "blog-landing"
+        },
+        {
+          "slug": "blog-related-articles"
+        }
+      ],
+      "item": {
+        "page": {
+          "slug": "blog-item"
+        },
+        "sections": [
+          {
+           "slug": "blog-item"
+          },
+          {
+            "slug": "blog-related-articles"
+          }
+        ]
+      }
+    },{
+      "slug": "home2",
+      "page": {
+        "slug": "home"
+      },
+      "sections": [
+        {
+          "slug": "features-list"
+        }
+      ]
+    },
+    {
+      "slug": "home3",
+      "page": {
+        "slug": "home"
+      },
+      "sections": [
+        {
+          "slug": "benefits-list"
+        }
+      ]
+    },
+    {
+      "slug": "about1",
+      "page": {
+        "slug": "about"
+      },
+      "sections": [
+        {
+          "slug": "about-landing"
+        }
+      ]
+    },
+    {
+      "slug": "home4",
+      "page": {
+        "slug": "home"
+      },
+      "sections": [
+        {
+          "slug": "home-about-teaser"
+        }
+      ]
+    },
+    {
+     "slug": "contact2",
+     "page": {
+      "slug": "contact"
+    },
+      "sections": [
+        {
+          "slug": "contact-landing"
+        }
+      ]
+    },
+    {
+      "slug": "services3",
+      "page": {
+        "slug": "services"
+      },
+      "sections": [
+        {
+          "slug": "contact-teaser"
+        }
+      ]
+    }
+  ]
+}

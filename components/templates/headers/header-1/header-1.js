@@ -7,7 +7,7 @@ import { ButtonLink } from "@/elements";
 import ModeToggleBtn from "../../../elements/mode-toggle-btn";
 
 export default function Header1({ content }) {
-  let { attributes, collections, global } = { ...content };
+  let { data, collections, global } = { ...content };
   const { publicRuntimeConfig } = getConfig();
   const collectionNames = {
     PRIMARY_MENU_ITEM: "primary-menu-items",

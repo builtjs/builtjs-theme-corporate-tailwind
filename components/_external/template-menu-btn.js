@@ -1,5 +1,4 @@
 import React from "react";
-// import pages from "../../content/data/pages.json";
 import { getData } from "../../lib/fetch";
 import { useState, useEffect } from "react";
 

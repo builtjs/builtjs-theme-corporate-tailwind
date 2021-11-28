@@ -7,7 +7,7 @@
         "collections": {
           "primary-menu-items": {
             "slug": "primary-menu-items",
-            "_limit": 4
+            "query": null
           }
         }
       },
@@ -17,10 +17,11 @@
         "collections": {
           "primary-menu-items": {
             "slug": "primary-menu-items",
-            "_limit": 4
+            "query": null
           },
           "social-links": {
-            "slug": "social-links"
+            "slug": "social-links",
+            "query": null
           }
         }
       }

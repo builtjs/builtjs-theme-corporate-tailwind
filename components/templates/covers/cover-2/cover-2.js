@@ -3,7 +3,7 @@ import getConfig from "next/config";
 import { ButtonLink, Preheading } from "@/elements";
 
 export default function Cover2({ content }) {
-  let { attributes } = content;
+  let { data } = content;
   const { publicRuntimeConfig } = getConfig();
 
   return (
@@ -13,20 +13,20 @@ export default function Cover2({ content }) {
           <div className="p-4 lg:order-last">
             <Image
               className="rounded-full"
-              src={`${publicRuntimeConfig.API_URL || ""}${attributes.image.url}`}
-              width={attributes.image.width}
-              height={attributes.image.height}
+              src={`${publicRuntimeConfig.API_URL || ""}${data.image.url}`}
+              width={data.image.width}
+              height={data.image.height}
               layout="responsive"
               objectFit="cover"
               alt=""
             />
           </div>
           <div className="px-4 pt-10 pb-20 lg:py-40">
-            <Preheading attribute={attributes.preheading}></Preheading>
-            <h1>{attributes.heading}</h1>
-            <p className="mb-12 text-lg">{attributes.blurb}</p>
-            {attributes.buttonLinks &&
-              attributes.buttonLinks.map((button) => {
+            <Preheading attribute={data.preheading}></Preheading>
+            <h1>{data.heading}</h1>
+            <p className="mb-12 text-lg">{data.blurb}</p>
+            {data.buttonLinks &&
+              data.buttonLinks.map((button) => {
                 return <ButtonLink key={button.type} attribute={button}></ButtonLink>;
               })}
           </div>
@@ -38,20 +38,20 @@ export default function Cover2({ content }) {
           <div className="relative w-full lg:order-last">
             <Image
               className="rounded-full"
-              src={`${publicRuntimeConfig.API_URL || ""}${attributes.image.url}`}
-              width={attributes.image.width}
-              height={attributes.image.height}
+              src={`${publicRuntimeConfig.API_URL || ""}${data.image.url}`}
+              width={data.image.width}
+              height={data.image.height}
               layout="responsive"
               objectFit="cover"
               alt=""
             />
           </div>
           <div>
-            <Preheading attribute={attributes.preheading}></Preheading>
-            <h1>{attributes.heading}</h1>
-            <p className="mb-12 text-lg">{attributes.blurb}</p>
-            {attributes.buttonLinks &&
-              attributes.buttonLinks.map((button) => {
+            <Preheading attribute={data.preheading}></Preheading>
+            <h1>{data.heading}</h1>
+            <p className="mb-12 text-lg">{data.blurb}</p>
+            {data.buttonLinks &&
+              data.buttonLinks.map((button) => {
                 return <ButtonLink key={button.type} attribute={button}></ButtonLink>;
               })}
           </div>

@@ -5,10 +5,10 @@ import getConfig from "next/config";
 // TODO: Exclude current blog from related list
 export default function Cards4({ content }) {
   let { collections } = { ...content };
-  let attributes = null;
+  let data = null;
   const { publicRuntimeConfig } = getConfig();
   const DEFAULT_COLS = 3;
-  const cols = (attributes && attributes.columns) || DEFAULT_COLS;
+  const cols = (data && data.columns) || DEFAULT_COLS;
   if (!collections) {
     throw new Error("No template collections");
   }

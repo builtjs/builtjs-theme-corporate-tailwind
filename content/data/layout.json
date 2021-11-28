@@ -1,18 +1,28 @@
 {
-  "layout": {
-    "sections": [
-      {
-        "slug": "header-1",
-        "template": {
-          "slug": "header-1"
-        }
-      },
-      {
-        "slug": "footer-1",
-        "template": {
-          "slug": "footer-1"
+    "layout": {
+      "sections": {
+        "header-1": {
+          "slug": "header-1",
+          "order": 2,
+          "collections": {
+            "primary-menu-items": {
+              "slug": "primary-menu-items"
+            }
+          }
+        },
+        "footer-1":{
+          "slug": "footer-1",
+          "order": 10,
+          "collections": {
+            "primary-menu-items": {
+              "slug": "primary-menu-items"
+            },
+            "social-links": {
+              "slug": "social-links"
+            }
+          }
         }
       }
-    ]
+    }
   }
-}
+  

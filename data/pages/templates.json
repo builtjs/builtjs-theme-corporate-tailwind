@@ -1,0 +1,288 @@
+{
+  "templates": [
+    {
+      "slug": "banners",
+      "displayName": "Banners",
+      "status": "published",
+      "sections": [
+        {
+          "slug": "contact-teaser",
+          "template": {
+            "slug": "banner-1"
+          }
+        },
+        {
+          "slug": "contact-teaser",
+          "template": {
+            "slug": "banner-2"
+          }
+        },
+        {
+          "slug": "contact-teaser",
+          "template": {
+            "slug": "banner-3"
+          }
+        },
+        {
+          "slug": "contact-teaser",
+          "template": {
+            "slug": "banner-4"
+          }
+        },
+        {
+          "slug": "contact-teaser",
+          "template": {
+            "slug": "banner-5"
+          }
+        }
+      ],
+      "seo": {
+        "title": "Banners",
+        "description": "",
+        "shareImage": null,
+        "twitterCardType": "summary",
+        "twitterUsername": ""
+      }
+    },
+    {
+      "slug": "blocks",
+      "displayName": "Blocks",
+      "status": "published",
+      "sections": [
+        {
+          "slug": "home-about-teaser",
+          "template": {
+            "slug": "block-1"
+          }
+        },
+        {
+          "slug": "home-about-teaser",
+          "template": {
+            "slug": "block-2"
+          }
+        },
+        {
+          "slug": "home-about-teaser",
+          "template": {
+            "slug": "block-3"
+          }
+        },
+        {
+          "slug": "home-about-teaser",
+          "template": {
+            "slug": "block-4"
+          }
+        },
+        {
+          "slug": "home-about-teaser",
+          "template": {
+            "slug": "block-5"
+          }
+        }
+      ],
+      "seo": {
+        "title": "Text blocks",
+        "description": "",
+        "shareImage": null,
+        "twitterCardType": "summary",
+        "twitterUsername": ""
+      }
+    },
+    {
+      "slug": "cards",
+      "displayName": "Cards",
+      "status": "published",
+      "sections": [
+        {
+          "slug": "features-list",
+          "template": {
+            "slug": "cards-1"
+          }
+        },
+        {
+          "slug": "features-list",
+          "template": {
+            "slug": "cards-2"
+          }
+        },
+        {
+          "slug": "features-list",
+          "template": {
+            "slug": "cards-3"
+          }
+        },
+        {
+          "slug": "features-list",
+          "template": {
+            "slug": "cards-4"
+          }
+        },
+        {
+          "slug": "blog-related-articles",
+          "template": {
+            "slug": "cards-5"
+          }
+        }
+      ],
+      "seo": {
+        "title": "Cards",
+        "description": "",
+        "shareImage": null,
+        "twitterCardType": "summary",
+        "twitterUsername": ""
+      }
+    },
+    {
+      "slug": "covers",
+      "displayName": "Covers",
+      "status": "published",
+      "sections": [
+        {
+          "slug": "main-landing",
+          "template": {
+            "slug": "cover-1"
+          }
+        },
+        {
+          "slug": "about-landing",
+          "template": {
+            "slug": "cover-2"
+          }
+        },
+        {
+          "slug": "services-landing",
+          "template": {
+            "slug": "cover-3"
+          }
+        },
+        {
+          "slug": "products-landing",
+          "template": {
+            "slug": "cover-4"
+          }
+        },
+        {
+          "slug": "products-landing",
+          "template": {
+            "slug": "cover-5"
+          }
+        }
+      ],
+      "seo": {
+        "title": "Covers",
+        "description": "",
+        "shareImage": null,
+        "twitterCardType": "summary",
+        "twitterUsername": ""
+      }
+    },
+    {
+      "slug": "footers",
+      "displayName": "Footers",
+      "status": "published",
+      "sections": [
+        {
+          "slug": "footer-1",
+          "template": {
+            "slug": "footer-1"
+          }
+        },
+        {
+          "slug": "footer-1",
+          "template": {
+            "slug": "footer-2"
+          }
+        }
+      ]
+    },
+    {
+      "slug": "forms",
+      "displayName": "Forms",
+      "status": "published",
+      "sections": [
+        {
+          "slug": "contact-landing",
+          "template": {
+            "slug": "form-1"
+          }
+        },
+        {
+          "slug": "contact-landing",
+          "template": {
+            "slug": "form-2"
+          }
+        }
+      ],
+      "seo": {
+        "title": "Forms",
+        "description": "",
+        "shareImage": null,
+        "twitterCardType": "summary",
+        "twitterUsername": ""
+      }
+    },
+    {
+      "slug": "headers",
+      "displayName": "Headers",
+      "status": "published",
+      "sections": [
+        {
+          "slug": "header-1",
+          "template": {
+            "slug": "header-1"
+          }
+        },
+        {
+          "slug": "header-1",
+          "template": {
+            "slug": "header-2"
+          }
+        }
+      ]
+    },
+    {
+      "slug": "lists",
+      "displayName": "Lists",
+      "status": "published",
+      "sections": [
+        {
+          "slug": "benefits-list",
+          "template": {
+            "slug": "list-1"
+          }
+        },
+        {
+          "slug": "benefits-list",
+          "template": {
+            "slug": "list-2"
+          }
+        },
+        {
+          "slug": "benefits-list",
+          "template": {
+            "slug": "list-3"
+          }
+        },
+        {
+          "slug": "blog-item-list",
+          "template": {
+            "slug": "list-4"
+          }
+        },
+        {
+          "slug": "blog-item-list",
+          "template": {
+            "slug": "cards-5"
+          }
+        }
+      ],
+      "seo": {
+        "title": "Lists",
+        "description": "",
+        "shareImage": null,
+        "twitterCardType": "summary",
+        "twitterUsername": ""
+      }
+    }
+  ]
+}
