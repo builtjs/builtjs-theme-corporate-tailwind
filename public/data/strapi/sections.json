@@ -233,11 +233,6 @@
           },
           "heading": { "type": "string" },
           "blurb": { "type": "text" },
-          "button": {
-            "type": "component",
-            "repeatable": false,
-            "component": "elements.button"
-          },
           "contextualLinks": {
             "type": "component",
             "repeatable": true,
