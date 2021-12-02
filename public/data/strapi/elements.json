@@ -122,11 +122,7 @@
           },
           "type": {
             "type": "enumeration",
-            "enum": [
-              "line",
-              "dot",
-              "plain"
-            ]
+            "enum": ["line", "dot", "plain"]
           }
         }
       }

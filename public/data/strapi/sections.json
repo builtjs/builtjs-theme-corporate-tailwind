@@ -294,8 +294,8 @@
             "component": "elements.preheading"
           },
           "heading": { "type": "string" },
-          "blurb1": { "type": "text" },
-          "text2": { "type": "text" },
+          "blurb": { "type": "longtext" },
+          "blurb2": { "type": "longtext" },
           "buttonLinks": {
             "type": "component",
             "repeatable": true,
@@ -350,8 +350,11 @@
           "heading": {
             "type": "string"
           },
-          "content": {
-            "type": "richtext"
+          "blurb": {
+            "type": "longtext"
+          },
+          "blurb2": {
+            "type": "longtext"
           },
           "image": {
             "model": "file",
@@ -403,8 +406,8 @@
             "component": "elements.preheading"
           },
           "heading": { "type": "string" },
-          "content": {
-            "type": "richtext"
+          "blurb": {
+            "type": "longtext"
           },
           "image": {
             "model": "file",
@@ -413,9 +416,9 @@
             "plugin": "upload",
             "required": false
           },
-          "buttonLink": {
+          "buttonLinks": {
             "type": "component",
-            "repeatable": false,
+            "repeatable": true,
             "component": "elements.button-link"
           }
         }

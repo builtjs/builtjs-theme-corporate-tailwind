@@ -15,7 +15,7 @@
         },
         "buttonLinks": [
           {
-            "url": "",
+            "url": "/contact",
             "label": "Button",
             "type": "secondary"
           }
@@ -76,12 +76,12 @@
         },
         "buttonLinks": [
           {
-            "url": "",
+            "url": "/services",
             "label": "Button",
             "type": "primary"
           },
           {
-            "url": "",
+            "url": "/contact",
             "label": "Button",
             "type": "secondary"
           }
@@ -107,11 +107,15 @@
       "description": "Etiam imperdiet tincidunt magna sit amet vehicula. In vulputate neque non pretium faucibus. Cras gravida consectetur lorem, in dapibus sapien cursus sed. Cras consequat in leo id volutpat.",
       "templates": ["banner-1"],
       "data": {
+        "preheading": {
+          "text": "Preheading",
+          "type": "line"
+        },
         "heading": "Lorem ipsum dolor sit amet",
         "blurb": "Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
         "buttonLinks": [
           {
-            "url": "",
+            "url": "/contact",
             "label": "Button",
             "type": "primary"
           }
@@ -131,14 +135,14 @@
       "data": {
         "preheading": {
           "text": "Preheading",
-          "type": ""
+          "type": "dot"
         },
         "heading": "Lorem ipsum dolor sit amet",
         "blurb": "Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur excepteur sint occaecat cupidatat non proident.",
         "blurb2": "Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur excepteur sint occaecat cupidatat non proident.",
         "buttonLinks": [
           {
-            "url": "",
+            "url": "/about",
             "label": "Button",
             "type": "primary"
           }
@@ -194,12 +198,12 @@
         },
         "buttonLinks": [
           {
-            "url": "",
+            "url": "/products",
             "label": "Button",
             "type": "primary"
           },
           {
-            "url": "",
+            "url": "/about",
             "label": "Button",
             "type": "secondary"
           }
@@ -244,12 +248,12 @@
         },
         "buttonLinks": [
           {
-            "url": "",
+            "url": "/services",
             "label": "Button",
             "type": "primary"
           },
           {
-            "url": "",
+            "url": "/about",
             "label": "Button",
             "type": "secondary"
           }
@@ -266,7 +270,7 @@
       "data": {
         "preheading": {
           "text": "Preheading",
-          "type": ""
+          "type": "dot"
         },
         "heading": "Lorem ipsum dolor sit amet",
         "blurb": "Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur excepteur sint occaecat cupidatat non proident.",
@@ -278,7 +282,7 @@
         },
         "buttonLinks": [
           {
-            "url": "",
+            "url": "/services",
             "label": "Button",
             "type": "primary"
           }
@@ -296,7 +300,7 @@
         "heading": "Lorem ipsum dolor sit amet",
         "buttonLinks": [
           {
-            "url": "",
+            "url": "/contact",
             "label": "Button",
             "type": "primary"
           }
@@ -386,12 +390,12 @@
         },
         "buttonLinks": [
           {
-            "url": "",
+            "url": "/about",
             "label": "Button",
             "type": "primary"
           },
           {
-            "url": "",
+            "url": "/services",
             "label": "Button",
             "type": "secondary"
           }
@@ -415,7 +419,7 @@
         "blurb2": "Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur excepteur sint occaecat cupidatat non proident.",
         "buttonLinks": [
           {
-            "url": "",
+            "url": "/about",
             "label": "Button",
             "type": "primary"
           }
@@ -479,12 +483,12 @@
       "data": {
         "preheading": {
           "text": "Preheading",
-          "type": ""
+          "type": "dot"
         },
         "heading": "Lorem ipsum dolor sit amet",
         "blurb": "Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
         "button": {
-          "url": "",
+          "url": "/contact",
           "label": "Send",
           "type": "primary"
         },

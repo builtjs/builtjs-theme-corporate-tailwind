@@ -46,7 +46,7 @@
           "author": {
             "via": "blogItems",
             "model": "authors"
-          }    
+          }
         }
       }
     },
@@ -83,7 +83,7 @@
             "allowedTypes": ["images"],
             "plugin": "upload",
             "required": false
-          }, 
+          },
           "blogItems": {
             "collection": "blog-items",
             "via": "author"
@@ -142,19 +142,16 @@
             "repeatable": false,
             "component": "elements.preheading"
           },
-          "title": {
+          "heading": {
             "type": "string"
           },
           "slug": {
             "type": "uid",
-            "targetField": "title",
+            "targetField": "heading",
             "required": true
           },
-          "content": {
-            "type": "richtext"
-          },
-          "excerpt": {
-            "type": "text"
+          "blurb": {
+            "type": "longtext"
           },
           "image": {
             "model": "file",
@@ -162,7 +159,12 @@
             "allowedTypes": ["images"],
             "plugin": "upload",
             "required": false
-          }   
+          },
+          "buttonLinks": {
+            "type": "component",
+            "repeatable": true,
+            "component": "elements.button-link"
+          }
         }
       }
     },
@@ -183,19 +185,21 @@
           "draftAndPublish": true
         },
         "attributes": {
-          "title": {
+          "preheading": {
+            "type": "component",
+            "repeatable": false,
+            "component": "elements.preheading"
+          },
+          "heading": {
             "type": "string"
           },
           "slug": {
             "type": "uid",
-            "targetField": "title",
+            "targetField": "heading",
             "required": true
           },
-          "content": {
-            "type": "richtext"
-          },
-          "excerpt": {
-            "type": "text"
+          "blurb": {
+            "type": "longtext"
           },
           "image": {
             "model": "file",
@@ -203,7 +207,12 @@
             "allowedTypes": ["images"],
             "plugin": "upload",
             "required": false
-          }   
+          },
+          "buttonLinks": {
+            "type": "component",
+            "repeatable": true,
+            "component": "elements.button-link"
+          }
         }
       }
     },
@@ -241,7 +250,7 @@
             "allowedTypes": ["images"],
             "plugin": "upload",
             "required": false
-          }   
+          }
         }
       }
     },
