@@ -1,0 +1,12 @@
+{
+  "articles": [
+    {
+      "slug": "blog-item",
+      "displayName": "Blog Item",
+      "contentType": "blog-item",
+      "listPage": {
+        "slug": "blog"
+      }
+    }
+  ]
+}
