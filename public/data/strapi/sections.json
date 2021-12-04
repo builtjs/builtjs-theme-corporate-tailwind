@@ -294,8 +294,8 @@
             "component": "elements.preheading"
           },
           "heading": { "type": "string" },
-          "blurb": { "type": "longtext" },
-          "blurb2": { "type": "longtext" },
+          "blurb": { "type": "text" },
+          "blurb2": { "type": "text" },
           "buttonLinks": {
             "type": "component",
             "repeatable": true,
@@ -351,10 +351,10 @@
             "type": "string"
           },
           "blurb": {
-            "type": "longtext"
+            "type": "text"
           },
           "blurb2": {
-            "type": "longtext"
+            "type": "text"
           },
           "image": {
             "model": "file",
@@ -407,7 +407,7 @@
           },
           "heading": { "type": "string" },
           "blurb": {
-            "type": "longtext"
+            "type": "text"
           },
           "image": {
             "model": "file",
