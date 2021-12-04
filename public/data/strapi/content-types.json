@@ -151,7 +151,7 @@
             "required": true
           },
           "blurb": {
-            "type": "longtext"
+            "type": "text"
           },
           "image": {
             "model": "file",
@@ -199,7 +199,7 @@
             "required": true
           },
           "blurb": {
-            "type": "longtext"
+            "type": "text"
           },
           "image": {
             "model": "file",
@@ -242,7 +242,7 @@
             "required": true
           },
           "description": {
-            "type": "longtext"
+            "type": "text"
           },
           "image": {
             "model": "file",
