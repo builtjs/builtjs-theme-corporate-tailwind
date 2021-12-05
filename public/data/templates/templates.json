@@ -4,7 +4,7 @@
       "slug": "seo",
       "displayName": "SEO",
       "category": "head",
-      "description": "Etiam imperdiet tincidunt magna sit amet vehicula. In vulputate neque non pretium faucibus. Cras gravida consectetur lorem, in dapibus sapien cursus sed. Cras consequat in leo id volutpat.",
+      "description": "Define SEO meta titles, meta descriptions and social media meta data.",
       "imageUrl": ""
     },
     {
@@ -12,7 +12,7 @@
       "type": "body",
       "displayName": "Header 1",
       "category": "headers",
-      "description": "Etiam imperdiet tincidunt magna sit amet vehicula. In vulputate neque non pretium faucibus. Cras gravida consectetur lorem, in dapibus sapien cursus sed. Cras consequat in leo id volutpat.",
+      "description": "Simple header with justified logo and nav links.",
       "imageUrl": ""
     },
     {
@@ -20,7 +20,7 @@
       "type": "body",
       "displayName": "Header 2",
       "category": "headers",
-      "description": "Etiam imperdiet tincidunt magna sit amet vehicula. In vulputate neque non pretium faucibus. Cras gravida consectetur lorem, in dapibus sapien cursus sed. Cras consequat in leo id volutpat.",
+      "description": "Simple header with a logo followed by nav links.",
       "imageUrl": ""
     },
     {
@@ -28,7 +28,7 @@
       "type": "body",
       "displayName": "Footer 1",
       "category": "footers",
-      "description": "Etiam imperdiet tincidunt magna sit amet vehicula. In vulputate neque non pretium faucibus. Cras gravida consectetur lorem, in dapibus sapien cursus sed. Cras consequat in leo id volutpat.",
+      "description": "Simple footer with centered content and social links.",
       "imageUrl": ""
     },
     {
@@ -36,7 +36,7 @@
       "type": "body",
       "displayName": "Footer 2",
       "category": "footers",
-      "description": "Etiam imperdiet tincidunt magna sit amet vehicula. In vulputate neque non pretium faucibus. Cras gravida consectetur lorem, in dapibus sapien cursus sed. Cras consequat in leo id volutpat.",
+      "description": "Simple footer with two equal columns and social links.",
       "imageUrl": ""
     },
     {
@@ -44,14 +44,14 @@
       "type": "head",
       "displayName": "SEO",
       "category": "head",
-      "description": "Etiam imperdiet tincidunt magna sit amet vehicula. In vulputate neque non pretium faucibus. Cras gravida consectetur lorem, in dapibus sapien cursus sed. Cras consequat in leo id volutpat."
+      "description": "Define SEO meta titles, meta descriptions and social media meta data."
     },
     {
       "slug": "banner-1",
       "type": "body",
       "displayName": "Banner 1",
       "category": "banners",
-      "description": "Etiam imperdiet tincidunt magna sit amet vehicula. In vulputate neque non pretium faucibus. Cras gravida consectetur lorem, in dapibus sapien cursus sed. Cras consequat in leo id volutpat.",
+      "description": "Full width banner with centered content.",
       "imageUrl": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/main/components/templates/banners/banner-1/banner-1-800.png"
     },
     {
@@ -59,7 +59,7 @@
       "type": "body",
       "displayName": "Banner 2",
       "category": "banners",
-      "description": "Etiam imperdiet tincidunt magna sit amet vehicula. In vulputate neque non pretium faucibus. Cras gravida consectetur lorem, in dapibus sapien cursus sed. Cras consequat in leo id volutpat.",
+      "description": "Full width banner with left aligned content.",
       "imageUrl": ""
     },
     {
@@ -67,7 +67,7 @@
       "type": "body",
       "displayName": "Banner 3",
       "category": "banners",
-      "description": "Etiam imperdiet tincidunt magna sit amet vehicula. In vulputate neque non pretium faucibus. Cras gravida consectetur lorem, in dapibus sapien cursus sed. Cras consequat in leo id volutpat.",
+      "description": "Full width banner with two offset columns.",
       "imageUrl": ""
     },
     {
@@ -75,7 +75,7 @@
       "type": "body",
       "displayName": "Banner 4",
       "category": "banners",
-      "description": "Etiam imperdiet tincidunt magna sit amet vehicula. In vulputate neque non pretium faucibus. Cras gravida consectetur lorem, in dapibus sapien cursus sed. Cras consequat in leo id volutpat.",
+      "description": "Banner with centered content.",
       "imageUrl": ""
     },
     {
@@ -83,7 +83,7 @@
       "type": "body",
       "displayName": "Banner 5",
       "category": "banners",
-      "description": "Etiam imperdiet tincidunt magna sit amet vehicula. In vulputate neque non pretium faucibus. Cras gravida consectetur lorem, in dapibus sapien cursus sed. Cras consequat in leo id volutpat.",
+      "description": "Banner with two offset columns.",
       "imageUrl": ""
     },
     {
@@ -91,7 +91,7 @@
       "type": "body",
       "displayName": "Block 1",
       "category": "blocks",
-      "description": "Etiam imperdiet tincidunt magna sit amet vehicula. In vulputate neque non pretium faucibus. Cras gravida consectetur lorem, in dapibus sapien cursus sed. Cras consequat in leo id volutpat.",
+      "description": "Text block with left aligned content.",
       "imageUrl": ""
     },
     {
@@ -99,7 +99,7 @@
       "type": "body",
       "displayName": "Block 2",
       "category": "blocks",
-      "description": "Etiam imperdiet tincidunt magna sit amet vehicula. In vulputate neque non pretium faucibus. Cras gravida consectetur lorem, in dapibus sapien cursus sed. Cras consequat in leo id volutpat.",
+      "description": "Text block with centered content.",
       "imageUrl": ""
     },
     {
@@ -107,7 +107,7 @@
       "type": "body",
       "displayName": "Block 3",
       "category": "blocks",
-      "description": "Etiam imperdiet tincidunt magna sit amet vehicula. In vulputate neque non pretium faucibus. Cras gravida consectetur lorem, in dapibus sapien cursus sed. Cras consequat in leo id volutpat.",
+      "description": "Text block with two equal columns and left aligned content.",
       "imageUrl": ""
     },
     {
@@ -115,7 +115,7 @@
       "type": "body",
       "displayName": "Block 4",
       "category": "blocks",
-      "description": "Etiam imperdiet tincidunt magna sit amet vehicula. In vulputate neque non pretium faucibus. Cras gravida consectetur lorem, in dapibus sapien cursus sed. Cras consequat in leo id volutpat.",
+      "description": "Text block with two equal columns and centered content.",
       "imageUrl": ""
     },
     {
@@ -123,7 +123,7 @@
       "type": "body",
       "displayName": "Block 5",
       "category": "blocks",
-      "description": "Etiam imperdiet tincidunt magna sit amet vehicula. In vulputate neque non pretium faucibus. Cras gravida consectetur lorem, in dapibus sapien cursus sed. Cras consequat in leo id volutpat.",
+      "description": "Text block with two equal columns and split content",
       "imageUrl": ""
     },
     {
@@ -131,7 +131,7 @@
       "type": "body",
       "displayName": "Cards 1",
       "category": "cards",
-      "description": "Etiam imperdiet tincidunt magna sit amet vehicula. In vulputate neque non pretium faucibus. Cras gravida consectetur lorem, in dapibus sapien cursus sed. Cras consequat in leo id volutpat.",
+      "description": "Cards with three equal columns and left aligned content.",
       "imageUrl": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/main/components/templates/cards/cards-1/cards-1-800.png"
     },
     {
@@ -139,7 +139,7 @@
       "type": "body",
       "displayName": "Cards 2",
       "category": "cards",
-      "description": "Etiam imperdiet tincidunt magna sit amet vehicula. In vulputate neque non pretium faucibus. Cras gravida consectetur lorem, in dapibus sapien cursus sed. Cras consequat in leo id volutpat.",
+      "description": "Cards with three equal columns and centered content.",
       "imageUrl": ""
     },
     {
@@ -147,7 +147,7 @@
       "type": "body",
       "displayName": "Cards 3",
       "category": "cards",
-      "description": "Etiam imperdiet tincidunt magna sit amet vehicula. In vulputate neque non pretium faucibus. Cras gravida consectetur lorem, in dapibus sapien cursus sed. Cras consequat in leo id volutpat.",
+      "description": "Cards with three equal columns, left aligned content and a background colour.",
       "imageUrl": ""
     },
     {
@@ -155,7 +155,7 @@
       "type": "body",
       "displayName": "Cards 4",
       "category": "cards",
-      "description": "Etiam imperdiet tincidunt magna sit amet vehicula. In vulputate neque non pretium faucibus. Cras gravida consectetur lorem, in dapibus sapien cursus sed. Cras consequat in leo id volutpat.",
+      "description": "Cards with three equal columns, centered content and a background colour.",
       "imageUrl": ""
     },
     {
@@ -163,7 +163,7 @@
       "type": "body",
       "displayName": "Cards 5",
       "category": "cards",
-      "description": "Etiam imperdiet tincidunt magna sit amet vehicula. In vulputate neque non pretium faucibus. Cras gravida consectetur lorem, in dapibus sapien cursus sed. Cras consequat in leo id volutpat.",
+      "description": "Cards with three equal columns, left aligned content and an image.",
       "imageUrl": ""
     },
     {
@@ -171,7 +171,7 @@
       "type": "body",
       "displayName": "Cover 1",
       "category": "covers",
-      "description": "Etiam imperdiet tincidunt magna sit amet vehicula. In vulputate neque non pretium faucibus. Cras gravida consectetur lorem, in dapibus sapien cursus sed. Cras consequat in leo id volutpat.",
+      "description": "Full viewport cover with text content and a supporting image.",
       "imageUrl": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/main/components/templates/covers/cover-1/cover-1-700.png"
     },
     {
@@ -179,7 +179,7 @@
       "type": "body",
       "displayName": "Cover 2",
       "category": "covers",
-      "description": "Etiam imperdiet tincidunt magna sit amet vehicula. In vulputate neque non pretium faucibus. Cras gravida consectetur lorem, in dapibus sapien cursus sed. Cras consequat in leo id volutpat.",
+      "description": "Full viewport cover with text content and a circle supporting image.",
       "imageUrl": ""
     },
     {
@@ -187,7 +187,7 @@
       "type": "body",
       "displayName": "Cover 3",
       "category": "covers",
-      "description": "Etiam imperdiet tincidunt magna sit amet vehicula. In vulputate neque non pretium faucibus. Cras gravida consectetur lorem, in dapibus sapien cursus sed. Cras consequat in leo id volutpat.",
+      "description": "Full viewport cover with text content and a full height supporting image.",
       "imageUrl": ""
     },
     {
@@ -195,7 +195,7 @@
       "type": "body",
       "displayName": "Cover 4",
       "category": "covers",
-      "description": "Etiam imperdiet tincidunt magna sit amet vehicula. In vulputate neque non pretium faucibus. Cras gravida consectetur lorem, in dapibus sapien cursus sed. Cras consequat in leo id volutpat.",
+      "description": "Full viewport cover with centered text content and supporting image.",
       "imageUrl": ""
     },
     {
@@ -203,7 +203,7 @@
       "type": "body",
       "displayName": "Cover 5",
       "category": "covers",
-      "description": "Etiam imperdiet tincidunt magna sit amet vehicula. In vulputate neque non pretium faucibus. Cras gravida consectetur lorem, in dapibus sapien cursus sed. Cras consequat in leo id volutpat.",
+      "description": "Full viewport cover with text content and a full width and height background image.",
       "imageUrl": ""
     },
     {
@@ -211,7 +211,7 @@
       "type": "body",
       "displayName": "List 1",
       "category": "lists",
-      "description": "Etiam imperdiet tincidunt magna sit amet vehicula. In vulputate neque non pretium faucibus. Cras gravida consectetur lorem, in dapibus sapien cursus sed. Cras consequat in leo id volutpat.",
+      "description": "List of items with two equal columns and reversed even rows.",
       "imageUrl": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/main/components/templates/lists/list-1/list-1-800.png"
     },
     {
@@ -219,7 +219,7 @@
       "type": "body",
       "displayName": "List 2",
       "category": "lists",
-      "description": "Etiam imperdiet tincidunt magna sit amet vehicula. In vulputate neque non pretium faucibus. Cras gravida consectetur lorem, in dapibus sapien cursus sed. Cras consequat in leo id volutpat.",
+      "description": "List of items with two equal columns and reversed odd rows.",
       "imageUrl": ""
     },
     {
@@ -227,7 +227,7 @@
       "type": "body",
       "displayName": "List 3",
       "category": "lists",
-      "description": "Etiam imperdiet tincidunt magna sit amet vehicula. In vulputate neque non pretium faucibus. Cras gravida consectetur lorem, in dapibus sapien cursus sed. Cras consequat in leo id volutpat.",
+      "description": "List of items with two equal columns and split content.",
       "imageUrl": ""
     },
     {
@@ -235,7 +235,7 @@
       "type": "body",
       "displayName": "List 4",
       "category": "lists",
-      "description": "Etiam imperdiet tincidunt magna sit amet vehicula. In vulputate neque non pretium faucibus. Cras gravida consectetur lorem, in dapibus sapien cursus sed. Cras consequat in leo id volutpat.",
+      "description": "List item with two offset columns and split content.",
       "imageUrl": ""
     },
     {
@@ -243,7 +243,7 @@
       "type": "body",
       "displayName": "List 5",
       "category": "lists",
-      "description": "Etiam imperdiet tincidunt magna sit amet vehicula. In vulputate neque non pretium faucibus. Cras gravida consectetur lorem, in dapibus sapien cursus sed. Cras consequat in leo id volutpat.",
+      "description": "List of items with three equal columns, left aligned content and an image.",
       "imageUrl": ""
     },
     {
@@ -251,7 +251,7 @@
       "type": "body",
       "displayName": "Form 1",
       "category": "forms",
-      "description": "Etiam imperdiet tincidunt magna sit amet vehicula. In vulputate neque non pretium faucibus. Cras gravida consectetur lorem, in dapibus sapien cursus sed. Cras consequat in leo id volutpat.",
+      "description": "Contact details with two equal columns and form fields.",
       "imageUrl": ""
     },
     {
@@ -259,7 +259,7 @@
       "type": "body",
       "displayName": "Form 2",
       "category": "forms",
-      "description": "Etiam imperdiet tincidunt magna sit amet vehicula. In vulputate neque non pretium faucibus. Cras gravida consectetur lorem, in dapibus sapien cursus sed. Cras consequat in leo id volutpat.",
+      "description": "Contact details with two equal columns and form fields.",
       "imageUrl": ""
     },
     {
@@ -267,7 +267,7 @@
       "type": "body",
       "displayName": "Article 1",
       "category": "articles",
-      "description": "Etiam imperdiet tincidunt magna sit amet vehicula. In vulputate neque non pretium faucibus. Cras gravida consectetur lorem, in dapibus sapien cursus sed. Cras consequat in leo id volutpat.",
+      "description": "List item with two offset columns and split content.",
       "imageUrl": ""
     }
   ]
