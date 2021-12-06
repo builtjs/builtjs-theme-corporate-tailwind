@@ -342,6 +342,11 @@
       "category": "sections",
       "settings": {
         "collectionName": "components_sections_services-block",
+        "preheading": {
+          "type": "component",
+          "repeatable": false,
+          "component": "elements.preheading"
+        },
         "info": {
           "name": "Services Block",
           "icon": "robot"
