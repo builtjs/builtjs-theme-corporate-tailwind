@@ -1,13 +1,6 @@
 {
   "templates": [
     {
-      "slug": "seo",
-      "displayName": "SEO",
-      "category": "head",
-      "description": "Define SEO meta titles, meta descriptions and social media meta data.",
-      "imageUrl": ""
-    },
-    {
       "slug": "header-1",
       "type": "body",
       "displayName": "Header 1",
@@ -212,7 +205,7 @@
       "displayName": "List 1",
       "category": "lists",
       "description": "List of items with two equal columns and reversed even rows.",
-      "imageUrl": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/main/components/templates/lists/list-1/list-1-800.png"
+      "imageUrl": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/main/components/templates/lists/list-1/list-1-xl.png"
     },
     {
       "slug": "list-2",
