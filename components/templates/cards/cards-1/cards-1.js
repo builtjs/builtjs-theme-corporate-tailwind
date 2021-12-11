@@ -1,7 +1,7 @@
 import { ButtonLink, Preheading } from "@/elements";
 
 export default function Cards1({ content }) {
-  let { data, collections } = content;
+  let { collections } = content;
   if (!collections) {
     throw new Error(`No collections attribute provided in sections.json for template`);
   }
