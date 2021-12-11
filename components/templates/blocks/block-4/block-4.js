@@ -9,10 +9,10 @@ export default function Block4({ content }) {
         <h2 className="max-w-5xl mx-auto">{data.heading}</h2>
         <div className="mb-4 grid grid-cols-1 gap-x-6 md:grid-cols-2">
           <div>
-            <p className="md:text-left">{data.text1}</p>
+            <p className="md:text-left">{data.blurb1}</p>
           </div>
           <div>
-            <p className="md:text-left">{data.text2}</p>
+            <p className="md:text-left">{data.blurb2}</p>
           </div>
         </div>
         {data.buttonLinks &&

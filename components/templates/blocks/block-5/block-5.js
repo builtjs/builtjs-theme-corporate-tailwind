@@ -11,8 +11,8 @@ export default function Block5({ content }) {
             <h2>{data.heading}</h2>
           </div>
           <div>
-            <p>{data.text1}</p>
-            <p className="mb-8">{data.text2}</p>
+            <p>{data.blurb1}</p>
+            <p className="mb-8">{data.blurb2}</p>
             {data.buttonLinks &&
               data.buttonLinks.map((button) => {
                 return <ButtonLink key={button.type} attribute={button}></ButtonLink>;

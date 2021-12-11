@@ -7,7 +7,7 @@ export default function Block2({ content }) {
       <div className="mx-auto text-center max-w-screen-xl">
         <Preheading attribute={data.preheading}></Preheading>
         <h2 className="max-w-5xl mx-auto">{data.heading}</h2>
-        <p className="max-w-3xl mx-auto">{data.text1}</p>
+        <p className="max-w-3xl mx-auto">{data.blurb}</p>
         {data.buttonLinks &&
           data.buttonLinks.map((button) => {
             return <ButtonLink key={button.type} attribute={button}></ButtonLink>;

@@ -294,7 +294,7 @@
             "component": "elements.preheading"
           },
           "heading": { "type": "string" },
-          "blurb": { "type": "text" },
+          "blurb1": { "type": "text" },
           "blurb2": { "type": "text" },
           "buttonLinks": {
             "type": "component",
@@ -342,20 +342,20 @@
       "category": "sections",
       "settings": {
         "collectionName": "components_sections_services-block",
-        "preheading": {
-          "type": "component",
-          "repeatable": false,
-          "component": "elements.preheading"
-        },
         "info": {
           "name": "Services Block",
           "icon": "robot"
         },
         "attributes": {
+          "preheading": {
+            "type": "component",
+            "repeatable": false,
+            "component": "elements.preheading"
+          },
           "heading": {
             "type": "string"
           },
-          "blurb": {
+          "blurb1": {
             "type": "text"
           },
           "blurb2": {

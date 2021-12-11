@@ -9,10 +9,10 @@ export default function Block3({ content }) {
         <h2 className="max-w-5xl">{data.heading}</h2>
         <div className="mb-4 grid grid-cols-1 gap-x-6 md:grid-cols-2">
           <div>
-            <p>{data.text1}</p>
+            <p>{data.blurb1}</p>
           </div>
           <div>
-            <p>{data.text2}</p>
+            <p>{data.blurb2}</p>
           </div>
         </div>
         {data.buttonLinks &&
