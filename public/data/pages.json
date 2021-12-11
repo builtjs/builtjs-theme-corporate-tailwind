@@ -51,7 +51,7 @@
           {
             "slug": "blog-item-list",
             "template": {
-              "slug": "cards-5",
+              "slug": "list-5",
               "type": "body"
             }
           }
@@ -218,7 +218,7 @@
           {
             "slug": "blog-item-list",
             "template": {
-              "slug": "cards-5",
+              "slug": "list-5",
               "type": "body"
             }
           }
@@ -534,7 +534,7 @@
           {
             "slug": "blog-item-list",
             "template": {
-              "slug": "list-4",
+              "slug": "list-5",
               "type": "body"
             }
           },
