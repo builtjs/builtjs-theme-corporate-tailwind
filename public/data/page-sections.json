@@ -2,6 +2,7 @@
   "pageSections": [
     {
       "slug": "contact1",
+      "description": "Contact page sections",
       "page": {
         "slug": "contact"
       },
@@ -13,6 +14,7 @@
     },
     {
       "slug": "services1",
+      "description": "Teaser for Contact page on Services page",
       "page": {
         "slug": "services"
       },
@@ -24,6 +26,7 @@
     },
     {
       "slug": "home1",
+      "description": "Landing section for home page",
       "page": {
         "slug": "home"
       },
@@ -35,6 +38,7 @@
     },
     {
       "slug": "services2",
+      "description": "Services page sections",
       "page": {
         "slug": "services"
       },
@@ -52,6 +56,7 @@
     },
     {
       "slug": "blog1",
+      "description": "Blog page sections",
       "page": {
         "slug": "blog"
       },
@@ -64,6 +69,7 @@
         }
       ],
       "item": {
+        "description": "Blog detail page sections",
         "page": {
           "slug": "blog-item"
         },
@@ -78,6 +84,7 @@
       }
     },{
       "slug": "home2",
+      "description": "Features list on Home page",
       "page": {
         "slug": "home"
       },
@@ -89,6 +96,7 @@
     },
     {
       "slug": "home3",
+      "description": "Benefits list on Home page",
       "page": {
         "slug": "home"
       },
@@ -100,6 +108,7 @@
     },
     {
       "slug": "about1",
+      "description": "About page sections",
       "page": {
         "slug": "about"
       },
@@ -111,34 +120,13 @@
     },
     {
       "slug": "home4",
+      "description": "About page teaser on Home page",
       "page": {
         "slug": "home"
       },
       "sections": [
         {
           "slug": "home-about-teaser"
-        }
-      ]
-    },
-    {
-     "slug": "contact2",
-     "page": {
-      "slug": "contact"
-    },
-      "sections": [
-        {
-          "slug": "contact-landing"
-        }
-      ]
-    },
-    {
-      "slug": "services3",
-      "page": {
-        "slug": "services"
-      },
-      "sections": [
-        {
-          "slug": "contact-teaser"
         }
       ]
     }
