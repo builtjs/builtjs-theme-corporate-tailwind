@@ -43,6 +43,7 @@
       "slug": "home-seo",
       "displayName": "Home SEO",
       "category": "seo",
+      "type": "head",
       "data": {
         "title": "Home | Windy Built.JS Theme",
         "description": "Home page for a site built with the Buit.JS Windy theme.",
@@ -165,6 +166,7 @@
       "slug": "products-seo",
       "displayName": "Products SEO",
       "category": "seo",
+      "type": "head",
       "data": {
         "title": "Products | Windy Built.JS Theme",
         "description": "Productss page for a site built with the Buit.JS Windy theme.",
@@ -215,6 +217,7 @@
       "slug": "services-seo",
       "displayName": "Services SEO",
       "category": "seo",
+      "type": "head",
       "data": {
         "title": "Services | Windy Built.JS Theme",
         "description": "Services page for a site built with the Buit.JS Windy theme.",
@@ -312,6 +315,7 @@
       "slug": "blog-seo",
       "displayName": "Blog SEO",
       "category": "seo",
+      "type": "head",
       "data": {
         "title": "Blog | Windy Built.JS Theme",
         "description": "Blog page for a site built with the Buit.JS Windy theme.",
@@ -357,6 +361,7 @@
       "slug": "about-seo",
       "displayName": "About SEO",
       "category": "seo",
+      "type": "head",
       "data": {
         "title": "About | Windy Built.JS Theme",
         "description": "About page for a site built with the Buit.JS Windy theme.",
@@ -461,6 +466,7 @@
       "slug": "contact-seo",
       "displayName": "Contact SEO",
       "category": "seo",
+      "type": "head",
       "data": {
         "title": "Contact | Windy Built.JS Theme",
         "description": "Contact page for a site built with the Buit.JS Windy theme.",
