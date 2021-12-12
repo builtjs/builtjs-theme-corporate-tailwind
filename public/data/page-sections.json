@@ -8,6 +8,9 @@
       },
       "sections": [
         {
+          "slug": "contact-seo"
+        },
+        {
           "slug": "contact-landing"
         }
       ]
@@ -26,11 +29,14 @@
     },
     {
       "slug": "home1",
-      "description": "Landing section for home page",
+      "description": "Home page sections",
       "page": {
         "slug": "home"
       },
       "sections": [
+        {
+          "slug": "home-seo"
+        },
         {
           "slug": "main-landing"
         }
@@ -43,6 +49,9 @@
         "slug": "services"
       },
       "sections": [
+        {
+          "slug": "services-seo"
+        },
         {
           "slug": "services-landing"
         },
@@ -61,6 +70,9 @@
         "slug": "blog"
       },
       "sections": [
+        {
+          "slug": "blog-seo"
+        },
         {
           "slug": "blog-landing"
         },
@@ -113,6 +125,9 @@
         "slug": "about"
       },
       "sections": [
+        {
+          "slug": "about-seo"
+        },
         {
           "slug": "about-landing"
         }
