@@ -42,7 +42,8 @@
     {
       "slug": "home-seo",
       "displayName": "Home SEO",
-      "category": "seo",
+      "templates": ["seo"],
+      "category": "head",
       "type": "head",
       "data": {
         "title": "Home | Windy Built.JS Theme",
@@ -165,7 +166,8 @@
     {
       "slug": "products-seo",
       "displayName": "Products SEO",
-      "category": "seo",
+      "templates": ["seo"],
+      "category": "head",
       "type": "head",
       "data": {
         "title": "Products | Windy Built.JS Theme",
@@ -216,7 +218,8 @@
     {
       "slug": "services-seo",
       "displayName": "Services SEO",
-      "category": "seo",
+      "templates": ["seo"],
+      "category": "head",
       "type": "head",
       "data": {
         "title": "Services | Windy Built.JS Theme",
@@ -314,7 +317,8 @@
     {
       "slug": "blog-seo",
       "displayName": "Blog SEO",
-      "category": "seo",
+      "templates": ["seo"],
+      "category": "head",
       "type": "head",
       "data": {
         "title": "Blog | Windy Built.JS Theme",
@@ -360,7 +364,8 @@
     {
       "slug": "about-seo",
       "displayName": "About SEO",
-      "category": "seo",
+      "templates": ["seo"],
+      "category": "head",
       "type": "head",
       "data": {
         "title": "About | Windy Built.JS Theme",
@@ -465,7 +470,8 @@
     {
       "slug": "contact-seo",
       "displayName": "Contact SEO",
-      "category": "seo",
+      "templates": ["seo"],
+      "category": "head",
       "type": "head",
       "data": {
         "title": "Contact | Windy Built.JS Theme",
