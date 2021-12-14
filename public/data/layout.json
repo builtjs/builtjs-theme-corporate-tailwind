@@ -5,12 +5,19 @@
         "slug": "header-1",
         "template": {
           "slug": "header-1"
+        },
+        "collections": {
+          "blog-items": {}
         }
       },
       {
         "slug": "footer-1",
         "template": {
           "slug": "footer-1"
+        },
+        "collections": {
+          "blog-items": {},
+          "social-links": {}
         }
       }
     ]
