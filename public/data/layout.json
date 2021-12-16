@@ -7,7 +7,9 @@
           "slug": "header-1"
         },
         "collections": {
-          "blog-items": {}
+          "primary-menu-items": {
+            "slug": "primary-menu-items"
+          }
         }
       },
       {
@@ -16,8 +18,12 @@
           "slug": "footer-1"
         },
         "collections": {
-          "blog-items": {},
-          "social-links": {}
+          "primary-menu-items": {
+            "slug": "primary-menu-items"
+          },
+          "social-links": {
+            "slug": "social-links"
+          }
         }
       }
     ]

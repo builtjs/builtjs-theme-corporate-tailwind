@@ -16,9 +16,11 @@
     "declaration": false,
     "resolveJsonModule": true,
     "paths": {
-      "@/elements": [
-        "components/elements/index"
-      ]
+      "@/elements": ["components/elements/index"],
+      "@/templates/*": ["components/templates/*"],
+      "@/layout/*": ["components/layout/*"],
+      "@/data/*": ["public/data/*"],
+      "@/api": ["utils/api"]
     },
     "allowSyntheticDefaultImports": true,
     "allowJs": true,
