@@ -34,10 +34,12 @@
           "icon": "heading"
         },
         "attributes": {
-          "icon": {
-            "type": "component",
-            "repeatable": false,
-            "component": "elements.icon"
+          "image": {
+            "model": "file",
+            "via": "related",
+            "allowedTypes": ["images"],
+            "plugin": "upload",
+            "required": false
           },
           "text": {
             "type": "string"
@@ -69,38 +71,6 @@
             "type": "string"
           },
           "type": {
-            "type": "string"
-          }
-        }
-      }
-    },
-    {
-      "slug": "icon",
-      "category": "elements",
-      "displayName": "Icon",
-      "settings": {
-        "collectionName": "components_elements_icon",
-        "info": {
-          "name": "Icon",
-          "icon": "heading"
-        },
-        "attributes": {
-          "svgPaths": {
-            "type": "string"
-          },
-          "pathTransform": {
-            "type": "string"
-          },
-          "width": {
-            "type": "string"
-          },
-          "height": {
-            "type": "string"
-          },
-          "viewboxWidth": {
-            "type": "string"
-          },
-          "viewboxHeight": {
             "type": "string"
           }
         }

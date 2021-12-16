@@ -271,10 +271,12 @@
           "draftAndPublish": true
         },
         "attributes": {
-          "icon": {
-            "type": "component",
-            "repeatable": false,
-            "component": "elements.icon"
+          "image": {
+            "model": "file",
+            "via": "related",
+            "allowedTypes": ["images"],
+            "plugin": "upload",
+            "required": false
           },
           "url": {
             "type": "string"
