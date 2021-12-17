@@ -271,7 +271,7 @@
           "draftAndPublish": true
         },
         "attributes": {
-          "image": {
+          "icon": {
             "model": "file",
             "via": "related",
             "allowedTypes": ["images"],

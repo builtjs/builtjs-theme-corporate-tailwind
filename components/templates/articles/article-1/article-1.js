@@ -33,7 +33,6 @@ export default function Article1({ content }) {
             </div>
             <h1 className="mb-10">{item.title}</h1>
             <div className="flex items-center">
-              {/* TODO: Get author profile image */}
               <div className="relative w-12 h-12 mr-4">
                 <Image
                   className="rounded-full"

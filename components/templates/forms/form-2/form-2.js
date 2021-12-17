@@ -27,7 +27,7 @@ export default function Form1({ content }) {
             </div>
             <div className="items-center ml-10 grid grid-flow-col auto-cols-max gap-x-6">
               {socialLinks.map((socialLink, i) => {
-                return <SocialLink key={i} attribute={socialLink}></SocialLink>;
+                return <SocialLink key={i} data={socialLink}></SocialLink>;
               })}
             </div>
           </div>

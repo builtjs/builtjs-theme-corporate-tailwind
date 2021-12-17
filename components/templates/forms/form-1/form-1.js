@@ -20,12 +20,12 @@ export default function Form1({ content }) {
             <p className="max-w-xl mb-12 text-lg">{data.blurb}</p>
             <div className="mb-16 grid grid-cols-1 gap-y-12">
               {data.contextualLinks.map((contextualLink, i) => {
-                return <ContextualLink key={i} attribute={contextualLink}></ContextualLink>;
+                return <ContextualLink key={i} data={contextualLink}></ContextualLink>;
               })}
             </div>
             <div className="items-center ml-10 grid grid-flow-col auto-cols-max gap-x-6">
               {socialLinks.map((socialLink, i) => {
-                return <SocialLink key={i} attribute={socialLink}></SocialLink>;
+                return <SocialLink key={i} data={socialLink}></SocialLink>;
               })}
             </div>
           </div>

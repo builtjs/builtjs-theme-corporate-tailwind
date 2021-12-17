@@ -1,19 +1,18 @@
 import Link from "next/link";
+import Image from "next/image";
+import getConfig from "next/config";
 
-export default function SocialLink({ attribute }) {
+export default function SocialLink({ data }) {
+  const { publicRuntimeConfig } = getConfig();
   return (
-    <Link key={attribute.url} href={attribute.url}>
+    <Link key={data.url} href={data.url}>
       <a>
-        <svg
-          className="w-6 text-gray-400 transition-colors h- dark:text-gray-200 hover:text-gray-500 dark:hover:text-white"
-          xmlns="http://www.w3.org/2000/svg"
-          viewBox={"0 0 " + attribute.icon.viewboxWidth + " " + attribute.icon.viewboxHeight}
-          fill="currentColor"
-        >
-          {attribute.icon.svgPaths.map((iconSvgPath, i) => {
-            return <path key={i} d={iconSvgPath} />;
-          })}
-        </svg>
+        <Image
+          height={data.icon.height}
+          width={data.icon.width}
+          src={`${publicRuntimeConfig.API_URL || ""}${data.icon.path}/${data.icon.name}.${data.icon.format}`}
+          alt={data.slug}
+        />
       </a>
     </Link>
   );

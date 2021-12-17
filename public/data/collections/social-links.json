@@ -2,37 +2,49 @@
   "items": [
     {
       "slug": "facebook",
-      "image": {
-        "url": "/images/logo.svg",
-        "width": 48,
-        "height": 48
+      "icon": {
+        "name": "facebook",
+        "path": "/images/icons",
+        "format": "svg",
+        "url": "/images/icons/facebook.svg",
+        "width": 24,
+        "height": 24
       },
       "url": "https://facebook.com"
     },
     {
       "slug": "twitter",
-      "image": {
-        "url": "/images/logo.svg",
-        "width": 48,
-        "height": 48
+      "icon": {
+        "name": "twitter",
+        "path": "/images/icons",
+        "format": "svg",
+        "url": "/images/icons/twitter.svg",
+        "width": 30,
+        "height": 24
       },
       "url": "https://twitter.com"
     },
     {
       "slug": "instagram",
-      "image": {
-        "url": "/images/logo.svg",
-        "width": 48,
-        "height": 48
+      "icon": {
+        "name": "instagram",
+        "path": "/images/icons",
+        "format": "svg",
+        "url": "/images/icons/instagram.svg",
+        "width": 24,
+        "height": 24
       },
       "url": "https://instagram.com"
     },
     {
       "slug": "youtube",
-      "image": {
-        "url": "/images/logo.svg",
-        "width": 48,
-        "height": 48
+      "icon": {
+        "name": "youtube",
+        "path": "/images/icons",
+        "format": "svg",
+        "url": "/images/icons/facebook.svg",
+        "width": 32,
+        "height": 24
       },
       "url": "https://youtube.com"
     }
