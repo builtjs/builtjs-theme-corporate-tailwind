@@ -7,6 +7,9 @@
       "bio": "Consectetur adipiscing elit. Integer placerat scelerisque leo, ac tincidunt ex feugiat vel. Nunc volutpat ex libero, vel imperdiet urna facilisis a. Nullam ac magna quis nunc tempor maximus eget at ligula.",
       "position": "Writer",
       "profileImage": {
+        "name": "image",
+        "path": "/images",
+        "format": "png",
         "url": "/images/image.png",
         "width": 48,
         "height": 48
