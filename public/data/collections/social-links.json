@@ -5,7 +5,7 @@
       "icon": {
         "name": "facebook",
         "path": "/images/icons",
-        "format": "svg",
+        "ext": "svg",
         "url": "/images/icons/facebook.svg",
         "width": 24,
         "height": 24
@@ -17,7 +17,7 @@
       "icon": {
         "name": "twitter",
         "path": "/images/icons",
-        "format": "svg",
+        "ext": "svg",
         "url": "/images/icons/twitter.svg",
         "width": 30,
         "height": 24
@@ -29,7 +29,7 @@
       "icon": {
         "name": "instagram",
         "path": "/images/icons",
-        "format": "svg",
+        "ext": "svg",
         "url": "/images/icons/instagram.svg",
         "width": 24,
         "height": 24
@@ -41,7 +41,7 @@
       "icon": {
         "name": "youtube",
         "path": "/images/icons",
-        "format": "svg",
+        "ext": "svg",
         "url": "/images/icons/facebook.svg",
         "width": 32,
         "height": 24

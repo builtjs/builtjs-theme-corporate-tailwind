@@ -10,7 +10,7 @@ export default function SocialLink({ data }) {
         <Image
           height={data.icon.height}
           width={data.icon.width}
-          src={`${publicRuntimeConfig.API_URL || ""}${data.icon.path}/${data.icon.name}.${data.icon.format}`}
+          src={`${publicRuntimeConfig.API_URL || ""}${data.icon.url}`}
           alt={data.slug}
         />
       </a>
