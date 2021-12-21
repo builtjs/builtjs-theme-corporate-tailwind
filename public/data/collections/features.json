@@ -9,9 +9,7 @@
       "heading": "Lorem ipsum dolor sit amet",
       "blurb": "Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       "image": {
-        "name": "image",
-        "path": "/images",
-        "format": "png",
+        "ext": "png",
         "url": "/images/image.png",
         "width": 1280,
         "height": 768
@@ -33,9 +31,7 @@
       "heading": "Lorem ipsum dolor sit amet",
       "blurb": "Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       "image": {
-        "name": "image",
-        "path": "/images",
-        "format": "png",
+        "ext": "png",
         "url": "/images/image.png",
         "width": 1280,
         "height": 768
@@ -57,9 +53,7 @@
       "heading": "Lorem ipsum dolor sit amet",
       "blurb": "Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       "image": {
-        "name": "image",
-        "path": "/images",
-        "format": "png",
+        "ext": "png",
         "url": "/images/image.png",
         "width": 1280,
         "height": 768

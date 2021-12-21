@@ -13,9 +13,7 @@
         }
       ],
       "image": {
-        "name": "image",
-        "path": "/images",
-        "format": "png",
+        "ext": "png",
         "url": "/images/image.png",
         "width": 1280,
         "height": 768
@@ -39,9 +37,7 @@
         }
       ],
       "image": {
-        "name": "image",
-        "path": "/images",
-        "format": "png",
+        "ext": "png",
         "url": "/images/image.png",
         "width": 1280,
         "height": 768
@@ -65,9 +61,7 @@
         }
       ],
       "image": {
-        "name": "image",
-        "path": "/images",
-        "format": "png",
+        "ext": "png",
         "url": "/images/image.png",
         "width": 1280,
         "height": 768
