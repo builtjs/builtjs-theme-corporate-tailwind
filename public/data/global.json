@@ -3,6 +3,7 @@
     "name": "Corporate Tailwind",
     "logo": {
       "name": "builtjs",
+      "path": "/images",
       "ext": "svg",
       "url": "/images/builtjs.svg",
       "width": 45,
