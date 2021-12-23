@@ -13,6 +13,8 @@
         }
       ],
       "image": {
+        "name": "image",
+        "path": "/images",
         "ext": "png",
         "url": "/images/image.png",
         "width": 1280,
@@ -37,6 +39,8 @@
         }
       ],
       "image": {
+        "name": "image",
+        "path": "/images",
         "ext": "png",
         "url": "/images/image.png",
         "width": 1280,
@@ -61,6 +65,8 @@
         }
       ],
       "image": {
+        "name": "image",
+        "path": "/images",
         "ext": "png",
         "url": "/images/image.png",
         "width": 1280,

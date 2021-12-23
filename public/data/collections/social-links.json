@@ -3,6 +3,8 @@
     {
       "slug": "facebook",
       "icon": {
+        "name": "facebook",
+        "path": "/images/icons",
         "ext": "svg",
         "url": "/images/icons/facebook.svg",
         "width": 24,
@@ -13,6 +15,8 @@
     {
       "slug": "twitter",
       "icon": {
+        "name": "twitter",
+        "path": "/images/icons",
         "ext": "svg",
         "url": "/images/icons/twitter.svg",
         "width": 30,
@@ -23,6 +27,8 @@
     {
       "slug": "instagram",
       "icon": {
+        "name": "instagram",
+        "path": "/images/icons",
         "ext": "svg",
         "url": "/images/icons/instagram.svg",
         "width": 24,
@@ -33,6 +39,8 @@
     {
       "slug": "youtube",
       "icon": {
+        "name": "youtube",
+        "path": "/images/icons",
         "ext": "svg",
         "url": "/images/icons/facebook.svg",
         "width": 32,
