@@ -1,4 +1,4 @@
-# Built.JS Theme: Windy
+# Built.JS Theme: Corporate Tailwind
 
 A Built.JS theme for small business websites with basic Tailwind styling.
 
