@@ -11,7 +11,7 @@ export default function Banner2({ content }) {
           <p className="max-w-xl mb-12 text-lg">{data.blurb}</p>
           {data.buttonLinks &&
             data.buttonLinks.map((button) => {
-              return <ButtonLink key={button.type} attribute={button}></ButtonLink>;
+              return <ButtonLink key={button.type} data={button}></ButtonLink>;
             })}
         </div>
       </div>

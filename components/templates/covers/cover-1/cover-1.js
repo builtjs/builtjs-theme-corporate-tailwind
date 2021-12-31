@@ -20,12 +20,12 @@ export default function Cover1({ content }) {
             />
           </div>
           <div className="px-4 pt-10 pb-20 lg:py-40">
-            <Preheading attribute={data.preheading}></Preheading>
+            <Preheading data={data.preheading}></Preheading>
             <h1>{data.heading}</h1>
             <p className="mb-12 text-lg">{data.blurb}</p>
             {data.buttonLinks &&
               data.buttonLinks.map((button) => {
-                return <ButtonLink key={button.type} attribute={button}></ButtonLink>;
+                return <ButtonLink key={button.type} data={button}></ButtonLink>;
               })}
           </div>
         </div>

@@ -1,9 +1,9 @@
 import Link from "next/link";
 
-export default function ButtonLink({ attribute }) {
+export default function ButtonLink({ data }) {
   return (
-    <Link key={attribute.type} href={attribute.url}>
-      <a className={`btn btn-${attribute.type}`}>{attribute.label}</a>
+    <Link key={data.type} href={data.url}>
+      <a className={`btn btn-${data.type}`}>{data.label}</a>
     </Link>
   );
 }

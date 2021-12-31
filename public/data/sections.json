@@ -536,7 +536,6 @@
         "heading": "Lorem ipsum dolor sit amet",
         "blurb": "Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
         "button": {
-          "url": "/contact",
           "label": "Send",
           "type": "primary"
         },

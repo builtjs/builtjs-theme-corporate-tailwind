@@ -15,7 +15,7 @@ export default function Banner5({ content }) {
             <div className="md:text-right">
               {data.buttonLinks &&
                 data.buttonLinks.map((button) => {
-                  return <ButtonLink key={button.type} attribute={button}></ButtonLink>;
+                  return <ButtonLink key={button.type} data={button}></ButtonLink>;
                 })}
             </div>
           </div>

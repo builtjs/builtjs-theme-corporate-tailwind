@@ -24,6 +24,26 @@
       }
     },
     {
+      "slug": "button",
+      "category": "elements",
+      "displayName": "Button",
+      "settings": {
+        "collectionName": "components_elements_button",
+        "info": {
+          "name": "Button",
+          "icon": "heading"
+        },
+        "attributes": {
+          "label": {
+            "type": "string"
+          },
+          "type": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    {
       "slug": "contextual-link",
       "category": "elements",
       "displayName": "Contextual Link",

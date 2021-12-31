@@ -19,12 +19,12 @@ export default function Cards4({ content }) {
           {items &&
             items.map((item, i) => (
               <div key={i} className="p-8 bg-gray-100 rounded-lg dark:bg-gray-700">
-                <Preheading attribute={item.preheading}></Preheading>
+                <Preheading data={item.preheading}></Preheading>
                 <h3 className="mb-4">{item.heading}</h3>
                 <p className="mb-10">{item.blurb}</p>
                 {item.buttonLinks &&
                   item.buttonLinks.map((button) => {
-                    return <ButtonLink key={button.type} attribute={button}></ButtonLink>;
+                    return <ButtonLink key={button.type} data={button}></ButtonLink>;
                   })}
               </div>
             ))}

@@ -15,12 +15,12 @@ export default function Cover5({ content }) {
         </div>
 
         <div className="relative z-10 px-4 py-20 mx-auto text-center lg:py-40">
-          <Preheading attribute={data.preheading}></Preheading>
+          <Preheading data={data.preheading}></Preheading>
           <h1 className="max-w-5xl mx-auto">{data.heading}</h1>
           <p className="max-w-xl mx-auto mb-12 text-lg text-whit dark:text-white">{data.blurb}</p>
           {data.buttonLinks &&
             data.buttonLinks.map((button) => {
-              return <ButtonLink key={button.type} attribute={button}></ButtonLink>;
+              return <ButtonLink key={button.type} data={button}></ButtonLink>;
             })}
         </div>
       </div>

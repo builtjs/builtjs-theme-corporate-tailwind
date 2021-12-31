@@ -7,7 +7,7 @@ export default function Block5({ content }) {
       <div className="mx-auto max-w-screen-xl">
         <div className="grid grid-cols-1 gap-x-6 md:grid-cols-2">
           <div>
-            <Preheading attribute={data.preheading}></Preheading>
+            <Preheading data={data.preheading}></Preheading>
             <h2>{data.heading}</h2>
           </div>
           <div>
@@ -15,7 +15,7 @@ export default function Block5({ content }) {
             <p className="mb-8">{data.blurb2}</p>
             {data.buttonLinks &&
               data.buttonLinks.map((button) => {
-                return <ButtonLink key={button.type} attribute={button}></ButtonLink>;
+                return <ButtonLink key={button.type} data={button}></ButtonLink>;
               })}
           </div>
         </div>

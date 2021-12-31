@@ -14,7 +14,7 @@ export default function Form1({ content }) {
     <section id="form-2" className="template">
       <div className="mx-auto max-w-screen-xl">
         <div className="mb-20 text-center">
-          <Preheading attribute={data.preheading}></Preheading>
+          <Preheading data={data.preheading}></Preheading>
           <h1>{data.heading}</h1>
           <p className="max-w-xl mx-auto text-lg">{data.blurb}</p>
         </div>
@@ -22,7 +22,7 @@ export default function Form1({ content }) {
           <div>
             <div className="mb-16 grid grid-cols-1 gap-y-12">
               {data.contextualLinks.map((contextualLink, i) => {
-                return <ContextualLink key={i} attribute={contextualLink}></ContextualLink>;
+                return <ContextualLink key={i} data={contextualLink}></ContextualLink>;
               })}
             </div>
             <div className="items-center ml-10 grid grid-flow-col auto-cols-max gap-x-6">
@@ -34,10 +34,10 @@ export default function Form1({ content }) {
           <div>
             <form action="#" method="POST">
               {data.fields.map((field, i) => {
-                return <Field key={i} attribute={field}></Field>;
+                return <Field key={i} data={field}></Field>;
               })}
               {/* TODO: Form button needs wiring up */}
-              <Button attribute={data.button}></Button>
+              <Button data={data.button}></Button>
             </form>
           </div>
         </div>

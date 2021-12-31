@@ -5,7 +5,7 @@ export default function Block3({ content }) {
   return (
     <section id="block-3" className="template">
       <div className="mx-auto max-w-screen-xl">
-        <Preheading attribute={data.preheading}></Preheading>
+        <Preheading data={data.preheading}></Preheading>
         <h2 className="max-w-5xl">{data.heading}</h2>
         <div className="mb-4 grid grid-cols-1 gap-x-6 md:grid-cols-2">
           <div>
@@ -17,7 +17,7 @@ export default function Block3({ content }) {
         </div>
         {data.buttonLinks &&
           data.buttonLinks.map((button) => {
-            return <ButtonLink key={button.type} attribute={button}></ButtonLink>;
+            return <ButtonLink key={button.type} data={button}></ButtonLink>;
           })}
       </div>
     </section>
