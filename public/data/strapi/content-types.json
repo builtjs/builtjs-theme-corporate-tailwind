@@ -6,7 +6,7 @@
       "slug": "blog-item",
       "modelSettings": {
         "kind": "collectionType",
-        "collectionName": "blog-items",
+        "collectionName": "blog_items",
         "info": {
           "name": "Blog item",
           "description": ""
@@ -85,7 +85,7 @@
             "required": false
           },
           "blogItems": {
-            "collection": "blog-items",
+            "collection": "blog_items",
             "via": "author"
           }
         }
@@ -97,7 +97,7 @@
       "slug": "primary-menu-items",
       "modelSettings": {
         "kind": "collectionType",
-        "collectionName": "primary-menu-items",
+        "collectionName": "primary_menu_items",
         "info": {
           "name": "Primary Menu Item",
           "description": "Menu item for the primary menu"
@@ -163,7 +163,7 @@
           "buttonLinks": {
             "type": "component",
             "repeatable": true,
-            "component": "elements.button-link"
+            "component": "elements.button_link"
           }
         }
       }
@@ -211,7 +211,7 @@
           "buttonLinks": {
             "type": "component",
             "repeatable": true,
-            "component": "elements.button-link"
+            "component": "elements.button_link"
           }
         }
       }
@@ -260,7 +260,7 @@
       "slug": "social-link",
       "modelSettings": {
         "kind": "collectionType",
-        "collectionName": "social-links",
+        "collectionName": "social_links",
         "info": {
           "name": "Social Links",
           "description": ""

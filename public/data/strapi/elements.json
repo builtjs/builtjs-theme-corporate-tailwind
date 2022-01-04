@@ -5,11 +5,12 @@
       "category": "elements",
       "displayName": "Button Link",
       "settings": {
-        "collectionName": "components_elements_button-link",
+        "collectionName": "components_elements_button_link",
         "info": {
           "name": "Button Link",
           "icon": "heading"
         },
+        "options": { "increments": true, "timestamps": true, "draftAndPublish": true },
         "attributes": {
           "label": {
             "type": "string"
@@ -33,6 +34,7 @@
           "name": "Button",
           "icon": "heading"
         },
+        "options": { "increments": true, "timestamps": true, "draftAndPublish": true },
         "attributes": {
           "label": {
             "type": "string"
@@ -48,11 +50,12 @@
       "category": "elements",
       "displayName": "Contextual Link",
       "settings": {
-        "collectionName": "components_elements_contextual-link",
+        "collectionName": "components_elements_contextual_link",
         "info": {
           "name": "Contextual Link",
           "icon": "heading"
         },
+        "options": { "increments": true, "timestamps": true, "draftAndPublish": true },
         "attributes": {
           "icon": {
             "model": "file",
@@ -83,6 +86,7 @@
           "name": "Field",
           "icon": "heading"
         },
+        "options": { "increments": true, "timestamps": true, "draftAndPublish": true },
         "attributes": {
           "label": {
             "type": "string"
@@ -106,6 +110,7 @@
           "name": "Preheading",
           "icon": "heading"
         },
+        "options": { "increments": true, "timestamps": true, "draftAndPublish": true },
         "attributes": {
           "text": {
             "type": "string"
