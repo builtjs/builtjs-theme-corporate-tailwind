@@ -13,7 +13,7 @@
           "buttonLinks": {
             "type": "component",
             "repeatable": true,
-            "component": "elements.button_link"
+            "component": "elements.button-link"
           }
         }
       }
@@ -236,7 +236,7 @@
           "contextualLinks": {
             "type": "component",
             "repeatable": true,
-            "component": "elements.contextual_link"
+            "component": "elements.contextual-link"
           },
           "fields": {
             "type": "component",
@@ -278,7 +278,7 @@
           "buttonLinks": {
             "type": "component",
             "repeatable": true,
-            "component": "elements.button_link"
+            "component": "elements.button-link"
           }
         },
         "variants": {
@@ -304,7 +304,7 @@
           "buttonLinks": {
             "type": "component",
             "repeatable": true,
-            "component": "elements.button_link"
+            "component": "elements.button-link"
           }
         }
       }
@@ -429,7 +429,7 @@
           "buttonLinks": {
             "type": "component",
             "repeatable": true,
-            "component": "elements.button_link"
+            "component": "elements.button-link"
           }
         }
       }
