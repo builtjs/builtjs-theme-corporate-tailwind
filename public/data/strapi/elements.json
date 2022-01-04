@@ -7,7 +7,7 @@
       "settings": {
         "collectionName": "components_elements_button_link",
         "info": {
-          "name": "Button Link",
+          "displayName": "Button Link",
           "icon": "heading"
         },
         "options": { "increments": true, "timestamps": true, "draftAndPublish": true },
@@ -31,7 +31,7 @@
       "settings": {
         "collectionName": "components_elements_button",
         "info": {
-          "name": "Button",
+          "displayName": "Button",
           "icon": "heading"
         },
         "options": { "increments": true, "timestamps": true, "draftAndPublish": true },
@@ -52,7 +52,7 @@
       "settings": {
         "collectionName": "components_elements_contextual_link",
         "info": {
-          "name": "Contextual Link",
+          "displayName": "Contextual Link",
           "icon": "heading"
         },
         "options": { "increments": true, "timestamps": true, "draftAndPublish": true },
@@ -83,7 +83,7 @@
       "settings": {
         "collectionName": "components_elements_field",
         "info": {
-          "name": "Field",
+          "displayName": "Field",
           "icon": "heading"
         },
         "options": { "increments": true, "timestamps": true, "draftAndPublish": true },
@@ -107,7 +107,7 @@
       "settings": {
         "collectionName": "components_elements_preheading",
         "info": {
-          "name": "Preheading",
+          "displayName": "Preheading",
           "icon": "heading"
         },
         "options": { "increments": true, "timestamps": true, "draftAndPublish": true },

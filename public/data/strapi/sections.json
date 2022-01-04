@@ -6,7 +6,7 @@
       "settings": {
         "collectionName": "components_layout_header_1",
         "info": {
-          "name": "Header",
+          "displayName": "Header",
           "icon": "heading"
         },
         "attributes": {
@@ -24,7 +24,7 @@
       "settings": {
         "collectionName": "components_layout_footer_1",
         "info": {
-          "name": "Footer",
+          "displayName": "Footer",
           "icon": "heading"
         },
         "attributes": {}
@@ -36,7 +36,7 @@
       "settings": {
         "collectionName": "components_seo_home_seo",
         "info": {
-          "name": "Home Page SEO",
+          "displayName": "Home Page SEO",
           "icon": "robot"
         },
         "attributes": {
@@ -68,7 +68,7 @@
       "settings": {
         "collectionName": "components_seo_contact_seo",
         "info": {
-          "name": "Contact Page SEO",
+          "displayName": "Contact Page SEO",
           "icon": "robot"
         },
         "attributes": {
@@ -100,7 +100,7 @@
       "settings": {
         "collectionName": "components_seo_about_seo",
         "info": {
-          "name": "About Page SEO",
+          "displayName": "About Page SEO",
           "icon": "robot"
         },
         "attributes": {
@@ -132,7 +132,7 @@
       "settings": {
         "collectionName": "components_seo_services_seo",
         "info": {
-          "name": "Services Page SEO",
+          "displayName": "Services Page SEO",
           "icon": "robot"
         },
         "attributes": {
@@ -164,7 +164,7 @@
       "settings": {
         "collectionName": "components_seo_blog_seo",
         "info": {
-          "name": "Blog Page SEO",
+          "displayName": "Blog Page SEO",
           "icon": "robot"
         },
         "attributes": {
@@ -195,7 +195,7 @@
       "category": "sections",
       "settings": {
         "collectionName": "components_sections_main_landing",
-        "info": { "name": "Main landing", "icon": "heading" },
+        "info": { "displayName": "Main landing", "icon": "heading" },
         "attributes": {
           "preheading": {
             "type": "component",
@@ -224,7 +224,7 @@
       "category": "forms",
       "settings": {
         "collectionName": "components_sections_contact_landing",
-        "info": { "name": "Contact landing", "icon": "heading" },
+        "info": { "displayName": "Contact landing", "icon": "heading" },
         "attributes": {
           "preheading": {
             "type": "component",
@@ -256,7 +256,7 @@
       "category": "sections",
       "settings": {
         "collectionName": "components_sections_features_list",
-        "info": { "name": "Features", "icon": "heading" },
+        "info": { "displayName": "Features", "icon": "heading" },
         "attributes": {
           "heading": { "type": "string" }
         }
@@ -267,7 +267,7 @@
       "category": "sections",
       "settings": {
         "collectionName": "components_sections_contact_teaser",
-        "info": { "name": "Contact Teaser", "icon": "heading" },
+        "info": { "displayName": "Contact Teaser", "icon": "heading" },
         "attributes": {
           "preheading": {
             "type": "component",
@@ -291,7 +291,7 @@
       "category": "sections",
       "settings": {
         "collectionName": "components_sections_home_about_teaser",
-        "info": { "name": "About Teaser", "icon": "heading" },
+        "info": { "displayName": "About Teaser", "icon": "heading" },
         "attributes": {
           "preheading": {
             "type": "component",
@@ -314,7 +314,7 @@
       "category": "sections",
       "settings": {
         "collectionName": "components_sections_benefits_list",
-        "info": { "name": "Benefits", "icon": "heading" },
+        "info": { "displayName": "Benefits", "icon": "heading" },
         "attributes": {}
       }
     },
@@ -323,7 +323,7 @@
       "category": "sections",
       "settings": {
         "collectionName": "components_sections_services_landing",
-        "info": { "name": "Services Landing", "icon": "heading" },
+        "info": { "displayName": "Services Landing", "icon": "heading" },
         "attributes": {
           "preheading": {
             "type": "component",
@@ -348,7 +348,7 @@
       "settings": {
         "collectionName": "components_sections_services_block",
         "info": {
-          "name": "Services Block",
+          "displayName": "Services Block",
           "icon": "robot"
         },
         "attributes": {
@@ -382,7 +382,7 @@
       "settings": {
         "collectionName": "components_sections_blog_landing",
         "info": {
-          "name": "Blog Landing",
+          "displayName": "Blog Landing",
           "icon": "robot"
         },
         "attributes": {}
@@ -394,7 +394,7 @@
       "settings": {
         "collectionName": "components_sections_blog_item_list",
         "info": {
-          "name": "Blog Item List",
+          "displayName": "Blog Item List",
           "icon": "robot"
         },
         "attributes": {}
@@ -406,7 +406,7 @@
       "settings": {
         "collectionName": "components_sections_about_landing",
         "info": {
-          "name": "About Landing",
+          "displayName": "About Landing",
           "icon": "robot"
         },
         "attributes": {
@@ -440,7 +440,7 @@
       "settings": {
         "collectionName": "components_sections_about_text",
         "info": {
-          "name": "About Text",
+          "displayName": "About Text",
           "icon": "robot"
         },
         "attributes": {
@@ -460,7 +460,7 @@
       "settings": {
         "collectionName": "components_sections_blog_list",
         "info": {
-          "name": "Blog List",
+          "displayName": "Blog List",
           "icon": "robot"
         },
         "attributes": {}
@@ -472,7 +472,7 @@
       "settings": {
         "collectionName": "components_sections_blog_item",
         "info": {
-          "name": "Blog Item",
+          "displayName": "Blog Item",
           "icon": "robot"
         },
         "attributes": {}
@@ -484,7 +484,7 @@
       "settings": {
         "collectionName": "components_sections_blog_related_articles",
         "info": {
-          "name": "Blog Related Articles",
+          "displayName": "Blog Related Articles",
           "icon": "robot"
         },
         "attributes": {}
