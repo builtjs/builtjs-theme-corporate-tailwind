@@ -8,7 +8,7 @@
         "kind": "collectionType",
         "collectionName": "blog_items",
         "info": {
-          "name": "Blog item",
+          "displayName": "Blog item",
           "description": ""
         },
         "options": {
@@ -58,7 +58,7 @@
         "kind": "collectionType",
         "collectionName": "authors",
         "info": {
-          "name": "Author",
+          "displayName": "Author",
           "description": "Writer of posts"
         },
         "options": {
@@ -99,7 +99,7 @@
         "kind": "collectionType",
         "collectionName": "primary_menu_items",
         "info": {
-          "name": "Primary Menu Item",
+          "displayName": "Primary Menu Item",
           "description": "Menu item for the primary menu"
         },
         "options": {
@@ -128,7 +128,7 @@
         "kind": "collectionType",
         "collectionName": "benefits",
         "info": {
-          "name": "Benefit",
+          "displayName": "Benefit",
           "description": ""
         },
         "options": {
@@ -176,7 +176,7 @@
         "kind": "collectionType",
         "collectionName": "features",
         "info": {
-          "name": "Feature",
+          "displayName": "Feature",
           "description": ""
         },
         "options": {
@@ -224,7 +224,7 @@
         "kind": "collectionType",
         "collectionName": "services",
         "info": {
-          "name": "Service",
+          "displayName": "Service",
           "description": ""
         },
         "options": {
@@ -262,7 +262,7 @@
         "kind": "collectionType",
         "collectionName": "social_links",
         "info": {
-          "name": "Social Links",
+          "displayName": "Social Links",
           "description": ""
         },
         "options": {
