@@ -163,7 +163,7 @@
           "buttonLinks": {
             "type": "component",
             "repeatable": true,
-            "component": "elements.button_link"
+            "component": "elements.button-link"
           }
         }
       }
@@ -211,7 +211,7 @@
           "buttonLinks": {
             "type": "component",
             "repeatable": true,
-            "component": "elements.button_link"
+            "component": "elements.button-link"
           }
         }
       }
