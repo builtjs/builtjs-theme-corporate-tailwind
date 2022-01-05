@@ -3,7 +3,7 @@
     "site": [
       {
         "slug": "home",
-        "singularName": "Home",
+        "singularName": "home",
         "displayName": "Home",
         "status": "published",
         "sections": [
@@ -60,7 +60,7 @@
       },
       {
         "slug": "products",
-        "singularName": "Product",
+        "singularName": "product",
         "displayName": "Products",
         "status": "published",
         "sections": [
@@ -110,7 +110,7 @@
       },
       {
         "slug": "services",
-        "singularName": "Service",
+        "singularName": "service",
         "displayName": "Services",
         "status": "published",
         "sections": [
@@ -160,7 +160,7 @@
       },
       {
         "slug": "about",
-        "singularName": "About",
+        "singularName": "about",
         "displayName": "About",
         "status": "published",
         "sections": [
@@ -203,7 +203,7 @@
       },
       {
         "slug": "blog",
-        "singularName": "Blog",
+        "singularName": "blog",
         "displayName": "Blog",
         "sections": [
           {
@@ -231,7 +231,7 @@
       },
       {
         "slug": "blog-item",
-        "singularName": "Blog Item",
+        "singularName": "blog-item",
         "displayName": "Blog Item",
         "sections": [
           {
@@ -252,7 +252,7 @@
       },
       {
         "slug": "contact",
-        "singularName": "Contact",
+        "singularName": "contact",
         "displayName": "Contact",
         "status": "published",
         "sections": [
@@ -283,7 +283,7 @@
     "templates": [
       {
         "slug": "banners",
-        "singularName": "Banner",
+        "singularName": "banner",
         "displayName": "Banners",
         "status": "published",
         "sections": [
@@ -326,7 +326,7 @@
       },
       {
         "slug": "blocks",
-        "singularName": "Block",
+        "singularName": "block",
         "displayName": "Blocks",
         "status": "published",
         "sections": [
@@ -369,8 +369,8 @@
       },
       {
         "slug": "cards",
-        "singularName": "Card",
-        "displayName": "Cards",
+        "singularName": "card",
+        "displayName": "cards",
         "status": "published",
         "sections": [
           {
@@ -412,7 +412,7 @@
       },
       {
         "slug": "covers",
-        "singularName": "Cover",
+        "singularName": "cover",
         "displayName": "Covers",
         "status": "published",
         "sections": [
@@ -455,7 +455,7 @@
       },
       {
         "slug": "footers",
-        "singularName": "Footer",
+        "singularName": "footer",
         "displayName": "Footers",
         "status": "published",
         "sections": [
@@ -477,7 +477,7 @@
       },
       {
         "slug": "forms",
-        "singularName": "Form",
+        "singularName": "form",
         "displayName": "Forms",
         "status": "published",
         "sections": [
@@ -499,7 +499,7 @@
       },
       {
         "slug": "headers",
-        "singularName": "Header",
+        "singularName": "header",
         "displayName": "Headers",
         "status": "published",
         "sections": [
@@ -521,7 +521,7 @@
       },
       {
         "slug": "lists",
-        "singularName": "List",
+        "singularName": "list",
         "displayName": "Lists",
         "status": "published",
         "sections": [

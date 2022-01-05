@@ -9,6 +9,8 @@
         "collectionName": "blog_items",
         "info": {
           "displayName": "Blog item",
+          "singularName": "blog-item",
+          "pluralName": "blog-items",
           "description": ""
         },
         "options": {
@@ -58,6 +60,8 @@
         "kind": "collectionType",
         "collectionName": "authors",
         "info": {
+          "singularName": "author",
+          "pluralName": "authors",
           "displayName": "Author",
           "description": "Writer of posts"
         },
@@ -94,11 +98,13 @@
     {
       "singularDisplayName": "Primary Menu Item",
       "pluralDisplayName": "Primary Menu Items",
-      "slug": "primary-menu-items",
+      "slug": "primary-menu-item",
       "modelSettings": {
         "kind": "collectionType",
         "collectionName": "primary_menu_items",
         "info": {
+          "singularName": "primary-menu-item",
+          "pluralName": "primary-menu-items",
           "displayName": "Primary Menu Item",
           "description": "Menu item for the primary menu"
         },
@@ -128,6 +134,8 @@
         "kind": "collectionType",
         "collectionName": "benefits",
         "info": {
+          "singularName": "benefit",
+          "pluralName": "benefits",
           "displayName": "Benefit",
           "description": ""
         },
@@ -176,6 +184,8 @@
         "kind": "collectionType",
         "collectionName": "features",
         "info": {
+          "singularName": "feature",
+          "pluralName": "features",
           "displayName": "Feature",
           "description": ""
         },
@@ -224,6 +234,8 @@
         "kind": "collectionType",
         "collectionName": "services",
         "info": {
+          "singularName": "service",
+          "pluralName": "services",
           "displayName": "Service",
           "description": ""
         },
@@ -262,6 +274,8 @@
         "kind": "collectionType",
         "collectionName": "social_links",
         "info": {
+          "singularName": "social-link",
+          "pluralName": "social-links",
           "displayName": "Social Links",
           "description": ""
         },

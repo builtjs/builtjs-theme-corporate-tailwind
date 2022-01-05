@@ -3,8 +3,17 @@
     "settings": {
       "kind": "singleType",
       "collectionName": "global",
-      "info": { "displayName": "Global", "description": "Global data for app." },
-      "options": { "increments": true, "timestamps": true, "draftAndPublish": true },
+      "info": {
+        "singularName": "global",
+        "pluralName": "globals",
+        "displayName": "Global",
+        "description": "Global data for app."
+      },
+      "options": {
+        "increments": true,
+        "timestamps": true,
+        "draftAndPublish": true
+      },
       "attributes": {
         "name": {
           "default": "Corporate Tailwind",
