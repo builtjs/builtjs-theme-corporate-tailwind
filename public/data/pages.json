@@ -230,9 +230,9 @@
         ]
       },
       {
-        "slug": "blog-item",
-        "singularName": "blog-item",
-        "displayName": "Blog Item",
+        "slug": "blog-article",
+        "singularName": "blog-article",
+        "displayName": "Blog Article",
         "sections": [
           {
             "slug": "blog-item",

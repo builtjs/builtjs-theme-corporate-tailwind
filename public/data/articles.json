@@ -1,10 +1,10 @@
 {
   "articles": [
     {
-      "slug": "blog-item",
-      "singularName": "blog-item",
-      "pluralName": "blog-items",
-      "displayName": "Blog Item",
+      "slug": "blog-article",
+      "singularName": "blog-article",
+      "pluralName": "blog-articles",
+      "displayName": "Blog Article",
       "contentType": "blog-item",
       "listPage": {
         "slug": "blog"
