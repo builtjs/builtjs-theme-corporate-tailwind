@@ -60,8 +60,8 @@
         "kind": "collectionType",
         "collectionName": "authors",
         "info": {
-          "singularName": "author",
-          "pluralName": "authors",
+          "singularName": "author-item",
+          "pluralName": "author-items",
           "displayName": "Author",
           "description": "Writer of posts"
         },
@@ -134,9 +134,9 @@
         "kind": "collectionType",
         "collectionName": "benefits",
         "info": {
-          "singularName": "benefit",
-          "pluralName": "benefits",
-          "displayName": "Benefit",
+          "singularName": "benefit-item",
+          "pluralName": "benefit-items",
+          "displayName": "Benefits",
           "description": ""
         },
         "options": {
@@ -184,8 +184,8 @@
         "kind": "collectionType",
         "collectionName": "features",
         "info": {
-          "singularName": "feature",
-          "pluralName": "features",
+          "singularName": "feature-item",
+          "pluralName": "feature-items",
           "displayName": "Feature",
           "description": ""
         },
@@ -234,9 +234,9 @@
         "kind": "collectionType",
         "collectionName": "services",
         "info": {
-          "singularName": "service",
-          "pluralName": "services",
-          "displayName": "Service",
+          "singularName": "service-item",
+          "pluralName": "service-items",
+          "displayName": "Services",
           "description": ""
         },
         "options": {
@@ -274,8 +274,8 @@
         "kind": "collectionType",
         "collectionName": "social_links",
         "info": {
-          "singularName": "social-link",
-          "pluralName": "social-links",
+          "singularName": "social-link-item",
+          "pluralName": "social-link-items",
           "displayName": "Social Links",
           "description": ""
         },
