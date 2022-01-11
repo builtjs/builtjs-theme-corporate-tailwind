@@ -8,7 +8,7 @@
         "kind": "collectionType",
         "collectionName": "blog_items",
         "info": {
-          "displayName": "Blog item",
+          "displayName": "Blog Items",
           "singularName": "blog-item",
           "pluralName": "blog-items",
           "description": ""
@@ -62,7 +62,7 @@
         "info": {
           "singularName": "author-item",
           "pluralName": "author-items",
-          "displayName": "Author",
+          "displayName": "Authors",
           "description": "Writer of posts"
         },
         "options": {
@@ -105,7 +105,7 @@
         "info": {
           "singularName": "primary-menu-item",
           "pluralName": "primary-menu-items",
-          "displayName": "Primary Menu Item",
+          "displayName": "Primary Menu Items",
           "description": "Menu item for the primary menu"
         },
         "options": {
@@ -186,7 +186,7 @@
         "info": {
           "singularName": "feature-item",
           "pluralName": "feature-items",
-          "displayName": "Feature",
+          "displayName": "Features",
           "description": ""
         },
         "options": {
