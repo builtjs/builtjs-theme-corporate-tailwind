@@ -60,7 +60,7 @@
       },
       {
         "slug": "products",
-        "singularName": "product",
+        "singularName": "products",
         "displayName": "Products",
         "status": "published",
         "sections": [
@@ -110,7 +110,7 @@
       },
       {
         "slug": "services",
-        "singularName": "service",
+        "singularName": "services",
         "displayName": "Services",
         "status": "published",
         "sections": [
@@ -283,7 +283,7 @@
     "templates": [
       {
         "slug": "banners",
-        "singularName": "banner",
+        "singularName": "banners",
         "displayName": "Banners",
         "status": "published",
         "sections": [
@@ -326,7 +326,7 @@
       },
       {
         "slug": "blocks",
-        "singularName": "block",
+        "singularName": "blocks",
         "displayName": "Blocks",
         "status": "published",
         "sections": [
@@ -369,8 +369,8 @@
       },
       {
         "slug": "cards",
-        "singularName": "card",
-        "displayName": "cards",
+        "singularName": "cards",
+        "displayName": "Cards",
         "status": "published",
         "sections": [
           {
@@ -412,7 +412,7 @@
       },
       {
         "slug": "covers",
-        "singularName": "cover",
+        "singularName": "covers",
         "displayName": "Covers",
         "status": "published",
         "sections": [
@@ -455,7 +455,7 @@
       },
       {
         "slug": "footers",
-        "singularName": "footer",
+        "singularName": "footers",
         "displayName": "Footers",
         "status": "published",
         "sections": [
@@ -499,7 +499,7 @@
       },
       {
         "slug": "headers",
-        "singularName": "header",
+        "singularName": "headers",
         "displayName": "Headers",
         "status": "published",
         "sections": [
@@ -521,7 +521,7 @@
       },
       {
         "slug": "lists",
-        "singularName": "list",
+        "singularName": "lists",
         "displayName": "Lists",
         "status": "published",
         "sections": [

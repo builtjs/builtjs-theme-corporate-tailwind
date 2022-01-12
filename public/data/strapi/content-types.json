@@ -60,8 +60,8 @@
         "kind": "collectionType",
         "collectionName": "authors",
         "info": {
-          "singularName": "author-item",
-          "pluralName": "author-items",
+          "singularName": "author",
+          "pluralName": "authors",
           "displayName": "Authors",
           "description": "Writer of posts"
         },
@@ -129,13 +129,13 @@
     {
       "singularDisplayName": "Benefit",
       "pluralDisplayName": "Benefits",
-      "slug": "benefit",
+      "slug": "benefit-item",
       "modelSettings": {
         "kind": "collectionType",
         "collectionName": "benefits",
         "info": {
-          "singularName": "benefit-item",
-          "pluralName": "benefit-items",
+          "singularName": "benefit",
+          "pluralName": "benefits",
           "displayName": "Benefits",
           "description": ""
         },
@@ -179,13 +179,13 @@
     {
       "singularDisplayName": "Feature",
       "pluralDisplayName": "Features",
-      "slug": "feature",
+      "slug": "feature-item",
       "modelSettings": {
         "kind": "collectionType",
         "collectionName": "features",
         "info": {
-          "singularName": "feature-item",
-          "pluralName": "feature-items",
+          "singularName": "feature",
+          "pluralName": "features",
           "displayName": "Features",
           "description": ""
         },
@@ -229,13 +229,13 @@
     {
       "singularDisplayName": "Service",
       "pluralDisplayName": "Services",
-      "slug": "service",
+      "slug": "service-item",
       "modelSettings": {
         "kind": "collectionType",
         "collectionName": "services",
         "info": {
-          "singularName": "service-item",
-          "pluralName": "service-items",
+          "singularName": "service",
+          "pluralName": "services",
           "displayName": "Services",
           "description": ""
         },
@@ -269,13 +269,13 @@
     {
       "singularDisplayName": "Social Link",
       "pluralDisplayName": "Social Links",
-      "slug": "social-link",
+      "slug": "social-link-item",
       "modelSettings": {
         "kind": "collectionType",
         "collectionName": "social_links",
         "info": {
-          "singularName": "social-link-item",
-          "pluralName": "social-link-items",
+          "singularName": "social-link",
+          "pluralName": "social-links",
           "displayName": "Social Links",
           "description": ""
         },
