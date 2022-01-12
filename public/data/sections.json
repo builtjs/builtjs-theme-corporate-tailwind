@@ -173,64 +173,6 @@
       "order": 5
     },
     {
-      "slug": "products-seo",
-      "displayName": "Products SEO",
-      "templates": ["seo"],
-      "category": "head",
-      "type": "head",
-      "data": {
-        "title": "Products | Corporate Tailwind Built.JS Theme",
-        "description": "Productss page for a site built with the Corporate Tailwind Built.JS Theme.",
-        "shareImage": {
-          "name": "image",
-          "path": "/images",
-          "ext": "png",
-          "url": "/images/image.png",
-          "width": 1280,
-          "height": 768
-        },
-        "twitterCardType": "summary",
-        "twitterUsername": ""
-      },
-      "order": 0
-    },
-    {
-      "slug": "products-landing",
-      "category": "sections",
-      "displayName": "products Landing",
-      "description": "Etiam imperdiet tincidunt magna sit amet vehicula. In vulputate neque non pretium faucibus. Cras gravida consectetur lorem, in dapibus sapien cursus sed. Cras consequat in leo id volutpat.",
-      "templates": ["cover-5"],
-      "data": {
-        "preheading": {
-          "text": "Preheading",
-          "type": ""
-        },
-        "heading": "Lorem ipsum dolor sit amet",
-        "blurb": "Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-        "image": {
-          "name": "image",
-          "path": "/images",
-          "ext": "png",
-          "url": "/images/image.png",
-          "width": 1280,
-          "height": 768
-        },
-        "buttonLinks": [
-          {
-            "url": "/products",
-            "label": "Button",
-            "type": "primary"
-          },
-          {
-            "url": "/about",
-            "label": "Button",
-            "type": "secondary"
-          }
-        ]
-      },
-      "order": 2
-    },
-    {
       "slug": "services-seo",
       "displayName": "Services SEO",
       "templates": ["seo"],
