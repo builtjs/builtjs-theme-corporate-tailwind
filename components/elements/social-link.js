@@ -2,16 +2,16 @@ import Link from "next/link";
 import Image from "next/image";
 import getConfig from "next/config";
 
-export default function SocialLink({ data }) {
+export default function SocialLink({ attributes }) {
   const { publicRuntimeConfig } = getConfig();
   return (
-    <Link key={data.url} href={data.url}>
+    <Link key={attributes.url} href={attributes.url}>
       <a>
         <Image
-          height={data.icon.height}
-          width={data.icon.width}
-          src={`${publicRuntimeConfig.API_URL || ""}${data.icon.url}`}
-          alt={data.slug}
+          height={attributes.icon.height}
+          width={attributes.icon.width}
+          src={`${publicRuntimeConfig.API_URL || ""}${attributes.icon.url}`}
+          alt={attributes.slug}
         />
       </a>
     </Link>

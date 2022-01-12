@@ -42,7 +42,7 @@ export default function List1({ content }) {
                 </div>
 
                 <div>
-                  <Preheading data={item.preheading}></Preheading>
+                  <Preheading attributes={item.preheading}></Preheading>
                   <h2>{item.heading}</h2>
                   <p className="mb-12">{item.blurb}</p>
                   {item.buttonLinks &&
@@ -50,7 +50,7 @@ export default function List1({ content }) {
                       return (
                         <ButtonLink
                           key={button.type}
-                          data={button}
+                          attributes={button}
                         ></ButtonLink>
                       );
                     })}

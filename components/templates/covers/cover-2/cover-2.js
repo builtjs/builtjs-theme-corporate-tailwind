@@ -3,7 +3,7 @@ import getConfig from "next/config";
 import { ButtonLink, Preheading } from "@/elements";
 
 export default function Cover2({ content }) {
-  let { data } = content;
+  let { attributes } = content;
   const { publicRuntimeConfig } = getConfig();
 
   return (
@@ -13,22 +13,22 @@ export default function Cover2({ content }) {
           <div className="p-4 lg:order-last">
             <Image
               className="rounded-full"
-              src={`${publicRuntimeConfig.API_URL || ""}${data.image.url}`}
-              width={data.image.width}
-              height={data.image.height}
+              src={`${publicRuntimeConfig.API_URL || ""}${attributes.image.url}`}
+              width={attributes.image.width}
+              height={attributes.image.height}
               layout="responsive"
               objectFit="cover"
               alt=""
             />
           </div>
           <div className="px-4 pt-10 pb-20 lg:py-40">
-            <Preheading data={data.preheading}></Preheading>
-            <h1>{data.heading}</h1>
-            <p className="mb-12 text-lg">{data.blurb}</p>
-            {data.buttonLinks &&
-              data.buttonLinks.map((button) => {
+            <Preheading attributes={attributes.preheading}></Preheading>
+            <h1>{attributes.heading}</h1>
+            <p className="mb-12 text-lg">{attributes.blurb}</p>
+            {attributes.buttonLinks &&
+              attributes.buttonLinks.map((button) => {
                 return (
-                  <ButtonLink key={button.type} data={button}></ButtonLink>
+                  <ButtonLink key={button.type} attributes={button}></ButtonLink>
                 );
               })}
           </div>

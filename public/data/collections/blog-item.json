@@ -21,7 +21,7 @@
         "height": 768
       },
       "date": "2022-04-03",
-      "author": {
+      "author-item": {
         "id": 1
       },
       "status": "published"
@@ -47,7 +47,7 @@
         "height": 768
       },
       "date": "2022-04-03",
-      "author": {
+      "author-item": {
         "id": 1
       },
       "status": "published"
@@ -73,7 +73,7 @@
         "height": 768
       },
       "date": "2022-04-03",
-      "author": {
+      "author-item": {
         "id": 1
       },
       "status": "published"

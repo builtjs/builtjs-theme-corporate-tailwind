@@ -55,7 +55,7 @@
     {
       "singularDisplayName": "Author",
       "pluralDisplayName": "Authors",
-      "slug": "author",
+      "slug": "author-item",
       "modelSettings": {
         "kind": "collectionType",
         "collectionName": "authors",
@@ -129,7 +129,7 @@
     {
       "singularDisplayName": "Benefit",
       "pluralDisplayName": "Benefits",
-      "slug": "benefit",
+      "slug": "benefit-item",
       "modelSettings": {
         "kind": "collectionType",
         "collectionName": "benefits",
@@ -179,7 +179,7 @@
     {
       "singularDisplayName": "Feature",
       "pluralDisplayName": "Features",
-      "slug": "feature",
+      "slug": "feature-item",
       "modelSettings": {
         "kind": "collectionType",
         "collectionName": "features",
@@ -229,7 +229,7 @@
     {
       "singularDisplayName": "Service",
       "pluralDisplayName": "Services",
-      "slug": "service",
+      "slug": "service-item",
       "modelSettings": {
         "kind": "collectionType",
         "collectionName": "services",
@@ -269,7 +269,7 @@
     {
       "singularDisplayName": "Social Link",
       "pluralDisplayName": "Social Links",
-      "slug": "social-link",
+      "slug": "social-link-item",
       "modelSettings": {
         "kind": "collectionType",
         "collectionName": "social_links",

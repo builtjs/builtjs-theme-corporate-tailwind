@@ -7,10 +7,10 @@ import { ButtonLink } from "@/elements";
 import ModeToggleBtn from "../../../elements/mode-toggle-btn";
 
 export default function Header1({ content }) {
-  let { data, collections, global } = { ...content };
+  let { attributes, collections, global } = { ...content };
   const { publicRuntimeConfig } = getConfig();
   const collectionNames = {
-    PRIMARY_MENU_ITEM: "primary-menu-items",
+    PRIMARY_MENU_ITEM: "primary-menu-item",
   };
   let menuItems;
   if (collections && collections[collectionNames.PRIMARY_MENU_ITEM]) {

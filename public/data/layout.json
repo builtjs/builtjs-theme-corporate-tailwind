@@ -7,8 +7,8 @@
           "slug": "header-1"
         },
         "collections": {
-          "primary-menu-items": {
-            "slug": "primary-menu-items"
+          "primary-menu-item": {
+            "slug": "primary-menu-item"
           }
         }
       },
@@ -18,11 +18,11 @@
           "slug": "footer-1"
         },
         "collections": {
-          "primary-menu-items": {
-            "slug": "primary-menu-items"
+          "primary-menu-item": {
+            "slug": "primary-menu-item"
           },
-          "social-links": {
-            "slug": "social-links"
+          "social-link": {
+            "slug": "social-link"
           }
         }
       }

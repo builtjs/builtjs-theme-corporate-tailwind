@@ -3,12 +3,12 @@ import { SocialLink } from "@/elements";
 export default function Footer1({ content }) {
   let { collections } = { ...content };
   let primaryMenuItems = [];
-  if (collections && collections["primary-menu-items"]) {
-    primaryMenuItems = collections["primary-menu-items"].items;
+  if (collections && collections["primary-menu-item"]) {
+    primaryMenuItems = collections["primary-menu-item"].items;
   }
   let socialLinks = [];
-  if (collections && collections["social-links"]) {
-    socialLinks = collections["social-links"].items;
+  if (collections && collections["social-link"]) {
+    socialLinks = collections["social-link"].items;
   }
 
   return (
@@ -29,7 +29,7 @@ export default function Footer1({ content }) {
 
         <div className="items-center justify-center mb-12 grid grid-flow-col auto-cols-max gap-x-6">
           {socialLinks.map((socialLink, i) => {
-            return <SocialLink key={i} data={socialLink}></SocialLink>;
+            return <SocialLink key={i} attributes={socialLink}></SocialLink>;
           })}
         </div>
 

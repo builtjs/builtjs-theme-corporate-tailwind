@@ -25,7 +25,7 @@
         ]
       },
       "collections": {
-        "primary-menu-items": {}
+        "primary-menu-item": {}
       },
       "order": 1
     },
@@ -37,8 +37,8 @@
       "templates": ["footer-1"],
       "position": "end",
       "collections": {
-        "primary-menu-items": {},
-        "social-link-items": {}
+        "primary-menu-item": {},
+        "social-link-item": {}
       },
       "order": 10
     },
@@ -107,7 +107,7 @@
       "description": "Etiam imperdiet tincidunt magna sit amet vehicula. In vulputate neque non pretium faucibus. Cras gravida consectetur lorem, in dapibus sapien cursus sed. Cras consequat in leo id volutpat.",
       "templates": ["cards-1"],
       "collections": {
-        "feature-items": {}
+        "feature-item": {}
       },
       "order": 3
     },
@@ -168,7 +168,7 @@
       "description": "Etiam imperdiet tincidunt magna sit amet vehicula. In vulputate neque non pretium faucibus. Cras gravida consectetur lorem, in dapibus sapien cursus sed. Cras consequat in leo id volutpat.",
       "templates": ["list-1"],
       "collections": {
-        "benefit-items": {}
+        "benefit-item": {}
       },
       "order": 5
     },
@@ -367,9 +367,9 @@
       "description": "Etiam imperdiet tincidunt magna sit amet vehicula. In vulputate neque non pretium faucibus. Cras gravida consectetur lorem, in dapibus sapien cursus sed. Cras consequat in leo id volutpat.",
       "templates": ["list-4"],
       "collections": {
-        "blog-items": {
+        "blog-item": {
           "limit": 1,
-          "populate": ["author"]
+          "populate": ["author-item"]
         }
       },
       "order": 2
@@ -381,9 +381,9 @@
       "description": "Etiam imperdiet tincidunt magna sit amet vehicula. In vulputate neque non pretium faucibus. Cras gravida consectetur lorem, in dapibus sapien cursus sed. Cras consequat in leo id volutpat.",
       "templates": ["list-5"],
       "collections": {
-        "blog-items": {
+        "blog-item": {
           "offset": 1,
-          "populate": ["author"]
+          "populate": ["author-item"]
         }
       },
       "order": 3
@@ -478,7 +478,7 @@
       "templates": ["article-1"],
       "item": {
         "blog-item": {
-          "populate": ["author"]
+          "populate": ["author-item"]
         }
       },
       "order": 2
@@ -493,9 +493,9 @@
         "columns": 3
       },
       "collections": {
-        "blog-items": {
+        "blog-item": {
           "limit": 3,
-          "populate": ["author"]
+          "populate": ["author-item"]
         }
       },
       "order": 3
@@ -604,7 +604,7 @@
         ]
       },
       "collections": {
-        "social-link-items": {}
+        "social-link-item": {}
       },
       "order": 2
     }

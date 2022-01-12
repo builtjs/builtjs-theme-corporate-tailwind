@@ -12,6 +12,7 @@ const getHTML = (content) => {
 
 export default function Article1({ content }) {
   let { item } = { ...content };
+  console.log({item});
   const { publicRuntimeConfig } = getConfig();
   return (
     <article id="article-1" className="template">
