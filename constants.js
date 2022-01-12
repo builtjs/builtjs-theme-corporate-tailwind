@@ -1,6 +1,5 @@
 export const pages = {
   HOME: "home",
-  PRODUCTS: "products",
   SERVICES: "services",
   BLOG: "blog",
   BLOG_ARTICLE: "blog-article",
