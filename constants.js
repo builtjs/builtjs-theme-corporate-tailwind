@@ -20,5 +20,5 @@ export const pageTypes = {
 
 export const contentTypes = {
   BLOG_ITEM: "blog-item",
-  SERVICE_ITEM: "service-item",
+  SERVICE: "service",
 };

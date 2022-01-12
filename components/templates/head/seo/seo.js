@@ -1,33 +1,33 @@
 import Head from "next/head";
 
 export default function Seo({ content }) {
-  let { data } = { ...content };
+  let { attributes } = { ...content };
   return (
     <>
-      {data && (
+      {attributes && (
         <Head>
-          {data.title && (
+          {attributes.title && (
             <>
-              <title>{data.title}</title>
-              <meta property="og:title" content={data.title} />
-              <meta name="twitter:title" content={data.title} />
+              <title>{attributes.title}</title>
+              <meta property="og:title" content={attributes.title} />
+              <meta name="twitter:title" content={attributes.title} />
             </>
           )}
-          {data.description && (
+          {attributes.description && (
             <>
-              <meta name="description" content={data.description} />
-              <meta property="og:description" content={data.description} />
-              <meta name="twitter:description" content={data.description} />
+              <meta name="description" content={attributes.description} />
+              <meta property="og:description" content={attributes.description} />
+              <meta name="twitter:description" content={attributes.description} />
             </>
           )}
-          {data.shareImage && (
+          {attributes.shareImage && (
             <>
-              <meta property="og:image" content={data.shareImage} />
-              <meta name="twitter:image" content={data.shareImage} />
-              <meta name="image" content={data.shareImage} />
+              <meta property="og:image" content={attributes.shareImage} />
+              <meta name="twitter:image" content={attributes.shareImage} />
+              <meta name="image" content={attributes.shareImage} />
             </>
           )}
-          {data.article && <meta property="og:type" content="article" />}
+          {attributes.article && <meta property="og:type" content="article" />}
           <meta name="twitter:card" content="summary_large_image" />
         </Head>
       )}

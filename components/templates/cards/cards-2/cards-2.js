@@ -1,7 +1,7 @@
 import { ButtonLink, Preheading } from "@/elements";
 
 export default function Cards2({ content }) {
-  let { data, collections } = content;
+  let { collections } = content;
   if (!collections) {
     throw new Error(`No collections attribute provided in sections.json for template`);
   }
@@ -19,12 +19,12 @@ export default function Cards2({ content }) {
           {items &&
             items.map((item, i) => (
               <div key={i} className="text-center">
-                <Preheading data={item.preheading}></Preheading>
+                <Preheading attributes={item.preheading}></Preheading>
                 <h3 className="mb-4">{item.heading}</h3>
                 <p className="mb-10">{item.blurb}</p>
                 {item.buttonLinks &&
                   item.buttonLinks.map((button) => {
-                    return <ButtonLink key={button.type} data={button}></ButtonLink>;
+                    return <ButtonLink key={button.type} attributes={button}></ButtonLink>;
                   })}
               </div>
             ))}

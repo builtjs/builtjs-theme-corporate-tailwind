@@ -2,21 +2,21 @@ import Link from "next/link";
 import Image from "next/image";
 import getConfig from "next/config";
 
-export default function ContextualLink({ data }) {
-  console.log({data});
+export default function ContextualLink({ attributes }) {
+  console.log({data: attributes});
   const { publicRuntimeConfig } = getConfig();
   return (
-    <div key={data.url} className="flex items-start">
+    <div key={attributes.url} className="flex items-start">
       <Image
-          height={data.icon.height}
-          width={data.icon.width}
-          src={`${publicRuntimeConfig.API_URL || ""}${data.icon.url}`}
-          alt={data.slug}
+          height={attributes.icon.height}
+          width={attributes.icon.width}
+          src={`${publicRuntimeConfig.API_URL || ""}${attributes.icon.url}`}
+          alt={attributes.slug}
         />
       <div className="ml-4">
-        <p>{data.text}</p>
-        <Link href={data.url}>
-          <a>{data.label}</a>
+        <p>{attributes.text}</p>
+        <Link href={attributes.url}>
+          <a>{attributes.label}</a>
         </Link>
       </div>
     </div>

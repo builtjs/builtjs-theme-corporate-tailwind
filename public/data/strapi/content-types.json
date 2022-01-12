@@ -129,7 +129,7 @@
     {
       "singularDisplayName": "Benefit",
       "pluralDisplayName": "Benefits",
-      "slug": "benefit-item",
+      "slug": "benefit",
       "modelSettings": {
         "kind": "collectionType",
         "collectionName": "benefits",
@@ -179,7 +179,7 @@
     {
       "singularDisplayName": "Feature",
       "pluralDisplayName": "Features",
-      "slug": "feature-item",
+      "slug": "feature",
       "modelSettings": {
         "kind": "collectionType",
         "collectionName": "features",
@@ -229,7 +229,7 @@
     {
       "singularDisplayName": "Service",
       "pluralDisplayName": "Services",
-      "slug": "service-item",
+      "slug": "service",
       "modelSettings": {
         "kind": "collectionType",
         "collectionName": "services",
@@ -269,7 +269,7 @@
     {
       "singularDisplayName": "Social Link",
       "pluralDisplayName": "Social Links",
-      "slug": "social-link-item",
+      "slug": "social-link",
       "modelSettings": {
         "kind": "collectionType",
         "collectionName": "social_links",

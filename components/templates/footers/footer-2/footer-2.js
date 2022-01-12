@@ -3,8 +3,8 @@ import { SocialLink } from "@/elements";
 export default function Footer1({ content }) {
   let { collections } = { ...content };
   let primaryMenuItems = [];
-  if (collections && collections["primary-menu-items"]) {
-    primaryMenuItems = collections["primary-menu-items"].items;
+  if (collections && collections["primary-menu-item"]) {
+    primaryMenuItems = collections["primary-menu-item"].items;
   }
   let socialLinks = [];
   if (collections && collections["social-links"]) {
@@ -30,7 +30,7 @@ export default function Footer1({ content }) {
 
           <div className="grid items-center justify-center grid-flow-col mb-12 auto-cols-max gap-x-6">
             {socialLinks.map((socialLink, i) => {
-              return <SocialLink key={i} data={socialLink}></SocialLink>;
+              return <SocialLink key={i} attributes={socialLink}></SocialLink>;
             })}
           </div>
         </div>
