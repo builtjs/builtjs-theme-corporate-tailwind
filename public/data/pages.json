@@ -60,7 +60,7 @@
       },
       {
         "slug": "services",
-        "singularName": "services",
+        "singularName": "service",
         "displayName": "Services",
         "status": "published",
         "sections": [
