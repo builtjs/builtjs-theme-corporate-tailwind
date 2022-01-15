@@ -35,10 +35,11 @@
             "type": "text"
           },
           "image": {
-            "model": "file",
-            "via": "related",
-            "allowedTypes": ["images"],
-            "plugin": "upload",
+            "allowedTypes": [
+              "images"
+            ],
+            "type": "media",
+            "multiple": false,
             "required": false
           },
           "date": {
@@ -46,8 +47,10 @@
             "required": true
           },
           "author": {
-            "via": "blogItems",
-            "model": "authors"
+            "type": "relation",
+            "relation": "manyToOne",
+            "target": "api::author.author",
+            "inversedBy": "blogItems"
           }
         }
       }
@@ -82,15 +85,18 @@
             "required": false
           },
           "profileImage": {
-            "model": "file",
-            "via": "related",
-            "allowedTypes": ["images"],
-            "plugin": "upload",
+            "allowedTypes": [
+              "images"
+            ],
+            "type": "media",
+            "multiple": false,
             "required": false
           },
           "blogItems": {
-            "collection": "blog_items",
-            "via": "author"
+            "type": "relation",
+            "relation": "oneToMany",
+            "target": "api::blog-item.blog-item",
+            "mappedBy": "author"
           }
         }
       }
@@ -162,10 +168,11 @@
             "type": "text"
           },
           "image": {
-            "model": "file",
-            "via": "related",
-            "allowedTypes": ["images"],
-            "plugin": "upload",
+            "allowedTypes": [
+              "images"
+            ],
+            "type": "media",
+            "multiple": false,
             "required": false
           },
           "buttonLinks": {
@@ -212,10 +219,11 @@
             "type": "text"
           },
           "image": {
-            "model": "file",
-            "via": "related",
-            "allowedTypes": ["images"],
-            "plugin": "upload",
+            "allowedTypes": [
+              "images"
+            ],
+            "type": "media",
+            "multiple": false,
             "required": false
           },
           "buttonLinks": {
@@ -257,10 +265,11 @@
             "type": "text"
           },
           "image": {
-            "model": "file",
-            "via": "related",
-            "allowedTypes": ["images"],
-            "plugin": "upload",
+            "allowedTypes": [
+              "images"
+            ],
+            "type": "media",
+            "multiple": false,
             "required": false
           }
         }
@@ -286,11 +295,11 @@
         },
         "attributes": {
           "icon": {
-            "model": "file",
-            "via": "related",
-            "allowedTypes": ["images"],
-            "plugin": "upload",
-            "required": false
+            "allowedTypes": [
+              "images"
+            ],
+            "type": "media",
+            "multiple": false
           },
           "url": {
             "type": "string"
