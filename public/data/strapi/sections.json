@@ -47,10 +47,11 @@
             "type": "text"
           },
           "shareImage": {
-            "model": "file",
-            "via": "related",
-            "allowedTypes": ["images"],
-            "plugin": "upload",
+            "allowedTypes": [
+              "images"
+            ],
+            "type": "media",
+            "multiple": false,
             "required": false
           },
           "twitterCardType": {
@@ -79,10 +80,11 @@
             "type": "text"
           },
           "shareImage": {
-            "model": "file",
-            "via": "related",
-            "allowedTypes": ["images"],
-            "plugin": "upload",
+            "allowedTypes": [
+              "images"
+            ],
+            "type": "media",
+            "multiple": false,
             "required": false
           },
           "twitterCardType": {
@@ -111,10 +113,11 @@
             "type": "text"
           },
           "shareImage": {
-            "model": "file",
-            "via": "related",
-            "allowedTypes": ["images"],
-            "plugin": "upload",
+            "allowedTypes": [
+              "images"
+            ],
+            "type": "media",
+            "multiple": false,
             "required": false
           },
           "twitterCardType": {
@@ -143,10 +146,11 @@
             "type": "text"
           },
           "shareImage": {
-            "model": "file",
-            "via": "related",
-            "allowedTypes": ["images"],
-            "plugin": "upload",
+            "allowedTypes": [
+              "images"
+            ],
+            "type": "media",
+            "multiple": false,
             "required": false
           },
           "twitterCardType": {
@@ -175,10 +179,11 @@
             "type": "text"
           },
           "shareImage": {
-            "model": "file",
-            "via": "related",
-            "allowedTypes": ["images"],
-            "plugin": "upload",
+            "allowedTypes": [
+              "images"
+            ],
+            "type": "media",
+            "multiple": false,
             "required": false
           },
           "twitterCardType": {
@@ -205,10 +210,11 @@
           "heading": { "type": "string" },
           "blurb": { "type": "text" },
           "image": {
-            "model": "file",
-            "via": "related",
-            "allowedTypes": ["images"],
-            "plugin": "upload",
+            "allowedTypes": [
+              "images"
+            ],
+            "type": "media",
+            "multiple": false,
             "required": false
           },
           "buttonLinks": {
@@ -333,10 +339,11 @@
           "heading": { "type": "string" },
           "blurb": { "type": "text" },
           "image": {
-            "model": "file",
-            "via": "related",
-            "allowedTypes": ["images"],
-            "plugin": "upload",
+            "allowedTypes": [
+              "images"
+            ],
+            "type": "media",
+            "multiple": false,
             "required": false
           }
         }
@@ -367,10 +374,11 @@
             "type": "text"
           },
           "image": {
-            "model": "file",
-            "via": "related",
-            "allowedTypes": ["images"],
-            "plugin": "upload",
+            "allowedTypes": [
+              "images"
+            ],
+            "type": "media",
+            "multiple": false,
             "required": false
           }
         }
@@ -420,10 +428,11 @@
             "type": "text"
           },
           "image": {
-            "model": "file",
-            "via": "related",
-            "allowedTypes": ["images"],
-            "plugin": "upload",
+            "allowedTypes": [
+              "images"
+            ],
+            "type": "media",
+            "multiple": false,
             "required": false
           },
           "buttonLinks": {

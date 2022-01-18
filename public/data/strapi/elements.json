@@ -58,10 +58,11 @@
         "options": { "increments": true, "timestamps": true, "draftAndPublish": true },
         "attributes": {
           "icon": {
-            "model": "file",
-            "via": "related",
-            "allowedTypes": ["images"],
-            "plugin": "upload",
+            "allowedTypes": [
+              "images"
+            ],
+            "type": "media",
+            "multiple": false,
             "required": false
           },
           "text": {
