@@ -13,6 +13,7 @@ const getHTML = (content) => {
 export default function Article1({ content }) {
   let { item } = { ...content };
   const { publicRuntimeConfig } = getConfig();
+  const author = item.attributes.author.data.attributes;
   return (
     <article id="article-1" className="template">
       {item && (
@@ -36,15 +37,15 @@ export default function Article1({ content }) {
               <div className="relative w-12 h-12 mr-4">
                 <Image
                   className="rounded-full"
-                  src={`${publicRuntimeConfig.API_URL || ""}${item.attributes.author.attributes.profileImage.url}`}
+                  src={`${publicRuntimeConfig.API_URL || ""}${author.profileImage.url}`}
                   layout="fill"
                   objectFit="cover"
                   alt=""
                 />
               </div>
               <div>
-                <p className="mb-0 font-bold text-black capitalize">{item.attributes.author.attributes.fullName}</p>
-                <p className="mb-0 text-sm capitalize">{item.attributes.author.attributes.position || "Writer"}</p>
+                <p className="mb-0 font-bold text-black capitalize">{author.fullName}</p>
+                <p className="mb-0 text-sm capitalize">{author.position || "Writer"}</p>
               </div>
             </div>
           </header>
