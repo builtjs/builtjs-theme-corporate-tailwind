@@ -30,7 +30,7 @@ export default function Footer1({ content }) {
 
           <div className="grid items-center justify-center grid-flow-col mb-12 auto-cols-max gap-x-6">
             {socialLinks.map((socialLink, i) => {
-              return <SocialLink key={i} attributes={socialLink}></SocialLink>;
+              return <SocialLink key={i} attributes={socialLink.attributes}></SocialLink>;
             })}
           </div>
         </div>

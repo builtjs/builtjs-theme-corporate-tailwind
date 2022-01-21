@@ -29,7 +29,7 @@ export default function List3({ content }) {
                   <div className="relative transition-opacity rounded-lg h-96 lg:h-full hover:opacity-80">
                     <Image
                       className="bg-gray-100 rounded-lg"
-                      src={`${publicRuntimeConfig.API_URL || ""}${heroPost.image.url}`}
+                      src={`${publicRuntimeConfig.API_URL || ""}${heroPost.attributes.image.url}`}
                       layout="fill"
                       objectFit="cover"
                       alt=""
@@ -40,9 +40,9 @@ export default function List3({ content }) {
             </div>
             <div className="col-span-2 lg:py-20">
               {/* TODO: Implement Tag functionality */}
-              {heroPost.tags && (
+              {heroPost.attributes.tags && (
                 <div className="grid grid-flow-col gap-2 mb-4 auto-cols-max">
-                  {heroPost.tags.map((tag) => {
+                  {heroPost.attributes.tags.map((tag) => {
                     return <Tag key={tag.tag} item={tag}></Tag>;
                   })}
                 </div>
@@ -55,20 +55,20 @@ export default function List3({ content }) {
                 </p>
                 <span className="mx-3 text-gray-400">|</span>
                 {/* TODO: Implement Category functionality */}
-                {heroPost.category && (
+                {heroPost.attributes.category && (
                   <Link href={`/`}>
                     <a className="no-underline hover:underline">
-                      <p className="mb-0 text-sm capitalize">{heroPost.category}</p>
+                      <p className="mb-0 text-sm capitalize">{heroPost.attributes.category}</p>
                     </a>
                   </Link>
                 )}
               </div>
               <Link href={url}>
                 <a className="no-underline">
-                  <h2 className="hover:text-gray-700 dark:hover:text-gray-200">{heroPost.title}</h2>
+                  <h2 className="hover:text-gray-700 dark:hover:text-gray-200">{heroPost.attributes.title}</h2>
                 </a>
               </Link>
-              <p className="mb-10 text-lg">{heroPost.excerpt}</p>
+              <p className="mb-10 text-lg">{heroPost.attributes.excerpt}</p>
               <Link href={url}>
                 <a>Read Article</a>
               </Link>

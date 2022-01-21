@@ -2,23 +2,31 @@
   "items": [
     {
       "slug": "services",
-      "label": "Services",
-      "url": "/services"
+      "attributes": {
+        "label": "Services",
+        "url": "/services"
+      }
     },
     {
       "slug": "about",
+      "attributes": {
       "label": "About",
       "url": "/about"
+      }
     },
     {
       "slug": "blog",
+      "attributes": {
       "label": "Blog",
       "url": "/blog"
+      }
     },
     {
       "slug": "contact",
+      "attributes": {
       "label": "Contact",
       "url": "/contact"
+      }
     }
   ]
 }

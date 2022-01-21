@@ -32,7 +32,7 @@ export default function Cards4({ content }) {
                   <a>
                     <div className="relative w-full h-56 mb-6 transition-opacity hover:opacity-80">
                       <Image
-                        src={`${publicRuntimeConfig.API_URL || ""}${item.image.url}`}
+                        src={`${publicRuntimeConfig.API_URL || ""}${item.attributes.image.url}`}
                         layout="fill"
                         objectFit="cover"
                         alt=""
@@ -45,7 +45,7 @@ export default function Cards4({ content }) {
                     <h3 className="mb-4 hover:text-gray-700 dark:hover:text-gray-200">{item.title}</h3>
                   </a>
                 </Link>
-                <p>{item.excerpt}</p>
+                <p>{item.attributes.excerpt}</p>
                 <Link href={`/${collectionName}/${item.slug}`}>
                   <a>Read Article</a>
                 </Link>

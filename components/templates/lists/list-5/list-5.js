@@ -32,7 +32,7 @@ export default function List4({ content, router }) {
                         <div className="relative mb-6 transition-opacity h-96 lg:h-56 hover:opacity-80">
                           <Image
                             className="bg-gray-100 rounded-lg"
-                            src={`${publicRuntimeConfig.API_URL || ""}${item.image.url}`}
+                            src={`${publicRuntimeConfig.API_URL || ""}${item.attributes.image.url}`}
                             layout="fill"
                             objectFit="cover"
                             alt=""
@@ -44,9 +44,9 @@ export default function List4({ content, router }) {
 
                   <div>
                     {/* TODO: Implement Tag functionality */}
-                    {item.tags && (
+                    {item.attributes.tags && (
                       <div className="grid grid-flow-col gap-2 mb-4 auto-cols-max">
-                        {item.tags.map((tag) => {
+                        {item.attributes.tags.map((tag) => {
                           return <Tag key={tag.tag} item={tag}></Tag>;
                         })}
                       </div>

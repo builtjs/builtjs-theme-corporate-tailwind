@@ -25,9 +25,9 @@ export default function List1({ content }) {
                 <div className={`${i % 2 !== 0 ? "" : "lg:order-last"}`}>
                   <div className="relative">
                     <Image
-                      src={`${publicRuntimeConfig.API_URL || ""}${item.image.url}`}
-                      width={item.image.width}
-                      height={item.image.height}
+                      src={`${publicRuntimeConfig.API_URL || ""}${item.attributes.image.url}`}
+                      width={item.attributes.image.width}
+                      height={item.attributes.image.height}
                       layout="responsive"
                       alt=""
                     />
@@ -35,11 +35,11 @@ export default function List1({ content }) {
                 </div>
 
                 <div>
-                  <Preheading attributes={item.preheading}></Preheading>
-                  <h2>{item.heading}</h2>
-                  <p className="mb-12">{item.blurb}</p>
-                  {item.buttonLinks &&
-                    item.buttonLinks.map((button) => {
+                  <Preheading attributes={item.attributes.preheading}></Preheading>
+                  <h2>{item.attributes.heading}</h2>
+                  <p className="mb-12">{item.attributes.blurb}</p>
+                  {item.attributes.buttonLinks &&
+                    item.attributes.buttonLinks.map((button) => {
                       return <ButtonLink key={button.type} attributes={button}></ButtonLink>;
                     })}
                 </div>

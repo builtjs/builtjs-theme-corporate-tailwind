@@ -3,7 +3,6 @@ import Image from "next/image";
 import getConfig from "next/config";
 
 export default function ContextualLink({ attributes }) {
-  console.log({data: attributes});
   const { publicRuntimeConfig } = getConfig();
   return (
     <div key={attributes.url} className="flex items-start">

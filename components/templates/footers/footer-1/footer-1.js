@@ -15,13 +15,13 @@ export default function Footer1({ content }) {
     <footer id="footer-1" className="template">
       <div className="px-4 pt-10 pb-4 border-t border-gray-200 dark:border-gray-700">
         <ul className="flex flex-wrap items-center justify-center mb-12">
-          {primaryMenuItems.map(({ label, url }, i) => (
+          {primaryMenuItems.map((menuItem, i) => (
             <li key={i}>
               <a
-                href={url}
+                href={menuItem.attributes.url}
                 className="flex px-3 py-2 text-gray-600 transition duration-200 ease-in-out dark:hover:text-white dark:text-gray-300 hover:text-gray-900"
               >
-                {label}
+                {menuItem.attributes.label}
               </a>
             </li>
           ))}
@@ -29,7 +29,7 @@ export default function Footer1({ content }) {
 
         <div className="items-center justify-center mb-12 grid grid-flow-col auto-cols-max gap-x-6">
           {socialLinks.map((socialLink, i) => {
-            return <SocialLink key={i} attributes={socialLink}></SocialLink>;
+            return <SocialLink key={i} attributes={socialLink.attributes}></SocialLink>;
           })}
         </div>
 
