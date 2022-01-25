@@ -83,7 +83,7 @@
       "item": {
         "description": "Blog detail page sections",
         "page": {
-          "slug": "blog-item"
+          "slug": "blog-article"
         },
         "sections": [
           {
