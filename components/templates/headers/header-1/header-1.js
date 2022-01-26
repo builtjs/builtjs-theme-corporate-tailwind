@@ -8,9 +8,10 @@ import ModeToggleBtn from "../../../elements/mode-toggle-btn";
 
 export default function Header1({ content }) {
   let { attributes, collections, global } = { ...content };
+  console.log({content});
   const { publicRuntimeConfig } = getConfig();
   const collectionNames = {
-    PRIMARY_MENU_ITEM: "primary-menu-item",
+    PRIMARY_MENU_ITEM: "primary-menu-items",
   };
   let menuItems;
   if (collections && collections[collectionNames.PRIMARY_MENU_ITEM]) {

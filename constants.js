@@ -19,6 +19,6 @@ export const pageTypes = {
 };
 
 export const contentTypes = {
-  BLOG_ITEM: "blog-item",
+  BLOG_ITEMS: "blog-items",
   SERVICE: "service",
 };

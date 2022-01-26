@@ -6,9 +6,9 @@ import { pages, pageTypes, contentTypes } from "../../constants";
 export default withRouter(Page);
 
 export async function getStaticPaths() {
-  const allItems = await fetchItems(contentTypes.BLOG_ITEM);
+  const allItems = await fetchItems('blog-item');
   return {
-    paths: allItems.items.map(({ slug }) => `/blog-item/${slug}`) ?? [],
+    paths: allItems.items.map(({ slug }) => `/blog-items/${slug}`) ?? [],
     fallback: true,
   };
 }
