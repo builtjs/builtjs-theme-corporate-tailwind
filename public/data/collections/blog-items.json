@@ -14,12 +14,16 @@
           }
         ],
         "image": {
-          "name": "image",
-          "path": "/images",
-          "ext": "png",
-          "url": "/images/image.png",
-          "width": 1280,
-          "height": 768
+          "data": {
+            "attributes": {
+              "name": "image",
+              "path": "/images",
+              "ext": "png",
+              "url": "/images/image.png",
+              "width": 1280,
+              "height": 768
+            }
+          }
         },
         "date": "2022-04-03",
         "author": {
@@ -42,12 +46,16 @@
           }
         ],
         "image": {
-          "name": "image",
-          "path": "/images",
-          "ext": "png",
-          "url": "/images/image.png",
-          "width": 1280,
-          "height": 768
+          "data": {
+            "attributes": {
+              "name": "image",
+              "path": "/images",
+              "ext": "png",
+              "url": "/images/image.png",
+              "width": 1280,
+              "height": 768
+            }
+          }
         },
         "date": "2022-04-03",
         "author": {
@@ -70,12 +78,16 @@
           }
         ],
         "image": {
-          "name": "image",
-          "path": "/images",
-          "ext": "png",
-          "url": "/images/image.png",
-          "width": 1280,
-          "height": 768
+          "data": {
+            "attributes": {
+              "name": "image",
+              "path": "/images",
+              "ext": "png",
+              "url": "/images/image.png",
+              "width": 1280,
+              "height": 768
+            }
+          }
         },
         "date": "2022-04-03",
         "author": {

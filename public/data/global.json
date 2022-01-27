@@ -2,12 +2,16 @@
   "global": {
     "name": "Corporate Tailwind",
     "logo": {
-      "name": "builtjs",
-      "path": "/images",
-      "ext": "svg",
-      "url": "/images/builtjs.svg",
-      "width": 45,
-      "height": 45
+      "data": {
+        "attributes": {
+          "name": "builtjs",
+          "path": "/images",
+          "ext": "svg",
+          "url": "/images/builtjs.svg",
+          "width": 45,
+          "height": 45
+        }
+      }
     }
   }
 }

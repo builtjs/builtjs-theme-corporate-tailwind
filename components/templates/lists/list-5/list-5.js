@@ -27,12 +27,17 @@ export default function List4({ content, router }) {
               return (
                 <div key={item.slug}>
                   <div>
-                    <Link className="w-24" href={`/${collectionName}/${item.slug}`}>
+                    <Link
+                      className="w-24"
+                      href={`/${collectionName}/${item.slug}`}
+                    >
                       <a>
                         <div className="relative mb-6 transition-opacity h-96 lg:h-56 hover:opacity-80">
                           <Image
                             className="bg-gray-100 rounded-lg"
-                            src={`${publicRuntimeConfig.API_URL || ""}${item.attributes.image.url}`}
+                            src={`${publicRuntimeConfig.BACKEND_URL || ""}${
+                              item.attributes?.image?.data.attributes.url
+                            }`}
                             layout="fill"
                             objectFit="cover"
                             alt=""
@@ -62,14 +67,18 @@ export default function List4({ content, router }) {
                       {item.category && (
                         <Link href={`/`}>
                           <a className="no-underline hover:underline">
-                            <p className="mb-0 text-sm capitalize">{item.category}</p>
+                            <p className="mb-0 text-sm capitalize">
+                              {item.category}
+                            </p>
                           </a>
                         </Link>
                       )}
                     </div>
                     <Link href={`/${collectionName}/${item.slug}`}>
                       <a className="no-underline">
-                        <h3 className="mb-2 hover:text-gray-700 dark:hover:text-gray-200">{item.title}</h3>
+                        <h3 className="mb-2 hover:text-gray-700 dark:hover:text-gray-200">
+                          {item.title}
+                        </h3>
                       </a>
                     </Link>
                     <p>{item.excerpt}</p>

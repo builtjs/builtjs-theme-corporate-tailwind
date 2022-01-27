@@ -10,12 +10,16 @@
         "heading": "Lorem ipsum dolor sit amet",
         "blurb": "Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
         "image": {
-          "name": "image",
-          "path": "/images",
-          "ext": "png",
-          "url": "/images/image.png",
-          "width": 1280,
-          "height": 768
+          "data": {
+            "attributes": {
+              "name": "image",
+              "path": "/images",
+              "ext": "png",
+              "url": "/images/image.png",
+              "width": 1280,
+              "height": 768
+            }
+          }
         },
         "buttonLinks": [
           {
@@ -36,12 +40,16 @@
         "heading": "Lorem ipsum dolor sit amet",
         "blurb": "Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
         "image": {
-          "name": "image",
-          "path": "/images",
-          "ext": "png",
-          "url": "/images/image.png",
-          "width": 1280,
-          "height": 768
+          "data": {
+            "attributes": {
+              "name": "image",
+              "path": "/images",
+              "ext": "png",
+              "url": "/images/image.png",
+              "width": 1280,
+              "height": 768
+            }
+          }
         },
         "buttonLinks": [
           {
@@ -62,12 +70,16 @@
         "heading": "Lorem ipsum dolor sit amet",
         "blurb": "Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
         "image": {
-          "name": "image",
-          "path": "/images",
-          "ext": "png",
-          "url": "/images/image.png",
-          "width": 1280,
-          "height": 768
+          "data": {
+            "attributes": {
+              "name": "image",
+              "path": "/images",
+              "ext": "png",
+              "url": "/images/image.png",
+              "width": 1280,
+              "height": 768
+            }
+          }
         },
         "buttonLinks": [
           {

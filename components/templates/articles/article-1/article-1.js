@@ -37,7 +37,7 @@ export default function Article1({ content }) {
               <div className="relative w-12 h-12 mr-4">
                 <Image
                   className="rounded-full"
-                  src={`${publicRuntimeConfig.API_URL || ""}${author.profileImage.url}`}
+                  src={`${publicRuntimeConfig.BACKEND_URL || ""}${author?.profileImage?.data.attributes.url}`}
                   layout="fill"
                   objectFit="cover"
                   alt=""
@@ -51,9 +51,9 @@ export default function Article1({ content }) {
           </header>
           <div className="relative my-20">
             <Image
-              src={`${publicRuntimeConfig.API_URL || ""}${item.attributes.image.url}`}
-              width={item.attributes.image.width}
-              height={item.attributes.image.height}
+                      src={`${publicRuntimeConfig.BACKEND_URL || ""}${item.attributes?.image?.data.attributes.url}`}
+              width={item.attributes.image.data.attributes.width}
+              height={item.attributes.image.data.attributes.height}
               layout="responsive"
               alt=""
             />

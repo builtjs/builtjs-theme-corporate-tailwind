@@ -29,7 +29,7 @@ export default function List3({ content }) {
                   <div className="relative transition-opacity rounded-lg h-96 lg:h-full hover:opacity-80">
                     <Image
                       className="bg-gray-100 rounded-lg"
-                      src={`${publicRuntimeConfig.API_URL || ""}${heroPost.attributes.image.url}`}
+                      src={`${publicRuntimeConfig.BACKEND_URL || ""}${heroPost.attributes?.image?.data.attributes.url}`}
                       layout="fill"
                       objectFit="cover"
                       alt=""

@@ -13,9 +13,9 @@ export default function Cover2({ content }) {
           <div className="p-4 lg:order-last">
             <Image
               className="rounded-full"
-              src={`${publicRuntimeConfig.API_URL || ""}${attributes.image.url}`}
-              width={attributes.image.width}
-              height={attributes.image.height}
+              src={`${publicRuntimeConfig.BACKEND_URL || ""}${attributes?.image?.data.attributes.url}`}
+              width={attributes.image.data.attributes.width}
+              height={attributes.image.data.attributes.height}
               layout="responsive"
               objectFit="cover"
               alt=""

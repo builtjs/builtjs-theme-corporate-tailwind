@@ -7,19 +7,28 @@ import { ButtonLink } from "@/elements";
 import ModeToggleBtn from "../../../elements/mode-toggle-btn";
 
 export default function Header1({ content }) {
+  console.log('content--->', content);
+//   global:
+// logo:
+// ext: "svg"
+// height: 45
+// name: "builtjs"
+// path: "/images"
+// url: "/images/builtjs.svg"
+// width: 45
+// name: "Corporate Tailwind"
   let { attributes, collections, global } = { ...content };
-  console.log({content});
   const { publicRuntimeConfig } = getConfig();
   const collectionNames = {
-    PRIMARY_MENU_ITEM: "primary-menu-items",
+    PRIMARY_MENU_ITEMS: "primary-menu-items",
   };
   let menuItems;
-  if (collections && collections[collectionNames.PRIMARY_MENU_ITEM]) {
-    menuItems = collections[collectionNames.PRIMARY_MENU_ITEM].items;
+  if (collections && collections[collectionNames.PRIMARY_MENU_ITEMS]) {
+    menuItems = collections[collectionNames.PRIMARY_MENU_ITEMS].items;
   }
   const router = useRouter();
   const [navbarOpen, setNavbarOpen] = React.useState(false);
-
+console.log(`${publicRuntimeConfig.BACKEND_URL || ""}${global?.logo?.data.attributes.url}`);
   return (
     <header id="header-1" className="template">
       <section className="p-4 border-b border-gray-200 dark:border-gray-700">
@@ -30,9 +39,9 @@ export default function Header1({ content }) {
                 <span className="relative w-10">
                   <Image
                     className="text-gray-400 bg-white fill-current dark:bg-gray-800"
-                    src={`${publicRuntimeConfig.API_URL || ""}${global?.logo?.url}`}
-                    width={global?.logo?.width}
-                    height={global?.logo?.height}
+                    src={`${publicRuntimeConfig.BACKEND_URL || ""}${global?.logo?.data.attributes.url}`}
+                    width={global?.logo?.data.attributes.width}
+                    height={global?.logo?.data.attributes.height}
                     layout="responsive"
                     alt=""
                   />

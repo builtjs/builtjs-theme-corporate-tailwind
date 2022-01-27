@@ -4,12 +4,16 @@
       "slug": "facebook",
       "attributes": {
         "icon": {
-          "name": "facebook",
-          "path": "/images/icons",
-          "ext": "svg",
-          "url": "/images/icons/facebook.svg",
-          "width": 24,
-          "height": 24
+          "data": {
+            "attributes": {
+              "name": "facebook",
+              "path": "/images/icons",
+              "ext": "svg",
+              "url": "/images/icons/facebook.svg",
+              "width": 24,
+              "height": 24
+            }
+          }
         },
         "url": "https://facebook.com"
       }
@@ -18,12 +22,16 @@
       "slug": "twitter",
       "attributes": {
         "icon": {
-          "name": "twitter",
-          "path": "/images/icons",
-          "ext": "svg",
-          "url": "/images/icons/twitter.svg",
-          "width": 30,
-          "height": 24
+          "data": {
+            "attributes": {
+              "name": "twitter",
+              "path": "/images/icons",
+              "ext": "svg",
+              "url": "/images/icons/twitter.svg",
+              "width": 30,
+              "height": 24
+            }
+          }
         },
         "url": "https://twitter.com"
       }
@@ -32,12 +40,16 @@
       "slug": "instagram",
       "attributes": {
         "icon": {
-          "name": "instagram",
-          "path": "/images/icons",
-          "ext": "svg",
-          "url": "/images/icons/instagram.svg",
-          "width": 24,
-          "height": 24
+          "data": {
+            "attributes": {
+              "name": "instagram",
+              "path": "/images/icons",
+              "ext": "svg",
+              "url": "/images/icons/instagram.svg",
+              "width": 24,
+              "height": 24
+            }
+          }
         },
         "url": "https://instagram.com"
       }
@@ -46,12 +58,16 @@
       "slug": "youtube",
       "attributes": {
         "icon": {
-          "name": "youtube",
-          "path": "/images/icons",
-          "ext": "svg",
-          "url": "/images/icons/facebook.svg",
-          "width": 32,
-          "height": 24
+          "data": {
+            "attributes": {
+              "name": "youtube",
+              "path": "/images/icons",
+              "ext": "svg",
+              "url": "/images/icons/facebook.svg",
+              "width": 32,
+              "height": 24
+            }
+          }
         },
         "url": "https://youtube.com"
       }

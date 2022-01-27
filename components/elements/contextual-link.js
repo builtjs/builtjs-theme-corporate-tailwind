@@ -7,9 +7,9 @@ export default function ContextualLink({ attributes }) {
   return (
     <div key={attributes.url} className="flex items-start">
       <Image
-          height={attributes.icon.height}
-          width={attributes.icon.width}
-          src={`${publicRuntimeConfig.API_URL || ""}${attributes.icon.url}`}
+          height={attributes.icon.data.attributes.height}
+          width={attributes.icon.data.attributes.width}
+          src={`${publicRuntimeConfig.BACKEND_URL || ""}${attributes?.icon?.data.attributes.url}`}
           alt={attributes.slug}
         />
       <div className="ml-4">
