@@ -31,7 +31,7 @@ export default function List1({ content }) {
                   <div className="relative">
                     <Image
                       src={`${publicRuntimeConfig.BACKEND_URL || ""}${
-                        attributes?.image?.data.attributes.url
+                        item.attributes?.image?.data.attributes.url
                       }`}
                       width={item.attributes.image.data.attributes.width}
                       height={item.attributes.image.data.attributes.height}
