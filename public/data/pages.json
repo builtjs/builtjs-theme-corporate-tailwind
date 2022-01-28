@@ -208,7 +208,7 @@
       {
         "slug": "contact",
         "singularName": "contact",
-        "pluralName": "blog-article",
+        "pluralName": "contacts",
         "displayName": "Contact",
         "status": "published",
         "sections": [
