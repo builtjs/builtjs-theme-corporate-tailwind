@@ -190,7 +190,7 @@
         "displayName": "Blog Article",
         "sections": [
           {
-            "slug": "blog-item",
+            "slug": "blog-article",
             "template": {
               "slug": "article-1",
               "type": "body"

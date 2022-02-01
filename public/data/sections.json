@@ -449,9 +449,9 @@
       "order": 3
     },
     {
-      "slug": "blog-item",
+      "slug": "blog-article",
       "category": "sections",
-      "displayName": "Blog Item",
+      "displayName": "Blog Article",
       "description": "Etiam imperdiet tincidunt magna sit amet vehicula. In vulputate neque non pretium faucibus. Cras gravida consectetur lorem, in dapibus sapien cursus sed. Cras consequat in leo id volutpat.",
       "templates": ["article-1"],
       "item": {

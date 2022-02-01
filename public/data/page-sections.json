@@ -87,7 +87,7 @@
         },
         "sections": [
           {
-           "slug": "blog-item"
+           "slug": "blog-article"
           },
           {
             "slug": "blog-related-articles"

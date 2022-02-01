@@ -475,13 +475,13 @@
         "attributes": {}
       }
     },
-    "blog-item": {
-      "slug": "blog-item",
+    "blog-article": {
+      "slug": "blog-article",
       "category": "sections",
       "settings": {
-        "collectionName": "components_sections_blog_item",
+        "collectionName": "components_sections_blog_article",
         "info": {
-          "displayName": "Blog Item",
+          "displayName": "Blog Article",
           "icon": "robot"
         },
         "attributes": {}
