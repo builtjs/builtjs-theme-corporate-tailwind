@@ -1,4 +1,4 @@
-// import { format } from 'date-fns';
+import { format } from 'date-fns';
 import Image from "next/image";
 import getConfig from "next/config";
 import Link from "next/link";
@@ -21,9 +21,7 @@ export default function Article1({ content }) {
           <header className="max-w-4xl mx-auto">
             <div className="flex items-center mb-4">
               <p className="mb-0 text-sm capitalize preheading">
-                {/* TODO: Get article publish date */}
-                {/* {format(new Date(item.createdAt), "dd LLLL yyyy")} */}
-                01 January 2022
+                {format(new Date(item.attributes.date), "dd LLLL yyyy")}
               </p>
               <span className="mx-3 text-gray-400">|</span>
               <Link href="/">

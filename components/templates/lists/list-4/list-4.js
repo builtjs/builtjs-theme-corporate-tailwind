@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
+import { format } from "date-fns";
 import getConfig from "next/config";
 import { Tag } from "@/elements";
 
@@ -49,9 +50,7 @@ export default function List3({ content }) {
               )}
               <div className="flex items-center mb-4">
                 <p className="mb-0 text-sm capitalize preheading">
-                  {/* TODO: Get article publish date */}
-                  {/* {format(new Date(heroPost.createdAt), "dd LLLL yyyy")} */}
-                  01 January 2022
+                  {format(new Date(heroPost.attributes.date), "dd LLLL yyyy")}
                 </p>
                 <span className="mx-3 text-gray-400">|</span>
                 {/* TODO: Implement Category functionality */}
