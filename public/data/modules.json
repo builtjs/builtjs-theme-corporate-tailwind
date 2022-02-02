@@ -1,6 +1,20 @@
 {
   "modules": [
     {
+      "slug": "introduce",
+      "displayName": "Introduce",
+      "description": "Familiarizes users with your product or service",
+      "isMainCTA": true,
+      "pageSections": [
+        {
+          "slug": "home1"
+        }
+      ],
+      "mainCTASection": {
+        "slug": "main-landing"
+      }
+    },
+    {
       "slug": "contact",
       "displayName": "Contact",
       "description": "Encourages and facilitates making contact",
