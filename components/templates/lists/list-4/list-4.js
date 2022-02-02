@@ -16,7 +16,7 @@ export default function List3({ content }) {
     items = collection.items;
   }
   const heroPost = items[0];
-  const url = `/${collectionName}/${heroPost.slug}`;
+  const url = `/${collectionName}/${heroPost.attributes.slug}`;
 
   return (
     <section id="list-4" className="template">

@@ -25,11 +25,11 @@ export default function List4({ content, router }) {
           {items &&
             items.map((item) => {
               return (
-                <div key={item.slug}>
+                <div key={item.attributes.slug}>
                   <div>
                     <Link
                       className="w-24"
-                      href={`/${collectionName}/${item.slug}`}
+                      href={`/${collectionName}/${item.attributes.slug}`}
                     >
                       <a>
                         <div className="relative mb-6 transition-opacity h-96 lg:h-56 hover:opacity-80">
@@ -90,7 +90,6 @@ export default function List4({ content, router }) {
               );
             })}
         </div>
-
         {!items.length && (
           <div>
             <p>No posts</p>

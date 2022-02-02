@@ -37,28 +37,39 @@ export default function Article1({ content }) {
               <div className="relative w-12 h-12 mr-4">
                 <Image
                   className="rounded-full"
-                  src={`${publicRuntimeConfig.BACKEND_URL || ""}${author?.profileImage?.data.attributes.url}`}
+                  src={`${publicRuntimeConfig.BACKEND_URL || ""}${
+                    author?.profileImage?.data.attributes.url
+                  }`}
                   layout="fill"
                   objectFit="cover"
                   alt=""
                 />
               </div>
               <div>
-                <p className="mb-0 font-bold text-black capitalize">{author.fullName}</p>
-                <p className="mb-0 text-sm capitalize">{author.position || "Writer"}</p>
+                <p className="mb-0 font-bold text-black capitalize">
+                  {author.fullName}
+                </p>
+                <p className="mb-0 text-sm capitalize">
+                  {author.position || "Writer"}
+                </p>
               </div>
             </div>
           </header>
           <div className="relative my-20">
             <Image
-                      src={`${publicRuntimeConfig.BACKEND_URL || ""}${item.attributes?.image?.data.attributes.url}`}
+              src={`${publicRuntimeConfig.BACKEND_URL || ""}${
+                item.attributes?.image?.data.attributes.url
+              }`}
               width={item.attributes.image.data.attributes.width}
               height={item.attributes.image.data.attributes.height}
               layout="responsive"
               alt=""
             />
           </div>
-          <div className="max-w-2xl mx-auto" dangerouslySetInnerHTML={getHTML(item.attributes.content)}></div>
+          <div
+            className="max-w-2xl mx-auto"
+            dangerouslySetInnerHTML={getHTML(item.attributes.content)}
+          ></div>
           <div className="max-w-2xl mx-auto">
             {/* TODO: Implement Tag functionality */}
             {item.tags && (
