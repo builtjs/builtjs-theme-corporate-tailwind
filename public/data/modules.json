@@ -18,7 +18,6 @@
       "slug": "contact",
       "displayName": "Contact",
       "description": "Encourages and facilitates making contact",
-      "isMainCTA": true,
       "pageSections": [
         {
           "slug": "contact1"
