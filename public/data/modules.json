@@ -4,7 +4,7 @@
       "slug": "introduce",
       "displayName": "Introduce",
       "description": "Familiarizes users with your product or service",
-      "isMainCTA": true,
+      "required": true,
       "pageSections": [
         {
           "slug": "home1"
