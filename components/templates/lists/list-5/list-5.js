@@ -16,6 +16,7 @@ export default function List4({ content, router }) {
   if (collection) {
     items = collection.items;
   }
+  console.log({items});
   let tag = router && router.query ? router.query.tag : null;
 
   return (
@@ -66,7 +67,7 @@ export default function List4({ content, router }) {
                         <Link href={`/`}>
                           <a className="no-underline hover:underline">
                             <p className="mb-0 text-sm capitalize">
-                              {item.category}
+                              {item.attributes.category}
                             </p>
                           </a>
                         </Link>
@@ -75,7 +76,7 @@ export default function List4({ content, router }) {
                     <Link href={`/${collectionName}/${item.slug}`}>
                       <a className="no-underline">
                         <h3 className="mb-2 hover:text-gray-700 dark:hover:text-gray-200">
-                          {item.title}
+                          {item.attributes.title}
                         </h3>
                       </a>
                     </Link>
