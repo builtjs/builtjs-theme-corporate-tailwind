@@ -15,8 +15,8 @@ export async function getStaticPaths() {
 
 export async function getStaticProps(context) {
   const { slug } = context.params;
-  const page = await fetchPage(slug, pageTypes.TEMPLATES);
+  const config = await fetchPage(slug, pageTypes.TEMPLATES);
   return {
-    props: { page }
+    props: { config }
   };
 }

@@ -6,8 +6,8 @@ import { pages, pageTypes } from "../constants";
 export default withRouter(Page);
 
 export async function getStaticProps() {
-  const page = await fetchPage(pages.ABOUT, pageTypes.SITE);
+  const config = await fetchPage(pages.ABOUT, pageTypes.SITE);
   return {
-    props: { page }
+    props: { config }
   };
 }

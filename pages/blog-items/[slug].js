@@ -14,9 +14,9 @@ export async function getStaticPaths() {
 }
 
 export async function getStaticProps({ params }) {
-  const page = await fetchPage(pages.BLOG_ARTICLE, pageTypes.SITE);
-  page.params = params;
+  const config = await fetchPage(pages.BLOG_ARTICLE, pageTypes.SITE);
+  config.params = params;
   return {
-    props: { page }
+    props: { config }
   };
 }

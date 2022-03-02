@@ -4,7 +4,7 @@ import Layout from "./components/layout/layout";
 import { useRouter } from "next/router";
 import TemplateMenuBtn from "./components/_external/template-menu-btn";
 
-const Page = ({ page }) => {
+const Page = ({ config }) => {
   const router = useRouter();
   const [fullPage, setFullPage] = useState({});
   const { slug } = router.query;
@@ -16,7 +16,7 @@ const Page = ({ page }) => {
   }, []);
 
   async function init() {
-    const newFullPage = await transformPage(page);
+    const newFullPage = await transformPage(config);
     setFullPage(newFullPage);
   }
 
@@ -27,7 +27,7 @@ const Page = ({ page }) => {
   return (
     <>
       <Layout fullPage={fullPage}>
-        {page && (
+        {config && (
           <>
             {fullPage.sections && (
               <>
