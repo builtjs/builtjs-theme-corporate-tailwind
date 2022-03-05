@@ -16,11 +16,21 @@
     "declaration": false,
     "resolveJsonModule": true,
     "paths": {
-      "@/elements": ["components/elements/index"],
-      "@/templates/*": ["components/templates/*"],
-      "@/layout/*": ["components/layout/*"],
-      "@/data/*": ["public/data/*"],
-      "@/api": ["utils/api"]
+      "@/elements": [
+        "components/elements/index"
+      ],
+      "@/templates/*": [
+        "components/templates/*"
+      ],
+      "@/layout/*": [
+        "components/layout/*"
+      ],
+      "@/data/*": [
+        "public/data/*"
+      ],
+      "@/api": [
+        "utils/api"
+      ]
     },
     "allowSyntheticDefaultImports": true,
     "allowJs": true,
@@ -30,9 +40,9 @@
     "module": "esnext",
     "moduleResolution": "node",
     "isolatedModules": true,
-    "jsx": "preserve"
+    "jsx": "preserve",
+    "incremental": true
   },
-  
   "include": [
     "next-env.d.ts",
     "**/*.ts",
