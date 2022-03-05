@@ -6,35 +6,35 @@ import TemplateMenuBtn from "./components/_external/template-menu-btn";
 
 const Page = ({ config }) => {
   const router = useRouter();
-  const [fullPage, setFullPage] = useState({});
   const { slug } = router.query;
+  const [page, setPage] = useState({});
 
   useEffect(() => {
-    (async () => {
-      init();
-    })();
+    init();
   }, []);
-
-  async function init() {
-    const newFullPage = await transformPage(config);
-    setFullPage(newFullPage);
-  }
 
   useEffect(() => {
     if (slug) init();
   }, [slug]);
 
+  async function init() {
+    const page = await transformPage(config);
+    setPage(page);
+  }
+
   return (
     <>
-      <Layout fullPage={fullPage}>
+      <Layout page={page}>
         {config && (
           <>
-            {fullPage.sections && (
+            {page.sections && (
               <>
-                {fullPage.sections &&
-                  fullPage.sections.length &&
-                  fullPage.sections.map((section, i) => {
-                    return <section.template key={i} content={section.content} />;
+                {page.sections &&
+                  page.sections.length &&
+                  page.sections.map((section, i) => {
+                    return (
+                      <section.template key={i} content={section.content} />
+                    );
                   })}
               </>
             )}

@@ -11,29 +11,25 @@
           {
             "slug": "home-seo",
             "template": {
-              "slug": "seo",
-              "type": "head"
+              "slug": "seo"
             }
           },
           {
             "slug": "main-landing",
             "template": {
-              "slug": "cover-1",
-              "type": "body"
+              "slug": "cover-1"
             }
           },
           {
             "slug": "features-list",
             "template": {
-              "slug": "cards-1",
-              "type": "body"
+              "slug": "cards-1"
             }
           },
           {
             "slug": "contact-teaser",
             "template": {
-              "slug": "banner-1",
-              "type": "body"
+              "slug": "banner-1"
             }
           },
           {
@@ -69,43 +65,37 @@
           {
             "slug": "services-seo",
             "template": {
-              "slug": "seo",
-              "type": "head"
+              "slug": "seo"
             }
           },
           {
             "slug": "services-landing",
             "template": {
-              "slug": "cover-3",
-              "type": "body"
+              "slug": "cover-3"
             }
           },
           {
             "slug": "services-block",
             "template": {
-              "slug": "block-3",
-              "type": "body"
+              "slug": "block-3"
             }
           },
           {
             "slug": "benefits-list",
             "template": {
-              "slug": "list-2",
-              "type": "body"
+              "slug": "list-2"
             }
           },
           {
             "slug": "features-list",
             "template": {
-              "slug": "cards-3",
-              "type": "body"
+              "slug": "cards-3"
             }
           },
           {
             "slug": "contact-teaser",
             "template": {
-              "slug": "banner-3",
-              "type": "body"
+              "slug": "banner-3"
             }
           }
         ]
@@ -120,8 +110,7 @@
           {
             "slug": "about-seo",
             "template": {
-              "slug": "seo",
-              "type": "head"
+              "slug": "seo"
             }
           },
           {
@@ -163,22 +152,19 @@
           {
             "slug": "blog-seo",
             "template": {
-              "slug": "seo",
-              "type": "head"
+              "slug": "seo"
             }
           },
           {
             "slug": "blog-landing",
             "template": {
-              "slug": "list-4",
-              "type": "body"
+              "slug": "list-4"
             }
           },
           {
             "slug": "blog-item-list",
             "template": {
-              "slug": "list-5",
-              "type": "body"
+              "slug": "list-5"
             }
           }
         ]
@@ -215,8 +201,7 @@
           {
             "slug": "contact-seo",
             "template": {
-              "slug": "seo",
-              "type": "head"
+              "slug": "seo"
             }
           },
           {

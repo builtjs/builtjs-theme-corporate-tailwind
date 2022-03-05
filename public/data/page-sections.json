@@ -1,8 +1,8 @@
 {
   "pageSections": [
     {
-      "slug": "contact1",
-      "description": "Contact page sections",
+      "slug": "contact-base",
+      "description": "Contact page base sections",
       "page": {
         "slug": "contact"
       },
@@ -16,7 +16,7 @@
       ]
     },
     {
-      "slug": "services1",
+      "slug": "services-contact",
       "description": "Teaser for Contact page on Services page",
       "page": {
         "slug": "services"
@@ -28,8 +28,8 @@
       ]
     },
     {
-      "slug": "home1",
-      "description": "Home page sections",
+      "slug": "home-base",
+      "description": "Home page base sections",
       "page": {
         "slug": "home"
       },
@@ -43,8 +43,8 @@
       ]
     },
     {
-      "slug": "services2",
-      "description": "Services page sections",
+      "slug": "services-base",
+      "description": "Services page base sections",
       "page": {
         "slug": "services"
       },
@@ -64,8 +64,8 @@
       ]
     },
     {
-      "slug": "blog1",
-      "description": "Blog page sections",
+      "slug": "blog-base",
+      "description": "Blog page base sections",
       "page": {
         "slug": "blog"
       },
@@ -95,7 +95,7 @@
         ]
       }
     },{
-      "slug": "home2",
+      "slug": "home-features",
       "description": "Features list on Home page",
       "page": {
         "slug": "home"
@@ -107,7 +107,7 @@
       ]
     },
     {
-      "slug": "home3",
+      "slug": "home-benefits",
       "description": "Benefits list on Home page",
       "page": {
         "slug": "home"
@@ -119,8 +119,8 @@
       ]
     },
     {
-      "slug": "about1",
-      "description": "About page sections",
+      "slug": "about-base",
+      "description": "About page base sections",
       "page": {
         "slug": "about"
       },
@@ -134,7 +134,7 @@
       ]
     },
     {
-      "slug": "home4",
+      "slug": "home-about",
       "description": "About page teaser on Home page",
       "page": {
         "slug": "home"
