@@ -7,7 +7,7 @@
       "required": true,
       "pageSections": [
         {
-          "slug": "home1"
+          "slug": "home-base"
         }
       ],
       "mainCTASection": {
@@ -20,10 +20,10 @@
       "description": "Encourages and facilitates making contact",
       "pageSections": [
         {
-          "slug": "contact1"
+          "slug": "contact-base"
         },
         {
-          "slug": "home4"
+          "slug": "home-about"
         }
       ],
       "mainCTASection": {
@@ -36,10 +36,10 @@
       "description": "Provides information related to the organisation",
       "pageSections": [
         {
-          "slug": "about1"
+          "slug": "about-base"
         },
         {
-          "slug": "home4"
+          "slug": "home-about"
         }
       ],
       "mainCTASection": {
@@ -55,7 +55,7 @@
       },
       "pageSections": [
         {
-          "slug": "blog1"
+          "slug": "blog-base"
         },
         {
           "slug": "blog-archive1"
@@ -68,10 +68,10 @@
       "description": "Provides information about main services",
       "pageSections": [
         {
-          "slug": "services1"
+          "slug": "services-base"
         },
         {
-          "slug": "services2"
+          "slug": "services-contact"
         }
       ],
       "mainCTASection": {
@@ -87,7 +87,7 @@
       },
       "pageSections": [
         {
-          "slug": "home2"
+          "slug": "home-features"
         }
       ]
     },
@@ -100,7 +100,7 @@
       },
       "pageSections": [
         {
-          "slug": "home3"
+          "slug": "home-benefits"
         }
       ]
     }

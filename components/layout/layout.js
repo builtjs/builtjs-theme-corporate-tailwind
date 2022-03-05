@@ -1,10 +1,20 @@
 const Layout = (props) => {
-  const { children, fullPage } = props;
+  const { children, page } = props;
   return (
     <>
-      {fullPage.layout && <fullPage.layout._0.template content={fullPage.layout._0.content} app={fullPage.app} />}
+      {page.layout && (
+        <page.layout._0.template
+          content={page.layout._0.content}
+          app={page.app}
+        />
+      )}
       <main id="main">{children}</main>
-      {fullPage.layout && <fullPage.layout._1.template content={fullPage.layout._1.content} app={fullPage.app} />}
+      {page.layout && (
+        <page.layout._1.template
+          content={page.layout._1.content}
+          app={page.app}
+        />
+      )}
     </>
   );
 };
