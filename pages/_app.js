@@ -2,7 +2,6 @@ import { useEffect } from "react";
 import { useRouter } from "next/router";
 import "../styles/index.css";
 import { setupCrumbs } from "./../lib";
-import SiteApp from "../components/templates/head/_site-app";
 
 function ThemeApp({ Component, pageProps }) {
   const router = useRouter();
@@ -12,7 +11,7 @@ function ThemeApp({ Component, pageProps }) {
     setupCrumbs(router);
   }, [router]);
 
-  return SiteApp({ Component, pageProps });
+  return <Component {...pageProps} />
 }
 
 export default ThemeApp;

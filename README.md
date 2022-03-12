@@ -2,6 +2,21 @@
 
 A Built.JS theme for small business websites with basic Tailwind styling.
 
+## Installation
+
+```
+npm install
+```
+NOTE: bjs-theme library is not an NPM package yet so to run the project, you'll need to run:
+
+````
+cd bjs-theme
+````
+
+````
+npm link
+````
+
 ## Pages
 - About
 - Blog
@@ -10,7 +25,7 @@ A Built.JS theme for small business websites with basic Tailwind styling.
 - Services
 
 ## Content Types
-### Blog item
+### Blog Item
 Attributes:
 - title: Text
 - content: RichText
@@ -19,31 +34,31 @@ Attributes:
 - createdAt: Date
 - author: Author
 
-### Feature item
+### Feature
 Attributes:
 - title: Text
 - blurb: LongText
 - image: File
 
-### Service item 
+### Service
 Attributes:
 - title: Text
 - blurb: LongText
 - image: File
 
-### Benefit item
+### Benefit
 Attributes:
 - title: Text
 - blurb: LongText
 - image: File
 
-### Menu item
+### Primary Menu Item
 Attributes:
 - label: Text
 - url: Text
 
 ## Templates
-Templates specify the information architecture and visual design of a section. In this theme, they fall under the following categories:
+Templates specify the UI design of a section. In this theme, they fall under the following categories:
 #### Articles
 An article displays the content of a single entry, such as a blog entry.
 #### Banners
@@ -58,12 +73,8 @@ A form is a collection of inputs
 A footer is a section at the bottom of a page
 #### Headers
 A header is a section at the top of a page that includes the main menu
-#### Heads
+#### Head
 Head components are included in the head section of a page. For example: SEO, Analytics
-#### Preview covers
-A Preview Cover is a linked section that leads to an Article, and displays the first item of a collection as a featured item
-#### Preview lists
-A Preview List displays a collection of items that have links leading to a corresponding Article
 
 ### articles.article-1
 #### Content
@@ -94,13 +105,3 @@ A collection of Strapi items that include these attributes:
 A collection of Strapi items that include these attributes:
 - label: Text
 - url: Text
-
-### preview-covers.preview-covers-1
-#### Content
-A single Strapi entry that includes these attributes:
-- title: Text
-- content: RichText
-- image: File
-- tags: Array<Tag>
-- createdAt: Date
-- author: Author

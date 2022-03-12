@@ -1,5 +1,4 @@
 import React from "react";
-import { getData } from "../../lib/fetch";
 import { useState, useEffect } from "react";
 
 export default function TemplateMenuBtn({ router }) {

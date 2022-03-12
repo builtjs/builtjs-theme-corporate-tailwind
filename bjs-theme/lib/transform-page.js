@@ -74,17 +74,16 @@ let transformSection = async (section, pageDoc) => {
       pageDoc.params.slug &&
       Object.keys(section.doc.item).length
     ) {
-      //FIXME: this is assuming slug is the first key
 
-      let contentTypeSlug = Object.keys(section.doc.item)[0];
+      let contentTypeSlug = section.doc.item.slug;
       let item = await fetchItem(contentTypeSlug, pageDoc.params.slug);
-      if (section.doc.item[contentTypeSlug].populate) {
+      if (section.doc.item.populate) {
         for (
           let j = 0;
-          j < section.doc.item[contentTypeSlug].populate.length;
+          j < section.doc.item.populate.length;
           j++
         ) {
-          const populateSlug = section.doc.item[contentTypeSlug].populate[j];
+          const populateSlug = section.doc.item.populate[j];
           let populateItem = await fetchItemById(
             populateSlug,
             item.attributes[populateSlug].id

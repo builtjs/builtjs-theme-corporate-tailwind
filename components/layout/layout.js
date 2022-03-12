@@ -8,7 +8,7 @@ const Layout = (props) => {
           app={page.app}
         />
       )}
-      <main id="main">{children}</main>
+      <main>{children}</main>
       {page.layout && (
         <page.layout._1.template
           content={page.layout._1.content}

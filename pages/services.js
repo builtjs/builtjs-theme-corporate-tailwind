@@ -1,8 +1,7 @@
 import { withRouter } from "next/router";
-import { fetchPage } from "../lib/fetch";
 import Page from "../page";
 import { getConfig } from "bjs-theme";
-import { pages, pageTypes } from "../constants";
+import { pages } from "../constants";
 
 export default withRouter(Page);
 
