@@ -43,19 +43,19 @@
     if (!pageSlug) {
       //TODO error handling
     }
-    let pagesData = await fetchData("/data/pages.json");
+    let pagesData = await getData("/data/pages.json");
     let res = alasql(`SELECT * FROM ? WHERE slug = '${pageSlug}'`, [
       pagesData.pages[type],
     ]);
     if (res.length) {
-      let layoutData = await fetchData(`/data/layout.json`);
+      let layoutData = await getData(`/data/layout.json`);
       res[0].layout = layoutData.layout;
       return res[0];
     }
     return null;
   }
 
-  async function fetchData(path) {
+  async function getData(path) {
     const url = process.env.url || "http://localhost:3000";
     return new Promise(async (resolve) => {
       let res = await fetch(`${url}${path}`);
@@ -64,5 +64,28 @@
     });
   }
 
-  module.exports = { getConfig, getPage };
+  async function getItems(contentTypeSlug, filters){
+    if (!contentTypeSlug) {
+      //TODO error handling
+    }
+    let contentTypeData = await getData(`/data/strapi/content-types.json`);
+    const contentTypeRes = alasql(
+      `SELECT * FROM ? WHERE slug = '${contentTypeSlug}'`,
+      [contentTypeData.contentTypes]
+    );
+   
+    const contentType = contentTypeRes[0] ? contentTypeRes[0] : null;
+    if (!contentType) {
+      return;
+    }
+    
+    let itemData = await getData(`/data/collections/${contentType.modelSettings.info.pluralName}.json`);
+    let res = alasql(`SELECT * FROM ?`, [itemData.items]);
+    return {
+      items: res,
+      contentTypeId: contentTypeSlug,
+    };
+  };
+
+  module.exports = { getConfig, getPage, getData, getItems };
 })();

@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { transformPage } from "./lib/transform-page";
 import Layout from "./components/layout/layout";
 import { useRouter } from "next/router";
+import { getPage } from "bjs-theme";
 import TemplateMenuBtn from "./components/_external/template-menu-btn";
 
 const Page = ({ config }) => {
@@ -18,7 +19,7 @@ const Page = ({ config }) => {
   }, [slug]);
 
   async function init() {
-    const page = await transformPage(config);
+    const page = await getPage(config);
     setPage(page);
   }
 
