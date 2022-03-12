@@ -1,8 +1,8 @@
 {
   "items": [
     {
-      "slug": "benefits-1",
       "attributes": {
+        "slug": "benefits-1",
         "preheading": {
           "text": "Preheading",
           "type": "dot"
@@ -29,8 +29,8 @@
       
     },
     {
-      "slug": "benefits-2",
       "attributes": {
+        "slug": "benefits-2",
         "preheading": {
           "text": "Preheading",
           "type": "dot"
@@ -56,8 +56,8 @@
       }
     },
     {
-      "slug": "benefits-3",
       "attributes": {
+        "slug": "benefits-3",
         "preheading": {
           "text": "Preheading",
           "type": "dot"

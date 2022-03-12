@@ -1,31 +1,31 @@
 {
   "items": [
     {
-      "slug": "services",
       "attributes": {
+        "slug": "services",
         "label": "Services",
         "url": "/services"
       }
     },
     {
-      "slug": "about",
       "attributes": {
-      "label": "About",
-      "url": "/about"
+        "slug": "about",
+        "label": "About",
+        "url": "/about"
       }
     },
     {
-      "slug": "blog",
       "attributes": {
-      "label": "Blog",
-      "url": "/blog"
+        "slug": "blog",
+        "label": "Blog",
+        "url": "/blog"
       }
     },
     {
-      "slug": "contact",
       "attributes": {
-      "label": "Contact",
-      "url": "/contact"
+        "slug": "contact",
+        "label": "Contact",
+        "url": "/contact"
       }
     }
   ]

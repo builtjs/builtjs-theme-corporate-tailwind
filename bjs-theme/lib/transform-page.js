@@ -49,7 +49,6 @@ export const transformPage = async (pageDoc) => {
     }
     let appData = await fetchData(`/data/app.json`);
     fullPage.app = appData.app;
-    debugger
     resolve(fullPage);
   });
 };
@@ -76,6 +75,7 @@ let transformSection = async (section, pageDoc) => {
       Object.keys(section.doc.item).length
     ) {
       //FIXME: this is assuming slug is the first key
+
       let contentTypeSlug = Object.keys(section.doc.item)[0];
       let item = await fetchItem(contentTypeSlug, pageDoc.params.slug);
       if (section.doc.item[contentTypeSlug].populate) {
@@ -110,8 +110,8 @@ let transformSection = async (section, pageDoc) => {
         )
       );
     }
-    if (section.doc.data) {
-      content.attributes = section.doc.data;
+    if (section.doc.attributes) {
+      content.attributes = section.doc.attributes;
     }
     if (content) {
       transformedSection.content = content;

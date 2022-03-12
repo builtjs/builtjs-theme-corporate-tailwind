@@ -1,8 +1,8 @@
 {
   "items": [
     {
-      "slug": "feature-1",
       "attributes": {
+        "slug": "feature-1",
         "preheading": {
           "text": "Preheading",
           "type": "dot"
@@ -31,8 +31,8 @@
       }
     },
     {
-      "slug": "feature-2",
       "attributes": {
+        "slug": "feature-2",
         "preheading": {
           "text": "Preheading",
           "type": "dot"
@@ -61,8 +61,8 @@
       }
     },
     {
-      "slug": "feature-3",
       "attributes": {
+        "slug": "feature-3",
         "preheading": {
           "text": "Preheading",
           "type": "dot"

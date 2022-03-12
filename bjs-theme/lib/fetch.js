@@ -24,7 +24,7 @@ export const fetchItem = async (contentTypeSlug, entrySlug) => {
     return;
   }
   let itemData = await fetchData(`/data/collections/${contentType.modelSettings.info.pluralName}.json`);
-  let res = alasql(`SELECT * FROM ? WHERE slug='${entrySlug}'`, [
+  let res = alasql(`SELECT * FROM ? WHERE attributes->slug='${entrySlug}'`, [
     itemData.items,
   ]);
   return res.length ? res[0] : null;

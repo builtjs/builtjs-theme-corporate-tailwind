@@ -1,8 +1,8 @@
 {
   "items": [
     {
-      "slug": "facebook",
       "attributes": {
+        "slug": "facebook",
         "icon": {
           "data": {
             "attributes": {
@@ -19,8 +19,8 @@
       }
     },
     {
-      "slug": "twitter",
       "attributes": {
+        "slug": "twitter",
         "icon": {
           "data": {
             "attributes": {
@@ -37,8 +37,8 @@
       }
     },
     {
-      "slug": "instagram",
       "attributes": {
+        "slug": "instagram",
         "icon": {
           "data": {
             "attributes": {
@@ -55,8 +55,8 @@
       }
     },
     {
-      "slug": "youtube",
       "attributes": {
+        "slug": "youtube",
         "icon": {
           "data": {
             "attributes": {

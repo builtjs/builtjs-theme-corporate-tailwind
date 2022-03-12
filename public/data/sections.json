@@ -7,7 +7,7 @@
       "description": "Etiam imperdiet tincidunt magna sit amet vehicula. In vulputate neque non pretium faucibus. Cras gravida consectetur lorem, in dapibus sapien cursus sed. Cras consequat in leo id volutpat.",
       "templates": ["header-1"],
       "position": "start",
-      "data": {
+      "attributes": {
         "image": {
           "data": {
             "attributes": {
@@ -52,7 +52,7 @@
       "templates": ["seo"],
       "category": "head",
       "type": "head",
-      "data": {
+      "attributes": {
         "title": "Home | Corporate Tailwind Built.JS Theme",
         "description": "Home page for a site built with the Corporate Tailwind Built.JS Theme.",
         "shareImage": {
@@ -77,7 +77,7 @@
       "displayName": "Main Landing",
       "description": "Etiam imperdiet tincidunt magna sit amet vehicula. In vulputate neque non pretium faucibus. Cras gravida consectetur lorem, in dapibus sapien cursus sed. Cras consequat in leo id volutpat.",
       "templates": ["cover-1"],
-      "data": {
+      "attributes": {
         "preheading": {
           "text": "Preheading",
           "type": "line"
@@ -126,7 +126,7 @@
       "displayName": "Contact Teaser",
       "description": "Etiam imperdiet tincidunt magna sit amet vehicula. In vulputate neque non pretium faucibus. Cras gravida consectetur lorem, in dapibus sapien cursus sed. Cras consequat in leo id volutpat.",
       "templates": ["banner-1"],
-      "data": {
+      "attributes": {
         "preheading": {
           "text": "Preheading",
           "type": "line"
@@ -151,7 +151,7 @@
       "displayName": "Home About Teaser",
       "description": "Etiam imperdiet tincidunt magna sit amet vehicula. In vulputate neque non pretium faucibus. Cras gravida consectetur lorem, in dapibus sapien cursus sed. Cras consequat in leo id volutpat.",
       "templates": ["block-1", "block-2", "block-3", "block-4", "block-5"],
-      "data": {
+      "attributes": {
         "preheading": {
           "text": "Preheading",
           "type": "dot"
@@ -185,7 +185,7 @@
       "templates": ["seo"],
       "category": "head",
       "type": "head",
-      "data": {
+      "attributes": {
         "title": "Services | Corporate Tailwind Built.JS Theme",
         "description": "Services page for a site built with the Corporate Tailwind Built.JS Theme.",
         "shareImage": {
@@ -210,7 +210,7 @@
       "displayName": "Services Landing",
       "description": "Etiam imperdiet tincidunt magna sit amet vehicula. In vulputate neque non pretium faucibus. Cras gravida consectetur lorem, in dapibus sapien cursus sed. Cras consequat in leo id volutpat.",
       "templates": ["cover-5"],
-      "data": {
+      "attributes": {
         "preheading": {
           "text": "Preheading",
           "type": "line"
@@ -249,7 +249,7 @@
       "displayName": "Services Block",
       "description": "Etiam imperdiet tincidunt magna sit amet vehicula. In vulputate neque non pretium faucibus. Cras gravida consectetur lorem, in dapibus sapien cursus sed. Cras consequat in leo id volutpat.",
       "templates": ["block-1"],
-      "data": {
+      "attributes": {
         "preheading": {
           "text": "Preheading",
           "type": "dot"
@@ -284,7 +284,7 @@
       "displayName": "Services Contact Teaser",
       "description": "Etiam imperdiet tincidunt magna sit amet vehicula. In vulputate neque non pretium faucibus. Cras gravida consectetur lorem, in dapibus sapien cursus sed. Cras consequat in leo id volutpat.",
       "templates": ["banner-1"],
-      "data": {
+      "attributes": {
         "heading": "Lorem ipsum dolor sit amet",
         "buttonLinks": [
           {
@@ -302,7 +302,7 @@
       "templates": ["seo"],
       "category": "head",
       "type": "head",
-      "data": {
+      "attributes": {
         "title": "Blog | Corporate Tailwind Built.JS Theme",
         "description": "Blog page for a site built with the Corporate Tailwind Built.JS Theme.",
         "shareImage": {
@@ -354,7 +354,7 @@
       "templates": ["seo"],
       "category": "head",
       "type": "head",
-      "data": {
+      "attributes": {
         "title": "About | Corporate Tailwind Built.JS Theme",
         "description": "About page for a site built with the Corporate Tailwind Built.JS Theme.",
         "shareImage": {
@@ -379,7 +379,7 @@
       "displayName": "About Landing",
       "description": "Etiam imperdiet tincidunt magna sit amet vehicula. In vulputate neque non pretium faucibus. Cras gravida consectetur lorem, in dapibus sapien cursus sed. Cras consequat in leo id volutpat.",
       "templates": ["cover-2"],
-      "data": {
+      "attributes": {
         "preheading": {
           "text": "Preheading",
           "type": "line"
@@ -418,7 +418,7 @@
       "displayName": "About Text",
       "description": "Etiam imperdiet tincidunt magna sit amet vehicula. In vulputate neque non pretium faucibus. Cras gravida consectetur lorem, in dapibus sapien cursus sed. Cras consequat in leo id volutpat.",
       "templates": ["block-1", "block-2", "block-3", "block-4", "block-5"],
-      "data": {
+      "attributes": {
         "preheading": {
           "text": "Preheading",
           "type": ""
@@ -443,6 +443,7 @@
       "templates": ["article-1"],
       "item": {
         "blog-item": {
+          "slug": "blog-item",
           "populate": ["author"]
         }
       },
@@ -453,7 +454,7 @@
       "displayName": "Blog Related Articles",
       "description": "Etiam imperdiet tincidunt magna sit amet vehicula. In vulputate neque non pretium faucibus. Cras gravida consectetur lorem, in dapibus sapien cursus sed. Cras consequat in leo id volutpat.",
       "templates": ["cards-5"],
-      "data": {
+      "attributes": {
         "columns": 3
       },
       "collections": {
@@ -470,7 +471,7 @@
       "templates": ["seo"],
       "category": "head",
       "type": "head",
-      "data": {
+      "attributes": {
         "title": "Contact | Corporate Tailwind Built.JS Theme",
         "description": "Contact page for a site built with the Corporate Tailwind Built.JS Theme.",
         "shareImage": {
@@ -495,7 +496,7 @@
       "displayName": "Contact Landing",
       "description": "Etiam imperdiet tincidunt magna sit amet vehicula. In vulputate neque non pretium faucibus. Cras gravida consectetur lorem, in dapibus sapien cursus sed. Cras consequat in leo id volutpat.",
       "templates": ["form-1", "form-2"],
-      "data": {
+      "attributes": {
         "preheading": {
           "text": "Preheading",
           "type": "dot"
