@@ -3,12 +3,12 @@ import { SocialLink } from "@/elements";
 export default function Footer1({ content }) {
   let { collections } = { ...content };
   let primaryMenuItems = [];
-  if (collections && collections["primary-menu-item"]) {
-    primaryMenuItems = collections["primary-menu-item"].items;
+  if (collections && collections["primary-menu-items"]) {
+    primaryMenuItems = collections["primary-menu-items"].items;
   }
   let socialLinks = [];
-  if (collections && collections["social-link"]) {
-    socialLinks = collections["social-link"].items;
+  if (collections && collections["social-links"]) {
+    socialLinks = collections["social-links"].items;
   }
 
   return (
