@@ -165,9 +165,9 @@
             "label": "Button",
             "type": "primary"
           }
-        ],
-        "order": 6
-      }
+        ]
+      },
+      "order": 6
     },
     {
       "slug": "benefits-list",
