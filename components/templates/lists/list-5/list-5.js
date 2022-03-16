@@ -16,7 +16,6 @@ export default function List4({ content, router }) {
   if (collection) {
     items = collection.items;
   }
-  console.log({items});
   let tag = router && router.query ? router.query.tag : null;
 
   return (
