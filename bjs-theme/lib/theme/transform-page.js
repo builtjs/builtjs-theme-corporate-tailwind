@@ -105,7 +105,7 @@ let transformSection = async (section, pageDoc) => {
     if (template) {
       component = dynamic(() =>
         import(
-          `../../components/templates/${template.doc.category}/${template.doc.slug}/${template.doc.slug}`
+          `../../../components/templates/${template.doc.category}/${template.doc.slug}/${template.doc.slug}`
         )
       );
     }
