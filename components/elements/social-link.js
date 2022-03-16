@@ -3,7 +3,6 @@ import Image from "next/image";
 import getConfig from "next/config";
 
 export default function SocialLink({ attributes }) {
-  console.log({attributes});
   const { publicRuntimeConfig } = getConfig();
   return (
     <Link key={attributes.url} href={attributes.url}>
