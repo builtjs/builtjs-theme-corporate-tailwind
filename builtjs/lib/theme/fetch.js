@@ -1,4 +1,4 @@
-import alasql from "alasql";
+const alasql = require("alasql");
 const DEFAULT_TYPE = 'site';
 
 export const fetchData = async (path) => {

@@ -1,4 +1,4 @@
-import alasql from "alasql";
+const alasql = require("alasql");
 
 export default class Model {
   constructor(doc, data, name) {

@@ -1,5 +1,4 @@
 const alasql = require("alasql");
-const fetch = require("node-fetch");
 const { transformPage } = require("./transform-page");
 const DEFAULT_TYPE = "site";
 

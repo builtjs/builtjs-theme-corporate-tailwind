@@ -7,10 +7,10 @@ A Built.JS theme for small business websites with basic Tailwind styling.
 ```
 npm install
 ```
-NOTE: bjs-theme library is not an NPM package yet so to run the project, you'll need to run:
+NOTE: builtjs library is not an NPM package yet so to run the project, you'll need to run:
 
 ````
-cd bjs-theme
+cd builtjs
 ````
 
 ````
