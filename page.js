@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Layout from "./components/layout/layout";
 import { useRouter } from "next/router";
-import { getPage } from "builtjs";
+import { getPage } from "./builtjs-theme/index";
 import TemplateMenuBtn from "./lib/components/template-menu-btn";
 
 const Page = ({ config }) => {

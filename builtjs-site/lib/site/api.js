@@ -1,6 +1,24 @@
-import qs from "qs";
-import pageSettings from "@/data/pages.json";
-import layoutSettings from "@/data/layout.json";
+// import qs from "qs";
+const qs = require("qs");
+let pageSettings;
+let layoutSettings;
+try {
+  pageSettings = require("./../../../public/data/pages.json");
+  layoutSettings = require("./../../../public/data/layout.json");
+} catch (e) {
+  if (e.code !== "MODULE_NOT_FOUND") {
+    // Re-throw not "Module not found" errors
+    // throw e;
+  }
+  if (e.message.indexOf("'express'") === -1) {
+    // Re-throw not found errors for other modules
+    // throw e;
+  }
+}
+// const pageSettings = require("@/data/pages.json");
+//import pageSettings from "@/data/pages.json";
+// const layoutSettings = require("@/data/layout.json");
+// import layoutSettings from "@/data/layout.json";
 
 async function getPaths(slug) {
   return await getCollectionData(slug);
@@ -8,7 +26,6 @@ async function getPaths(slug) {
 
 async function getProps(config) {
   return new Promise(async (resolve) => {
-    console.log("get props...");
     if (!process.env.API_URL) {
       console.error(
         "Error: No API_URL variable. Did you remember to rename the .env.example file to .env?"
@@ -73,7 +90,6 @@ async function getCollectionData(slug, config = {}) {
 
 async function fetchAPI(path, options = {}) {
   return new Promise(async (resolve, reject) => {
-    console.log("fetch api...");
     const defaultOptions = {
       headers: {
         "Content-Type": "application/json",
@@ -91,14 +107,11 @@ async function fetchAPI(path, options = {}) {
       );
       query = `?${query}`;
     }
-    console.log("fetch api...", `${process.env.API_URL}${path}${query}`);
     const url = new URL(`${process.env.API_URL}${path}${query}`);
-    console.log("fetch api...", url);
     setTimeout(async () => {
       await fetch(url, options)
         .then(async (data) => {
           if (data.ok) {
-            console.log("fetch api...", data);
             data = await data.json();
             resolve(data);
           } else {
@@ -257,7 +270,6 @@ async function getPropData(config) {
             const attributes = config.pageData.contentSections[j];
             const sectionSlug = attributes.__component.split(".")[1];
             if (sectionSlug === sectionName) {
-              console.log({ config });
               const s = getSection(config.pageSlug, sectionSlug);
               let propName = camelize(sectionSlug) + "Content";
               if (!propData[propName]) {
@@ -323,5 +335,5 @@ module.exports = {
   fetchArticleData,
   fetchRemotePageData,
   getProps,
-  getPaths
+  getPaths,
 };
