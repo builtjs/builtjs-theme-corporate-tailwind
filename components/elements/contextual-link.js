@@ -1,20 +1,21 @@
 import Link from "next/link";
+import Image from "next/image";
+import getConfig from "next/config";
 
-export default function ContextualLink({ attribute }) {
+export default function ContextualLink({ attributes }) {
+  const { publicRuntimeConfig } = getConfig();
   return (
-    <div key={attribute.url} className="flex items-start">
-      <svg
-        className="w-5 mt-1 mr-5 text-black dark:text-white"
-        xmlns="http://www.w3.org/2000/svg"
-        viewBox={"0 0 " + attribute.icon.viewboxWidth + " " + attribute.icon.viewboxHeight}
-        fill="currentColor"
-      >
-        <path d={attribute.icon.svgPath} transform={attribute.icon.pathTransform}></path>
-      </svg>
-      <div>
-        <p>{attribute.text}</p>
-        <Link href={attribute.url}>
-          <a>{attribute.label}</a>
+    <div key={attributes.url} className="flex items-start">
+      <Image
+          height={attributes.icon.data.attributes.height}
+          width={attributes.icon.data.attributes.width}
+          src={`${publicRuntimeConfig.BACKEND_URL || ""}${attributes?.icon?.data.attributes.url}`}
+          alt={attributes.slug}
+        />
+      <div className="ml-4">
+        <p>{attributes.text}</p>
+        <Link href={attributes.url}>
+          <a>{attributes.label}</a>
         </Link>
       </div>
     </div>

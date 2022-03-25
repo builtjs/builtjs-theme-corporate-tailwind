@@ -1,18 +1,23 @@
 {
   "pageSections": [
     {
-      "slug": "contact1",
+      "slug": "contact-base",
+      "description": "Contact page base sections",
       "page": {
         "slug": "contact"
       },
       "sections": [
+        {
+          "slug": "contact-seo"
+        },
         {
           "slug": "contact-landing"
         }
       ]
     },
     {
-      "slug": "services1",
+      "slug": "services-contact",
+      "description": "Teaser for Contact page on Services page",
       "page": {
         "slug": "services"
       },
@@ -23,22 +28,30 @@
       ]
     },
     {
-      "slug": "home1",
+      "slug": "home-base",
+      "description": "Home page base sections",
       "page": {
         "slug": "home"
       },
       "sections": [
+        {
+          "slug": "home-seo"
+        },
         {
           "slug": "main-landing"
         }
       ]
     },
     {
-      "slug": "services2",
+      "slug": "services-base",
+      "description": "Services page base sections",
       "page": {
         "slug": "services"
       },
       "sections": [
+        {
+          "slug": "services-seo"
+        },
         {
           "slug": "services-landing"
         },
@@ -51,11 +64,15 @@
       ]
     },
     {
-      "slug": "blog1",
+      "slug": "blog-base",
+      "description": "Blog page base sections",
       "page": {
         "slug": "blog"
       },
       "sections": [
+        {
+          "slug": "blog-seo"
+        },
         {
           "slug": "blog-landing"
         },
@@ -64,12 +81,13 @@
         }
       ],
       "item": {
+        "description": "Blog detail page sections",
         "page": {
-          "slug": "blog-item"
+          "slug": "blog-article"
         },
         "sections": [
           {
-           "slug": "blog-item"
+           "slug": "blog-article"
           },
           {
             "slug": "blog-related-articles"
@@ -77,7 +95,8 @@
         ]
       }
     },{
-      "slug": "home2",
+      "slug": "home-features",
+      "description": "Features list on Home page",
       "page": {
         "slug": "home"
       },
@@ -88,7 +107,8 @@
       ]
     },
     {
-      "slug": "home3",
+      "slug": "home-benefits",
+      "description": "Benefits list on Home page",
       "page": {
         "slug": "home"
       },
@@ -99,46 +119,29 @@
       ]
     },
     {
-      "slug": "about1",
+      "slug": "about-base",
+      "description": "About page base sections",
       "page": {
         "slug": "about"
       },
       "sections": [
+        {
+          "slug": "about-seo"
+        },
         {
           "slug": "about-landing"
         }
       ]
     },
     {
-      "slug": "home4",
+      "slug": "home-about",
+      "description": "About page teaser on Home page",
       "page": {
         "slug": "home"
       },
       "sections": [
         {
           "slug": "home-about-teaser"
-        }
-      ]
-    },
-    {
-     "slug": "contact2",
-     "page": {
-      "slug": "contact"
-    },
-      "sections": [
-        {
-          "slug": "contact-landing"
-        }
-      ]
-    },
-    {
-      "slug": "services3",
-      "page": {
-        "slug": "services"
-      },
-      "sections": [
-        {
-          "slug": "contact-teaser"
         }
       ]
     }

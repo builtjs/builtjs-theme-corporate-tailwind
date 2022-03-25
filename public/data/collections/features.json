@@ -1,67 +1,94 @@
 {
   "items": [
     {
-      "slug": "feature-1",
-      "preheading": {
-        "text": "Preheading",
-        "type": ""
-      },
-      "heading": "Lorem ipsum dolor sit amet",
-      "blurb": "Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "image": {
-        "url": "/images/image.png",
-        "width": 1280,
-        "height": 768
-      },
-      "buttonLinks": [
-        {
-          "url": "/about",
-          "label": "Button",
-          "type": "primary"
-        }
-      ]
+      "attributes": {
+        "slug": "feature-1",
+        "preheading": {
+          "text": "Preheading",
+          "type": "dot"
+        },
+        "heading": "Lorem ipsum dolor sit amet",
+        "blurb": "Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "image": {
+          "data": {
+            "attributes": {
+              "name": "image",
+              "path": "/images",
+              "ext": "png",
+              "url": "/images/image.png",
+              "width": 1280,
+              "height": 768
+            }
+          }
+        },
+        "buttonLinks": [
+          {
+            "url": "/about",
+            "label": "Button",
+            "type": "primary"
+          }
+        ]
+      }
     },
     {
-      "slug": "feature-2",
-      "preheading": {
-        "text": "Preheading",
-        "type": ""
-      },
-      "heading": "Lorem ipsum dolor sit amet",
-      "blurb": "Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "image": {
-        "url": "/images/image.png",
-        "width": 1280,
-        "height": 768
-      },
-      "buttonLinks": [
-        {
-          "url": "/about",
-          "label": "Button",
-          "type": "primary"
-        }
-      ]
+      "attributes": {
+        "slug": "feature-2",
+        "preheading": {
+          "text": "Preheading",
+          "type": "dot"
+        },
+        "heading": "Lorem ipsum dolor sit amet",
+        "blurb": "Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "image": {
+          "data": {
+            "attributes": {
+              "name": "image",
+              "path": "/images",
+              "ext": "png",
+              "url": "/images/image.png",
+              "width": 1280,
+              "height": 768
+            }
+          }
+        },
+        "buttonLinks": [
+          {
+            "url": "/about",
+            "label": "Button",
+            "type": "primary"
+          }
+        ]
+      }
     },
     {
-      "slug": "feature-3",
-      "preheading": {
-        "text": "Preheading",
-        "type": ""
-      },
-      "heading": "Lorem ipsum dolor sit amet",
-      "blurb": "Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "image": {
-        "url": "/images/image.png",
-        "width": 1280,
-        "height": 768
-      },
-      "buttonLinks": [
-        {
-          "url": "/about",
-          "label": "Button",
-          "type": "primary"
-        }
-      ]
+      "attributes": {
+        "slug": "feature-3",
+        "preheading": {
+          "text": "Preheading",
+          "type": "dot"
+        },
+        "heading": "Lorem ipsum dolor sit amet",
+        "blurb": "Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "image": {
+          "data": {
+            "attributes": {
+              "name": "image",
+              "path": "/images",
+              "ext": "png",
+              "url": "/images/image.png",
+              "width": 1280,
+              "height": 768
+            }
+          }
+        },
+        "buttonLinks": [
+          {
+            "url": "/about",
+            "label": "Button",
+            "type": "primary"
+          }
+        ]
+      }
     }
   ]
 }

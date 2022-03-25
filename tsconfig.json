@@ -18,6 +18,18 @@
     "paths": {
       "@/elements": [
         "components/elements/index"
+      ],
+      "@/templates/*": [
+        "components/templates/*"
+      ],
+      "@/layout/*": [
+        "components/layout/*"
+      ],
+      "@/data/*": [
+        "public/data/*"
+      ],
+      "@/api": [
+        "utils/api"
       ]
     },
     "allowSyntheticDefaultImports": true,
@@ -28,9 +40,9 @@
     "module": "esnext",
     "moduleResolution": "node",
     "isolatedModules": true,
-    "jsx": "preserve"
+    "jsx": "preserve",
+    "incremental": true
   },
-  
   "include": [
     "next-env.d.ts",
     "**/*.ts",

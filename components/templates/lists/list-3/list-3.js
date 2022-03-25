@@ -6,7 +6,9 @@ export default function List1({ content }) {
   let { collections } = content;
   const { publicRuntimeConfig } = getConfig();
   if (!collections) {
-    throw new Error(`No collections attribute provided in sections.json for template`);
+    throw new Error(
+      `No collections attribute provided in sections.json for template`
+    );
   }
   let collectionName = Object.keys(collections)[0];
   let collection = collections[collectionName];
@@ -21,13 +23,18 @@ export default function List1({ content }) {
         <div className="grid grid-cols-1 gap-y-24">
           {items &&
             items.map((item, i) => (
-              <div key={i} className="items-center grid grid-cols-1 gap-10 lg:grid-cols-2">
+              <div
+                key={i}
+                className="items-center grid grid-cols-1 gap-10 lg:grid-cols-2"
+              >
                 <div className="lg:order-last">
                   <div className="relative">
                     <Image
-                      src={`${publicRuntimeConfig.API_URL || ""}${item.image.url}`}
-                      width={item.image.width}
-                      height={item.image.height}
+                      src={`${publicRuntimeConfig.BACKEND_URL || ""}${
+                        item.attributes?.image?.data.attributes.url
+                      }`}
+                      width={item.attributes.image.data.attributes.width}
+                      height={item.attributes.image.data.attributes.height}
                       layout="responsive"
                       alt=""
                     />
@@ -35,12 +42,19 @@ export default function List1({ content }) {
                 </div>
 
                 <div>
-                  <Preheading attribute={item.preheading}></Preheading>
-                  <h2>{item.heading}</h2>
-                  <p className="mb-12">{item.blurb}</p>
-                  {item.buttonLinks &&
-                    item.buttonLinks.map((button) => {
-                      return <ButtonLink key={button.type} attribute={button}></ButtonLink>;
+                  <Preheading
+                    attributes={item.attributes.preheading}
+                  ></Preheading>
+                  <h2>{item.attributes.heading}</h2>
+                  <p className="mb-12">{item.attributes.blurb}</p>
+                  {item.attributes.buttonLinks &&
+                    item.attributes.buttonLinks.map((button) => {
+                      return (
+                        <ButtonLink
+                          key={button.type}
+                          attributes={button}
+                        ></ButtonLink>
+                      );
                     })}
                 </div>
               </div>

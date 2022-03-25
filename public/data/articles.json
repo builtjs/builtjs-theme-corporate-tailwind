@@ -1,8 +1,10 @@
 {
   "articles": [
     {
-      "slug": "blog-item",
-      "displayName": "Blog Item",
+      "slug": "blog-article",
+      "singularName": "blog-article",
+      "pluralName": "blog-articles",
+      "displayName": "Blog Article",
       "contentType": "blog-item",
       "listPage": {
         "slug": "blog"

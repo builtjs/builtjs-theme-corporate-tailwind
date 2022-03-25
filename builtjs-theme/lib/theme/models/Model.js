@@ -1,4 +1,4 @@
-import alasql from "alasql";
+const alasql = require("alasql");
 
 export default class Model {
   constructor(doc, data, name) {
@@ -10,8 +10,7 @@ export default class Model {
   }
 
   async getData() {
-    let table = this.table === 'templates' ? 'templates/body' : this.table;
-    let data = await this.fetchData(`/data/${table}.json`);
+    let data = await this.fetchData(`/data/${this.table}.json`);
     return data[this.table];
   }
 
@@ -35,15 +34,7 @@ export default class Model {
           } else{
             item = await this.getItem(entry.slug, table, populateData);
             if(entry.template){
-              let data = null;
-              let path = `data/templates/${entry.template.type}`;
-              if(this.dataMap[path]){
-                data = this.dataMap[path];
-              } else{
-                data = await this.fetchData(`/${path}.json`);
-                this.dataMap[path] = data;
-              }
-              
+              let data = await this.fetchData(`/data/templates.json`);
               let templatesData = data['templates'];
               let template = await this.getItem(entry.template.slug, 'templates', templatesData);
               if(!template){
@@ -60,6 +51,7 @@ export default class Model {
           items.push(item);
           
         }
+        
         this.doc[property] = items;
       } else {
         const slug = this.doc[property];
@@ -67,8 +59,8 @@ export default class Model {
         let res = alasql(`SELECT * FROM ? WHERE slug = '${slug}'`, [
           populateData,
         ]);
-        this.doc[property] = await this.getItem(slug, table, populateData);
-        }
+        this.doc.attributes[property] = await this.getItem(slug, table, populateData);
+      }
         
       }
       resolve();

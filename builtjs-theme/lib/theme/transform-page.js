@@ -1,6 +1,6 @@
 import dynamic from "next/dynamic";
-import { fetchCollections, fetchItem, fetchItemById } from "../lib/fetch";
-import { Page, Section, Template } from "../lib/models";
+import { fetchCollections, fetchItem, fetchItemById } from "./fetch";
+import { Page, Section, Template } from "./models";
 const SectionModel = new Section();
 
 export const transformPage = async (pageDoc) => {
@@ -74,21 +74,21 @@ let transformSection = async (section, pageDoc) => {
       pageDoc.params.slug &&
       Object.keys(section.doc.item).length
     ) {
-      
-      let contentTypeSlug = Object.keys(section.doc.item)[0];
+
+      let contentTypeSlug = section.doc.item.slug;
       let item = await fetchItem(contentTypeSlug, pageDoc.params.slug);
-      if (section.doc.item[contentTypeSlug].populate) {
+      if (section.doc.item.populate) {
         for (
           let j = 0;
-          j < section.doc.item[contentTypeSlug].populate.length;
+          j < section.doc.item.populate.length;
           j++
         ) {
-          const populateSlug = section.doc.item[contentTypeSlug].populate[j];
+          const populateSlug = section.doc.item.populate[j];
           let populateItem = await fetchItemById(
             populateSlug,
-            item[populateSlug].id
+            item.attributes[populateSlug].id
           );
-          item[populateSlug] = populateItem;
+          item.attributes[populateSlug] = populateItem;
         }
       }
       content.item = item;
@@ -105,12 +105,12 @@ let transformSection = async (section, pageDoc) => {
     if (template) {
       component = dynamic(() =>
         import(
-          `../components/templates/${template.doc.category}/${template.doc.slug}/${template.doc.slug}`
+          `../../../components/templates/${template.doc.category}/${template.doc.slug}/${template.doc.slug}`
         )
       );
     }
-    if (section.doc.data) {
-      content.data = section.doc.data;
+    if (section.doc.attributes) {
+      content.attributes = section.doc.attributes;
     }
     if (content) {
       transformedSection.content = content;

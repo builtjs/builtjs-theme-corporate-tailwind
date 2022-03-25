@@ -1,13 +1,13 @@
 import { withRouter } from "next/router";
-import { fetchPage } from "../lib/fetch";
+import { getConfig } from "./../builtjs-theme";
 import Page from "../page";
-import { pages, pageTypes } from "../constants";
+import { pages } from "../constants";
 
 export default withRouter(Page);
 
 export async function getStaticProps() {
-  const page = await fetchPage(pages.HOME, pageTypes.SITE);
+  const config = await getConfig(pages.HOME);
   return {
-    props: { page }
+    props: { config }
   };
 }

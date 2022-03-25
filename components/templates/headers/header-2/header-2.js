@@ -7,10 +7,10 @@ import { ButtonLink } from "@/elements";
 import ModeToggleBtn from "../../../elements/mode-toggle-btn";
 
 export default function Header2({ content }) {
-  let { data, collections, global } = { ...content };
+  let { attributes, collections, global } = { ...content };
   const { publicRuntimeConfig } = getConfig();
   const collectionNames = {
-    PRIMARY_MENU_ITEM: "primary-menu-items",
+    PRIMARY_MENU_ITEM: "primary-menu-item",
   };
   let menuItems;
   if (collections && collections[collectionNames.PRIMARY_MENU_ITEM]) {
@@ -29,9 +29,9 @@ export default function Header2({ content }) {
                 <span className="relative w-10">
                   <Image
                     className="text-gray-400 bg-white fill-current dark:bg-gray-800"
-                    src={`${publicRuntimeConfig.API_URL || ""}${global?.logo?.url}`}
-                    width={global?.logo?.width}
-                    height={global?.logo?.height}
+                    src={`${publicRuntimeConfig.BACKEND_URL || ""}${attributes?.logo?.data.attributes.url}`}
+                    width={global?.logo?.data.attributes.width}
+                    height={global?.logo?.data.attributes.height}
                     layout="responsive"
                     alt=""
                   />

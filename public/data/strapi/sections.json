@@ -4,9 +4,9 @@
       "slug": "header-1",
       "category": "layout",
       "settings": {
-        "collectionName": "components_layout_header-1",
+        "collectionName": "components_layout_header_1",
         "info": {
-          "name": "Header",
+          "displayName": "Header",
           "icon": "heading"
         },
         "attributes": {
@@ -22,9 +22,9 @@
       "slug": "footer-1",
       "category": "layout",
       "settings": {
-        "collectionName": "components_layout_footer-1",
+        "collectionName": "components_layout_footer_1",
         "info": {
-          "name": "Footer",
+          "displayName": "Footer",
           "icon": "heading"
         },
         "attributes": {}
@@ -34,9 +34,9 @@
       "slug": "home-seo",
       "category": "seo",
       "settings": {
-        "collectionName": "components_seo_home-seo",
+        "collectionName": "components_seo_home_seo",
         "info": {
-          "name": "Home Page SEO",
+          "displayName": "Home Page SEO",
           "icon": "robot"
         },
         "attributes": {
@@ -47,10 +47,11 @@
             "type": "text"
           },
           "shareImage": {
-            "model": "file",
-            "via": "related",
-            "allowedTypes": ["images"],
-            "plugin": "upload",
+            "allowedTypes": [
+              "images"
+            ],
+            "type": "media",
+            "multiple": false,
             "required": false
           },
           "twitterCardType": {
@@ -66,9 +67,9 @@
       "slug": "contact-seo",
       "category": "seo",
       "settings": {
-        "collectionName": "components_seo_contact-seo",
+        "collectionName": "components_seo_contact_seo",
         "info": {
-          "name": "Contact Page SEO",
+          "displayName": "Contact Page SEO",
           "icon": "robot"
         },
         "attributes": {
@@ -79,10 +80,11 @@
             "type": "text"
           },
           "shareImage": {
-            "model": "file",
-            "via": "related",
-            "allowedTypes": ["images"],
-            "plugin": "upload",
+            "allowedTypes": [
+              "images"
+            ],
+            "type": "media",
+            "multiple": false,
             "required": false
           },
           "twitterCardType": {
@@ -98,9 +100,9 @@
       "slug": "about-seo",
       "category": "seo",
       "settings": {
-        "collectionName": "components_seo_about-seo",
+        "collectionName": "components_seo_about_seo",
         "info": {
-          "name": "About Page SEO",
+          "displayName": "About Page SEO",
           "icon": "robot"
         },
         "attributes": {
@@ -111,10 +113,11 @@
             "type": "text"
           },
           "shareImage": {
-            "model": "file",
-            "via": "related",
-            "allowedTypes": ["images"],
-            "plugin": "upload",
+            "allowedTypes": [
+              "images"
+            ],
+            "type": "media",
+            "multiple": false,
             "required": false
           },
           "twitterCardType": {
@@ -130,9 +133,9 @@
       "slug": "services-seo",
       "category": "seo",
       "settings": {
-        "collectionName": "components_seo_services-seo",
+        "collectionName": "components_seo_services_seo",
         "info": {
-          "name": "Services Page SEO",
+          "displayName": "Services Page SEO",
           "icon": "robot"
         },
         "attributes": {
@@ -143,10 +146,11 @@
             "type": "text"
           },
           "shareImage": {
-            "model": "file",
-            "via": "related",
-            "allowedTypes": ["images"],
-            "plugin": "upload",
+            "allowedTypes": [
+              "images"
+            ],
+            "type": "media",
+            "multiple": false,
             "required": false
           },
           "twitterCardType": {
@@ -162,9 +166,9 @@
       "slug": "blog-seo",
       "category": "seo",
       "settings": {
-        "collectionName": "components_seo_blog-seo",
+        "collectionName": "components_seo_blog_seo",
         "info": {
-          "name": "Blog Page SEO",
+          "displayName": "Blog Page SEO",
           "icon": "robot"
         },
         "attributes": {
@@ -175,10 +179,11 @@
             "type": "text"
           },
           "shareImage": {
-            "model": "file",
-            "via": "related",
-            "allowedTypes": ["images"],
-            "plugin": "upload",
+            "allowedTypes": [
+              "images"
+            ],
+            "type": "media",
+            "multiple": false,
             "required": false
           },
           "twitterCardType": {
@@ -194,8 +199,8 @@
       "slug": "main-landing",
       "category": "sections",
       "settings": {
-        "collectionName": "components_sections_main-landing",
-        "info": { "name": "Main landing", "icon": "heading" },
+        "collectionName": "components_sections_main_landing",
+        "info": { "displayName": "Main landing", "icon": "heading" },
         "attributes": {
           "preheading": {
             "type": "component",
@@ -205,10 +210,11 @@
           "heading": { "type": "string" },
           "blurb": { "type": "text" },
           "image": {
-            "model": "file",
-            "via": "related",
-            "allowedTypes": ["images"],
-            "plugin": "upload",
+            "allowedTypes": [
+              "images"
+            ],
+            "type": "media",
+            "multiple": false,
             "required": false
           },
           "buttonLinks": {
@@ -223,8 +229,8 @@
       "slug": "contact-landing",
       "category": "forms",
       "settings": {
-        "collectionName": "components_sections_contact-landing",
-        "info": { "name": "Contact landing", "icon": "heading" },
+        "collectionName": "components_sections_contact_landing",
+        "info": { "displayName": "Contact landing", "icon": "heading" },
         "attributes": {
           "preheading": {
             "type": "component",
@@ -242,6 +248,11 @@
             "type": "component",
             "repeatable": true,
             "component": "elements.field"
+          },
+          "button": {
+            "type": "component",
+            "repeatable": false,
+            "component": "elements.button"
           }
         }
       }
@@ -250,8 +261,8 @@
       "slug": "features-list",
       "category": "sections",
       "settings": {
-        "collectionName": "components_sections_features-list",
-        "info": { "name": "Features", "icon": "heading" },
+        "collectionName": "components_sections_features_list",
+        "info": { "displayName": "Features", "icon": "heading" },
         "attributes": {
           "heading": { "type": "string" }
         }
@@ -261,8 +272,8 @@
       "slug": "contact-teaser",
       "category": "sections",
       "settings": {
-        "collectionName": "components_sections_contact-teaser",
-        "info": { "name": "Contact Teaser", "icon": "heading" },
+        "collectionName": "components_sections_contact_teaser",
+        "info": { "displayName": "Contact Teaser", "icon": "heading" },
         "attributes": {
           "preheading": {
             "type": "component",
@@ -285,8 +296,8 @@
       "slug": "home-about-teaser",
       "category": "sections",
       "settings": {
-        "collectionName": "components_sections_home-about-teaser",
-        "info": { "name": "About Teaser", "icon": "heading" },
+        "collectionName": "components_sections_home_about_teaser",
+        "info": { "displayName": "About Teaser", "icon": "heading" },
         "attributes": {
           "preheading": {
             "type": "component",
@@ -294,7 +305,7 @@
             "component": "elements.preheading"
           },
           "heading": { "type": "string" },
-          "blurb": { "type": "text" },
+          "blurb1": { "type": "text" },
           "blurb2": { "type": "text" },
           "buttonLinks": {
             "type": "component",
@@ -308,8 +319,8 @@
       "slug": "benefits-list",
       "category": "sections",
       "settings": {
-        "collectionName": "components_sections_benefits-list",
-        "info": { "name": "Benefits", "icon": "heading" },
+        "collectionName": "components_sections_benefits_list",
+        "info": { "displayName": "Benefits", "icon": "heading" },
         "attributes": {}
       }
     },
@@ -317,8 +328,8 @@
       "slug": "services-landing",
       "category": "sections",
       "settings": {
-        "collectionName": "components_sections_services-landing",
-        "info": { "name": "Services Landing", "icon": "heading" },
+        "collectionName": "components_sections_services_landing",
+        "info": { "displayName": "Services Landing", "icon": "heading" },
         "attributes": {
           "preheading": {
             "type": "component",
@@ -328,10 +339,11 @@
           "heading": { "type": "string" },
           "blurb": { "type": "text" },
           "image": {
-            "model": "file",
-            "via": "related",
-            "allowedTypes": ["images"],
-            "plugin": "upload",
+            "allowedTypes": [
+              "images"
+            ],
+            "type": "media",
+            "multiple": false,
             "required": false
           }
         }
@@ -341,26 +353,32 @@
       "slug": "services-block",
       "category": "sections",
       "settings": {
-        "collectionName": "components_sections_services-block",
+        "collectionName": "components_sections_services_block",
         "info": {
-          "name": "Services Block",
+          "displayName": "Services Block",
           "icon": "robot"
         },
         "attributes": {
+          "preheading": {
+            "type": "component",
+            "repeatable": false,
+            "component": "elements.preheading"
+          },
           "heading": {
             "type": "string"
           },
-          "blurb": {
+          "blurb1": {
             "type": "text"
           },
           "blurb2": {
             "type": "text"
           },
           "image": {
-            "model": "file",
-            "via": "related",
-            "allowedTypes": ["images"],
-            "plugin": "upload",
+            "allowedTypes": [
+              "images"
+            ],
+            "type": "media",
+            "multiple": false,
             "required": false
           }
         }
@@ -370,9 +388,9 @@
       "slug": "blog-landing",
       "category": "sections",
       "settings": {
-        "collectionName": "components_sections_blog-landing",
+        "collectionName": "components_sections_blog_landing",
         "info": {
-          "name": "Blog Landing",
+          "displayName": "Blog Landing",
           "icon": "robot"
         },
         "attributes": {}
@@ -382,9 +400,9 @@
       "slug": "blog-item-list",
       "category": "sections",
       "settings": {
-        "collectionName": "components_sections_blog-item-list",
+        "collectionName": "components_sections_blog_item_list",
         "info": {
-          "name": "Blog Item List",
+          "displayName": "Blog Item List",
           "icon": "robot"
         },
         "attributes": {}
@@ -394,9 +412,9 @@
       "slug": "about-landing",
       "category": "sections",
       "settings": {
-        "collectionName": "components_sections_about-landing",
+        "collectionName": "components_sections_about_landing",
         "info": {
-          "name": "About Landing",
+          "displayName": "About Landing",
           "icon": "robot"
         },
         "attributes": {
@@ -410,10 +428,11 @@
             "type": "text"
           },
           "image": {
-            "model": "file",
-            "via": "related",
-            "allowedTypes": ["images"],
-            "plugin": "upload",
+            "allowedTypes": [
+              "images"
+            ],
+            "type": "media",
+            "multiple": false,
             "required": false
           },
           "buttonLinks": {
@@ -428,9 +447,9 @@
       "slug": "about-text",
       "category": "sections",
       "settings": {
-        "collectionName": "components_sections_about-text",
+        "collectionName": "components_sections_about_text",
         "info": {
-          "name": "About Text",
+          "displayName": "About Text",
           "icon": "robot"
         },
         "attributes": {
@@ -448,21 +467,21 @@
       "slug": "blog-list",
       "category": "sections",
       "settings": {
-        "collectionName": "components_sections_blog-list",
+        "collectionName": "components_sections_blog_list",
         "info": {
-          "name": "Blog List",
+          "displayName": "Blog List",
           "icon": "robot"
         },
         "attributes": {}
       }
     },
-    "blog-item": {
-      "slug": "blog-item",
+    "blog-article": {
+      "slug": "blog-article",
       "category": "sections",
       "settings": {
-        "collectionName": "components_sections_blog-item",
+        "collectionName": "components_sections_blog_article",
         "info": {
-          "name": "Blog Item",
+          "displayName": "Blog Article",
           "icon": "robot"
         },
         "attributes": {}
@@ -472,9 +491,9 @@
       "slug": "blog-related-articles",
       "category": "sections",
       "settings": {
-        "collectionName": "components_sections_blog-related-articles",
+        "collectionName": "components_sections_blog_related_articles",
         "info": {
-          "name": "Blog Related Articles",
+          "displayName": "Blog Related Articles",
           "icon": "robot"
         },
         "attributes": {}

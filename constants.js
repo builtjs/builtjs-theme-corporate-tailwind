@@ -1,9 +1,8 @@
 export const pages = {
   HOME: "home",
-  PRODUCTS: "products",
   SERVICES: "services",
   BLOG: "blog",
-  BLOG_ITEM: "blog-item",
+  BLOG_ARTICLE: "blog-article",
   CONTACT: "contact",
   ABOUT: "about",
   COVERS: "covers",
@@ -21,5 +20,5 @@ export const pageTypes = {
 
 export const contentTypes = {
   BLOG_ITEM: "blog-item",
-  SERVICE_ITEM: "service-item",
+  SERVICE: "service",
 };

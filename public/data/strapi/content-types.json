@@ -6,9 +6,11 @@
       "slug": "blog-item",
       "modelSettings": {
         "kind": "collectionType",
-        "collectionName": "blog-items",
+        "collectionName": "blog_items",
         "info": {
-          "name": "Blog item",
+          "displayName": "Blog Items",
+          "singularName": "blog-item",
+          "pluralName": "blog-items",
           "description": ""
         },
         "options": {
@@ -33,10 +35,11 @@
             "type": "text"
           },
           "image": {
-            "model": "file",
-            "via": "related",
-            "allowedTypes": ["images"],
-            "plugin": "upload",
+            "allowedTypes": [
+              "images"
+            ],
+            "type": "media",
+            "multiple": false,
             "required": false
           },
           "date": {
@@ -44,8 +47,10 @@
             "required": true
           },
           "author": {
-            "via": "blogItems",
-            "model": "authors"
+            "type": "relation",
+            "relation": "manyToOne",
+            "target": "api::author.author",
+            "inversedBy": "blogItems"
           }
         }
       }
@@ -58,7 +63,9 @@
         "kind": "collectionType",
         "collectionName": "authors",
         "info": {
-          "name": "Author",
+          "singularName": "author",
+          "pluralName": "authors",
+          "displayName": "Authors",
           "description": "Writer of posts"
         },
         "options": {
@@ -78,15 +85,18 @@
             "required": false
           },
           "profileImage": {
-            "model": "file",
-            "via": "related",
-            "allowedTypes": ["images"],
-            "plugin": "upload",
+            "allowedTypes": [
+              "images"
+            ],
+            "type": "media",
+            "multiple": false,
             "required": false
           },
           "blogItems": {
-            "collection": "blog-items",
-            "via": "author"
+            "type": "relation",
+            "relation": "oneToMany",
+            "target": "api::blog-item.blog-item",
+            "mappedBy": "author"
           }
         }
       }
@@ -94,12 +104,14 @@
     {
       "singularDisplayName": "Primary Menu Item",
       "pluralDisplayName": "Primary Menu Items",
-      "slug": "primary-menu-items",
+      "slug": "primary-menu-item",
       "modelSettings": {
         "kind": "collectionType",
-        "collectionName": "primary-menu-items",
+        "collectionName": "primary_menu_items",
         "info": {
-          "name": "Primary Menu Item",
+          "singularName": "primary-menu-item",
+          "pluralName": "primary-menu-items",
+          "displayName": "Primary Menu Items",
           "description": "Menu item for the primary menu"
         },
         "options": {
@@ -128,7 +140,9 @@
         "kind": "collectionType",
         "collectionName": "benefits",
         "info": {
-          "name": "Benefit",
+          "singularName": "benefit",
+          "pluralName": "benefits",
+          "displayName": "Benefits",
           "description": ""
         },
         "options": {
@@ -154,10 +168,11 @@
             "type": "text"
           },
           "image": {
-            "model": "file",
-            "via": "related",
-            "allowedTypes": ["images"],
-            "plugin": "upload",
+            "allowedTypes": [
+              "images"
+            ],
+            "type": "media",
+            "multiple": false,
             "required": false
           },
           "buttonLinks": {
@@ -176,7 +191,9 @@
         "kind": "collectionType",
         "collectionName": "features",
         "info": {
-          "name": "Feature",
+          "singularName": "feature",
+          "pluralName": "features",
+          "displayName": "Features",
           "description": ""
         },
         "options": {
@@ -202,10 +219,11 @@
             "type": "text"
           },
           "image": {
-            "model": "file",
-            "via": "related",
-            "allowedTypes": ["images"],
-            "plugin": "upload",
+            "allowedTypes": [
+              "images"
+            ],
+            "type": "media",
+            "multiple": false,
             "required": false
           },
           "buttonLinks": {
@@ -224,7 +242,9 @@
         "kind": "collectionType",
         "collectionName": "services",
         "info": {
-          "name": "Service",
+          "singularName": "service",
+          "pluralName": "services",
+          "displayName": "Services",
           "description": ""
         },
         "options": {
@@ -245,10 +265,11 @@
             "type": "text"
           },
           "image": {
-            "model": "file",
-            "via": "related",
-            "allowedTypes": ["images"],
-            "plugin": "upload",
+            "allowedTypes": [
+              "images"
+            ],
+            "type": "media",
+            "multiple": false,
             "required": false
           }
         }
@@ -260,9 +281,11 @@
       "slug": "social-link",
       "modelSettings": {
         "kind": "collectionType",
-        "collectionName": "social-links",
+        "collectionName": "social_links",
         "info": {
-          "name": "Social Links",
+          "singularName": "social-link",
+          "pluralName": "social-links",
+          "displayName": "Social Links",
           "description": ""
         },
         "options": {
@@ -272,9 +295,11 @@
         },
         "attributes": {
           "icon": {
-            "type": "component",
-            "repeatable": false,
-            "component": "elements.icon"
+            "allowedTypes": [
+              "images"
+            ],
+            "type": "media",
+            "multiple": false
           },
           "url": {
             "type": "string"

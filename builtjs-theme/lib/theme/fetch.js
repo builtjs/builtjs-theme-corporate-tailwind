@@ -1,4 +1,5 @@
-import alasql from "alasql";
+const alasql = require("alasql");
+const DEFAULT_TYPE = 'site';
 
 export const fetchData = async (path) => {
   const url = process.env.url || "http://localhost:3000";
@@ -22,11 +23,8 @@ export const fetchItem = async (contentTypeSlug, entrySlug) => {
   if (!contentType) {
     return;
   }
-  const collectionName = contentType.pluralDisplayName
-    .replace(/\s+/g, "-")
-    .toLowerCase();
-  let itemData = await fetchData(`/data/collections/${collectionName}.json`);
-  let res = alasql(`SELECT * FROM ? WHERE slug='${entrySlug}'`, [
+  let itemData = await fetchData(`/data/collections/${contentType.modelSettings.info.pluralName}.json`);
+  let res = alasql(`SELECT * FROM ? WHERE attributes->slug='${entrySlug}'`, [
     itemData.items,
   ]);
   return res.length ? res[0] : null;
@@ -37,7 +35,6 @@ export const fetchItemById = async (contentTypeSlug, entryId) => {
     //TODO error handling
   }
   let contentTypeData = await fetchData(`/data/strapi/content-types.json`);
-
   const contentTypeRes = alasql(
     `SELECT * FROM ? WHERE slug = '${contentTypeSlug}'`,
     [contentTypeData.contentTypes]
@@ -46,12 +43,9 @@ export const fetchItemById = async (contentTypeSlug, entryId) => {
   if (!contentType) {
     return;
   }
-  const collectionName = contentType.pluralDisplayName
-    .replace(/\s+/g, "-")
-    .toLowerCase();
-  let itemData = await fetchData(`/data/collections/${collectionName}.json`);
+  let itemData = await fetchData(`/data/collections/${contentType.modelSettings.info.pluralName}.json`);
   let res = alasql(`SELECT * FROM ? WHERE id=${entryId}`, [itemData.items]);
-  return res.length ? res[0] : null;
+  return res.length ? {data: res[0]} : null;
 };
 
 export const fetchItems = async (contentTypeSlug, filters) => {
@@ -63,14 +57,13 @@ export const fetchItems = async (contentTypeSlug, filters) => {
     `SELECT * FROM ? WHERE slug = '${contentTypeSlug}'`,
     [contentTypeData.contentTypes]
   );
+ 
   const contentType = contentTypeRes[0] ? contentTypeRes[0] : null;
   if (!contentType) {
     return;
   }
-  const collectionName = contentType.pluralDisplayName
-    .replace(/\s+/g, "-")
-    .toLowerCase();
-  let itemData = await fetchData(`/data/collections/${collectionName}.json`);
+  
+  let itemData = await fetchData(`/data/collections/${contentType.modelSettings.info.pluralName}.json`);
   let res = alasql(`SELECT * FROM ?`, [itemData.items]);
   return {
     items: res,
@@ -85,13 +78,12 @@ export const fetchCollections = async (section) => {
   if (!section.collections) {
     return [];
   }
+  
   let newCollections = {};
   const collections = Object.entries(section.collections);
-  for (const [contentTypeSlug, collection] of collections) {
-    // for (let i = 0; i < section.collections.length; i++) {
-    // const collection = section.collections[i];
+  for (const [pluralName, collection] of collections) {
     let limit = collection.limit;
-    let itemData = await fetchData(`/data/collections/${contentTypeSlug}.json`);
+    let itemData = await fetchData(`/data/collections/${pluralName}.json`);
     let res = alasql(`SELECT * FROM ?` + (limit ? ` LIMIT ${limit}` : ""), [
       itemData.items,
     ]);
@@ -111,24 +103,24 @@ export const fetchCollections = async (section) => {
           if (!contentType) {
             return;
           }
-          const collectionName = contentType.pluralDisplayName
-            .replace(/\s+/g, "-")
-            .toLowerCase();
           const populateItem = await fetchItemById(
-            collectionName,
-            item[populateSlug].id
+            populateSlug,
+            item.attributes[populateSlug].id
           );
-          item[populateSlug] = populateItem;
+          item.attributes[populateSlug] = populateItem;
         }
       }
     }
     newCollection.items = res;
-    newCollections[contentTypeSlug] = newCollection;
+    newCollections[pluralName] = newCollection;
   }
   return newCollections;
 };
 
 export const fetchPage = async (pageSlug, type) => {
+  if(!type){
+    type = DEFAULT_TYPE;
+  }
   if (!pageSlug) {
     //TODO error handling
   }
@@ -144,6 +136,7 @@ export const fetchPage = async (pageSlug, type) => {
   }
   return null;
 };
+
 
 export const fetchSection = async (sectionSlug) => {
   if (!sectionSlug) {
@@ -161,7 +154,7 @@ export const fetchTemplate = async (templateSlug) => {
   if (!templateSlug) {
     //TODO error handling
   }
-  let templateData = await fetchData(`/data/templates/body.json`);
+  let templateData = await fetchData(`/data/templates.json`);
   let res = alasql(`SELECT * FROM ? WHERE slug = ${templateSlug}`, [
     templateData.templates,
   ]);

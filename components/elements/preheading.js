@@ -1,7 +1,7 @@
-export default function Preheading({ attribute }) {
+export default function Preheading({ attributes }) {
   return (
-    <span id="preheading" className={`preheading ${attribute.type}`}>
-      {attribute.text}
+    <span id="preheading" className={`preheading ${attributes.type}`}>
+      {attributes.text}
     </span>
   );
 }

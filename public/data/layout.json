@@ -5,12 +5,25 @@
         "slug": "header-1",
         "template": {
           "slug": "header-1"
+        },
+        "collections": {
+          "primary-menu-items": {
+            "slug": "primary-menu-items"
+          }
         }
       },
       {
         "slug": "footer-1",
         "template": {
           "slug": "footer-1"
+        },
+        "collections": {
+          "primary-menu-items": {
+            "slug": "primary-menu-items"
+          },
+          "social-link": {
+            "slug": "social-links"
+          }
         }
       }
     ]

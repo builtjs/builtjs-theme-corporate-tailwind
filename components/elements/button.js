@@ -1,7 +1,7 @@
-export default function Button({ attribute }) {
+export default function Button({ attributes }) {
   return (
-    <a id="form-button" className={`btn btn-${attribute.type} w-full`} href="">
-      {attribute.label}
-    </a>
+    <div id="form-button" className={`btn btn-${attributes.type} w-full`}>
+      {attributes.label}
+    </div>
   );
 }
