@@ -31,7 +31,7 @@
   }
 
   img {
-    @apply bg-gray-100 rounded-lg dark:bg-gray-700;
+    @apply rounded-lg;
   }
 
   header,
@@ -67,8 +67,12 @@
   }
 
   .preheading {
-    /* max-width: max-content; */
     @apply relative block mb-4 text-sm font-light tracking-widest text-gray-400 uppercase dark:text-gray-400;
+  }
+
+  .preheading.center {
+    max-width: max-content;
+    @apply mx-auto;
   }
 
   .preheading.line {

@@ -27,19 +27,14 @@ export default function Footer1({ content }) {
           ))}
         </ul>
 
-        <div className="items-center justify-center mb-12 grid grid-flow-col auto-cols-max gap-x-6">
+        <div className="grid items-center justify-center grid-flow-col mb-12 auto-cols-max gap-x-6">
           {socialLinks.map((socialLink, i) => {
             return <SocialLink key={i} attributes={socialLink.attributes}></SocialLink>;
           })}
         </div>
 
         <div className="text-center">
-          <a
-            className="text-sm text-black dark:text-white hover:underline"
-            href="https://builtjs.com"
-            target="_blank"
-            rel="noreferrer noopener"
-          >
+          <a className="text-sm text-black dark:text-white hover:underline" href="https://builtjs.com" target="_blank" rel="noreferrer noopener">
             Built with Built.JS
           </a>
         </div>

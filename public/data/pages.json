@@ -71,7 +71,7 @@
           {
             "slug": "services-landing",
             "template": {
-              "slug": "cover-3"
+              "slug": "cover-4"
             }
           },
           {
@@ -279,7 +279,7 @@
             }
           },
           {
-            "slug": "home-about-teaser",
+            "slug": "about-text",
             "template": {
               "slug": "block-2",
               "type": "body"
@@ -293,7 +293,7 @@
             }
           },
           {
-            "slug": "home-about-teaser",
+            "slug": "about-text",
             "template": {
               "slug": "block-4",
               "type": "body"
@@ -372,9 +372,23 @@
             }
           },
           {
-            "slug": "services-landing",
+            "slug": "about-landing",
             "template": {
               "slug": "cover-3",
+              "type": "body"
+            }
+          },
+          {
+            "slug": "services-landing",
+            "template": {
+              "slug": "cover-4",
+              "type": "body"
+            }
+          },
+          {
+            "slug": "services-landing",
+            "template": {
+              "slug": "cover-5",
               "type": "body"
             }
           }
@@ -476,7 +490,7 @@
           {
             "slug": "blog-item-list",
             "template": {
-              "slug": "list-5",
+              "slug": "list-4",
               "type": "body"
             }
           },
