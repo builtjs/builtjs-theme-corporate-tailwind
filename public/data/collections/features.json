@@ -5,7 +5,7 @@
         "slug": "feature-1",
         "preheading": {
           "text": "Preheading",
-          "type": "dot"
+          "type": ""
         },
         "heading": "Lorem ipsum dolor sit amet",
         "blurb": "Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
@@ -35,7 +35,7 @@
         "slug": "feature-2",
         "preheading": {
           "text": "Preheading",
-          "type": "dot"
+          "type": ""
         },
         "heading": "Lorem ipsum dolor sit amet",
         "blurb": "Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
@@ -65,7 +65,7 @@
         "slug": "feature-3",
         "preheading": {
           "text": "Preheading",
-          "type": "dot"
+          "type": ""
         },
         "heading": "Lorem ipsum dolor sit amet",
         "blurb": "Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",

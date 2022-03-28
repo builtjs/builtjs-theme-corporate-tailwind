@@ -24,19 +24,16 @@ export default function Cards4({ content }) {
   return (
     <section id="cards-5" className="template">
       <div className="max-w-screen-xl mx-auto">
-        <div
-          className={`grid grid-cols-1 gap-x-6 gap-y-16 lg:grid-cols-${cols}`}
-        >
+        <div className={`grid grid-cols-1 gap-x-6 gap-y-16 lg:grid-cols-${cols}`}>
           {items &&
             items.slice(0, limit).map((item, i) => (
               <div key={i}>
                 <Link href={`/${collectionName}/${item.slug}`}>
                   <a>
-                    <div className="relative w-full h-56 mb-6 transition-opacity hover:opacity-80">
+                    <div className="relative w-full h-56 transition-opacity rounded-b-none hover:opacity-80">
                       <Image
-                        src={`${publicRuntimeConfig.BACKEND_URL || ""}${
-                          item.attributes?.image?.data.attributes.url
-                        }`}
+                        className="rounded-b-none"
+                        src={`${publicRuntimeConfig.BACKEND_URL || ""}${item.attributes?.image?.data.attributes.url}`}
                         layout="fill"
                         objectFit="cover"
                         alt=""
@@ -44,17 +41,17 @@ export default function Cards4({ content }) {
                     </div>
                   </a>
                 </Link>
-                <Link href={`/${collectionName}/${item.slug}`}>
-                  <a className="no-underline">
-                    <h3 className="mb-4 hover:text-gray-700 dark:hover:text-gray-200">
-                      {item.title}
-                    </h3>
-                  </a>
-                </Link>
-                <p>{item.attributes.excerpt}</p>
-                <Link href={`/${collectionName}/${item.slug}`}>
-                  <a>Read Article</a>
-                </Link>
+                <div className="p-8 border border-t-0 border-gray-200 rounded-b-lg dark:border-gray-700">
+                  <Link href={`/${collectionName}/${item.slug}`}>
+                    <a className="no-underline">
+                      <h3 className="mb-4 hover:text-gray-700 dark:hover:text-gray-200">{item.attributes.title}</h3>
+                    </a>
+                  </Link>
+                  <p>{item.attributes.excerpt}</p>
+                  <Link href={`/${collectionName}/${item.slug}`}>
+                    <a>Read Article</a>
+                  </Link>
+                </div>
               </div>
             ))}
         </div>
