@@ -6,8 +6,8 @@
       "category": "headers",
       "description": "Simple header with justified logo and nav links.",
       "images": {
-        "thumb": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/components/templates/headers/header-1/header-1.png",
-        "lrg": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/components/templates/headers/header-1/header-1.png"
+        "thumb": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/main/components/templates/headers/header-1/header-1.png",
+        "lrg": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/main/components/templates/headers/header-1/header-1.png"
       }
     },
     {
@@ -16,8 +16,8 @@
       "category": "headers",
       "description": "Simple header with a logo followed by nav links.",
       "images": {
-        "thumb": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/components/templates/headers/header-2/header-2.png",
-        "lrg": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/components/templates/headers/header-2/header-2.png"
+        "thumb": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/main/components/templates/headers/header-2/header-2.png",
+        "lrg": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/main/components/templates/headers/header-2/header-2.png"
       }
     },
     {
@@ -26,8 +26,8 @@
       "category": "footers",
       "description": "Simple footer with centered content and social links.",
       "images": {
-        "thumb": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/components/templates/footers/footer-1/footer-1.png",
-        "lrg": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/components/templates/footers/footer-1/footer-1.png"
+        "thumb": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/main/components/templates/footers/footer-1/footer-1.png",
+        "lrg": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/main/components/templates/footers/footer-1/footer-1.png"
       }
     },
     {
@@ -36,8 +36,8 @@
       "category": "footers",
       "description": "Simple footer with two equal columns and social links.",
       "images": {
-        "thumb": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/components/templates/footers/footer-2/footer-2.png",
-        "lrg": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/components/templates/footers/footer-2/footer-2.png"
+        "thumb": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/main/components/templates/footers/footer-2/footer-2.png",
+        "lrg": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/main/components/templates/footers/footer-2/footer-2.png"
       }
     },
     {
@@ -53,8 +53,8 @@
       "category": "banners",
       "description": "Full width banner with centered content.",
       "images": {
-        "thumb": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/components/templates/banners/banner-1/banner-1.png",
-        "lrg": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/components/templates/banners/banner-1/banner-1.png"
+        "thumb": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/main/components/templates/banners/banner-1/banner-1.png",
+        "lrg": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/main/components/templates/banners/banner-1/banner-1.png"
       }
     },
     {
@@ -63,8 +63,8 @@
       "category": "banners",
       "description": "Full width banner with left aligned content.",
       "images": {
-        "thumb": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/components/templates/banners/banner-2/banner-2.png",
-        "lrg": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/components/templates/banners/banner-2/banner-2.png"
+        "thumb": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/main/components/templates/banners/banner-2/banner-2.png",
+        "lrg": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/main/components/templates/banners/banner-2/banner-2.png"
       }
     },
     {
@@ -74,8 +74,8 @@
       "category": "banners",
       "description": "Full width banner with two offset columns.",
       "images": {
-        "thumb": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/components/templates/banners/banner-3/banner-3.png",
-        "lrg": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/components/templates/banners/banner-3/banner-3.png"
+        "thumb": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/main/components/templates/banners/banner-3/banner-3.png",
+        "lrg": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/main/components/templates/banners/banner-3/banner-3.png"
       }
     },
     {
@@ -84,8 +84,8 @@
       "category": "banners",
       "description": "Banner with centered content.",
       "images": {
-        "thumb": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/components/templates/banners/banner-4/banner-4.png",
-        "lrg": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/components/templates/banners/banner-4/banner-4.png"
+        "thumb": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/main/components/templates/banners/banner-4/banner-4.png",
+        "lrg": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/main/components/templates/banners/banner-4/banner-4.png"
       }
     },
     {
@@ -94,8 +94,8 @@
       "category": "banners",
       "description": "Banner with two offset columns.",
       "images": {
-        "thumb": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/components/templates/banners/banner-5/banner-5.png",
-        "lrg": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/components/templates/banners/banner-5/banner-5.png"
+        "thumb": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/main/components/templates/banners/banner-5/banner-5.png",
+        "lrg": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/main/components/templates/banners/banner-5/banner-5.png"
       }
     },
     {
@@ -104,8 +104,8 @@
       "category": "blocks",
       "description": "Text block with left aligned content.",
       "images": {
-        "thumb": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/components/templates/blocks/block-1/block-1.png",
-        "lrg": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/components/templates/blocks/block-1/block-1.png"
+        "thumb": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/main/components/templates/blocks/block-1/block-1.png",
+        "lrg": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/main/components/templates/blocks/block-1/block-1.png"
       }
     },
     {
@@ -114,8 +114,8 @@
       "category": "blocks",
       "description": "Text block with centered content.",
       "images": {
-        "thumb": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/components/templates/blocks/block-2/block-2.png",
-        "lrg": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/components/templates/blocks/block-2/block-2.png"
+        "thumb": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/main/components/templates/blocks/block-2/block-2.png",
+        "lrg": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/main/components/templates/blocks/block-2/block-2.png"
       }
     },
     {
@@ -124,8 +124,8 @@
       "category": "blocks",
       "description": "Text block with two equal columns and left aligned content.",
       "images": {
-        "thumb": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/components/templates/blocks/block-3/block-3.png",
-        "lrg": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/components/templates/blocks/block-3/block-3.png"
+        "thumb": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/main/components/templates/blocks/block-3/block-3.png",
+        "lrg": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/main/components/templates/blocks/block-3/block-3.png"
       }
     },
     {
@@ -134,8 +134,8 @@
       "category": "blocks",
       "description": "Text block with two equal columns and centered content.",
       "images": {
-        "thumb": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/components/templates/blocks/block-4/block-4.png",
-        "lrg": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/components/templates/blocks/block-4/block-4.png"
+        "thumb": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/main/components/templates/blocks/block-4/block-4.png",
+        "lrg": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/main/components/templates/blocks/block-4/block-4.png"
       }
     },
     {
@@ -144,8 +144,8 @@
       "category": "blocks",
       "description": "Text block with two equal columns and split content",
       "images": {
-        "thumb": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/components/templates/blocks/block-5/block-5.png",
-        "lrg": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/components/templates/blocks/block-5/block-5.png"
+        "thumb": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/main/components/templates/blocks/block-5/block-5.png",
+        "lrg": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/main/components/templates/blocks/block-5/block-5.png"
       }
     },
     {
@@ -154,8 +154,8 @@
       "category": "cards",
       "description": "Cards with three equal columns and left aligned content.",
       "images": {
-        "thumb": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/components/templates/cards/card-1/card-1.png",
-        "lrg": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/components/templates/cards/card-1/card-1.png"
+        "thumb": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/main/components/templates/cards/card-1/card-1.png",
+        "lrg": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/main/components/templates/cards/card-1/card-1.png"
       }
     },
     {
@@ -164,8 +164,8 @@
       "category": "cards",
       "description": "Cards with three equal columns and centered content.",
       "images": {
-        "thumb": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/components/templates/cards/card-2/card-2.png",
-        "lrg": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/components/templates/cards/card-2/card-2.png"
+        "thumb": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/main/components/templates/cards/card-2/card-2.png",
+        "lrg": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/main/components/templates/cards/card-2/card-2.png"
       }
     },
     {
@@ -174,8 +174,8 @@
       "category": "cards",
       "description": "Cards with three equal columns, left aligned content and a background colour.",
       "images": {
-        "thumb": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/components/templates/cards/card-3/card-3.png",
-        "lrg": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/components/templates/cards/card-3/card-3.png"
+        "thumb": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/main/components/templates/cards/card-3/card-3.png",
+        "lrg": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/main/components/templates/cards/card-3/card-3.png"
       }
     },
     {
@@ -184,8 +184,8 @@
       "category": "cards",
       "description": "Cards with three equal columns, centered content and a background colour.",
       "images": {
-        "thumb": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/components/templates/cards/card-4/card-4.png",
-        "lrg": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/components/templates/cards/card-4/card-4.png"
+        "thumb": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/main/components/templates/cards/card-4/card-4.png",
+        "lrg": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/main/components/templates/cards/card-4/card-4.png"
       }
     },
     {
@@ -194,8 +194,8 @@
       "category": "cards",
       "description": "Cards with three equal columns, left aligned content and an image.",
       "images": {
-        "thumb": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/components/templates/cards/card-5/card-5.png",
-        "lrg": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/components/templates/cards/card-5/card-5.png"
+        "thumb": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/main/components/templates/cards/card-5/card-5.png",
+        "lrg": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/main/components/templates/cards/card-5/card-5.png"
       }
     },
     {
@@ -204,8 +204,8 @@
       "category": "covers",
       "description": "Full viewport cover with text content and a supporting image.",
       "images": {
-        "thumb": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/components/templates/covers/cover-1/cover-1.png",
-        "lrg": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/components/templates/covers/cover-1/cover-1.png"
+        "thumb": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/main/components/templates/covers/cover-1/cover-1.png",
+        "lrg": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/main/components/templates/covers/cover-1/cover-1.png"
       }
     },
     {
@@ -214,8 +214,8 @@
       "category": "covers",
       "description": "Full viewport cover with text content and a circle supporting image.",
       "images": {
-        "thumb": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/components/templates/covers/cover-2/cover-2.png",
-        "lrg": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/components/templates/covers/cover-2/cover-2.png"
+        "thumb": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/main/components/templates/covers/cover-2/cover-2.png",
+        "lrg": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/main/components/templates/covers/cover-2/cover-2.png"
       }
     },
     {
@@ -224,8 +224,8 @@
       "category": "covers",
       "description": "Full viewport cover with text content and a full height supporting image.",
       "images": {
-        "thumb": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/components/templates/covers/cover-3/cover-3.png",
-        "lrg": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/components/templates/covers/cover-3/cover-3.png"
+        "thumb": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/main/components/templates/covers/cover-3/cover-3.png",
+        "lrg": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/main/components/templates/covers/cover-3/cover-3.png"
       }
     },
     {
@@ -234,8 +234,8 @@
       "category": "covers",
       "description": "Full viewport cover with centered text content and supporting image.",
       "images": {
-        "thumb": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/components/templates/covers/cover-4/cover-4.png",
-        "lrg": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/components/templates/covers/cover-4/cover-4.png"
+        "thumb": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/main/components/templates/covers/cover-4/cover-4.png",
+        "lrg": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/main/components/templates/covers/cover-4/cover-4.png"
       }
     },
     {
@@ -244,8 +244,8 @@
       "category": "covers",
       "description": "Full viewport cover with text content and a full width and height background image.",
       "images": {
-        "thumb": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/components/templates/covers/cover-5/cover-5.png",
-        "lrg": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/components/templates/covers/cover-5/cover-5.png"
+        "thumb": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/main/components/templates/covers/cover-5/cover-5.png",
+        "lrg": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/main/components/templates/covers/cover-5/cover-5.png"
       }
     },
     {
@@ -254,8 +254,8 @@
       "category": "lists",
       "description": "List of items with two equal columns and reversed even rows.",
       "images": {
-        "thumb": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/components/templates/lists/list-1/list-1.png",
-        "lrg": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/components/templates/lists/list-1/list-1.png"
+        "thumb": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/main/components/templates/lists/list-1/list-1.png",
+        "lrg": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/main/components/templates/lists/list-1/list-1.png"
       }
     },
     {
@@ -264,8 +264,8 @@
       "category": "lists",
       "description": "List of items with two equal columns and reversed odd rows.",
       "images": {
-        "thumb": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/components/templates/lists/list-2/list-2.png",
-        "lrg": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/components/templates/lists/list-2/list-2.png"
+        "thumb": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/main/components/templates/lists/list-2/list-2.png",
+        "lrg": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/main/components/templates/lists/list-2/list-2.png"
       }
     },
     {
@@ -274,8 +274,8 @@
       "category": "lists",
       "description": "List of items with two equal columns and split content.",
       "images": {
-        "thumb": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/components/templates/lists/list-3/list-3.png",
-        "lrg": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/components/templates/lists/list-3/list-3.png"
+        "thumb": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/main/components/templates/lists/list-3/list-3.png",
+        "lrg": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/main/components/templates/lists/list-3/list-3.png"
       }
     },
     {
@@ -284,8 +284,8 @@
       "category": "lists",
       "description": "List item with two offset columns and split content.",
       "images": {
-        "thumb": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/components/templates/lists/list-4/list-4.png",
-        "lrg": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/components/templates/lists/list-4/list-4.png"
+        "thumb": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/main/components/templates/lists/list-4/list-4.png",
+        "lrg": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/main/components/templates/lists/list-4/list-4.png"
       }
     },
     {
@@ -294,8 +294,8 @@
       "category": "lists",
       "description": "List of items with three equal columns, left aligned content and an image.",
       "images": {
-        "thumb": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/components/templates/lists/list-5/list-5.png",
-        "lrg": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/components/templates/lists/list-5/list-5.png"
+        "thumb": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/main/components/templates/lists/list-5/list-5.png",
+        "lrg": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/main/components/templates/lists/list-5/list-5.png"
       }
     },
     {
@@ -304,8 +304,8 @@
       "category": "forms",
       "description": "Contact details with two equal columns and form fields.",
       "images": {
-        "thumb": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/components/templates/forms/form-1/form-1.png",
-        "lrg": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/components/templates/forms/form-1/form-1.png"
+        "thumb": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/main/components/templates/forms/form-1/form-1.png",
+        "lrg": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/main/components/templates/forms/form-1/form-1.png"
       }
     },
     {
@@ -314,8 +314,8 @@
       "category": "forms",
       "description": "Contact details with two equal columns and form fields.",
       "images": {
-        "thumb": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/components/templates/forms/form-1/form-1.png",
-        "lrg": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/components/templates/forms/form-1/form-1.png"
+        "thumb": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/main/components/templates/forms/form-1/form-1.png",
+        "lrg": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/main/components/templates/forms/form-1/form-1.png"
       }
     },
     {
@@ -324,8 +324,8 @@
       "category": "articles",
       "description": "List item with two offset columns and split content.",
       "images": {
-        "thumb": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/components/templates/articles/article-1/article-1.png",
-        "lrg": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/components/templates/articles/article-1/article-1.png"
+        "thumb": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/main/components/templates/articles/article-1/article-1.png",
+        "lrg": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/main/components/templates/articles/article-1/article-1.png"
       }
     }
   ]
