@@ -9,6 +9,7 @@
       "repoName": "builtjs/builtjs-theme-corporate-tailwind",
       "gitProvider": "github",
       "repoUrl": "https://github.com/builtjs/builtjs-theme-corporate-tailwind",
+      "demoUrl": "https://github.com/builtjs/builtjs-theme-corporate-tailwind",
       "modules": [
         {
           "slug": "main"
