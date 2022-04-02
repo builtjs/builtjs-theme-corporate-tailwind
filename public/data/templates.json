@@ -9,7 +9,7 @@
         "thumb": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/main/components/templates/headers/header-1/header-1.png",
         "lrg": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/main/components/templates/headers/header-1/header-1.png"
       },
-      "repoUrl": ""
+      "repoUrl": "https://github.com/builtjs/builtjs-theme-corporate-tailwind/blob/main/components/templates/headers/header-1/header-1.js"
     },
     {
       "slug": "header-2",
@@ -20,7 +20,7 @@
         "thumb": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/main/components/templates/headers/header-2/header-2.png",
         "lrg": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/main/components/templates/headers/header-2/header-2.png"
       },
-      "repoUrl": ""
+      "repoUrl": "https://github.com/builtjs/builtjs-theme-corporate-tailwind/tree/main/components/templates/headers/header-2"
     },
     {
       "slug": "footer-1",
@@ -31,7 +31,7 @@
         "thumb": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/main/components/templates/footers/footer-1/footer-1.png",
         "lrg": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/main/components/templates/footers/footer-1/footer-1.png"
       },
-      "repoUrl": ""
+      "repoUrl": "https://github.com/builtjs/builtjs-theme-corporate-tailwind/blob/main/components/templates/footers/footer-1/footer-1.js"
     },
     {
       "slug": "footer-2",
@@ -42,7 +42,7 @@
         "thumb": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/main/components/templates/footers/footer-2/footer-2.png",
         "lrg": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/main/components/templates/footers/footer-2/footer-2.png"
       },
-      "repoUrl": ""
+      "repoUrl": "https://github.com/builtjs/builtjs-theme-corporate-tailwind/blob/main/components/templates/footers/footer-2/footer-2.js"
     },
     {
       "slug": "seo",
@@ -50,7 +50,7 @@
       "displayName": "SEO",
       "category": "head",
       "description": "Define SEO meta titles, meta descriptions and social media meta data.",
-      "repoUrl": ""
+      "repoUrl": "https://github.com/builtjs/builtjs-theme-corporate-tailwind/blob/main/components/templates/head/seo/seo.js"
     },
     {
       "slug": "banner-1",
@@ -61,7 +61,7 @@
         "thumb": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/main/components/templates/banners/banner-1/banner-1.png",
         "lrg": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/main/components/templates/banners/banner-1/banner-1.png"
       },
-      "repoUrl": ""
+      "repoUrl": "https://github.com/builtjs/builtjs-theme-corporate-tailwind/blob/main/components/templates/banners/banner-1/banner-1.js"
     },
     {
       "slug": "banner-2",
@@ -72,7 +72,7 @@
         "thumb": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/main/components/templates/banners/banner-2/banner-2.png",
         "lrg": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/main/components/templates/banners/banner-2/banner-2.png"
       },
-      "repoUrl": ""
+      "repoUrl": "https://github.com/builtjs/builtjs-theme-corporate-tailwind/blob/main/components/templates/banners/banner-2/banner-2.js"
     },
     {
       "slug": "banner-3",
@@ -84,7 +84,7 @@
         "thumb": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/main/components/templates/banners/banner-3/banner-3.png",
         "lrg": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/main/components/templates/banners/banner-3/banner-3.png"
       },
-      "repoUrl": ""
+      "repoUrl": "https://github.com/builtjs/builtjs-theme-corporate-tailwind/blob/main/components/templates/banners/banner-3/banner-3.js"
     },
     {
       "slug": "banner-4",
@@ -95,7 +95,7 @@
         "thumb": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/main/components/templates/banners/banner-4/banner-4.png",
         "lrg": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/main/components/templates/banners/banner-4/banner-4.png"
       },
-      "repoUrl": ""
+      "repoUrl": "https://github.com/builtjs/builtjs-theme-corporate-tailwind/blob/main/components/templates/banners/banner-4/banner-4.js"
     },
     {
       "slug": "banner-5",
@@ -106,7 +106,7 @@
         "thumb": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/main/components/templates/banners/banner-5/banner-5.png",
         "lrg": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/main/components/templates/banners/banner-5/banner-5.png"
       },
-      "repoUrl": ""
+      "repoUrl": "https://github.com/builtjs/builtjs-theme-corporate-tailwind/blob/main/components/templates/banners/banner-5/banner-5.js"
     },
     {
       "slug": "block-1",
@@ -117,7 +117,7 @@
         "thumb": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/main/components/templates/blocks/block-1/block-1.png",
         "lrg": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/main/components/templates/blocks/block-1/block-1.png"
       },
-      "repoUrl": ""
+      "repoUrl": "https://github.com/builtjs/builtjs-theme-corporate-tailwind/blob/main/components/templates/blocks/block-1/block-1.js"
     },
     {
       "slug": "block-2",
@@ -128,7 +128,7 @@
         "thumb": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/main/components/templates/blocks/block-2/block-2.png",
         "lrg": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/main/components/templates/blocks/block-2/block-2.png"
       },
-      "repoUrl": ""
+      "repoUrl": "https://github.com/builtjs/builtjs-theme-corporate-tailwind/blob/main/components/templates/blocks/block-2/block-2.js"
     },
     {
       "slug": "block-3",
@@ -139,7 +139,7 @@
         "thumb": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/main/components/templates/blocks/block-3/block-3.png",
         "lrg": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/main/components/templates/blocks/block-3/block-3.png"
       },
-      "repoUrl": ""
+      "repoUrl": "https://github.com/builtjs/builtjs-theme-corporate-tailwind/blob/main/components/templates/blocks/block-3/block-3.js"
     },
     {
       "slug": "block-4",
@@ -150,7 +150,7 @@
         "thumb": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/main/components/templates/blocks/block-4/block-4.png",
         "lrg": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/main/components/templates/blocks/block-4/block-4.png"
       },
-      "repoUrl": ""
+      "repoUrl": "https://github.com/builtjs/builtjs-theme-corporate-tailwind/blob/main/components/templates/blocks/block-4/block-4.js"
     },
     {
       "slug": "block-5",
@@ -161,7 +161,7 @@
         "thumb": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/main/components/templates/blocks/block-5/block-5.png",
         "lrg": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/main/components/templates/blocks/block-5/block-5.png"
       },
-      "repoUrl": ""
+      "repoUrl": "https://github.com/builtjs/builtjs-theme-corporate-tailwind/blob/main/components/templates/blocks/block-5/block-5.js"
     },
     {
       "slug": "cards-1",
@@ -172,7 +172,7 @@
         "thumb": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/main/components/templates/cards/cards-1/cards-1.png",
         "lrg": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/main/components/templates/cards/cards-1/cards-1.png"
       },
-      "repoUrl": ""
+      "repoUrl": "https://github.com/builtjs/builtjs-theme-corporate-tailwind/blob/main/components/templates/cards/cards-1/cards-1.js"
     },
     {
       "slug": "cards-2",
@@ -183,7 +183,7 @@
         "thumb": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/main/components/templates/cards/cards-2/cards-2.png",
         "lrg": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/main/components/templates/cards/cards-2/cards-2.png"
       },
-      "repoUrl": ""
+      "repoUrl": "https://github.com/builtjs/builtjs-theme-corporate-tailwind/blob/main/components/templates/cards/cards-2/cards-2.js"
     },
     {
       "slug": "cards-3",
@@ -194,7 +194,7 @@
         "thumb": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/main/components/templates/cards/cards-3/cards-3.png",
         "lrg": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/main/components/templates/cards/cards-3/cards-3.png"
       },
-      "repoUrl": ""
+      "repoUrl": "https://github.com/builtjs/builtjs-theme-corporate-tailwind/blob/main/components/templates/cards/cards-3/cards-3.js"
     },
     {
       "slug": "cards-4",
@@ -205,7 +205,7 @@
         "thumb": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/main/components/templates/cards/cards-4/cards-4.png",
         "lrg": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/main/components/templates/cards/cards-4/cards-4.png"
       },
-      "repoUrl": ""
+      "repoUrl": "https://github.com/builtjs/builtjs-theme-corporate-tailwind/blob/main/components/templates/cards/cards-4/cards-4.js"
     },
     {
       "slug": "cards-5",
@@ -216,7 +216,7 @@
         "thumb": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/main/components/templates/cards/cards-5/cards-5.png",
         "lrg": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/main/components/templates/cards/cards-5/cards-5.png"
       },
-      "repoUrl": ""
+      "repoUrl": "https://github.com/builtjs/builtjs-theme-corporate-tailwind/blob/main/components/templates/cards/cards-5/cards-5.js"
     },
     {
       "slug": "cover-1",
@@ -227,7 +227,7 @@
         "thumb": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/main/components/templates/covers/cover-1/cover-1.png",
         "lrg": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/main/components/templates/covers/cover-1/cover-1.png"
       },
-      "repoUrl": ""
+      "repoUrl": "https://github.com/builtjs/builtjs-theme-corporate-tailwind/blob/main/components/templates/covers/cover-1/cover-1.js"
     },
     {
       "slug": "cover-2",
@@ -238,7 +238,7 @@
         "thumb": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/main/components/templates/covers/cover-2/cover-2.png",
         "lrg": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/main/components/templates/covers/cover-2/cover-2.png"
       },
-      "repoUrl": ""
+      "repoUrl": "https://github.com/builtjs/builtjs-theme-corporate-tailwind/blob/main/components/templates/covers/cover-2/cover-2.js"
     },
     {
       "slug": "cover-3",
@@ -249,7 +249,7 @@
         "thumb": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/main/components/templates/covers/cover-3/cover-3.png",
         "lrg": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/main/components/templates/covers/cover-3/cover-3.png"
       },
-      "repoUrl": ""
+      "repoUrl": "https://github.com/builtjs/builtjs-theme-corporate-tailwind/blob/main/components/templates/covers/cover-3/cover-3.js"
     },
     {
       "slug": "cover-4",
@@ -260,7 +260,7 @@
         "thumb": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/main/components/templates/covers/cover-4/cover-4.png",
         "lrg": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/main/components/templates/covers/cover-4/cover-4.png"
       },
-      "repoUrl": ""
+      "repoUrl": "https://github.com/builtjs/builtjs-theme-corporate-tailwind/blob/main/components/templates/covers/cover-4/cover-4.js"
     },
     {
       "slug": "cover-5",
@@ -271,7 +271,7 @@
         "thumb": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/main/components/templates/covers/cover-5/cover-5.png",
         "lrg": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/main/components/templates/covers/cover-5/cover-5.png"
       },
-      "repoUrl": ""
+      "repoUrl": "https://github.com/builtjs/builtjs-theme-corporate-tailwind/blob/main/components/templates/covers/cover-5/cover-5.js"
     },
     {
       "slug": "list-1",
@@ -282,7 +282,7 @@
         "thumb": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/main/components/templates/lists/list-1/list-1.png",
         "lrg": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/main/components/templates/lists/list-1/list-1.png"
       },
-      "repoUrl": ""
+      "repoUrl": "https://github.com/builtjs/builtjs-theme-corporate-tailwind/blob/main/components/templates/lists/list-1/list-1.js"
     },
     {
       "slug": "list-2",
@@ -293,7 +293,7 @@
         "thumb": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/main/components/templates/lists/list-2/list-2.png",
         "lrg": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/main/components/templates/lists/list-2/list-2.png"
       },
-      "repoUrl": ""
+      "repoUrl": "https://github.com/builtjs/builtjs-theme-corporate-tailwind/blob/main/components/templates/lists/list-2/list-2.js"
     },
     {
       "slug": "list-3",
@@ -304,7 +304,7 @@
         "thumb": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/main/components/templates/lists/list-3/list-3.png",
         "lrg": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/main/components/templates/lists/list-3/list-3.png"
       },
-      "repoUrl": ""
+      "repoUrl": "https://github.com/builtjs/builtjs-theme-corporate-tailwind/blob/main/components/templates/lists/list-3/list-3.js"
     },
     {
       "slug": "list-4",
@@ -315,7 +315,7 @@
         "thumb": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/main/components/templates/lists/list-4/list-4.png",
         "lrg": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/main/components/templates/lists/list-4/list-4.png"
       },
-      "repoUrl": ""
+      "repoUrl": "https://github.com/builtjs/builtjs-theme-corporate-tailwind/blob/main/components/templates/lists/list-4/list-4.js"
     },
     {
       "slug": "list-5",
@@ -326,7 +326,7 @@
         "thumb": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/main/components/templates/lists/list-5/list-5.png",
         "lrg": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/main/components/templates/lists/list-5/list-5.png"
       },
-      "repoUrl": ""
+      "repoUrl": "https://github.com/builtjs/builtjs-theme-corporate-tailwind/blob/main/components/templates/lists/list-5/list-5.js"
     },
     {
       "slug": "form-1",
@@ -337,7 +337,7 @@
         "thumb": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/main/components/templates/forms/form-1/form-1.png",
         "lrg": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/main/components/templates/forms/form-1/form-1.png"
       },
-      "repoUrl": ""
+      "repoUrl": "https://github.com/builtjs/builtjs-theme-corporate-tailwind/blob/main/components/templates/forms/form-1/form-1.js"
     },
     {
       "slug": "form-2",
@@ -348,7 +348,7 @@
         "thumb": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/main/components/templates/forms/form-2/form-2.png",
         "lrg": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/main/components/templates/forms/form-2/form-2.png"
       },
-      "repoUrl": ""
+      "repoUrl": "https://github.com/builtjs/builtjs-theme-corporate-tailwind/blob/main/components/templates/forms/form-2/form-2.js"
     },
     {
       "slug": "article-1",
@@ -359,7 +359,7 @@
         "thumb": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/main/components/templates/articles/article-1/article-1.png",
         "lrg": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/main/components/templates/articles/article-1/article-1.png"
       },
-      "repoUrl": ""
+      "repoUrl": "https://github.com/builtjs/builtjs-theme-corporate-tailwind/blob/main/components/templates/articles/article-1/article-1.js"
     }
   ]
 }
