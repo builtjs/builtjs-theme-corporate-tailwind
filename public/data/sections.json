@@ -452,7 +452,7 @@
       "slug": "blog-related-articles",
       "displayName": "Blog Related Articles",
       "description": "A list of related articles to and excluding the currently viewed article.",
-      "templates": ["cards-1", "cards-2", "cards-3", "cards-4", "cards-5"]],
+      "templates": ["cards-1", "cards-2", "cards-3", "cards-4", "cards-5"],
       "attributes": {
         "columns": 3
       },
