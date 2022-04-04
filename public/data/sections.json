@@ -378,7 +378,7 @@
       "slug": "about-landing",
       "displayName": "About Landing",
       "description": "The about page landing area. This area should convey trust and relatability.",
-      "templates": ["cover-2"],
+      "templates": ["cover-1", "cover-2", "cover-3", "cover-4", "cover-5"],
       "attributes": {
         "preheading": {
           "text": "Preheading",

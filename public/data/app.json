@@ -4,12 +4,11 @@
       "apiVersion": 1.1,
       "displayName": "Corporate Tailwind",
       "description": "Small business theme with basic Tailwind styling.",
-      "url": "https://builtjs-site-ta.vercel.app",
       "imageUrl": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/main/images/main-landing-md.jpg",
       "repoName": "builtjs/builtjs-theme-corporate-tailwind",
       "gitProvider": "github",
       "repoUrl": "https://github.com/builtjs/builtjs-theme-corporate-tailwind",
-      "demoUrl": "https://github.com/builtjs/builtjs-theme-corporate-tailwind",
+      "demoUrl": "https://builtjs-site-ta.vercel.app",
       "modules": [
         {
           "slug": "main"
