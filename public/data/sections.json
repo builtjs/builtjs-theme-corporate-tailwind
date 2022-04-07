@@ -139,7 +139,7 @@
       "description": "A contact call-to-action to encourage users to make contact.",
       "templates": ["banner-1", "banner-2", "banner-3", "banner-4", "banner-5"],
       "defaultTemplate": {
-        "slug": "bannner-1"
+        "slug": "bannner-4"
       },
       "attributes": {
         "preheading": {
@@ -167,7 +167,7 @@
       "description": "A list of benefits the company provides.",
       "templates": ["list-1", "list-2", "list-3", "list-4", "list-5"],
       "defaultTemplate": {
-        "slug": "cards-1"
+        "slug": "list-1"
       },
       "collections": {
         "benefits": {}
@@ -232,12 +232,12 @@
       "description": "The services page landing area. This area should be very eye-catching and contain the main service.",
       "templates": ["cover-1", "cover-2", "cover-3", "cover-4", "cover-5"],
       "defaultTemplate": {
-        "slug": "cover-1"
+        "slug": "cover-4"
       },
       "attributes": {
         "preheading": {
           "text": "Preheading",
-          "type": ""
+          "type": "plain"
         },
         "heading": "Lorem ipsum dolor sit amet",
         "blurb": "Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
@@ -274,7 +274,7 @@
       "description": "An informational section about the services.",
       "templates": ["block-1", "block-2", "block-3", "block-4", "block-5"],
       "defaultTemplate": {
-        "slug": "block-1"
+        "slug": "block-3"
       },
       "attributes": {
         "preheading": {
@@ -312,7 +312,7 @@
       "description": "A contact call-to-action to encourage users to make contact.",
       "templates": ["banner-1", "banner-2", "banner-3", "banner-4", "banner-5"],
       "defaultTemplate": {
-        "slug": "banner-1"
+        "slug": "banner-3"
       },
       "attributes": {
         "heading": "Lorem ipsum dolor sit amet",
@@ -358,7 +358,7 @@
       "description": "The blog page landing area. This area contains the latest published blog post.",
       "templates": ["list-1", "list-2", "list-3", "list-4", "list-5"],
       "defaultTemplate": {
-        "slug": "list-1"
+        "slug": "list-4"
       },
       "collections": {
         "blog-items": {
@@ -374,7 +374,7 @@
       "description": "A list of all published blog posts excluding the latest published blog post.",
       "templates": ["list-1", "list-2", "list-3", "list-4", "list-5"],
       "defaultTemplate": {
-        "slug": "list-1"
+        "slug": "list-5"
       },
       "collections": {
         "blog-items": {
@@ -416,7 +416,7 @@
       "description": "The about page landing area. This area should convey trust and relatability.",
       "templates": ["cover-1", "cover-2", "cover-3", "cover-4", "cover-5"],
       "defaultTemplate": {
-        "slug": "cover-1"
+        "slug": "cover-2"
       },
       "attributes": {
         "preheading": {
@@ -458,7 +458,7 @@
       "description": "An informational section about the company.",
       "templates": ["block-1", "block-2", "block-3", "block-4", "block-5"],
       "defaultTemplate": {
-        "slug": "block-1"
+        "slug": "block-2"
       },
       "attributes": {
         "preheading": {
@@ -497,9 +497,9 @@
       "slug": "blog-related-articles",
       "displayName": "Blog Related Articles",
       "description": "A list of related articles to and excluding the currently viewed article.",
-      "templates": ["cards-1", "cards-2", "cards-3", "cards-4", "cards-5"],
+      "templates": ["list-1", "list-2", "list-3", "list-4", "list-5"],
       "defaultTemplate": {
-        "slug": "cards-1"
+        "slug": "list-5"
       },
       "attributes": {
         "columns": 3
@@ -549,7 +549,7 @@
       "attributes": {
         "preheading": {
           "text": "Preheading",
-          "type": ""
+          "type": "plain"
         },
         "heading": "Lorem ipsum dolor sit amet",
         "blurb": "Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",

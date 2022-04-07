@@ -45,13 +45,6 @@
               "slug": "block-1",
               "type": "body"
             }
-          },
-          {
-            "slug": "blog-item-list",
-            "template": {
-              "slug": "list-5",
-              "type": "body"
-            }
           }
         ]
       },
