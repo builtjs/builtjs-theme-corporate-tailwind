@@ -6,6 +6,9 @@
       "displayName": "Header 1",
       "description": "The header contains the company logo, main site navigation and often a call-to-action button.",
       "templates": ["header-1", "header-2"],
+      "defaultTemplate": {
+        "slug": "header-1"
+      },
       "position": "start",
       "attributes": {
         "image": {
@@ -39,6 +42,9 @@
       "displayName": "Footer 1",
       "description": "The footer acts as a safety net for users and usually contains secondary site navigation.",
       "templates": ["footer-1", "footer-2"],
+      "defaultTemplate": {
+        "slug": "footer-1"
+      },
       "position": "end",
       "collections": {
         "primary-menu-items": {},
@@ -77,10 +83,13 @@
       "displayName": "Main Landing",
       "description": "The home page landing area. This area should be very eye-catching and contain the main call-to-action.",
       "templates": ["cover-1", "cover-2", "cover-3", "cover-4", "cover-5"],
+      "defaultTemplate": {
+        "slug": "cover-1"
+      },
       "attributes": {
         "preheading": {
           "text": "Preheading",
-          "type": "line"
+          "type": "plain"
         },
         "heading": "Lorem ipsum dolor sit amet dev",
         "blurb": "Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
@@ -116,6 +125,9 @@
       "displayName": "Features List",
       "description": "A list of unique features the company offers.",
       "templates": ["cards-1", "cards-2", "cards-3", "cards-4", "cards-5"],
+      "defaultTemplate": {
+        "slug": "cards-1"
+      },
       "collections": {
         "features": {}
       },
@@ -126,6 +138,9 @@
       "displayName": "Contact Teaser",
       "description": "A contact call-to-action to encourage users to make contact.",
       "templates": ["banner-1", "banner-2", "banner-3", "banner-4", "banner-5"],
+      "defaultTemplate": {
+        "slug": "bannner-1"
+      },
       "attributes": {
         "preheading": {
           "text": "Preheading",
@@ -151,6 +166,9 @@
       "displayName": "Benefits List",
       "description": "A list of benefits the company provides.",
       "templates": ["list-1", "list-2", "list-3", "list-4", "list-5"],
+      "defaultTemplate": {
+        "slug": "cards-1"
+      },
       "collections": {
         "benefits": {}
       },
@@ -161,6 +179,9 @@
       "displayName": "Home About Teaser",
       "description": "A small teaser about the company.",
       "templates": ["block-1", "block-2", "block-3", "block-4", "block-5"],
+      "defaultTemplate": {
+        "slug": "block-1"
+      },
       "attributes": {
         "preheading": {
           "text": "Preheading",
@@ -210,6 +231,9 @@
       "displayName": "Services Landing",
       "description": "The services page landing area. This area should be very eye-catching and contain the main service.",
       "templates": ["cover-1", "cover-2", "cover-3", "cover-4", "cover-5"],
+      "defaultTemplate": {
+        "slug": "cover-1"
+      },
       "attributes": {
         "preheading": {
           "text": "Preheading",
@@ -249,6 +273,9 @@
       "displayName": "Services Block",
       "description": "An informational section about the services.",
       "templates": ["block-1", "block-2", "block-3", "block-4", "block-5"],
+      "defaultTemplate": {
+        "slug": "block-1"
+      },
       "attributes": {
         "preheading": {
           "text": "Preheading",
@@ -283,7 +310,10 @@
       "slug": "contact-teaser",
       "displayName": "Services Contact Teaser",
       "description": "A contact call-to-action to encourage users to make contact.",
-      "templates": ["banner-1"],
+      "templates": ["banner-1", "banner-2", "banner-3", "banner-4", "banner-5"],
+      "defaultTemplate": {
+        "slug": "banner-1"
+      },
       "attributes": {
         "heading": "Lorem ipsum dolor sit amet",
         "buttonLinks": [
@@ -326,7 +356,10 @@
       "slug": "blog-landing",
       "displayName": "Blog Landing",
       "description": "The blog page landing area. This area contains the latest published blog post.",
-      "templates": ["list-4"],
+      "templates": ["list-1", "list-2", "list-3", "list-4", "list-5"],
+      "defaultTemplate": {
+        "slug": "list-1"
+      },
       "collections": {
         "blog-items": {
           "limit": 1,
@@ -340,6 +373,9 @@
       "displayName": "Blog Item List",
       "description": "A list of all published blog posts excluding the latest published blog post.",
       "templates": ["list-1", "list-2", "list-3", "list-4", "list-5"],
+      "defaultTemplate": {
+        "slug": "list-1"
+      },
       "collections": {
         "blog-items": {
           "offset": 1,
@@ -379,6 +415,9 @@
       "displayName": "About Landing",
       "description": "The about page landing area. This area should convey trust and relatability.",
       "templates": ["cover-1", "cover-2", "cover-3", "cover-4", "cover-5"],
+      "defaultTemplate": {
+        "slug": "cover-1"
+      },
       "attributes": {
         "preheading": {
           "text": "Preheading",
@@ -418,6 +457,9 @@
       "displayName": "About Text",
       "description": "An informational section about the company.",
       "templates": ["block-1", "block-2", "block-3", "block-4", "block-5"],
+      "defaultTemplate": {
+        "slug": "block-1"
+      },
       "attributes": {
         "preheading": {
           "text": "Preheading",
@@ -442,6 +484,9 @@
       "displayName": "Blog Article",
       "description": "The blog post detail page.",
       "templates": ["article-1"],
+      "defaultTemplate": {
+        "slug": "article-1"
+      },
       "item": {
         "slug": "blog-item",
         "populate": ["author"]
@@ -453,6 +498,9 @@
       "displayName": "Blog Related Articles",
       "description": "A list of related articles to and excluding the currently viewed article.",
       "templates": ["cards-1", "cards-2", "cards-3", "cards-4", "cards-5"],
+      "defaultTemplate": {
+        "slug": "cards-1"
+      },
       "attributes": {
         "columns": 3
       },
@@ -495,6 +543,9 @@
       "displayName": "Contact Landing",
       "description": "The contact page landing area. This area should provide all relevant contact details.",
       "templates": ["form-1", "form-2"],
+      "defaultTemplate": {
+        "slug": "form-1"
+      },
       "attributes": {
         "preheading": {
           "text": "Preheading",

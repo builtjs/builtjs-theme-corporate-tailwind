@@ -7,7 +7,7 @@
         "pluralName": "homes",
         "displayName": "Home",
         "status": "published",
-        "sections": [
+        "demoSections": [
           {
             "slug": "home-seo",
             "template": {
@@ -61,7 +61,7 @@
         "pluralName": "services",
         "displayName": "Services",
         "status": "published",
-        "sections": [
+        "demoSections": [
           {
             "slug": "services-seo",
             "template": {
@@ -106,7 +106,7 @@
         "pluralName": "abouts",
         "displayName": "About",
         "status": "published",
-        "sections": [
+        "demoSections": [
           {
             "slug": "about-seo",
             "template": {
@@ -148,7 +148,7 @@
         "singularName": "blog",
         "pluralName": "blogs",
         "displayName": "Blog",
-        "sections": [
+        "demoSections": [
           {
             "slug": "blog-seo",
             "template": {
@@ -174,7 +174,7 @@
         "singularName": "blog-article",
         "pluralName": "blog-articles",
         "displayName": "Blog Article",
-        "sections": [
+        "demoSections": [
           {
             "slug": "blog-article",
             "template": {
@@ -197,7 +197,7 @@
         "pluralName": "contacts",
         "displayName": "Contact",
         "status": "published",
-        "sections": [
+        "demoSections": [
           {
             "slug": "contact-seo",
             "template": {
@@ -227,7 +227,7 @@
         "singularName": "banners",
         "displayName": "Banners",
         "status": "published",
-        "sections": [
+        "demoSections": [
           {
             "slug": "contact-teaser",
             "template": {
@@ -270,7 +270,7 @@
         "singularName": "blocks",
         "displayName": "Blocks",
         "status": "published",
-        "sections": [
+        "demoSections": [
           {
             "slug": "home-about-teaser",
             "template": {
@@ -313,7 +313,7 @@
         "singularName": "cards",
         "displayName": "Cards",
         "status": "published",
-        "sections": [
+        "demoSections": [
           {
             "slug": "features-list",
             "template": {
@@ -356,7 +356,7 @@
         "singularName": "covers",
         "displayName": "Covers",
         "status": "published",
-        "sections": [
+        "demoSections": [
           {
             "slug": "main-landing",
             "template": {
@@ -399,7 +399,7 @@
         "singularName": "footers",
         "displayName": "Footers",
         "status": "published",
-        "sections": [
+        "demoSections": [
           {
             "slug": "footer-1",
             "template": {
@@ -421,7 +421,7 @@
         "singularName": "form",
         "displayName": "Forms",
         "status": "published",
-        "sections": [
+        "demoSections": [
           {
             "slug": "contact-landing",
             "template": {
@@ -443,7 +443,7 @@
         "singularName": "headers",
         "displayName": "Headers",
         "status": "published",
-        "sections": [
+        "demoSections": [
           {
             "slug": "header-1",
             "template": {
@@ -465,7 +465,7 @@
         "singularName": "lists",
         "displayName": "Lists",
         "status": "published",
-        "sections": [
+        "demoSections": [
           {
             "slug": "benefits-list",
             "template": {
