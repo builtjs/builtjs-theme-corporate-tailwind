@@ -9,10 +9,7 @@
         {
           "slug": "home-base"
         }
-      ],
-      "mainCTASection": {
-        "slug": "main-landing"
-      }
+      ]
     },
     {
       "slug": "contact",
@@ -25,10 +22,7 @@
         {
           "slug": "home-about"
         }
-      ],
-      "mainCTASection": {
-        "slug": "main-landing"
-      }
+      ]
     },
     {
       "slug": "about",
@@ -41,18 +35,12 @@
         {
           "slug": "home-about"
         }
-      ],
-      "mainCTASection": {
-        "slug": "about-landing"
-      }
+      ]
     },
     {
       "slug": "blog",
       "displayName": "Blog",
       "description": "Displays informal diary-style entries",
-      "mainCTASection": {
-        "slug": "main-landing"
-      },
       "pageSections": [
         {
           "slug": "blog-base"
@@ -73,18 +61,12 @@
         {
           "slug": "services-contact"
         }
-      ],
-      "mainCTASection": {
-        "slug": "main-landing"
-      }
+      ]
     },
     {
       "slug": "features",
       "displayName": "Features",
       "description": "Provides information about main features of offering",
-      "mainCTASection": {
-        "slug": "main-landing"
-      },
       "pageSections": [
         {
           "slug": "home-features"
@@ -95,9 +77,6 @@
       "slug": "benefits",
       "displayName": "Benefits",
       "description": "Displays main benefits of using offering",
-      "mainCTASection": {
-        "slug": "main-landing"
-      },
       "pageSections": [
         {
           "slug": "home-benefits"

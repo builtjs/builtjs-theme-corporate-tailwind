@@ -42,9 +42,11 @@ export default function List1({ content }) {
                 </div>
 
                 <div>
-                  <Preheading
-                    attributes={item.attributes.preheading}
-                  ></Preheading>
+                  {item.attributes.preheading && (
+                    <Preheading
+                      attributes={item.attributes.preheading}
+                    ></Preheading>
+                  )}
                   <h2>{item.attributes.title}</h2>
                   <p className="mb-12">{item.attributes.blurb}</p>
                   {item.attributes.buttonLinks &&
