@@ -207,7 +207,7 @@
             "repeatable": false,
             "component": "elements.preheading"
           },
-          "heading": { "type": "string" },
+          "title": { "type": "string" },
           "blurb": { "type": "text" },
           "image": {
             "allowedTypes": [
@@ -237,7 +237,7 @@
             "repeatable": false,
             "component": "elements.preheading"
           },
-          "heading": { "type": "string" },
+          "title": { "type": "string" },
           "blurb": { "type": "text" },
           "contextualLinks": {
             "type": "component",
@@ -264,7 +264,7 @@
         "collectionName": "components_sections_features_list",
         "info": { "displayName": "Features", "icon": "heading" },
         "attributes": {
-          "heading": { "type": "string" }
+          "title": { "type": "string" }
         }
       }
     },
@@ -280,7 +280,7 @@
             "repeatable": false,
             "component": "elements.preheading"
           },
-          "heading": { "type": "string" },
+          "title": { "type": "string" },
           "buttonLinks": {
             "type": "component",
             "repeatable": true,
@@ -304,7 +304,7 @@
             "repeatable": false,
             "component": "elements.preheading"
           },
-          "heading": { "type": "string" },
+          "title": { "type": "string" },
           "blurb1": { "type": "text" },
           "blurb2": { "type": "text" },
           "buttonLinks": {
@@ -336,7 +336,7 @@
             "repeatable": false,
             "component": "elements.preheading"
           },
-          "heading": { "type": "string" },
+          "title": { "type": "string" },
           "blurb": { "type": "text" },
           "image": {
             "allowedTypes": [
@@ -364,7 +364,7 @@
             "repeatable": false,
             "component": "elements.preheading"
           },
-          "heading": {
+          "title": {
             "type": "string"
           },
           "blurb1": {
@@ -423,7 +423,7 @@
             "repeatable": false,
             "component": "elements.preheading"
           },
-          "heading": { "type": "string" },
+          "title": { "type": "string" },
           "blurb": {
             "type": "text"
           },
@@ -453,7 +453,7 @@
           "icon": "robot"
         },
         "attributes": {
-          "heading": { "type": "string" },
+          "title": { "type": "string" },
           "blurb1": {
             "type": "text"
           },

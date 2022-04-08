@@ -68,7 +68,7 @@ export default function List4({ content, router }) {
                         <h3 className="mb-2 hover:text-gray-700 dark:hover:text-gray-200">{item.attributes.title}</h3>
                       </a>
                     </Link>
-                    <p>{item.excerpt}</p>
+                    <p>{item.blurb}</p>
                     <Link href={`/${collectionName}/${item.slug}`}>
                       <a>Read Article</a>
                     </Link>

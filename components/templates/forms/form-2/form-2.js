@@ -15,7 +15,7 @@ export default function Form1({ content }) {
       <div className="mx-auto max-w-screen-xl">
         <div className="mb-20 text-center">
           <Preheading attributes={attributes.preheading}></Preheading>
-          <h1>{attributes.heading}</h1>
+          <h1>{attributes.title}</h1>
           <p className="max-w-xl mx-auto text-lg">{attributes.blurb}</p>
         </div>
         <div className="grid grid-cols-1 gap-x-12 gap-y-16 lg:grid-cols-2">

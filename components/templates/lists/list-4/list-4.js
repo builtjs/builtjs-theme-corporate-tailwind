@@ -67,7 +67,7 @@ export default function List3({ content }) {
                   <h2 className="hover:text-gray-700 dark:hover:text-gray-200">{heroPost.attributes.title}</h2>
                 </a>
               </Link>
-              <p className="mb-10 text-lg">{heroPost.attributes.excerpt}</p>
+              <p className="mb-10 text-lg">{heroPost.attributes.blurb}</p>
               <Link href={url}>
                 <a>Read Article</a>
               </Link>

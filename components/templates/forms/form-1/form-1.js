@@ -16,7 +16,7 @@ export default function Form1({ content }) {
         <div className="items-center grid grid-cols-1 gap-x-12 gap-y-16 lg:grid-cols-2">
           <div>
             <Preheading attributes={attributes.preheading}></Preheading>
-            <h1>{attributes.heading}</h1>
+            <h1>{attributes.title}</h1>
             <p className="max-w-xl mb-12 text-lg">{attributes.blurb}</p>
             <div className="mb-16 grid grid-cols-1 gap-y-12">
               {attributes.contextualLinks.map((contextualLink, i) => {

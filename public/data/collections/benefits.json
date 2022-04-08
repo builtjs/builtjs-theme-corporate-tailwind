@@ -7,7 +7,7 @@
           "text": "Preheading",
           "type": "dot"
         },
-        "heading": "Lorem ipsum dolor sit amet",
+        "title": "Lorem ipsum dolor sit amet",
         "blurb": "Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
         "image": {"data": {
           "attributes": {
@@ -35,7 +35,7 @@
           "text": "Preheading",
           "type": "dot"
         },
-        "heading": "Lorem ipsum dolor sit amet",
+        "title": "Lorem ipsum dolor sit amet",
         "blurb": "Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
         "image": {"data": {
           "attributes": {
@@ -62,7 +62,7 @@
           "text": "Preheading",
           "type": "dot"
         },
-        "heading": "Lorem ipsum dolor sit amet",
+        "title": "Lorem ipsum dolor sit amet",
         "blurb": "Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
         "image": {"data": {
           "attributes": {

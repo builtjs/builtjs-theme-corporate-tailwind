@@ -56,6 +56,9 @@
       "slug": "home-seo",
       "displayName": "Home SEO",
       "templates": ["seo"],
+      "defaultTemplate": {
+        "slug": "seo"
+      },
       "category": "head",
       "type": "head",
       "attributes": {
@@ -91,7 +94,7 @@
           "text": "Preheading",
           "type": "plain"
         },
-        "heading": "Lorem ipsum dolor sit amet dev",
+        "title": "Lorem ipsum dolor sit amet dev",
         "blurb": "Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
         "image": {
           "data": {
@@ -139,14 +142,14 @@
       "description": "A contact call-to-action to encourage users to make contact.",
       "templates": ["banner-1", "banner-2", "banner-3", "banner-4", "banner-5"],
       "defaultTemplate": {
-        "slug": "bannner-4"
+        "slug": "banner-1"
       },
       "attributes": {
         "preheading": {
           "text": "Preheading",
           "type": "line"
         },
-        "heading": "Lorem ipsum dolor sit amet",
+        "title": "Lorem ipsum dolor sit amet",
         "blurb": "Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
         "buttonLinks": [
           {
@@ -187,7 +190,7 @@
           "text": "Preheading",
           "type": "dot"
         },
-        "heading": "Lorem ipsum dolor sit amet",
+        "title": "Lorem ipsum dolor sit amet",
         "blurb1": "Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur excepteur sint occaecat cupidatat non proident.",
         "blurb2": "Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur excepteur sint occaecat cupidatat non proident.",
         "buttonLinks": [
@@ -204,6 +207,9 @@
       "slug": "services-seo",
       "displayName": "Services SEO",
       "templates": ["seo"],
+      "defaultTemplate": {
+        "slug": "seo"
+      },
       "category": "head",
       "type": "head",
       "attributes": {
@@ -232,14 +238,14 @@
       "description": "The services page landing area. This area should be very eye-catching and contain the main service.",
       "templates": ["cover-1", "cover-2", "cover-3", "cover-4", "cover-5"],
       "defaultTemplate": {
-        "slug": "cover-4"
+        "slug": "cover-3"
       },
       "attributes": {
         "preheading": {
           "text": "Preheading",
           "type": "plain"
         },
-        "heading": "Lorem ipsum dolor sit amet",
+        "title": "Lorem ipsum dolor sit amet",
         "blurb": "Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
         "image": {
           "data": {
@@ -281,7 +287,7 @@
           "text": "Preheading",
           "type": "dot"
         },
-        "heading": "Lorem ipsum dolor sit amet",
+        "title": "Lorem ipsum dolor sit amet",
         "blurb1": "Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur excepteur sint occaecat cupidatat non proident.",
         "blurb2": "Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur excepteur sint occaecat cupidatat non proident.",
         "image": {
@@ -306,30 +312,14 @@
       },
       "order": 3
     },
-    {
-      "slug": "contact-teaser",
-      "displayName": "Services Contact Teaser",
-      "description": "A contact call-to-action to encourage users to make contact.",
-      "templates": ["banner-1", "banner-2", "banner-3", "banner-4", "banner-5"],
-      "defaultTemplate": {
-        "slug": "banner-3"
-      },
-      "attributes": {
-        "heading": "Lorem ipsum dolor sit amet",
-        "buttonLinks": [
-          {
-            "url": "/contact",
-            "label": "Button",
-            "type": "primary"
-          }
-        ]
-      },
-      "order": 4
-    },
+    
     {
       "slug": "blog-seo",
       "displayName": "Blog SEO",
       "templates": ["seo"],
+      "defaultTemplate": {
+        "slug": "seo"
+      },
       "category": "head",
       "type": "head",
       "attributes": {
@@ -388,6 +378,9 @@
       "slug": "about-seo",
       "displayName": "About SEO",
       "templates": ["seo"],
+      "defaultTemplate": {
+        "slug": "seo"
+      },
       "category": "head",
       "type": "head",
       "attributes": {
@@ -423,7 +416,7 @@
           "text": "Preheading",
           "type": "line"
         },
-        "heading": "Lorem ipsum dolor sit amet",
+        "title": "Lorem ipsum dolor sit amet",
         "blurb": "Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
         "image": {
           "data": {
@@ -466,7 +459,7 @@
           "type": "dot",
           "alignment": "center"
         },
-        "heading": "Lorem ipsum dolor sit amet",
+        "title": "Lorem ipsum dolor sit amet",
         "blurb1": "Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur excepteur sint occaecat cupidatat non proident.",
         "blurb2": "Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur excepteur sint occaecat cupidatat non proident.",
         "buttonLinks": [
@@ -516,6 +509,9 @@
       "slug": "contact-seo",
       "displayName": "Contact SEO",
       "templates": ["seo"],
+      "defaultTemplate": {
+        "slug": "seo"
+      },
       "category": "head",
       "type": "head",
       "attributes": {
@@ -551,7 +547,7 @@
           "text": "Preheading",
           "type": "plain"
         },
-        "heading": "Lorem ipsum dolor sit amet",
+        "title": "Lorem ipsum dolor sit amet",
         "blurb": "Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
         "button": {
           "label": "Send",

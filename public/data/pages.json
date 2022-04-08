@@ -9,42 +9,22 @@
         "status": "published",
         "demoSections": [
           {
-            "slug": "home-seo",
-            "template": {
-              "slug": "seo"
-            }
+            "slug": "home-seo"
           },
           {
-            "slug": "main-landing",
-            "template": {
-              "slug": "cover-1"
-            }
+            "slug": "main-landing"
           },
           {
-            "slug": "features-list",
-            "template": {
-              "slug": "cards-1"
-            }
+            "slug": "features-list"
           },
           {
-            "slug": "contact-teaser",
-            "template": {
-              "slug": "banner-1"
-            }
+            "slug": "contact-teaser"
           },
           {
-            "slug": "benefits-list",
-            "template": {
-              "slug": "list-1",
-              "type": "body"
-            }
+            "slug": "benefits-list"
           },
           {
-            "slug": "home-about-teaser",
-            "template": {
-              "slug": "block-1",
-              "type": "body"
-            }
+            "slug": "home-about-teaser"
           }
         ]
       },
@@ -56,40 +36,22 @@
         "status": "published",
         "demoSections": [
           {
-            "slug": "services-seo",
-            "template": {
-              "slug": "seo"
-            }
+            "slug": "services-seo"
           },
           {
-            "slug": "services-landing",
-            "template": {
-              "slug": "cover-4"
-            }
+            "slug": "services-landing"
           },
           {
-            "slug": "services-block",
-            "template": {
-              "slug": "block-3"
-            }
+            "slug": "services-block"
           },
           {
-            "slug": "benefits-list",
-            "template": {
-              "slug": "list-2"
-            }
+            "slug": "benefits-list"
           },
           {
-            "slug": "features-list",
-            "template": {
-              "slug": "cards-3"
-            }
+            "slug": "features-list"
           },
           {
-            "slug": "contact-teaser",
-            "template": {
-              "slug": "banner-3"
-            }
+            "slug": "contact-teaser"
           }
         ]
       },
@@ -101,38 +63,19 @@
         "status": "published",
         "demoSections": [
           {
-            "slug": "about-seo",
-            "template": {
-              "slug": "seo"
-            }
+            "slug": "about-seo"
           },
           {
-            "slug": "about-landing",
-            "template": {
-              "slug": "cover-2",
-              "type": "body"
-            }
+            "slug": "about-landing"
           },
           {
-            "slug": "about-text",
-            "template": {
-              "slug": "block-2",
-              "type": "body"
-            }
+            "slug": "about-text"
           },
           {
-            "slug": "benefits-list",
-            "template": {
-              "slug": "list-2",
-              "type": "body"
-            }
+            "slug": "benefits-list"
           },
           {
-            "slug": "contact-teaser",
-            "template": {
-              "slug": "banner-2",
-              "type": "body"
-            }
+            "slug": "contact-teaser"
           }
         ]
       },
@@ -143,22 +86,13 @@
         "displayName": "Blog",
         "demoSections": [
           {
-            "slug": "blog-seo",
-            "template": {
-              "slug": "seo"
-            }
+            "slug": "blog-seo"
           },
           {
-            "slug": "blog-landing",
-            "template": {
-              "slug": "list-4"
-            }
+            "slug": "blog-landing"
           },
           {
-            "slug": "blog-item-list",
-            "template": {
-              "slug": "list-5"
-            }
+            "slug": "blog-item-list"
           }
         ]
       },
@@ -169,18 +103,10 @@
         "displayName": "Blog Article",
         "demoSections": [
           {
-            "slug": "blog-article",
-            "template": {
-              "slug": "article-1",
-              "type": "body"
-            }
+            "slug": "blog-article"
           },
           {
-            "slug": "blog-related-articles",
-            "template": {
-              "slug": "list-5",
-              "type": "body"
-            }
+            "slug": "blog-related-articles"
           }
         ]
       },
@@ -192,24 +118,13 @@
         "status": "published",
         "demoSections": [
           {
-            "slug": "contact-seo",
-            "template": {
-              "slug": "seo"
-            }
+            "slug": "contact-seo"
           },
           {
-            "slug": "contact-landing",
-            "template": {
-              "slug": "form-1",
-              "type": "body"
-            }
+            "slug": "contact-landing"
           },
           {
-            "slug": "contact-teaser",
-            "template": {
-              "slug": "banner-4",
-              "type": "body"
-            }
+            "slug": "contact-teaser"
           }
         ]
       }
@@ -224,36 +139,31 @@
           {
             "slug": "contact-teaser",
             "template": {
-              "slug": "banner-1",
-              "type": "body"
+              "slug": "banner-1"
             }
           },
           {
             "slug": "contact-teaser",
             "template": {
-              "slug": "banner-2",
-              "type": "body"
+              "slug": "banner-2"
             }
           },
           {
             "slug": "contact-teaser",
             "template": {
-              "slug": "banner-3",
-              "type": "body"
+              "slug": "banner-3"
             }
           },
           {
             "slug": "contact-teaser",
             "template": {
-              "slug": "banner-4",
-              "type": "body"
+              "slug": "banner-4"
             }
           },
           {
             "slug": "contact-teaser",
             "template": {
-              "slug": "banner-5",
-              "type": "body"
+              "slug": "banner-5"
             }
           }
         ]
@@ -267,36 +177,31 @@
           {
             "slug": "home-about-teaser",
             "template": {
-              "slug": "block-1",
-              "type": "body"
+              "slug": "block-1"
             }
           },
           {
             "slug": "about-text",
             "template": {
-              "slug": "block-2",
-              "type": "body"
+              "slug": "block-2"
             }
           },
           {
             "slug": "home-about-teaser",
             "template": {
-              "slug": "block-3",
-              "type": "body"
+              "slug": "block-3"
             }
           },
           {
             "slug": "about-text",
             "template": {
-              "slug": "block-4",
-              "type": "body"
+              "slug": "block-4"
             }
           },
           {
             "slug": "home-about-teaser",
             "template": {
-              "slug": "block-5",
-              "type": "body"
+              "slug": "block-5"
             }
           }
         ]
@@ -310,36 +215,31 @@
           {
             "slug": "features-list",
             "template": {
-              "slug": "cards-1",
-              "type": "body"
+              "slug": "cards-1"
             }
           },
           {
             "slug": "features-list",
             "template": {
-              "slug": "cards-2",
-              "type": "body"
+              "slug": "cards-2"
             }
           },
           {
             "slug": "features-list",
             "template": {
-              "slug": "cards-3",
-              "type": "body"
+              "slug": "cards-3"
             }
           },
           {
             "slug": "features-list",
             "template": {
-              "slug": "cards-4",
-              "type": "body"
+              "slug": "cards-4"
             }
           },
           {
             "slug": "blog-related-articles",
             "template": {
-              "slug": "cards-5",
-              "type": "body"
+              "slug": "cards-5"
             }
           }
         ]
@@ -353,36 +253,31 @@
           {
             "slug": "main-landing",
             "template": {
-              "slug": "cover-1",
-              "type": "body"
+              "slug": "cover-1"
             }
           },
           {
             "slug": "about-landing",
             "template": {
-              "slug": "cover-2",
-              "type": "body"
+              "slug": "cover-2"
             }
           },
           {
             "slug": "about-landing",
             "template": {
-              "slug": "cover-3",
-              "type": "body"
+              "slug": "cover-3"
             }
           },
           {
             "slug": "services-landing",
             "template": {
-              "slug": "cover-4",
-              "type": "body"
+              "slug": "cover-4"
             }
           },
           {
             "slug": "services-landing",
             "template": {
-              "slug": "cover-5",
-              "type": "body"
+              "slug": "cover-5"
             }
           }
         ]
@@ -396,15 +291,13 @@
           {
             "slug": "footer-1",
             "template": {
-              "slug": "footer-1",
-              "type": "body"
+              "slug": "footer-1"
             }
           },
           {
-            "slug": "footer-2",
+            "slug": "footer-1",
             "template": {
-              "slug": "footer-2",
-              "type": "body"
+              "slug": "footer-2"
             }
           }
         ]
@@ -418,15 +311,13 @@
           {
             "slug": "contact-landing",
             "template": {
-              "slug": "form-1",
-              "type": "body"
+              "slug": "form-1"
             }
           },
           {
             "slug": "contact-landing",
             "template": {
-              "slug": "form-2",
-              "type": "body"
+              "slug": "form-2"
             }
           }
         ]
@@ -440,15 +331,13 @@
           {
             "slug": "header-1",
             "template": {
-              "slug": "header-1",
-              "type": "body"
+              "slug": "header-1"
             }
           },
           {
-            "slug": "header-2",
+            "slug": "header-1",
             "template": {
-              "slug": "header-2",
-              "type": "body"
+              "slug": "header-2"
             }
           }
         ]
@@ -462,36 +351,31 @@
           {
             "slug": "benefits-list",
             "template": {
-              "slug": "list-1",
-              "type": "body"
+              "slug": "list-1"
             }
           },
           {
             "slug": "benefits-list",
             "template": {
-              "slug": "list-2",
-              "type": "body"
+              "slug": "list-2"
             }
           },
           {
             "slug": "benefits-list",
             "template": {
-              "slug": "list-3",
-              "type": "body"
+              "slug": "list-3"
             }
           },
           {
             "slug": "blog-item-list",
             "template": {
-              "slug": "list-4",
-              "type": "body"
+              "slug": "list-4"
             }
           },
           {
             "slug": "blog-item-list",
             "template": {
-              "slug": "list-5",
-              "type": "body"
+              "slug": "list-5"
             }
           }
         ]

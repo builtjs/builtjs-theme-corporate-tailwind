@@ -6,7 +6,7 @@ export default function Block4({ content }) {
     <section id="block-4" className="template">
       <div className="mx-auto text-center max-w-screen-xl">
         <Preheading attributes={attributes.preheading}></Preheading>
-        <h2 className="max-w-5xl mx-auto">{attributes.heading}</h2>
+        <h2 className="max-w-5xl mx-auto">{attributes.title}</h2>
         <div className="mb-4 grid grid-cols-1 gap-x-6 md:grid-cols-2">
           <div>
             <p className="md:text-left">{attributes.blurb1}</p>

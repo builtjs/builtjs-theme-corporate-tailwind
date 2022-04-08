@@ -57,7 +57,8 @@ let getSection = (sectionDoc, pageDoc) => {
   return new Promise(async (resolve) => {
     let section = await SectionModel.findOne(sectionDoc.slug);
     const TemplateModel = new Template();
-    let template = await TemplateModel.findOne(sectionDoc.template.slug);
+    console.log({section});
+    let template = await TemplateModel.findOne(section.doc.defaultTemplate.slug);
     section.template = template;
     resolve(section);
   });
@@ -97,10 +98,10 @@ let transformSection = async (section, pageDoc) => {
     if (section.doc.collections) {
       content.collections = await fetchCollections(section.doc);
     }
-    if (section.doc.variants) {
-      template.doc.variants = section.doc.variants;
-      transformedSection.variants = section.doc.variants;
-    }
+    // if (section.doc.variants) {
+    //   template.doc.variants = section.doc.variants;
+    //   transformedSection.variants = section.doc.variants;
+    // }
     let component = null;
     if (template) {
       component = dynamic(() =>

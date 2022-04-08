@@ -31,7 +31,7 @@
           "content": {
             "type": "richtext"
           },
-          "excerpt": {
+          "blurb": {
             "type": "text"
           },
           "image": {
@@ -156,12 +156,12 @@
             "repeatable": false,
             "component": "elements.preheading"
           },
-          "heading": {
+          "title": {
             "type": "string"
           },
           "slug": {
             "type": "uid",
-            "targetField": "heading",
+            "targetField": "title",
             "required": true
           },
           "blurb": {
@@ -207,12 +207,12 @@
             "repeatable": false,
             "component": "elements.preheading"
           },
-          "heading": {
+          "title": {
             "type": "string"
           },
           "slug": {
             "type": "uid",
-            "targetField": "heading",
+            "targetField": "title",
             "required": true
           },
           "blurb": {

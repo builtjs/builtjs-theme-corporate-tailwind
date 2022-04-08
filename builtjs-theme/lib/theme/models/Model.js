@@ -7,6 +7,7 @@ export default class Model {
     this.name = name;
     this.table = `${this.name}s`;
     this.dataMap = {};
+    
   }
 
   async getData() {
@@ -33,10 +34,12 @@ export default class Model {
             item = await this.getItem(entry, table, populateData);
           } else{
             item = await this.getItem(entry.slug, table, populateData);
-            if(entry.template){
+            if(item && item.doc.defaultTemplate && item.doc.defaultTemplate.slug){
               let data = await this.fetchData(`/data/templates.json`);
               let templatesData = data['templates'];
-              let template = await this.getItem(entry.template.slug, 'templates', templatesData);
+              debugger
+              let templateSlug = (entry.template && entry.template.slug) ? entry.template.slug : item.doc.defaultTemplate.slug;
+              let template = await this.getItem(templateSlug, 'templates', templatesData);
               if(!template){
                 // template not found due to data changes, refresh page
                 window.location = window.location; 

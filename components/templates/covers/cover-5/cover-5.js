@@ -16,7 +16,7 @@ export default function Cover5({ content }) {
 
         <div className="relative z-10 px-4 py-20 mx-auto text-center lg:py-40">
           <Preheading attributes={attributes.preheading}></Preheading>
-          <h1 className="max-w-5xl mx-auto">{attributes.heading}</h1>
+          <h1 className="max-w-5xl mx-auto">{attributes.title}</h1>
           <p className="max-w-xl mx-auto mb-12 text-lg text-whit dark:text-white">{attributes.blurb}</p>
           {attributes.buttonLinks &&
             attributes.buttonLinks.map((button) => {

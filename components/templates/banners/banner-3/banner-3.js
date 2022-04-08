@@ -9,7 +9,7 @@ export default function Banner3({ content }) {
         <div className="mx-auto max-w-screen-lg">
           <div className="items-center grid grid-cols-1 gap-x-6 md:grid-cols-4">
             <div className="col-span-3">
-              <h2>{attributes.heading}</h2>
+              <h2>{attributes.title}</h2>
               <p className="max-w-xl mb-12 text-lg md:mb-0">{attributes.blurb}</p>
             </div>
             <div className="md:text-right">

@@ -20,7 +20,7 @@ export default function Cards1({ content }) {
             items.map((item, i) => (
               <div key={i} className="p-8 border border-gray-200 rounded-lg dark:border-gray-700">
                 <Preheading attributes={item.attributes.preheading}></Preheading>
-                <h3 className="mb-4">{item.attributes.heading}</h3>
+                <h3 className="mb-4">{item.attributes.title}</h3>
                 <p className="mb-10">{item.attributes.blurb}</p>
                 {item.attributes.buttonLinks &&
                   item.attributes.buttonLinks.map((button) => {

@@ -47,7 +47,7 @@ export default function Cards4({ content }) {
                       <h3 className="mb-4 hover:text-gray-700 dark:hover:text-gray-200">{item.attributes.title}</h3>
                     </a>
                   </Link>
-                  <p>{item.attributes.excerpt}</p>
+                  <p>{item.attributes.blurb}</p>
                   <Link href={`/${collectionName}/${item.slug}`}>
                     <a>Read Article</a>
                   </Link>
