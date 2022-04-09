@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { useRouter } from "next/router";
 import "../styles/index.css";
-import { setupCrumbs } from "./../lib";
+import { setupCrumbs } from "./../.theme";
 
 function ThemeApp({ Component, pageProps }) {
   const router = useRouter();
