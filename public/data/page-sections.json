@@ -16,7 +16,7 @@
       ]
     },
     {
-      "slug": "services-contact",
+      "slug": "services-contact-teaser",
       "description": "Teaser for Contact page on Services page",
       "page": {
         "slug": "services"

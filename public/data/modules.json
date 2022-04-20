@@ -20,7 +20,7 @@
           "slug": "contact-base"
         },
         {
-          "slug": "home-about"
+          "slug": "services-contact-teaser"
         }
       ]
     },
@@ -57,9 +57,6 @@
       "pageSections": [
         {
           "slug": "services-base"
-        },
-        {
-          "slug": "services-contact"
         }
       ]
     },
