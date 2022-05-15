@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@builtjs/theme": "^1.1.1",
+    "@builtjs/site": "^1.0.1",
     "@sendgrid/mail": "^7.4.2",
     "@types/node": "^17.0.22",
     "@types/react": "^17.0.41",
