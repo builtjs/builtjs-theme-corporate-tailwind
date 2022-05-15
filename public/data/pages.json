@@ -6,7 +6,6 @@
         "singularName": "home",
         "pluralName": "homes",
         "displayName": "Home",
-        "status": "published",
         "demoSections": [
           {
             "slug": "home-seo"
@@ -24,7 +23,7 @@
             "slug": "benefits-list"
           },
           {
-            "slug": "home-about-teaser"
+            "slug": "about-teaser"
           }
         ]
       },
@@ -33,7 +32,6 @@
         "singularName": "service",
         "pluralName": "services",
         "displayName": "Services",
-        "status": "published",
         "demoSections": [
           {
             "slug": "services-seo"
@@ -60,7 +58,6 @@
         "singularName": "about",
         "pluralName": "abouts",
         "displayName": "About",
-        "status": "published",
         "demoSections": [
           {
             "slug": "about-seo"
@@ -115,7 +112,6 @@
         "singularName": "contact",
         "pluralName": "contacts",
         "displayName": "Contact",
-        "status": "published",
         "demoSections": [
           {
             "slug": "contact-seo"
@@ -134,7 +130,6 @@
         "slug": "banners",
         "singularName": "banners",
         "displayName": "Banners",
-        "status": "published",
         "demoSections": [
           {
             "slug": "contact-teaser",
@@ -172,10 +167,9 @@
         "slug": "blocks",
         "singularName": "blocks",
         "displayName": "Blocks",
-        "status": "published",
         "demoSections": [
           {
-            "slug": "home-about-teaser",
+            "slug": "about-teaser",
             "template": {
               "slug": "block-1"
             }
@@ -187,7 +181,7 @@
             }
           },
           {
-            "slug": "home-about-teaser",
+            "slug": "about-teaser",
             "template": {
               "slug": "block-3"
             }
@@ -199,7 +193,7 @@
             }
           },
           {
-            "slug": "home-about-teaser",
+            "slug": "about-teaser",
             "template": {
               "slug": "block-5"
             }
@@ -210,7 +204,6 @@
         "slug": "cards",
         "singularName": "cards",
         "displayName": "Cards",
-        "status": "published",
         "demoSections": [
           {
             "slug": "features-list",
@@ -248,7 +241,6 @@
         "slug": "covers",
         "singularName": "covers",
         "displayName": "Covers",
-        "status": "published",
         "demoSections": [
           {
             "slug": "main-landing",
@@ -286,7 +278,6 @@
         "slug": "footers",
         "singularName": "footers",
         "displayName": "Footers",
-        "status": "published",
         "demoSections": [
           {
             "slug": "footer-1",
@@ -306,7 +297,6 @@
         "slug": "forms",
         "singularName": "form",
         "displayName": "Forms",
-        "status": "published",
         "demoSections": [
           {
             "slug": "contact-landing",
@@ -326,7 +316,6 @@
         "slug": "headers",
         "singularName": "headers",
         "displayName": "Headers",
-        "status": "published",
         "demoSections": [
           {
             "slug": "header-1",
@@ -346,7 +335,6 @@
         "slug": "lists",
         "singularName": "lists",
         "displayName": "Lists",
-        "status": "published",
         "demoSections": [
           {
             "slug": "benefits-list",

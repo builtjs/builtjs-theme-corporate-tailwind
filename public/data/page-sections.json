@@ -134,14 +134,14 @@
       ]
     },
     {
-      "slug": "home-about",
+      "slug": "home-about-teaser",
       "description": "About page teaser on Home page",
       "page": {
         "slug": "home"
       },
       "sections": [
         {
-          "slug": "home-about-teaser"
+          "slug": "about-teaser"
         }
       ]
     }

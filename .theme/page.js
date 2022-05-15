@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Layout from "../components/layout/layout";
 import { useRouter } from "next/router";
-import { getPage } from "../builtjs-theme/index";
+import {getPage} from "../.theme/getPage";
 import TemplateMenuBtn from "./components/template-menu-btn";
 
 const Page = ({ config }) => {
@@ -18,6 +18,9 @@ const Page = ({ config }) => {
   }, [slug]);
 
   async function init() {
+    if(!config){
+      return;
+    }
     const page = await getPage(config);
     setPage(page);
   }
@@ -33,7 +36,7 @@ const Page = ({ config }) => {
                   page.sections.length &&
                   page.sections.map((section, i) => {
                     return (
-                      <section.template key={i} content={section.content} />
+                      <section.component key={i} content={section.content} />
                     );
                   })}
               </>

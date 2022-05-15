@@ -178,7 +178,7 @@
       "order": 5
     },
     {
-      "slug": "home-about-teaser",
+      "slug": "about-teaser",
       "displayName": "Home About Teaser",
       "description": "A small teaser about the company.",
       "templates": ["block-1", "block-2", "block-3", "block-4", "block-5"],

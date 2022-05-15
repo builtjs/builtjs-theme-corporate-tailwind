@@ -292,8 +292,8 @@
         }
       }
     },
-    "home-about-teaser": {
-      "slug": "home-about-teaser",
+    "about-teaser": {
+      "slug": "about-teaser",
       "category": "sections",
       "settings": {
         "collectionName": "components_sections_home_about_teaser",
