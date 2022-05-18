@@ -8,10 +8,13 @@ export default function TemplateMenuBtn({ router }) {
   const [pageData, setPageData] = useState(null);
 
   async function fetchData(path) {
-    const url = process.env.url || 'http://localhost:5000';
-    return new Promise(async(resolve) => {
-      let res = await fetch(`${url}${path}`);
-      let data = res.json();
+    return new Promise(async (resolve) => {
+      let data = null;
+      try {
+        data = require(`../../public${path}`);
+      } catch (err) {
+        console.error(err)
+      }
       resolve(data);
     });
   }
