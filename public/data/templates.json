@@ -6,7 +6,7 @@
       "category": "headers",
       "description": "Simple header with justified logo and nav links.",
       "images": {
-        "thumb": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/main/components/templates/headers/header-1/header-1.png",
+        "thumb": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/main/public/images/templates/headers/header-1/header-1.png",
         "lrg": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/main/components/templates/headers/header-1/header-1.png"
       },
       "repoUrl": "https://github.com/builtjs/builtjs-theme-corporate-tailwind/blob/main/components/templates/headers/header-1/header-1.js",
