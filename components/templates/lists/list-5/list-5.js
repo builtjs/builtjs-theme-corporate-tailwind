@@ -4,7 +4,7 @@ import getConfig from "next/config";
 import { format } from "date-fns";
 import { Tag } from "@/elements";
 
-export default function List4({ content, router }) {
+export default function List5({ content, router }) {
   const { collections } = content;
   const { publicRuntimeConfig } = getConfig();
   if (!collections) {
@@ -35,7 +35,7 @@ export default function List4({ content, router }) {
                             src={`${publicRuntimeConfig.BACKEND_URL || ""}${item.attributes?.image?.data.attributes.url}`}
                             layout="fill"
                             objectFit="cover"
-                            alt=""
+                            alt={item.attributes.title}
                           />
                         </div>
                       </a>
@@ -63,13 +63,13 @@ export default function List4({ content, router }) {
                         </Link>
                       )}
                     </div>
-                    <Link href={`/${collectionName}/${item.slug}`}>
+                    <Link href={`/${collectionName}/${item.attributes.slug}`}>
                       <a className="no-underline">
                         <h3 className="mb-2 hover:text-gray-700 dark:hover:text-gray-200">{item.attributes.title}</h3>
                       </a>
                     </Link>
                     <p>{item.blurb}</p>
-                    <Link href={`/${collectionName}/${item.slug}`}>
+                    <Link href={`/${collectionName}/${item.attributes.slug}`}>
                       <a>Read Article</a>
                     </Link>
                   </div>

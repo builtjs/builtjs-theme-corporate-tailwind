@@ -2,8 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import getConfig from "next/config";
 
-// TODO: Exclude current blog from related list
-export default function Cards4({ content }) {
+export default function Cards5({ content }) {
   let { collections } = { ...content };
   let data = null;
   const { publicRuntimeConfig } = getConfig();

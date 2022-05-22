@@ -1,0 +1,50 @@
+.btn {
+  @apply inline-block px-5 py-3 text-center transition-all duration-200 ease-in-out border-2 rounded-lg;
+}
+
+.btn-primary {
+  @apply text-white bg-black border-black btn hover:bg-gray-700 hover:border-gray-700 dark:bg-white dark:text-black dark:border-white dark:hover:bg-gray-200 dark:hover:border-gray-200;
+}
+
+.btn-secondary {
+  @apply text-gray-400 border-gray-400 btn hover:bg-gray-700 hover:text-white hover:border-gray-700;
+}
+
+.btn:first-of-type + .btn {
+  @apply ml-3;
+}
+
+.preheading {
+  @apply relative block mb-4 text-sm font-light tracking-widest text-gray-400 uppercase dark:text-gray-400;
+}
+
+.preheading.center {
+  max-width: max-content;
+  @apply mx-auto;
+}
+
+.preheading.line {
+  @apply pl-10;
+}
+
+.preheading.dot {
+  @apply pl-5;
+}
+
+.preheading.line::before,
+.preheading.dot::before {
+  content: "";
+  @apply absolute left-0 -translate-y-1/2 transform-gpu top-1/2;
+}
+
+.preheading.line::before {
+  @apply border-t border-gray-400 w-7;
+}
+
+.preheading.dot::before {
+  @apply w-1.5 h-1.5 bg-gray-400 rounded-full;
+}
+
+.tag {
+  @apply px-2 py-1 text-xs text-center text-white no-underline transition-colors bg-gray-700 dark:bg-gray-200 rounded-3xl dark:hover:bg-gray-300 hover:bg-gray-600 dark:text-black;
+}

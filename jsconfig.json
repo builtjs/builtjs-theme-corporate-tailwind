@@ -2,7 +2,7 @@
   "compilerOptions": {
     "baseUrl": "./",
     "paths": {
-      "@/elements": ["components/elements/index"],
+      "@/elements": ["components/elements/index"]
     }
   }
 }

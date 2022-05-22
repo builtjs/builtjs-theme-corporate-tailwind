@@ -10,7 +10,7 @@
         "lrg": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/main/components/templates/headers/header-1/header-1.png"
       },
       "repoUrl": "https://github.com/builtjs/builtjs-theme-corporate-tailwind/blob/main/components/templates/headers/header-1/header-1.js",
-      "demoUrl": "https://github.com/builtjs/builtjs-theme-corporate-tailwind/blob/main/components/templates/headers/header-1/header-1.js"
+      "demoUrl": "https://builtjs-theme-corporate-tailwind.vercel.app/templates/headers#header-1"
     },
     {
       "slug": "header-2",
@@ -22,7 +22,7 @@
         "lrg": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/main/components/templates/headers/header-2/header-2.png"
       },
       "repoUrl": "https://github.com/builtjs/builtjs-theme-corporate-tailwind/tree/main/components/templates/headers/header-2",
-      "demoUrl": "https://github.com/builtjs/builtjs-theme-corporate-tailwind/tree/main/components/templates/headers/header-2"
+      "demoUrl": "https://builtjs-theme-corporate-tailwind.vercel.app/templates/headers#header-2"
     },
     {
       "slug": "footer-1",
@@ -34,7 +34,7 @@
         "lrg": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/main/components/templates/footers/footer-1/footer-1.png"
       },
       "repoUrl": "https://github.com/builtjs/builtjs-theme-corporate-tailwind/blob/main/components/templates/footers/footer-1/footer-1.js",
-      "demoUrl": "https://github.com/builtjs/builtjs-theme-corporate-tailwind/blob/main/components/templates/footers/footer-1/footer-1.js"
+      "demoUrl": "https://builtjs-theme-corporate-tailwind.vercel.app/templates/footers#footer-1"
     },
     {
       "slug": "footer-2",
@@ -46,7 +46,7 @@
         "lrg": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/main/components/templates/footers/footer-2/footer-2.png"
       },
       "repoUrl": "https://github.com/builtjs/builtjs-theme-corporate-tailwind/blob/main/components/templates/footers/footer-2/footer-2.js",
-      "demoUrl": "https://github.com/builtjs/builtjs-theme-corporate-tailwind/blob/main/components/templates/footers/footer-2/footer-2.js"
+      "demoUrl": "https://builtjs-theme-corporate-tailwind.vercel.app/templates/footers#footer-2"
     },
     {
       "slug": "seo",
@@ -54,8 +54,7 @@
       "displayName": "SEO",
       "category": "head",
       "description": "Define SEO meta titles, meta descriptions and social media meta data.",
-      "repoUrl": "https://github.com/builtjs/builtjs-theme-corporate-tailwind/blob/main/components/templates/head/seo/seo.js",
-      "demoUrl": "https://github.com/builtjs/builtjs-theme-corporate-tailwind/blob/main/components/templates/head/seo/seo.js"
+      "repoUrl": "https://github.com/builtjs/builtjs-theme-corporate-tailwind/blob/main/components/templates/head/seo/seo.js"
     },
     {
       "slug": "banner-1",
@@ -67,7 +66,7 @@
         "lrg": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/main/components/templates/banners/banner-1/banner-1.png"
       },
       "repoUrl": "https://github.com/builtjs/builtjs-theme-corporate-tailwind/blob/main/components/templates/banners/banner-1/banner-1.js",
-      "demoUrl": "https://github.com/builtjs/builtjs-theme-corporate-tailwind/blob/main/components/templates/banners/banner-1/banner-1.js"
+      "demoUrl": "https://builtjs-theme-corporate-tailwind.vercel.app/templates/banners#banner-1"
     },
     {
       "slug": "banner-2",
@@ -79,7 +78,7 @@
         "lrg": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/main/components/templates/banners/banner-2/banner-2.png"
       },
       "repoUrl": "https://github.com/builtjs/builtjs-theme-corporate-tailwind/blob/main/components/templates/banners/banner-2/banner-2.js",
-      "demoUrl": "https://github.com/builtjs/builtjs-theme-corporate-tailwind/blob/main/components/templates/banners/banner-2/banner-2.js"
+      "demoUrl": "https://builtjs-theme-corporate-tailwind.vercel.app/templates/banners#banner-2"
     },
     {
       "slug": "banner-3",
@@ -92,7 +91,7 @@
         "lrg": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/main/components/templates/banners/banner-3/banner-3.png"
       },
       "repoUrl": "https://github.com/builtjs/builtjs-theme-corporate-tailwind/blob/main/components/templates/banners/banner-3/banner-3.js",
-      "demoUrl": "https://github.com/builtjs/builtjs-theme-corporate-tailwind/blob/main/components/templates/banners/banner-3/banner-3.js"
+      "demoUrl": "https://builtjs-theme-corporate-tailwind.vercel.app/templates/banners#banner-3"
     },
     {
       "slug": "banner-4",
@@ -104,7 +103,7 @@
         "lrg": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/main/components/templates/banners/banner-4/banner-4.png"
       },
       "repoUrl": "https://github.com/builtjs/builtjs-theme-corporate-tailwind/blob/main/components/templates/banners/banner-4/banner-4.js",
-      "demoUrl": "https://github.com/builtjs/builtjs-theme-corporate-tailwind/blob/main/components/templates/banners/banner-4/banner-4.js"
+      "demoUrl": "https://builtjs-theme-corporate-tailwind.vercel.app/templates/banners#banner-4"
     },
     {
       "slug": "banner-5",
@@ -116,7 +115,7 @@
         "lrg": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/main/components/templates/banners/banner-5/banner-5.png"
       },
       "repoUrl": "https://github.com/builtjs/builtjs-theme-corporate-tailwind/blob/main/components/templates/banners/banner-5/banner-5.js",
-      "demoUrl": "https://github.com/builtjs/builtjs-theme-corporate-tailwind/blob/main/components/templates/banners/banner-5/banner-5.js"
+      "demoUrl": "https://builtjs-theme-corporate-tailwind.vercel.app/templates/banners#banner-5"
     },
     {
       "slug": "block-1",
@@ -128,7 +127,7 @@
         "lrg": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/main/components/templates/blocks/block-1/block-1.png"
       },
       "repoUrl": "https://github.com/builtjs/builtjs-theme-corporate-tailwind/blob/main/components/templates/blocks/block-1/block-1.js",
-      "demoUrl": "https://github.com/builtjs/builtjs-theme-corporate-tailwind/blob/main/components/templates/blocks/block-1/block-1.js"
+      "demoUrl": "https://builtjs-theme-corporate-tailwind.vercel.app/templates/blocks#block-1"
     },
     {
       "slug": "block-2",
@@ -140,7 +139,7 @@
         "lrg": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/main/components/templates/blocks/block-2/block-2.png"
       },
       "repoUrl": "https://github.com/builtjs/builtjs-theme-corporate-tailwind/blob/main/components/templates/blocks/block-2/block-2.js",
-      "demoUrl": "https://github.com/builtjs/builtjs-theme-corporate-tailwind/blob/main/components/templates/blocks/block-2/block-2.js"
+      "demoUrl": "https://builtjs-theme-corporate-tailwind.vercel.app/templates/blocks#block-2"
     },
     {
       "slug": "block-3",
@@ -152,7 +151,7 @@
         "lrg": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/main/components/templates/blocks/block-3/block-3.png"
       },
       "repoUrl": "https://github.com/builtjs/builtjs-theme-corporate-tailwind/blob/main/components/templates/blocks/block-3/block-3.js",
-      "demoUrl": "https://github.com/builtjs/builtjs-theme-corporate-tailwind/blob/main/components/templates/blocks/block-3/block-3.js"
+      "demoUrl": "https://builtjs-theme-corporate-tailwind.vercel.app/templates/blocks#block-3"
     },
     {
       "slug": "block-4",
@@ -164,7 +163,7 @@
         "lrg": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/main/components/templates/blocks/block-4/block-4.png"
       },
       "repoUrl": "https://github.com/builtjs/builtjs-theme-corporate-tailwind/blob/main/components/templates/blocks/block-4/block-4.js",
-      "demoUrl": "https://github.com/builtjs/builtjs-theme-corporate-tailwind/blob/main/components/templates/blocks/block-4/block-4.js"
+      "demoUrl": "https://builtjs-theme-corporate-tailwind.vercel.app/templates/blocks#block-4"
     },
     {
       "slug": "block-5",
@@ -176,7 +175,7 @@
         "lrg": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/main/components/templates/blocks/block-5/block-5.png"
       },
       "repoUrl": "https://github.com/builtjs/builtjs-theme-corporate-tailwind/blob/main/components/templates/blocks/block-5/block-5.js",
-      "demoUrl": "https://github.com/builtjs/builtjs-theme-corporate-tailwind/blob/main/components/templates/blocks/block-5/block-5.js"
+      "demoUrl": "https://builtjs-theme-corporate-tailwind.vercel.app/templates/blocks#block-5"
     },
     {
       "slug": "cards-1",
@@ -188,7 +187,7 @@
         "lrg": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/main/components/templates/cards/cards-1/cards-1.png"
       },
       "repoUrl": "https://github.com/builtjs/builtjs-theme-corporate-tailwind/blob/main/components/templates/cards/cards-1/cards-1.js",
-      "demoUrl": "https://github.com/builtjs/builtjs-theme-corporate-tailwind/blob/main/components/templates/cards/cards-1/cards-1.js"
+      "demoUrl": "https://builtjs-theme-corporate-tailwind.vercel.app/templates/cards#cards-1"
     },
     {
       "slug": "cards-2",
@@ -200,7 +199,7 @@
         "lrg": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/main/components/templates/cards/cards-2/cards-2.png"
       },
       "repoUrl": "https://github.com/builtjs/builtjs-theme-corporate-tailwind/blob/main/components/templates/cards/cards-2/cards-2.js",
-      "demoUrl": "https://github.com/builtjs/builtjs-theme-corporate-tailwind/blob/main/components/templates/cards/cards-2/cards-2.js"
+      "demoUrl": "https://builtjs-theme-corporate-tailwind.vercel.app/templates/cards#cards-2"
     },
     {
       "slug": "cards-3",
@@ -212,7 +211,7 @@
         "lrg": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/main/components/templates/cards/cards-3/cards-3.png"
       },
       "repoUrl": "https://github.com/builtjs/builtjs-theme-corporate-tailwind/blob/main/components/templates/cards/cards-3/cards-3.js",
-      "demoUrl": "https://github.com/builtjs/builtjs-theme-corporate-tailwind/blob/main/components/templates/cards/cards-3/cards-3.js"
+      "demoUrl": "https://builtjs-theme-corporate-tailwind.vercel.app/templates/cards#cards-3"
     },
     {
       "slug": "cards-4",
@@ -224,7 +223,7 @@
         "lrg": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/main/components/templates/cards/cards-4/cards-4.png"
       },
       "repoUrl": "https://github.com/builtjs/builtjs-theme-corporate-tailwind/blob/main/components/templates/cards/cards-4/cards-4.js",
-      "demoUrl": "https://github.com/builtjs/builtjs-theme-corporate-tailwind/blob/main/components/templates/cards/cards-4/cards-4.js"
+      "demoUrl": "https://builtjs-theme-corporate-tailwind.vercel.app/templates/cards#cards-4"
     },
     {
       "slug": "cards-5",
@@ -236,7 +235,7 @@
         "lrg": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/main/components/templates/cards/cards-5/cards-5.png"
       },
       "repoUrl": "https://github.com/builtjs/builtjs-theme-corporate-tailwind/blob/main/components/templates/cards/cards-5/cards-5.js",
-      "demoUrl": "https://github.com/builtjs/builtjs-theme-corporate-tailwind/blob/main/components/templates/cards/cards-5/cards-5.js"
+      "demoUrl": "https://builtjs-theme-corporate-tailwind.vercel.app/templates/cards#cards-5"
     },
     {
       "slug": "cover-1",
@@ -248,7 +247,7 @@
         "lrg": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/main/components/templates/covers/cover-1/cover-1.png"
       },
       "repoUrl": "https://github.com/builtjs/builtjs-theme-corporate-tailwind/blob/main/components/templates/covers/cover-1/cover-1.js",
-      "demoUrl": "https://github.com/builtjs/builtjs-theme-corporate-tailwind/blob/main/components/templates/covers/cover-1/cover-1.js"
+      "demoUrl": "https://builtjs-theme-corporate-tailwind.vercel.app/templates/covers#cover-1"
     },
     {
       "slug": "cover-2",
@@ -260,7 +259,7 @@
         "lrg": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/main/components/templates/covers/cover-2/cover-2.png"
       },
       "repoUrl": "https://github.com/builtjs/builtjs-theme-corporate-tailwind/blob/main/components/templates/covers/cover-2/cover-2.js",
-      "demoUrl": "https://github.com/builtjs/builtjs-theme-corporate-tailwind/blob/main/components/templates/covers/cover-2/cover-2.js"
+      "demoUrl": "https://builtjs-theme-corporate-tailwind.vercel.app/templates/covers#cover-2"
     },
     {
       "slug": "cover-3",
@@ -272,7 +271,7 @@
         "lrg": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/main/components/templates/covers/cover-3/cover-3.png"
       },
       "repoUrl": "https://github.com/builtjs/builtjs-theme-corporate-tailwind/blob/main/components/templates/covers/cover-3/cover-3.js",
-      "demoUrl": "https://github.com/builtjs/builtjs-theme-corporate-tailwind/blob/main/components/templates/covers/cover-3/cover-3.js"
+      "demoUrl": "https://builtjs-theme-corporate-tailwind.vercel.app/templates/covers#cover-3"
     },
     {
       "slug": "cover-4",
@@ -284,7 +283,7 @@
         "lrg": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/main/components/templates/covers/cover-4/cover-4.png"
       },
       "repoUrl": "https://github.com/builtjs/builtjs-theme-corporate-tailwind/blob/main/components/templates/covers/cover-4/cover-4.js",
-      "demoUrl": "https://github.com/builtjs/builtjs-theme-corporate-tailwind/blob/main/components/templates/covers/cover-4/cover-4.js"
+      "demoUrl": "https://builtjs-theme-corporate-tailwind.vercel.app/templates/covers#cover-4"
     },
     {
       "slug": "cover-5",
@@ -296,7 +295,7 @@
         "lrg": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/main/components/templates/covers/cover-5/cover-5.png"
       },
       "repoUrl": "https://github.com/builtjs/builtjs-theme-corporate-tailwind/blob/main/components/templates/covers/cover-5/cover-5.js",
-      "demoUrl": "https://github.com/builtjs/builtjs-theme-corporate-tailwind/blob/main/components/templates/covers/cover-5/cover-5.js"
+      "demoUrl": "https://builtjs-theme-corporate-tailwind.vercel.app/templates/covers#cover-5"
     },
     {
       "slug": "list-1",
@@ -308,7 +307,7 @@
         "lrg": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/main/components/templates/lists/list-1/list-1.png"
       },
       "repoUrl": "https://github.com/builtjs/builtjs-theme-corporate-tailwind/blob/main/components/templates/lists/list-1/list-1.js",
-      "demoUrl": "https://github.com/builtjs/builtjs-theme-corporate-tailwind/blob/main/components/templates/lists/list-1/list-1.js"
+      "demoUrl": "https://builtjs-theme-corporate-tailwind.vercel.app/templates/lists#list-1"
     },
     {
       "slug": "list-2",
@@ -320,7 +319,7 @@
         "lrg": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/main/components/templates/lists/list-2/list-2.png"
       },
       "repoUrl": "https://github.com/builtjs/builtjs-theme-corporate-tailwind/blob/main/components/templates/lists/list-2/list-2.js",
-      "demoUrl": "https://github.com/builtjs/builtjs-theme-corporate-tailwind/blob/main/components/templates/lists/list-2/list-2.js"
+      "demoUrl": "https://builtjs-theme-corporate-tailwind.vercel.app/templates/lists#list-2"
     },
     {
       "slug": "list-3",
@@ -332,7 +331,7 @@
         "lrg": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/main/components/templates/lists/list-3/list-3.png"
       },
       "repoUrl": "https://github.com/builtjs/builtjs-theme-corporate-tailwind/blob/main/components/templates/lists/list-3/list-3.js",
-      "demoUrl": "https://github.com/builtjs/builtjs-theme-corporate-tailwind/blob/main/components/templates/lists/list-3/list-3.js"
+      "demoUrl": "https://builtjs-theme-corporate-tailwind.vercel.app/templates/lists#list-3"
     },
     {
       "slug": "list-4",
@@ -344,7 +343,7 @@
         "lrg": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/main/components/templates/lists/list-4/list-4.png"
       },
       "repoUrl": "https://github.com/builtjs/builtjs-theme-corporate-tailwind/blob/main/components/templates/lists/list-4/list-4.js",
-      "demoUrl": "https://github.com/builtjs/builtjs-theme-corporate-tailwind/blob/main/components/templates/lists/list-4/list-4.js"
+      "demoUrl": "https://builtjs-theme-corporate-tailwind.vercel.app/templates/lists#list-4"
     },
     {
       "slug": "list-5",
@@ -356,7 +355,7 @@
         "lrg": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/main/components/templates/lists/list-5/list-5.png"
       },
       "repoUrl": "https://github.com/builtjs/builtjs-theme-corporate-tailwind/blob/main/components/templates/lists/list-5/list-5.js",
-      "demoUrl": "https://github.com/builtjs/builtjs-theme-corporate-tailwind/blob/main/components/templates/lists/list-5/list-5.js"
+      "demoUrl": "https://builtjs-theme-corporate-tailwind.vercel.app/templates/lists#list-5"
     },
     {
       "slug": "form-1",
@@ -368,7 +367,7 @@
         "lrg": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/main/components/templates/forms/form-1/form-1.png"
       },
       "repoUrl": "https://github.com/builtjs/builtjs-theme-corporate-tailwind/blob/main/components/templates/forms/form-1/form-1.js",
-      "demoUrl": "https://github.com/builtjs/builtjs-theme-corporate-tailwind/blob/main/components/templates/forms/form-1/form-1.js"
+      "demoUrl": "https://builtjs-theme-corporate-tailwind.vercel.app/templates/forms#form-1"
     },
     {
       "slug": "form-2",
@@ -380,7 +379,7 @@
         "lrg": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/main/components/templates/forms/form-2/form-2.png"
       },
       "repoUrl": "https://github.com/builtjs/builtjs-theme-corporate-tailwind/blob/main/components/templates/forms/form-2/form-2.js",
-      "demoUrl": "https://github.com/builtjs/builtjs-theme-corporate-tailwind/blob/main/components/templates/forms/form-2/form-2.js"
+      "demoUrl": "https://builtjs-theme-corporate-tailwind.vercel.app/templates/forms#form-2"
     },
     {
       "slug": "article-1",
@@ -392,7 +391,7 @@
         "lrg": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/main/components/templates/articles/article-1/article-1.png"
       },
       "repoUrl": "https://github.com/builtjs/builtjs-theme-corporate-tailwind/blob/main/components/templates/articles/article-1/article-1.js",
-      "demoUrl": "https://github.com/builtjs/builtjs-theme-corporate-tailwind/blob/main/components/templates/articles/article-1/article-1.js"
+      "demoUrl": "https://builtjs-theme-corporate-tailwind.vercel.app/blog-items/lorem-ipsum-dolor-sit-ameta#article-1"
     }
   ]
 }

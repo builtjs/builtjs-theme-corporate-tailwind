@@ -8,7 +8,7 @@ export default withRouter(Page);
 export async function getStaticPaths() {
   const allItems = await getItems('blog-item');
   return {
-    paths: allItems.items.map(({ slug }) => `/blog-items/${slug}`) ?? [],
+    paths: allItems.items.map(({ attributes }) => `/blog-items/${attributes.slug}`) ?? [],
     fallback: true,
   };
 }

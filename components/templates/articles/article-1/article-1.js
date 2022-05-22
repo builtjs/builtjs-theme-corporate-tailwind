@@ -13,7 +13,10 @@ const getHTML = (content) => {
 export default function Article1({ content }) {
   let { item } = { ...content };
   const { publicRuntimeConfig } = getConfig();
-  const author = item.attributes.author.data.attributes;
+  let author = null;
+  if(item.attributes.author){
+    author = item.attributes.author.data.attributes
+  }
   return (
     <article id="article-1" className="template">
       {item && (
@@ -31,7 +34,7 @@ export default function Article1({ content }) {
               </Link>
             </div>
             <h1 className="mb-10">{item.attributes.title}</h1>
-            <div className="flex items-center">
+            {author && <div className="flex items-center">
               <div className="relative w-12 h-12 mr-4">
                 <Image
                   className="rounded-full"
@@ -51,7 +54,7 @@ export default function Article1({ content }) {
                   {author.position || "Writer"}
                 </p>
               </div>
-            </div>
+            </div>}
           </header>
           <div className="relative my-20">
             <Image

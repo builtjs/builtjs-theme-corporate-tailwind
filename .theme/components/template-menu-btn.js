@@ -8,34 +8,45 @@ export default function TemplateMenuBtn({ router }) {
   const [pageData, setPageData] = useState(null);
 
   async function fetchData(path) {
-    const url = process.env.url || 'http://localhost:5000';
-    return new Promise(async(resolve) => {
-      let res = await fetch(`${url}${path}`);
-      let data = res.json();
+    return new Promise(async (resolve) => {
+      let data = null;
+      try {
+        data = require(`../../public${path}`);
+      } catch (err) {
+        console.error(err);
+      }
       resolve(data);
     });
   }
-  
-  useEffect(async() => {
-    let pageData = await fetchData('/data/pages.json');
+
+  useEffect(async () => {
+    let pageData = await fetchData("/data/pages.json");
     setPageData(pageData);
-   }, [])
-  
+  }, []);
+
   return (
-    <div id="template-menu" className="fixed z-50 bottom-4 right-4">
+    <div id="template-menu">
       <div
         id="templates"
         className={
-          "shadow-lg bg-white w-40 rounded-lg absolute right-16 bottom-8 flex flex-col transition-all duration-300 " +
-          (!on ? "is-closed opacity-0 -bottom-12 invisible" : "")
+          "shadow-lg bg-white w-40 rounded-lg absolute right-16 bottom-1 flex flex-col transition-all duration-200 " +
+          (!on ? "is-closed opacity-0 -bottom-20 invisible" : "")
         }
       >
-        {pageData && pageData.pages &&
+        {pageData &&
+          pageData.pages &&
           pageData.pages.templates &&
           pageData.pages.templates.map((template, i) => {
             return (
               <React.Fragment key={i}>
-                <input className="hidden" type="radio" id={`radio-${i}`} name="tabs" checked={slug === template.slug} readOnly />
+                <input
+                  className="hidden"
+                  type="radio"
+                  id={`radio-${i}`}
+                  name="tabs"
+                  checked={slug === template.slug}
+                  readOnly
+                />
                 <label
                   className="px-4 py-2 cursor-pointer tab hover:text-gray-500"
                   htmlFor={`radio-${i}`}
@@ -46,7 +57,10 @@ export default function TemplateMenuBtn({ router }) {
               </React.Fragment>
             );
           })}
-        <span id="glider" className="absolute left-0 top-0 w-0.5 h-8 bg-black rounded-full my-1 transition-transform duration-300"></span>
+        <span
+          id="glider"
+          className="absolute left-0 top-0 w-0.5 h-8 bg-black rounded-full my-1 transition-transform duration-300"
+        ></span>
       </div>
 
       <div
@@ -76,6 +90,12 @@ export default function TemplateMenuBtn({ router }) {
 
       <style jsx>
         {`
+          #template-menu {
+            position: fixed;
+            z-index: 50;
+            bottom: 25px;
+            right: 25px;
+          }
           input[type="radio"]:checked + label {
             color: #71717a;
           }

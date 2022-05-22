@@ -1,11 +1,8 @@
 import dynamic from "next/dynamic";
-//import { transformPage } from "@builtjs/theme/lib/theme/transform-page";
 const { transformPage } = require("@builtjs/theme");
-// const { transformPage } = require("./../builtjs-theme/lib/theme/transform-page");
 
 async function getPage(config) {
   return new Promise(async (resolve) => {
-    console.log({transformPage});
     let page = await transformPage(config);
     page = await createComponents(page, page.layout.sections, true);
     page = await createComponents(page, page.sections, false);

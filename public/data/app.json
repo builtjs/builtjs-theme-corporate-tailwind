@@ -8,7 +8,7 @@
       "repoName": "builtjs/builtjs-theme-corporate-tailwind",
       "gitProvider": "github",
       "repoUrl": "https://github.com/builtjs/builtjs-theme-corporate-tailwind",
-      "demoUrl": "https://builtjs-site-ta.vercel.app",
+      "demoUrl": "https://builtjs-theme-corporate-tailwind.vercel.app",
       "modules": [
         {
           "slug": "main"
