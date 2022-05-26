@@ -179,8 +179,8 @@
       "category": "cards",
       "description": "Cards with three equal columns and centered content.",
       "images": {
-        "thumb": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/main/public/images/templates/cards/cards-2/cards-2.png",
-        "lrg": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/main/public/images/templates/cards/cards-2/cards-2.png"
+        "thumb": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/main/public/images/templates/cards/card-2/card-2.png",
+        "lrg": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/main/public/images/templates/cards/card-2/card-2.png"
       },
       "repoUrl": "https://github.com/builtjs/builtjs-theme-corporate-tailwind/blob/main/components/templates/cards/cards-2/cards-2.js",
       "demoUrl": "https://builtjs-theme-corporate-tailwind.vercel.app/templates/cards#cards-2"
@@ -191,8 +191,8 @@
       "category": "cards",
       "description": "Cards with three equal columns, left aligned content and a background colour.",
       "images": {
-        "thumb": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/main/public/images/templates/cards/cards-3/cards-3.png",
-        "lrg": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/main/public/images/templates/cards/cards-3/cards-3.png"
+        "thumb": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/main/public/images/templates/cards/card-3/card-3.png",
+        "lrg": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/main/public/images/templates/cards/card-3/card-3.png"
       },
       "repoUrl": "https://github.com/builtjs/builtjs-theme-corporate-tailwind/blob/main/components/templates/cards/cards-3/cards-3.js",
       "demoUrl": "https://builtjs-theme-corporate-tailwind.vercel.app/templates/cards#cards-3"
@@ -203,8 +203,8 @@
       "category": "cards",
       "description": "Cards with three equal columns, centered content and a background colour.",
       "images": {
-        "thumb": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/main/public/images/templates/cards/cards-4/cards-4.png",
-        "lrg": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/main/public/images/templates/cards/cards-4/cards-4.png"
+        "thumb": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/main/public/images/templates/cards/card-4/card-4.png",
+        "lrg": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/main/public/images/templates/cards/card-4/card-4.png"
       },
       "repoUrl": "https://github.com/builtjs/builtjs-theme-corporate-tailwind/blob/main/components/templates/cards/cards-4/cards-4.js",
       "demoUrl": "https://builtjs-theme-corporate-tailwind.vercel.app/templates/cards#cards-4"
@@ -215,8 +215,8 @@
       "category": "cards",
       "description": "Cards with three equal columns, left aligned content and an image.",
       "images": {
-        "thumb": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/main/public/images/templates/cards/cards-5/cards-5.png",
-        "lrg": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/main/public/images/templates/cards/cards-5/cards-5.png"
+        "thumb": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/main/public/images/templates/cards/card-5/card-5.png",
+        "lrg": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/main/public/images/templates/cards/card-5/card-5.png"
       },
       "repoUrl": "https://github.com/builtjs/builtjs-theme-corporate-tailwind/blob/main/components/templates/cards/cards-5/cards-5.js",
       "demoUrl": "https://builtjs-theme-corporate-tailwind.vercel.app/templates/cards#cards-5"
