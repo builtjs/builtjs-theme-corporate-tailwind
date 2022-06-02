@@ -99,7 +99,7 @@
         "image": {
           "data": {
             "attributes": {
-              "name": "image",
+              "name": "image-square",
               "path": "/images",
               "ext": "png",
               "url": "/images/image-square.png",
