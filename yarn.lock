@@ -43,10 +43,10 @@
   "resolved" "https://registry.npmjs.org/@builtjs/site/-/site-1.0.1.tgz"
   "version" "1.0.1"
 
-"@builtjs/theme@^1.1.36":
-  "integrity" "sha512-eKl4iFLY9vK789VXaTh7tn4BX8uZUfGypXHqgERgBvx/pgvJUSlGF79WlSy3XYgVwYlIr5oTRUlZTL9aa2ZwfA=="
-  "resolved" "https://registry.npmjs.org/@builtjs/theme/-/theme-1.1.36.tgz"
-  "version" "1.1.36"
+"@builtjs/theme@^1.1.41":
+  "integrity" "sha512-l9JTjTUhdC8Rz7fHzkAqjIExD7Qbc4I6VoslbJ3R8e8caXUvK2UdBIG55z62qSEun7aY8l3nr/6vdZqRvw6RxA=="
+  "resolved" "https://registry.npmjs.org/@builtjs/theme/-/theme-1.1.41.tgz"
+  "version" "1.1.41"
 
 "@eslint/eslintrc@^0.4.3":
   "integrity" "sha512-J6KFFz5QCYUJq3pf0mjEcCJVERbzv71PUIDczuh9JkwGEzced6CO5ADLHB1rbf/+oPBtoPfMYNOpGDzCANlbXw=="

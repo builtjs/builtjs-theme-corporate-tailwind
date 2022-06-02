@@ -23,6 +23,8 @@ npm run dev
 - Contact
 - Services
 
+---
+
 ### Content Types
 #### Blog Item
 Attributes:
@@ -55,6 +57,8 @@ Attributes:
 Attributes:
 - label: Text
 - url: Text
+
+---
 
 ### Templates
 Templates specify the UI design of a section. In this theme, they fall under the following categories:

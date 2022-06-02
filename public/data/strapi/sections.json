@@ -1,10 +1,10 @@
 {
   "sections": {
-    "header-1": {
-      "slug": "header-1",
+    "header": {
+      "slug": "header",
       "category": "layout",
       "settings": {
-        "collectionName": "components_layout_header_1",
+        "collectionName": "components_layout_header",
         "info": {
           "displayName": "Header",
           "icon": "heading"
@@ -18,11 +18,11 @@
         }
       }
     },
-    "footer-1": {
-      "slug": "footer-1",
+    "footer": {
+      "slug": "footer",
       "category": "layout",
       "settings": {
-        "collectionName": "components_layout_footer_1",
+        "collectionName": "components_layout_footer",
         "info": {
           "displayName": "Footer",
           "icon": "heading"
