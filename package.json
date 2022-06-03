@@ -1,5 +1,5 @@
 {
-  "name": "builtjs-theme-corporate-tailwind",
+  "name": "builtjs-theme--corporate-tailwind",
   "description": "A Built.JS theme for small business websites with basic Tailwind styling.",
   "version": "0.0.1",
   "scripts": {
@@ -12,6 +12,7 @@
   "dependencies": {
     "@builtjs/theme": "^1.1.41",
     "@builtjs/site": "^1.0.1",
+    "@sendgrid/mail": "^7.4.2",
     "@types/node": "^17.0.22",
     "@types/react": "^17.0.41",
     "alasql": "^1.7.3",
