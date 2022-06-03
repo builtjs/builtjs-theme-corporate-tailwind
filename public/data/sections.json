@@ -421,10 +421,10 @@
         "image": {
           "data": {
             "attributes": {
-              "name": "image",
+              "name": "image-square",
               "path": "/images",
               "ext": "png",
-              "url": "/images/image.png",
+              "url": "/images/image-square.png",
               "width": 1000,
               "height": 1000
             }
