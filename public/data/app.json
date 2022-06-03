@@ -4,7 +4,7 @@
       "apiVersion": 1.1,
       "displayName": "Corporate Tailwind",
       "description": "Small business theme with basic Tailwind styling.",
-      "imageUrl": "https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/main/public/images/theme.png",
+      "imageUrl": "https://cdn.jsdelivr.net/gh/builtjs/builtjs-theme-corporate-tailwind/public/images/theme.png",
       "repoName": "builtjs/builtjs-theme-corporate-tailwind",
       "gitProvider": "github",
       "repoUrl": "https://github.com/builtjs/builtjs-theme-corporate-tailwind",
