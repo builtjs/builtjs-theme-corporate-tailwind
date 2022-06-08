@@ -54,7 +54,7 @@ export default function TemplateMenuBtn({ router }) {
                   {template.displayName}
                 </label>
               </React.Fragment> 
-              : <></>;
+              : null;
           })}
         <span
           id="glider"

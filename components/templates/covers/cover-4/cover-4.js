@@ -32,7 +32,7 @@ export default function Cover4({ content }) {
               width={attributes.image.data.attributes.width}
               height={attributes.image.data.attributes.height}
               layout="responsive"
-              alt=""
+              alt={attributes.title}
             />
           </div>
         </div>

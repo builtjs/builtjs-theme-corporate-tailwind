@@ -15,10 +15,11 @@ export default function Cover1({ content }) {
               src={`${publicRuntimeConfig.BACKEND_URL || ""}${
                 attributes?.image?.data.attributes.url
               }`}
+              priority="true"
               width={attributes?.image?.data.attributes.width}
               height={attributes?.image?.data.attributes.height}
               layout="responsive"
-              alt=""
+              alt={attributes.title}
             />
           </div>
           <div className="px-4 pt-10 pb-20 lg:py-40">
