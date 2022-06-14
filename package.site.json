@@ -1,16 +1,16 @@
 {
-  "name": "builtjs-theme--corporate-tailwind",
-  "description": "A Built.JS theme for small business websites with basic Tailwind styling.",
+  "name": "builtjs-theme-corporate-tailwind",
+  "description": "A Built.JS site for small business websites with basic Tailwind styling.",
   "version": "0.0.1",
   "scripts": {
-    "dev": "next -p 5000",
+    "dev": "next",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
     "export": "next build && next export"
   },
   "dependencies": {
-    "@builtjs/theme": "^1.1.47",
+    "@builtjs/theme": "^1.1.41",
     "@builtjs/site": "^1.0.1",
     "@types/node": "^17.0.22",
     "@types/react": "^17.0.41",
