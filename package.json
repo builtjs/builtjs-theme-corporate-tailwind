@@ -10,8 +10,8 @@
     "export": "next build && next export"
   },
   "dependencies": {
-    "@builtjs/theme": "^1.1.48",
     "@builtjs/site": "^1.0.3",
+    "@builtjs/theme": "^1.1.48",
     "@types/node": "^17.0.22",
     "@types/react": "^17.0.41",
     "date-fns": "^2.28.0",
