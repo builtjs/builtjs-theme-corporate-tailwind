@@ -3,7 +3,7 @@ import { useRouter } from "next/router";
 import dynamic from "next/dynamic";
 import Layout from "../components/layout/layout";
 import TemplateMenuBtn from "./components/template-menu-btn";
-import { setupCrumbs } from "./";
+import { setupCrumbs } from ".";
 
 const { transformPage } = require("@builtjs/theme");
 

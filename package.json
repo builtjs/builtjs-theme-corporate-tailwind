@@ -12,6 +12,7 @@
   "dependencies": {
     "@builtjs/site": "^1.0.3",
     "@builtjs/theme": "^1.1.48",
+    "@fisch0920/use-dark-mode": "^2.4.0",
     "@types/node": "^17.0.22",
     "@types/react": "^17.0.41",
     "date-fns": "^2.28.0",
@@ -20,8 +21,7 @@
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "tailwindcss": "^2.2.7",
-    "typescript": "^4.6.2",
-    "use-dark-mode": "^2.3.1"
+    "typescript": "^4.6.2"
   },
   "devDependencies": {
     "autoprefixer": "^10.1.0",
