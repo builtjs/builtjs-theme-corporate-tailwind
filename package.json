@@ -3,7 +3,7 @@
   "description": "A Built.JS theme for small business websites with basic Tailwind styling.",
   "version": "0.0.1",
   "scripts": {
-    "dev": "next -p 5000",
+    "dev": "next",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
