@@ -1,29 +1,42 @@
 import React, { useEffect, useState } from "react";
-import Layout from "../components/layout/layout";
+import { useRouter } from "next/router";
 import dynamic from "next/dynamic";
+import Layout from "../components/layout/layout";
+import TemplateMenuBtn from "./components/template-menu-btn";
+import { setupCrumbs } from "./";
 
 const { transformPage } = require("@builtjs/theme");
 
 const Page = ({ config }) => {
+  const router = useRouter();
+  const { slug } = router.query;
   const [page, setPage] = useState({});
   const [layoutComps, setLayoutComps] = useState([]);
   const [sectionComps, setSectionComps] = useState([]);
+  let [isSetUpCrumbs, setIsSetupCrumbs] = useState(false);
+
   useEffect(() => {
+    if (!isSetUpCrumbs) {
+      setupCrumbs(router);
+      setIsSetupCrumbs(true);
+    }
+    setPage(null);
+    setLayoutComps([]);
     init();
-  }, []);
+  }, [slug]);
 
   async function init() {
     if (!config) {
       return;
     }
     let page = await transformPage(config);
+    if (!page) {
+      return;
+    }
     setPage(page);
     let sectionComponentMap = await getComponentMap(page.sections);
     let sectionComponents = await getComponents(sectionComponentMap);
     setSectionComps(sectionComponents);
-    if (!page) {
-      return;
-    }
     let layoutComponentMap = await getComponentMap(page.layout.sections);
     let layoutComponents = await getComponents(layoutComponentMap);
     setLayoutComps(layoutComponents);
@@ -60,62 +73,21 @@ const Page = ({ config }) => {
       <Layout layoutComps={layoutComps} page={page}>
         {
           <>
-            {sectionComps.length > 0 &&
+            {page &&
+              sectionComps.length > 0 &&
               sectionComps.map((Section, i) => {
-                return <Section key={i} content={page.sections[i].content} />;
+                return (
+                  page.sections[i] && (
+                    <Section key={i} content={page.sections[i].content} />
+                  )
+                );
               })}
           </>
         }
       </Layout>
+      <TemplateMenuBtn router={router} />
     </>
   );
 };
 
 export default Page;
-
-// import React, { useEffect, useState } from "react";
-// import Layout from "../components/layout/layout";
-// import { useRouter } from "next/router";
-// import { getPage } from "../.theme/getPage";
-// import TemplateMenuBtn from "./components/template-menu-btn";
-
-// const Page = ({ config }) => {
-//   const router = useRouter();
-//   const { slug } = router.query;
-//   const [page, setPage] = useState({});
-
-//   useEffect(() => {
-//     init();
-//   }, []);
-
-//   useEffect(() => {
-//     init();
-//   }, [slug]);
-
-//   async function init() {
-//     if (!config) {
-//       return;
-//     }
-//     const page = await getPage(config);
-//     setPage(page);
-//   }
-
-//   return (
-//     <>
-//       <Layout page={page}>
-//         {
-//           <>
-//             {page.sections &&
-//               page.sections.length > 0 &&
-//               page.sections.map((section, i) => {
-//                 return <section.component key={i} content={section.content} />;
-//               })}
-//           </>
-//         }
-//       </Layout>
-//       <TemplateMenuBtn router={router} />
-//     </>
-//   );
-// };
-
-// export default Page;

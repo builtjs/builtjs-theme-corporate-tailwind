@@ -5,7 +5,7 @@ const Layout = (props) => {
   const [contentIndex] = useState(1);
   return (
     <>
-      {layoutComps.length > 0 &&
+      {page && layoutComps.length > 0 &&
         layoutComps.map((Section, i) => {
           return (
             <>
