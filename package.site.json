@@ -3,7 +3,7 @@
   "description": "A Built.JS site for small business websites with basic Tailwind styling.",
   "version": "0.0.1",
   "scripts": {
-    "dev": "next",
+    "dev": "next -p 6000",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
