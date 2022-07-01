@@ -4,7 +4,9 @@ import getConfig from "next/config";
 export default function Seo({ content }) {
   let { attributes } = { ...content };
   const { publicRuntimeConfig } = getConfig();
-  let shareImage = `${publicRuntimeConfig.BACKEND_URL || ""}${attributes.shareImage.data.attributes.url}`;
+  let shareImage = `${publicRuntimeConfig.BACKEND_URL || ""}${
+    attributes.shareImage.data.attributes.url
+  }`;
   return (
     <>
       {attributes && (
@@ -38,22 +40,6 @@ export default function Seo({ content }) {
           )}
           {attributes.article && <meta property="og:type" content="article" />}
           <meta name="twitter:card" content="summary_large_image" />
-          <link
-            rel="icon"
-            type="image/png"
-            sizes="32x32"
-            href="/images/favicon-32x32.png"
-          />
-          <link rel="preconnect" href="https://fonts.googleapis.com" />
-          <link
-            rel="preconnect"
-            href="https://fonts.gstatic.com"
-            crossOrigin="true"
-          />
-          <link
-            href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;700&display=swap"
-            rel="stylesheet"
-          />
         </Head>
       )}
     </>

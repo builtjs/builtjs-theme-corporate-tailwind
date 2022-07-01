@@ -1,58 +1,29 @@
 # Built.JS Theme: Corporate Tailwind
 
-A Built.JS theme for small business websites with basic Tailwind styling.
+[![Built.JS Corporate Tailwind Theme](https://raw.githubusercontent.com/builtjs/builtjs-theme-corporate-tailwind/main/public/images/theme.png)](https://builtjs-theme-corporate-tailwind.vercel.app/)
 
-## Site
-### Installation
+A [Built.JS](https://builtjs.com) theme for small business websites, with basic Tailwind styling.
 
+## Demo
+The demo for the site can be found here: [https://builtjs-theme-corporate-tailwind.vercel.app/](https://builtjs-theme-corporate-tailwind.vercel.app/)
+
+## Installation
 ```
 npm install
 ```
-NOTE: builtjs library is not an NPM package yet so to run the project, you'll need to run:
-
-````
-cd builtjs-site
-````
-
-````
-npm link
-````
-````
-cd ..
-````
-
-````
-npm link builtjs-site
-````
-
-# Theme
-### Installation
-
+Then you can run the app using:
 ```
-npm install
+npm run dev
 ```
-NOTE: builtjs library is not an NPM package yet so to run the project, you'll need to run:
-
-````
-cd builtjs-site
-````
-
-````
-npm link
-````
-````
-cd ..
-````
-````
-npm link builtjs-site
-````
 
 ### Pages
+- Home
 - About
 - Blog
 - Contact
-- Home
 - Services
+
+---
 
 ### Content Types
 #### Blog Item
@@ -87,6 +58,8 @@ Attributes:
 - label: Text
 - url: Text
 
+---
+
 ### Templates
 Templates specify the UI design of a section. In this theme, they fall under the following categories:
 ##### Articles
@@ -105,33 +78,3 @@ A footer is a section at the bottom of a page
 A header is a section at the top of a page that includes the main menu
 ##### Head
 Head components are included in the head section of a page. For example: SEO, Analytics
-
-#### articles.article-1
-##### Content
-A single Strapi entry that includes these attributes:
-- title: Text
-- content: RichText
-- image: File
-- tags: Array<Tag>
-- createdAt: Date
-- author: Author
-
-#### cover-1
-##### Content
-A Strapi component with the following attributes:
-- preheading1: Text
-- heading1: Text
-- blurb1: Text
-- buttonLinks: Array<Button>
-
-#### footers.footer-1
-##### Content
-A collection of Strapi items that include these attributes:
-- label: Text
-- url: Text
-
-#### headers.headers-1
-##### Content
-A collection of Strapi items that include these attributes:
-- label: Text
-- url: Text

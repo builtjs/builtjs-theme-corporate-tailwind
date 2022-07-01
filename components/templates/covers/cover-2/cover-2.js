@@ -18,6 +18,7 @@ export default function Cover2({ content }) {
               height={attributes.image.data.attributes.height}
               layout="responsive"
               objectFit="cover"
+              priority="true"
               alt={attributes.title}
             />
           </div>

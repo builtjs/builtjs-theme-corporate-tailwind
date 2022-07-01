@@ -1,21 +1,20 @@
+import { useState } from "react";
+
 const Layout = (props) => {
-  debugger
-  const { children, page } = props;
+  const { children, layoutComps, page } = props;
+  const [contentIndex] = useState(1);
   return (
     <>
-      {page.layout && (
-        <page.layout._0.component
-          content={page.layout._0.content}
-          app={page.app}
-        />
-      )}
-      <main>{children}</main>
-      {page.layout && (
-        <page.layout._1.component
-          content={page.layout._1.content}
-          app={page.app}
-        />
-      )}
+      {page &&
+        layoutComps.length > 0 &&
+        layoutComps.map((Section, i) => {
+          return (
+            <div key={i}>
+              <Section content={page.layout.sections[i].content} />
+              {i === contentIndex - 1 && <main id="main">{children}</main>}
+            </div>
+          );
+        })}
     </>
   );
 };

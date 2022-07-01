@@ -1,9 +1,9 @@
 {
   "sections": [
     {
-      "slug": "header-1",
+      "slug": "header",
       "category": "layout",
-      "displayName": "Header 1",
+      "displayName": "Header",
       "description": "The header contains the company logo, main site navigation and often a call-to-action button.",
       "templates": ["header-1", "header-2"],
       "defaultTemplate": {
@@ -37,10 +37,10 @@
       "order": 1
     },
     {
-      "slug": "footer-1",
+      "slug": "footer",
       "category": "layout",
-      "displayName": "Footer 1",
-      "description": "The footer acts as a safety net for users and usually contains secondary site navigation.",
+      "displayName": "Footer",
+      "description": "The footer contains secondary site navigation.",
       "templates": ["footer-1", "footer-2"],
       "defaultTemplate": {
         "slug": "footer-1"
@@ -84,7 +84,7 @@
     {
       "slug": "main-landing",
       "displayName": "Main Landing",
-      "description": "The home page landing area. This area should be very eye-catching and contain the main call-to-action.",
+      "description": "The home page landing area, containing the main call-to-action.",
       "templates": ["cover-1", "cover-2", "cover-3", "cover-4", "cover-5"],
       "defaultTemplate": {
         "slug": "cover-1"
@@ -99,11 +99,11 @@
         "image": {
           "data": {
             "attributes": {
-              "name": "image",
+              "name": "image-square",
               "path": "/images",
               "ext": "png",
-              "url": "/images/image.png",
-              "width": 1280,
+              "url": "/images/image-square.png",
+              "width": 768,
               "height": 768
             }
           }
@@ -235,7 +235,7 @@
     {
       "slug": "services-landing",
       "displayName": "Services Landing",
-      "description": "The services page landing area. This area should be very eye-catching and contain the main service.",
+      "description": "The services page landing area.",
       "templates": ["cover-1", "cover-2", "cover-3", "cover-4", "cover-5"],
       "defaultTemplate": {
         "slug": "cover-3"
@@ -406,7 +406,7 @@
     {
       "slug": "about-landing",
       "displayName": "About Landing",
-      "description": "The about page landing area. This area should convey trust and relatability.",
+      "description": "The about page landing area, conveying convey trust and relatability.",
       "templates": ["cover-1", "cover-2", "cover-3", "cover-4", "cover-5"],
       "defaultTemplate": {
         "slug": "cover-2"
@@ -421,10 +421,10 @@
         "image": {
           "data": {
             "attributes": {
-              "name": "image",
+              "name": "image-square",
               "path": "/images",
               "ext": "png",
-              "url": "/images/image.png",
+              "url": "/images/image-square.png",
               "width": 1000,
               "height": 1000
             }
@@ -537,7 +537,7 @@
     {
       "slug": "contact-landing",
       "displayName": "Contact Landing",
-      "description": "The contact page landing area. This area should provide all relevant contact details.",
+      "description": "The contact page landing area, providing relevant contact details.",
       "templates": ["form-1", "form-2"],
       "defaultTemplate": {
         "slug": "form-1"

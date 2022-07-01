@@ -11,7 +11,13 @@ export default function Cover5({ content }) {
     <section id="cover-5" className="p-0 template">
       <div className="relative flex items-center min-h-screen">
         <div className="absolute top-0 left-0 w-full h-full">
-          <Image className="rounded-none" src={`${publicRuntimeConfig.BACKEND_URL || ""}${attributes?.image?.data.attributes.url}`} layout="fill" objectFit="cover" alt="" />
+          <Image 
+          className="rounded-none" 
+          src={`${publicRuntimeConfig.BACKEND_URL || ""}${attributes?.image?.data.attributes.url}`} 
+          priority="true"
+          layout="fill" 
+          objectFit="cover" 
+          alt={attributes.title} />
         </div>
 
         <div className="relative z-10 px-4 py-20 mx-auto text-center lg:py-40">

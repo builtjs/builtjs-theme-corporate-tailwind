@@ -2,7 +2,7 @@
   "layout": {
     "sections": [
       {
-        "slug": "header-1",
+        "slug": "header",
         "template": {
           "slug": "header-1"
         },
@@ -13,7 +13,7 @@
         }
       },
       {
-        "slug": "footer-1",
+        "slug": "footer",
         "template": {
           "slug": "footer-1"
         },

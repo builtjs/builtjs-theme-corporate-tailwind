@@ -30,8 +30,8 @@ export default function Header2({ content }) {
                   <Image
                     className="text-gray-400 bg-white fill-current dark:bg-gray-800"
                     src={`${publicRuntimeConfig.BACKEND_URL || ""}${global?.logo?.data.attributes.url}`}
-                    width={global?.logo?.data.attributes.width}
-                    height={global?.logo?.data.attributes.height}
+                    width={global?.logo?.data.attributes.width || '40px'}
+                    height={global?.logo?.data.attributes.height || '40px'}
                     layout="responsive"
                     alt=""
                   />

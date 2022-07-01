@@ -13,43 +13,53 @@ export default function TemplateMenuBtn({ router }) {
       try {
         data = require(`../../public${path}`);
       } catch (err) {
-        console.error(err)
+        console.error(err);
       }
       resolve(data);
     });
   }
-  
-  useEffect(async() => {
-    let pageData = await fetchData('/data/pages.json');
+
+  useEffect(async () => {
+    let pageData = await fetchData("/data/pages.json");
     setPageData(pageData);
-   }, [])
-  
+  }, []);
+
   return (
-    <div id="template-menu" className="fixed z-50 bottom-4 right-4">
+    <div id="template-menu">
       <div
         id="templates"
         className={
-          "shadow-lg bg-white w-40 rounded-lg absolute right-16 bottom-8 flex flex-col transition-all duration-300 " +
-          (!on ? "is-closed opacity-0 -bottom-12 invisible" : "")
+          "shadow-lg bg-white w-40 rounded-lg absolute right-16 bottom-1 flex flex-col transition-all duration-200 " +
+          (!on ? "is-closed opacity-0 -bottom-20 invisible" : "")
         }
       >
-        {pageData && pageData.pages &&
-          pageData.pages.templates &&
-          pageData.pages.templates.map((template, i) => {
-            return (
-              <React.Fragment key={i}>
-                <input className="hidden" type="radio" id={`radio-${i}`} name="tabs" checked={slug === template.slug} readOnly />
+        {pageData &&
+          pageData.pages &&
+          pageData.pages.map((template, i) => {
+            return template.type === 'templates' ?
+             <React.Fragment key={i}>
+                <input
+                  className="hidden"
+                  type="radio"
+                  id={`radio-${template.slug}`}
+                  name="tabs"
+                  checked={slug === template.slug}
+                  readOnly
+                />
                 <label
                   className="px-4 py-2 cursor-pointer tab hover:text-gray-500"
-                  htmlFor={`radio-${i}`}
+                  htmlFor={`radio-${template.slug}`}
                   onClick={() => router.push(`/templates/${template.slug}`)}
                 >
                   {template.displayName}
                 </label>
-              </React.Fragment>
-            );
+              </React.Fragment> 
+              : null;
           })}
-        <span id="glider" className="absolute left-0 top-0 w-0.5 h-8 bg-black rounded-full my-1 transition-transform duration-300"></span>
+        <span
+          id="glider"
+          className="absolute left-0 top-0 w-0.5 h-8 bg-black rounded-full my-1 transition-transform duration-300"
+        ></span>
       </div>
 
       <div
@@ -79,6 +89,12 @@ export default function TemplateMenuBtn({ router }) {
 
       <style jsx>
         {`
+          #template-menu {
+            position: fixed;
+            z-index: 50;
+            bottom: 25px;
+            right: 25px;
+          }
           input[type="radio"]:checked + label {
             color: #71717a;
           }
@@ -91,31 +107,31 @@ export default function TemplateMenuBtn({ router }) {
             display: block;
           }
 
-          input[id="radio-1"]:checked ~ #glider {
+          input[id="radio-blocks"]:checked ~ #glider {
             transform: translateY(calc(100% + 0.5rem));
           }
 
-          input[id="radio-2"]:checked ~ #glider {
+          input[id="radio-cards"]:checked ~ #glider {
             transform: translateY(calc(200% + 1rem));
           }
 
-          input[id="radio-3"]:checked ~ #glider {
+          input[id="radio-covers"]:checked ~ #glider {
             transform: translateY(calc(300% + 1.5rem));
           }
 
-          input[id="radio-4"]:checked ~ #glider {
+          input[id="radio-footers"]:checked ~ #glider {
             transform: translateY(calc(400% + 2rem));
           }
 
-          input[id="radio-5"]:checked ~ #glider {
+          input[id="radio-forms"]:checked ~ #glider {
             transform: translateY(calc(500% + 2.5rem));
           }
 
-          input[id="radio-6"]:checked ~ #glider {
+          input[id="radio-headers"]:checked ~ #glider {
             transform: translateY(calc(600% + 3rem));
           }
 
-          input[id="radio-7"]:checked ~ #glider {
+          input[id="radio-lists"]:checked ~ #glider {
             transform: translateY(calc(700% + 3.5rem));
           }
         `}
