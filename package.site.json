@@ -10,7 +10,7 @@
     "export": "next build && next export"
   },
   "dependencies": {
-    "@builtjs/site": "^1.0.4",
+    "@builtjs/site": "^1.0.6",
     "@fisch0920/use-dark-mode": "^2.4.0",
     "@types/node": "^17.0.22",
     "@types/react": "^17.0.41",

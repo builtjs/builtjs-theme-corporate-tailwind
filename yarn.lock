@@ -38,11 +38,6 @@
   dependencies:
     "regenerator-runtime" "^0.13.4"
 
-"@builtjs/site@^1.0.3":
-  "integrity" "sha512-3jUORNZd/JImhYH6KKy20GKYS39PCBVhVWRaJu4MxXBkuJSzn4XJdTOLUvmBrPwRQ50NErNNCLeJ2V5fCaC5qg=="
-  "resolved" "https://registry.npmjs.org/@builtjs/site/-/site-1.0.3.tgz"
-  "version" "1.0.3"
-
 "@builtjs/theme@^1.1.48":
   "integrity" "sha512-JJcfetuzR6jdGIvl4J3Yl5UWPvKsYdNW6H1sN2kpkVGyEOCZQQdznc3nldK4HjNr6uzXz68sOez8uKQbKPl2pA=="
   "resolved" "https://registry.npmjs.org/@builtjs/theme/-/theme-1.1.48.tgz"
