@@ -16,7 +16,6 @@ export default function ModeToggleBtn() {
     classNameDark: "dark",
     classNameLight: "light",
   });
-
   return (
     <div className="cursor-pointer mode-toggle-btn" onClick={darkMode.toggle}>
       {darkMode && loaded && darkMode.value && (

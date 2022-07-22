@@ -6,11 +6,12 @@ const DEFAULT_API_URL = `${DEFAULT_BACKEND_URL}/api`;
 module.exports = {
   images: {
     domains: [
-      process.env.BACKEND_DOMAIN || DEFAULT_BACKEND_DOMAIN
+      process.env.BACKEND_DOMAIN || DEFAULT_BACKEND_DOMAIN,
+      'res.cloudinary.com'
     ],
   },
   publicRuntimeConfig: {
     API_URL: process.env.API_URL || DEFAULT_API_URL,
-    BACKEND_URL: process.env.BACKEND_URL || DEFAULT_BACKEND_URL,
+    BACKEND_URL: process.env.BACKEND_URL || (process.env.NODE_ENV === 'production' ? '' : DEFAULT_BACKEND_URL),
   }
 };

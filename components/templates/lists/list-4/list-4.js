@@ -5,6 +5,7 @@ import getConfig from "next/config";
 import { Tag } from "@/elements";
 
 export default function List3({ content }) {
+  if (!content) return <></>;
   let { collections } = content;
   const { publicRuntimeConfig } = getConfig();
   if (!collections) {

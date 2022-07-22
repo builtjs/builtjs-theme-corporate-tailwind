@@ -3,6 +3,7 @@ import Link from "next/link";
 import getConfig from "next/config";
 
 export default function Cards5({ content }) {
+  if (!content) return <></>;
   let { collections } = { ...content };
   let data = null;
   const { publicRuntimeConfig } = getConfig();

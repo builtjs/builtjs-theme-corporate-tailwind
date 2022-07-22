@@ -1,6 +1,7 @@
 import { ButtonLink } from "@/elements";
 
 export default function Banner3({ content }) {
+  if (!content) return <></>;
   let { attributes, variants } = content;
   const backgroundColor = variants && variants.backgroundColor ? `bg-${variants.backgroundColor}` : "";
   return (

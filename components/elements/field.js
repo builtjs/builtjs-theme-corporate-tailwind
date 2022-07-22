@@ -1,4 +1,5 @@
 export default function Field({ attributes }) {
+  if (!attributes) return <></>;
   return (
     <div key={attributes.name} className="mb-6">
       <label className="block text-sm text-gray-700 dark:text-gray-400">{attributes.label}</label>

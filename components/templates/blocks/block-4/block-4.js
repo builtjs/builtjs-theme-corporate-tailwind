@@ -1,6 +1,7 @@
 import { ButtonLink, Preheading } from "@/elements";
 
 export default function Block4({ content }) {
+  if (!content) return <></>;
   let { attributes } = content;
   return (
     <section id="block-4" className="template">

@@ -5,6 +5,7 @@ import { format } from "date-fns";
 import { Tag } from "@/elements";
 
 export default function List5({ content, router }) {
+  if (!content) return <></>;
   const { collections } = content;
   const { publicRuntimeConfig } = getConfig();
   if (!collections) {
@@ -16,6 +17,7 @@ export default function List5({ content, router }) {
   if (collection) {
     items = collection.items;
   }
+  {/* TODO: Implement Tag functionality */}
   let tag = router && router.query ? router.query.tag : null;
 
   return (

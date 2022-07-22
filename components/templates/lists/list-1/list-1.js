@@ -3,6 +3,7 @@ import getConfig from "next/config";
 import { ButtonLink, Preheading } from "@/elements";
 
 export default function List1({ content }) {
+  if (!content) return <></>;
   let { collections } = content;
   const { publicRuntimeConfig } = getConfig();
   if (!collections) {

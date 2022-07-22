@@ -11,6 +11,7 @@ const getHTML = (content) => {
 };
 
 export default function Article1({ content }) {
+  if (!content) return <></>;
   let { item } = { ...content };
   const { publicRuntimeConfig } = getConfig();
   let author = null;

@@ -1,8 +1,10 @@
 import { useState } from "react";
 
 const Layout = (props) => {
-  const { children, layoutComps, page } = props;
   const [contentIndex] = useState(1);
+  if (!props) return <></>;
+  const { children, layoutComps, page } = props;
+
   return (
     <>
       {page &&
